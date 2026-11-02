@@ -1,0 +1,1222 @@
+{
+  "meta": {
+    "generated_at": "2026-11-02T08:18:38+00:00",
+    "run_id": "first-pass-20261102T081837Z",
+    "dataset": "websearch_discovery_2026-11-02.json",
+    "is_synthetic": false
+  },
+  "ideas": [
+    {
+      "id": "C12-audience_question",
+      "cluster_id": "C12",
+      "cluster_name": "Пробиотики и лизаты в косметике: есть ли эффект",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: пробиотики и лизаты в косметике — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://kosmetista.ru/blog/137393-lysaterica-serum-probiotiki-dlya-krasoty-zdorovya.html",
+        "https://kosmetista.ru/blog/149979-syvorotka-s-probiotikami-ma-nyo-bifida-biome-compl.html",
+        "https://kosmetista.ru/blog/170304-syvorotka-dlya-lica-thinkco-pure-bifida-uvlazhnyay.html"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C12-thread",
+      "cluster_id": "C12",
+      "cluster_name": "Пробиотики и лизаты в косметике: есть ли эффект",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Лизаты бифидобактерий в косметике: что заявляют и что проверено",
+      "basis_urls": [
+        "https://kosmetista.ru/blog/137393-lysaterica-serum-probiotiki-dlya-krasoty-zdorovya.html",
+        "https://kosmetista.ru/blog/149979-syvorotka-s-probiotikami-ma-nyo-bifida-biome-compl.html",
+        "https://kosmetista.ru/blog/170304-syvorotka-dlya-lica-thinkco-pure-bifida-uvlazhnyay.html"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C12-research_first",
+      "cluster_id": "C12",
+      "cluster_name": "Пробиотики и лизаты в косметике: есть ли эффект",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Какие клинические данные есть о местном применении лизатов и пробиотиков в косметике?",
+      "basis_urls": [
+        "https://kosmetista.ru/blog/137393-lysaterica-serum-probiotiki-dlya-krasoty-zdorovya.html",
+        "https://kosmetista.ru/blog/149979-syvorotka-s-probiotikami-ma-nyo-bifida-biome-compl.html",
+        "https://kosmetista.ru/blog/170304-syvorotka-dlya-lica-thinkco-pure-bifida-uvlazhnyay.html"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C01-audience_question",
+      "cluster_id": "C01",
+      "cluster_name": "Ретиноиды: как начать и что считать нормальной реакцией",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: ретиноиды — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread-retinoeviy-piling-gde-zhe-rezultat-id3861784/",
+        "https://www.woman.ru/beauty/face/thread/5743923/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/328368-red-marks-from-initial-break-out-on-tretinoin"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C01-misconception",
+      "cluster_id": "C01",
+      "cluster_name": "Ретиноиды: как начать и что считать нормальной реакцией",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Раздражение или «пурджинг»: как различать и когда остановиться",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread-retinoeviy-piling-gde-zhe-rezultat-id3861784/",
+        "https://www.woman.ru/beauty/face/thread/5743923/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/328368-red-marks-from-initial-break-out-on-tretinoin"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C01-thread",
+      "cluster_id": "C01",
+      "cluster_name": "Ретиноиды: как начать и что считать нормальной реакцией",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Ретинол, ретиналь, третиноин: в чём разница для кожи и для рецепта",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread-retinoeviy-piling-gde-zhe-rezultat-id3861784/",
+        "https://www.woman.ru/beauty/face/thread/5743923/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/328368-red-marks-from-initial-break-out-on-tretinoin"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C01-research_first",
+      "cluster_id": "C01",
+      "cluster_name": "Ретиноиды: как начать и что считать нормальной реакцией",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Сколько длится и как выглядит ретиноидный дерматит при начале терапии, и какие схемы старта снижают раздражение?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread-retinoeviy-piling-gde-zhe-rezultat-id3861784/",
+        "https://www.woman.ru/beauty/face/thread/5743923/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/328368-red-marks-from-initial-break-out-on-tretinoin"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C02-audience_question",
+      "cluster_id": "C02",
+      "cluster_name": "Ниацинамид: переносимость и высыпания",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: ниацинамид — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://www.acne.org/forums/18-acneorg-products/beware-niacinamide-in-new-moisturizer",
+        "https://www.acne.org/forums/18-acneorg-products/warning-niacinamide-in-aha-now",
+        "https://www.acne.org/forums/37-adult-acne/252903-roll-your-own-nicomide"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C02-misconception",
+      "cluster_id": "C02",
+      "cluster_name": "Ниацинамид: переносимость и высыпания",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Почему одна сыворотка с ниацинамидом «работает», а другая нет: концентрация, формула, ожидания",
+      "basis_urls": [
+        "https://www.acne.org/forums/18-acneorg-products/beware-niacinamide-in-new-moisturizer",
+        "https://www.acne.org/forums/18-acneorg-products/warning-niacinamide-in-aha-now",
+        "https://www.acne.org/forums/37-adult-acne/252903-roll-your-own-nicomide"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C02-thread",
+      "cluster_id": "C02",
+      "cluster_name": "Ниацинамид: переносимость и высыпания",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Почему одна сыворотка с ниацинамидом «работает», а другая нет: концентрация, формула, ожидания",
+      "basis_urls": [
+        "https://www.acne.org/forums/18-acneorg-products/beware-niacinamide-in-new-moisturizer",
+        "https://www.acne.org/forums/18-acneorg-products/warning-niacinamide-in-aha-now",
+        "https://www.acne.org/forums/37-adult-acne/252903-roll-your-own-nicomide"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C02-research_first",
+      "cluster_id": "C02",
+      "cluster_name": "Ниацинамид: переносимость и высыпания",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Связан ли местный ниацинамид с раздражением или высыпаниями и от чего это зависит?",
+      "basis_urls": [
+        "https://www.acne.org/forums/18-acneorg-products/beware-niacinamide-in-new-moisturizer",
+        "https://www.acne.org/forums/18-acneorg-products/warning-niacinamide-in-aha-now",
+        "https://www.acne.org/forums/37-adult-acne/252903-roll-your-own-nicomide"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C11-audience_question",
+      "cluster_id": "C11",
+      "cluster_name": "Витамин C и азелаиновая кислота для чувствительной кожи",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: витамин c и азелаиновая кислота для чувствительной кожи — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://www.acne.org/reviews/azelaic-acid-15-gel-reviews-873/2?filters%5B0%5D=star_5",
+        "https://www.acne.org/reviews/azelaic-acid-20-cream-reviews-23/18",
+        "https://www.acne.org/reviews/azelaic-acid-20-cream-reviews-338/2?filters%5B%5D=star_5"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C11-misconception",
+      "cluster_id": "C11",
+      "cluster_name": "Витамин C и азелаиновая кислота для чувствительной кожи",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Азелаиновая кислота: при каких задачах её обсуждают и что известно",
+      "basis_urls": [
+        "https://www.acne.org/reviews/azelaic-acid-15-gel-reviews-873/2?filters%5B0%5D=star_5",
+        "https://www.acne.org/reviews/azelaic-acid-20-cream-reviews-23/18",
+        "https://www.acne.org/reviews/azelaic-acid-20-cream-reviews-338/2?filters%5B%5D=star_5"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C11-thread",
+      "cluster_id": "C11",
+      "cluster_name": "Витамин C и азелаиновая кислота для чувствительной кожи",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Азелаиновая кислота: при каких задачах её обсуждают и что известно",
+      "basis_urls": [
+        "https://www.acne.org/reviews/azelaic-acid-15-gel-reviews-873/2?filters%5B0%5D=star_5",
+        "https://www.acne.org/reviews/azelaic-acid-20-cream-reviews-23/18",
+        "https://www.acne.org/reviews/azelaic-acid-20-cream-reviews-338/2?filters%5B%5D=star_5"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C11-research_first",
+      "cluster_id": "C11",
+      "cluster_name": "Витамин C и азелаиновая кислота для чувствительной кожи",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Что известно об эффективности и переносимости азелаиновой кислоты и местного витамина C при чувствительной коже, розацеа и акне?",
+      "basis_urls": [
+        "https://www.acne.org/reviews/azelaic-acid-15-gel-reviews-873/2?filters%5B0%5D=star_5",
+        "https://www.acne.org/reviews/azelaic-acid-20-cream-reviews-23/18",
+        "https://www.acne.org/reviews/azelaic-acid-20-cream-reviews-338/2?filters%5B%5D=star_5"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C04-audience_question",
+      "cluster_id": "C04",
+      "cluster_name": "Филлеры: отёк, бугорки и сроки восстановления",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: филлеры — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/plastic/thread-fillery-dlya-nosogubok-id4313068/4/",
+        "https://www.woman.ru/beauty/plastic/thread/4702771/",
+        "https://www.realself.com/question/cannock-ws12-long-after-lip-fillers-after-feel-normal"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C04-misconception",
+      "cluster_id": "C04",
+      "cluster_name": "Филлеры: отёк, бугорки и сроки восстановления",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Отёк после филлера губ: какие сроки описаны и какие признаки требуют врача",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/plastic/thread-fillery-dlya-nosogubok-id4313068/4/",
+        "https://www.woman.ru/beauty/plastic/thread/4702771/",
+        "https://www.realself.com/question/cannock-ws12-long-after-lip-fillers-after-feel-normal"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C04-thread",
+      "cluster_id": "C04",
+      "cluster_name": "Филлеры: отёк, бугорки и сроки восстановления",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Отёк после филлера губ: какие сроки описаны и какие признаки требуют врача",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/plastic/thread-fillery-dlya-nosogubok-id4313068/4/",
+        "https://www.woman.ru/beauty/plastic/thread/4702771/",
+        "https://www.realself.com/question/cannock-ws12-long-after-lip-fillers-after-feel-normal"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C04-research_first",
+      "cluster_id": "C04",
+      "cluster_name": "Филлеры: отёк, бугорки и сроки восстановления",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Каковы описанные сроки и частота отёка и узелков после введения гиалуроновых филлеров губ, и какие признаки осложнений требуют срочной помощи?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/plastic/thread-fillery-dlya-nosogubok-id4313068/4/",
+        "https://www.woman.ru/beauty/plastic/thread/4702771/",
+        "https://www.realself.com/question/cannock-ws12-long-after-lip-fillers-after-feel-normal"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C05-audience_question",
+      "cluster_id": "C05",
+      "cluster_name": "Ботулинотерапия: тяжесть бровей, птоз, отёки",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: ботулинотерапия — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://doctu.ru/consult/question/chto-delat-pri-ptoze-verkhnego-veka-posle-botoksa-2",
+        "https://doctu.ru/consult/question/kakaja-svjaz-mezhdu-allergiejj-i-inekcijami-botoksa",
+        "https://doctu.ru/consult/question/pochemu-posle-botoksa-voznikli-oteki"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C05-misconception",
+      "cluster_id": "C05",
+      "cluster_name": "Ботулинотерапия: тяжесть бровей, птоз, отёки",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Тяжесть во лбу и опущение брови после ботулинотерапии: почему бывает и сколько длится",
+      "basis_urls": [
+        "https://doctu.ru/consult/question/chto-delat-pri-ptoze-verkhnego-veka-posle-botoksa-2",
+        "https://doctu.ru/consult/question/kakaja-svjaz-mezhdu-allergiejj-i-inekcijami-botoksa",
+        "https://doctu.ru/consult/question/pochemu-posle-botoksa-voznikli-oteki"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C05-thread",
+      "cluster_id": "C05",
+      "cluster_name": "Ботулинотерапия: тяжесть бровей, птоз, отёки",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Тяжесть во лбу и опущение брови после ботулинотерапии: почему бывает и сколько длится",
+      "basis_urls": [
+        "https://doctu.ru/consult/question/chto-delat-pri-ptoze-verkhnego-veka-posle-botoksa-2",
+        "https://doctu.ru/consult/question/kakaja-svjaz-mezhdu-allergiejj-i-inekcijami-botoksa",
+        "https://doctu.ru/consult/question/pochemu-posle-botoksa-voznikli-oteki"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C05-research_first",
+      "cluster_id": "C05",
+      "cluster_name": "Ботулинотерапия: тяжесть бровей, птоз, отёки",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Как часто встречаются птоз и тяжесть бровей после ботулинотерапии верхней трети лица и сколько они длятся?",
+      "basis_urls": [
+        "https://doctu.ru/consult/question/chto-delat-pri-ptoze-verkhnego-veka-posle-botoksa-2",
+        "https://doctu.ru/consult/question/kakaja-svjaz-mezhdu-allergiejj-i-inekcijami-botoksa",
+        "https://doctu.ru/consult/question/pochemu-posle-botoksa-voznikli-oteki"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C09-audience_question",
+      "cluster_id": "C09",
+      "cluster_name": "Биоревитализация, мезотерапия, PRP и экзосомы: «работает ли?»",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: биоревитализация, мезотерапия, prp и экзосомы — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://woman.ru/beauty/plastic/thread/4119901/85",
+        "https://woman.ru/beauty/medley2/thread/4157683/21",
+        "https://www.woman.ru/beauty/plastic/thread-kto-delal-mezoniti-otzyvy-id4454589/5/"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C09-misconception",
+      "cluster_id": "C09",
+      "cluster_name": "Биоревитализация, мезотерапия, PRP и экзосомы: «работает ли?»",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Биоревитализация и мезотерапия: что известно о пользе, а что — маркетинг",
+      "basis_urls": [
+        "https://woman.ru/beauty/plastic/thread/4119901/85",
+        "https://woman.ru/beauty/medley2/thread/4157683/21",
+        "https://www.woman.ru/beauty/plastic/thread-kto-delal-mezoniti-otzyvy-id4454589/5/"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C09-thread",
+      "cluster_id": "C09",
+      "cluster_name": "Биоревитализация, мезотерапия, PRP и экзосомы: «работает ли?»",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Экзосомы в косметологии: стадия доказательств",
+      "basis_urls": [
+        "https://woman.ru/beauty/plastic/thread/4119901/85",
+        "https://woman.ru/beauty/medley2/thread/4157683/21",
+        "https://www.woman.ru/beauty/plastic/thread-kto-delal-mezoniti-otzyvy-id4454589/5/"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C09-research_first",
+      "cluster_id": "C09",
+      "cluster_name": "Биоревитализация, мезотерапия, PRP и экзосомы: «работает ли?»",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Какие клинические доказательства есть у биоревитализации, мезотерапии, PRP и экзосом для кожи лица и каковы риски?",
+      "basis_urls": [
+        "https://woman.ru/beauty/plastic/thread/4119901/85",
+        "https://woman.ru/beauty/medley2/thread/4157683/21",
+        "https://www.woman.ru/beauty/plastic/thread-kto-delal-mezoniti-otzyvy-id4454589/5/"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C06-audience_question",
+      "cluster_id": "C06",
+      "cluster_name": "Пилинги и микронидлинг: сочетание, интервалы, восстановление",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: пилинги и микронидлинг — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread-retinoeviy-piling-gde-zhe-rezultat-id3861784/",
+        "https://www.acne.org/forums/topic/384275-question-about-microneedling-peels",
+        "https://kosmetista.ru/blog/156135-pro-spikuly-i-retinol-krem-i-syvorotka-ot-celimax.html"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C06-misconception",
+      "cluster_id": "C06",
+      "cluster_name": "Пилинги и микронидлинг: сочетание, интервалы, восстановление",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Пилинг и микронидлинг: что известно об интервалах между процедурами",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread-retinoeviy-piling-gde-zhe-rezultat-id3861784/",
+        "https://www.acne.org/forums/topic/384275-question-about-microneedling-peels",
+        "https://kosmetista.ru/blog/156135-pro-spikuly-i-retinol-krem-i-syvorotka-ot-celimax.html"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C06-thread",
+      "cluster_id": "C06",
+      "cluster_name": "Пилинги и микронидлинг: сочетание, интервалы, восстановление",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Пилинг и микронидлинг: что известно об интервалах между процедурами",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread-retinoeviy-piling-gde-zhe-rezultat-id3861784/",
+        "https://www.acne.org/forums/topic/384275-question-about-microneedling-peels",
+        "https://kosmetista.ru/blog/156135-pro-spikuly-i-retinol-krem-i-syvorotka-ot-celimax.html"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C06-research_first",
+      "cluster_id": "C06",
+      "cluster_name": "Пилинги и микронидлинг: сочетание, интервалы, восстановление",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Какие данные есть о безопасных интервалах и сочетании химических пилингов, микронидлинга и инъекций?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread-retinoeviy-piling-gde-zhe-rezultat-id3861784/",
+        "https://www.acne.org/forums/topic/384275-question-about-microneedling-peels",
+        "https://kosmetista.ru/blog/156135-pro-spikuly-i-retinol-krem-i-syvorotka-ot-celimax.html"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C10-audience_question",
+      "cluster_id": "C10",
+      "cluster_name": "Солнцезащита: выбор SPF, белый след, сочетание с активами",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: солнцезащита — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://www.gopicky.com/discussion/78020/mineral-sunscreen",
+        "https://www.gopicky.com/discussion/20951/has-anyone-switched-from-a-chemical-sunscreen-to-a-mineral-one-and-seen-any-improvements",
+        "https://www.gopicky.com/discussion/71389/does-anyone-else-experience-a-slight-white-cast-when-using-the-skin1004-sun-serum"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C10-misconception",
+      "cluster_id": "C10",
+      "cluster_name": "Солнцезащита: выбор SPF, белый след, сочетание с активами",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Минеральный или химический SPF: что важно для чувствительной и тёмной кожи",
+      "basis_urls": [
+        "https://www.gopicky.com/discussion/78020/mineral-sunscreen",
+        "https://www.gopicky.com/discussion/20951/has-anyone-switched-from-a-chemical-sunscreen-to-a-mineral-one-and-seen-any-improvements",
+        "https://www.gopicky.com/discussion/71389/does-anyone-else-experience-a-slight-white-cast-when-using-the-skin1004-sun-serum"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C10-thread",
+      "cluster_id": "C10",
+      "cluster_name": "Солнцезащита: выбор SPF, белый след, сочетание с активами",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Минеральный или химический SPF: что важно для чувствительной и тёмной кожи",
+      "basis_urls": [
+        "https://www.gopicky.com/discussion/78020/mineral-sunscreen",
+        "https://www.gopicky.com/discussion/20951/has-anyone-switched-from-a-chemical-sunscreen-to-a-mineral-one-and-seen-any-improvements",
+        "https://www.gopicky.com/discussion/71389/does-anyone-else-experience-a-slight-white-cast-when-using-the-skin1004-sun-serum"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C10-research_first",
+      "cluster_id": "C10",
+      "cluster_name": "Солнцезащита: выбор SPF, белый след, сочетание с активами",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Какие данные есть о переносимости и приверженности разным типам солнцезащитных средств?",
+      "basis_urls": [
+        "https://www.gopicky.com/discussion/78020/mineral-sunscreen",
+        "https://www.gopicky.com/discussion/20951/has-anyone-switched-from-a-chemical-sunscreen-to-a-mineral-one-and-seen-any-improvements",
+        "https://www.gopicky.com/discussion/71389/does-anyone-else-experience-a-slight-white-cast-when-using-the-skin1004-sun-serum"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C03-audience_question",
+      "cluster_id": "C03",
+      "cluster_name": "Пигментация и мелазма: что помогает и что может ухудшить",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: пигментация и мелазма — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread/4236226/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/acne-pie",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/328368-red-marks-from-initial-break-out-on-tretinoin"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C03-misconception",
+      "cluster_id": "C03",
+      "cluster_name": "Пигментация и мелазма: что помогает и что может ухудшить",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Почему лазер иногда ухудшает мелазму",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread/4236226/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/acne-pie",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/328368-red-marks-from-initial-break-out-on-tretinoin"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C03-thread",
+      "cluster_id": "C03",
+      "cluster_name": "Пигментация и мелазма: что помогает и что может ухудшить",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Гидрохинон и альтернативы: что известно о пользе и рисках",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread/4236226/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/acne-pie",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/328368-red-marks-from-initial-break-out-on-tretinoin"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C03-research_first",
+      "cluster_id": "C03",
+      "cluster_name": "Пигментация и мелазма: что помогает и что может ухудшить",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Какие методы лечения мелазмы имеют доказательства пользы, и при каких вмешательствах описано ухудшение?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread/4236226/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/acne-pie",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/328368-red-marks-from-initial-break-out-on-tretinoin"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C07-audience_question",
+      "cluster_id": "C07",
+      "cluster_name": "Розацеа, покраснение и чувствительная кожа",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: розацеа, покраснение и чувствительная кожа — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://www.acne.org/forums/52-rosacea-facial-redness/237402-the-seborrheic-dermatitis-thread/paged/2",
+        "https://acne.org/forums/topic/331411-tretinoin-8-week-flaming-red-face",
+        "https://www.acne.org/forums/52-rosacea-facial-redness/361515-redness-on-cheeks"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C07-misconception",
+      "cluster_id": "C07",
+      "cluster_name": "Розацеа, покраснение и чувствительная кожа",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Розацеа и уход: какие активы обсуждают и что о них известно",
+      "basis_urls": [
+        "https://www.acne.org/forums/52-rosacea-facial-redness/237402-the-seborrheic-dermatitis-thread/paged/2",
+        "https://acne.org/forums/topic/331411-tretinoin-8-week-flaming-red-face",
+        "https://www.acne.org/forums/52-rosacea-facial-redness/361515-redness-on-cheeks"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C07-thread",
+      "cluster_id": "C07",
+      "cluster_name": "Розацеа, покраснение и чувствительная кожа",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Розацеа и уход: какие активы обсуждают и что о них известно",
+      "basis_urls": [
+        "https://www.acne.org/forums/52-rosacea-facial-redness/237402-the-seborrheic-dermatitis-thread/paged/2",
+        "https://acne.org/forums/topic/331411-tretinoin-8-week-flaming-red-face",
+        "https://www.acne.org/forums/52-rosacea-facial-redness/361515-redness-on-cheeks"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C07-research_first",
+      "cluster_id": "C07",
+      "cluster_name": "Розацеа, покраснение и чувствительная кожа",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Какие местные средства и уход имеют доказательства при розацеа и что может ухудшать покраснение?",
+      "basis_urls": [
+        "https://www.acne.org/forums/52-rosacea-facial-redness/237402-the-seborrheic-dermatitis-thread/paged/2",
+        "https://acne.org/forums/topic/331411-tretinoin-8-week-flaming-red-face",
+        "https://www.acne.org/forums/52-rosacea-facial-redness/361515-redness-on-cheeks"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    },
+    {
+      "id": "C08-audience_question",
+      "cluster_id": "C08",
+      "cluster_name": "Акне и постакне",
+      "type": "audience_question",
+      "type_label": "вопрос аудитории для проверки гипотезы",
+      "working_title": "Спросить аудиторию: акне и постакне — что вызывает больше всего сомнений?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread/5003457/",
+        "https://www.woman.ru/beauty/face/thread-lechenie-postakne-id6260885/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/acne-pie"
+      ],
+      "requires_research_before_publication": false,
+      "why": "проверяем гипотезу о главном вопросе кластера без медицинских утверждений",
+      "status": "idea"
+    },
+    {
+      "id": "C08-misconception",
+      "cluster_id": "C08",
+      "cluster_name": "Акне и постакне",
+      "type": "misconception",
+      "type_label": "объяснение популярного заблуждения",
+      "working_title": "Почему «ничего не помогает» при акне: ожидания, сроки, когда к врачу",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread/5003457/",
+        "https://www.woman.ru/beauty/face/thread-lechenie-postakne-id6260885/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/acne-pie"
+      ],
+      "requires_research_before_publication": true,
+      "why": "в обсуждениях есть возражения или жалобы; объяснение потребует источников",
+      "status": "idea"
+    },
+    {
+      "id": "C08-thread",
+      "cluster_id": "C08",
+      "cluster_name": "Акне и постакне",
+      "type": "thread",
+      "type_label": "серия постов / тред",
+      "working_title": "Красные и тёмные следы после акне: в чём разница",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread/5003457/",
+        "https://www.woman.ru/beauty/face/thread-lechenie-postakne-id6260885/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/acne-pie"
+      ],
+      "requires_research_before_publication": true,
+      "why": "серия из 3–6 постов; утверждения — после проверки источников",
+      "status": "idea"
+    },
+    {
+      "id": "C08-research_first",
+      "cluster_id": "C08",
+      "cluster_name": "Акне и постакне",
+      "type": "research_first",
+      "type_label": "тема, требующая сначала научного исследования",
+      "working_title": "Какие сроки ответа на типовые схемы лечения акне описаны и чем различаются поствоспалительная эритема и гиперпигментация?",
+      "basis_urls": [
+        "https://www.woman.ru/beauty/face/thread/5003457/",
+        "https://www.woman.ru/beauty/face/thread-lechenie-postakne-id6260885/",
+        "https://www.acne.org/forums/79-hyperpigmentation-reddark-marks/acne-pie"
+      ],
+      "requires_research_before_publication": true,
+      "why": "сначала исследовательское задание и источники, затем статья и производные посты",
+      "status": "idea"
+    }
+  ],
+  "drafts": [
+    {
+      "id": "X-01",
+      "channel": "x",
+      "format": "вопрос аудитории",
+      "cluster_id": "C01",
+      "idea_type": "audience_question",
+      "status": "draft_no_medical_claims",
+      "parts": [
+        "Начинали ретинол или третиноин? Что было непонятнее всего в первые недели: шелушение, высыпания, сколько ждать, с чем сочетать?\n\nВ 23 обсуждениях из нашей выборки эти вопросы повторяются. Соберём их и разберём по исследованиям."
+      ],
+      "medical_claims": [],
+      "basis_urls": [
+        "https://kosmetista.ru/blog/chillout/146521-retinol-s-chego-nachat.html",
+        "https://www.acne.org/forums/4-prescription-acne-medications/367304-skin-purging-3-months-into-tretinoin"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 227,
+          "limit": 280,
+          "fits": true
+        }
+      ],
+      "text_sha256": "6e5584d629d3b7716293445beed93611d2db8f0afe48400d3b60ab24c765e8ac",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора"
+      ]
+    },
+    {
+      "id": "X-02",
+      "channel": "x",
+      "format": "заблуждение (анонс разбора)",
+      "cluster_id": "C03",
+      "idea_type": "misconception",
+      "status": "research_draft",
+      "parts": [
+        "Частое ожидание: «лазер уберёт мелазму раз и навсегда».\n\nВ вопросах к врачам, которые мы собрали, звучит и обратное: «после лазера стало хуже». Что из этого подтверждают исследования — разберём с источниками, без советов по фото."
+      ],
+      "medical_claims": [
+        "лазерное лечение мелазмы у части пациентов сопровождается ухудшением или рецидивом — пост лишь упоминает это как вопрос, но тема требует источников до выпуска"
+      ],
+      "basis_urls": [
+        "https://www.realself.com/question/49-severe-melasma-halo-lasers-worse-years-prior-peels",
+        "https://www.realself.com/question/los-angeles-ca-co2-laser-treatment-worsen-melasma"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 229,
+          "limit": 280,
+          "fits": true
+        }
+      ],
+      "text_sha256": "d8c285ec32dad189d216d3b3091379e3e58d66b9bf020d30ddab320773424610",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора",
+        "утверждения не проверены по источникам",
+        "нет медицинской рецензии"
+      ]
+    },
+    {
+      "id": "X-03",
+      "channel": "x",
+      "format": "наблюдение + анонс",
+      "cluster_id": "C09",
+      "idea_type": "misconception",
+      "status": "research_draft",
+      "parts": [
+        "На русскоязычном форуме ветка с сомнениями в биоревитализации набрала больше 5 тысяч ответов. Люди спрашивают не «где сделать», а «работает ли это вообще».\n\nГотовим разбор: что есть в клинических исследованиях, а чего пока нет."
+      ],
+      "medical_claims": [],
+      "basis_urls": [
+        "https://woman.ru/beauty/plastic/thread/4119901/85",
+        "https://woman.ru/beauty/medley2/thread/4157683/21"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 227,
+          "limit": 280,
+          "fits": true
+        }
+      ],
+      "text_sha256": "f92f3e4b4950e19b6247f29aa1586580c65b3d3922011da72157d7dec1a16a2e",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора"
+      ]
+    },
+    {
+      "id": "X-04",
+      "channel": "x",
+      "format": "короткий пост",
+      "cluster_id": "C04",
+      "idea_type": "research_first",
+      "status": "research_draft",
+      "parts": [
+        "Частый вопрос после филлера губ: «это нормальный отёк или уже нет?»\n\nМы не оцениваем фото и не ставим диагнозы. Готовим материал: какие сроки отёка описаны в исследованиях и при каких признаках нужно сразу к врачу."
+      ],
+      "medical_claims": [
+        "существуют описанные в исследованиях типичные сроки отёка после филлеров губ",
+        "есть признаки, при которых нужна срочная помощь"
+      ],
+      "basis_urls": [
+        "https://www.realself.com/question/douglas-park-au-lip-filler-swelling",
+        "https://www.realself.com/question/poland-fluctual-swelling-after-lip-fillers-months-after"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 214,
+          "limit": 280,
+          "fits": true
+        }
+      ],
+      "text_sha256": "1ddf7bf1086acd02679a3a5c02ecbea81e28faa7d1a670a4f57448df4d1773a1",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора",
+        "утверждения не проверены по источникам",
+        "нет медицинской рецензии"
+      ]
+    },
+    {
+      "id": "X-05",
+      "channel": "x",
+      "format": "вопрос аудитории",
+      "cluster_id": "C02",
+      "idea_type": "audience_question",
+      "status": "draft_no_medical_claims",
+      "parts": [
+        "Ниацинамид: одни пишут «работает», другие — «высыпания и раздражение».\n\nЕсли пробовали: какая была концентрация, что ещё было в уходе, сколько ждали результата? Собираем вопросы для разбора с источниками. Индивидуальных советов не даём."
+      ],
+      "medical_claims": [],
+      "basis_urls": [
+        "https://kosmetista.ru/blog/chillout/139137-kozha-ne-lyubit-niacinamid.html",
+        "https://www.gopicky.com/discussion/2955/why-my-skin-can-t-handle-niacinamide"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 236,
+          "limit": 280,
+          "fits": true
+        }
+      ],
+      "text_sha256": "940f781134e94262207dbb9926a812a3bea1593ee62933e01e10ca4ff97db1e9",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора"
+      ]
+    },
+    {
+      "id": "T-01",
+      "channel": "threads",
+      "format": "короткий пост",
+      "cluster_id": "C05",
+      "idea_type": "research_first",
+      "status": "research_draft",
+      "parts": [
+        "После ботулинотерапии лба люди часто спрашивают врачей одно и то же: почему тяжело поднимать брови, не «опустилось» ли веко и сколько это продлится.\n\nВ нашей выборке таких вопросов 11. Мы готовим разбор по исследованиям: почему это бывает, какие сроки описаны и когда нужно вернуться к врачу. Фото не оцениваем и диагнозы не ставим."
+      ],
+      "medical_claims": [
+        "тяжесть бровей и птоз после ботулинотерапии имеют описанные причины и сроки"
+      ],
+      "basis_urls": [
+        "https://www.realself.com/question/michigan-mi-botox-eyes-feel-heavy-eyebrows",
+        "https://doctu.ru/consult/question/chto-delat-pri-ptoze-verkhnego-veka-posle-botoksa-2"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 332,
+          "limit": 500,
+          "fits": true
+        }
+      ],
+      "text_sha256": "6c20a45f2125fda70312491d6d14dd96e96a8f781b40e22f1bc8c24b1d70da17",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора",
+        "утверждения не проверены по источникам",
+        "нет медицинской рецензии"
+      ]
+    },
+    {
+      "id": "T-02",
+      "channel": "threads",
+      "format": "вопрос аудитории",
+      "cluster_id": "C11",
+      "idea_type": "audience_question",
+      "status": "draft_no_medical_claims",
+      "parts": [
+        "Азелаиновая кислота и витамин C — два средства, о которых чаще всего спрашивают люди с чувствительной кожей в обсуждениях, которые мы собрали.\n\nВопрос к вам: что для вас важнее всего понять перед тем, как начать — пощиплет ли, с чем можно сочетать, сколько ждать результата? Ответы помогут выбрать, что разобрать первым."
+      ],
+      "medical_claims": [],
+      "basis_urls": [
+        "https://www.acne.org/forums/3-over-the-counter-acne-medications-and-products/386534-who-has-successfully-used-azelaic-acid",
+        "https://community.sephora.com/t5/Sensitive-Skin/Vitamin-C-for-sensitive-skin/m-p/3472648"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 320,
+          "limit": 500,
+          "fits": true
+        }
+      ],
+      "text_sha256": "4d0c9b62c0c54fa4fca3ab23460774abbcc58a1e8378296022a72c1d6c5d25d2",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора"
+      ]
+    },
+    {
+      "id": "T-03",
+      "channel": "threads",
+      "format": "вопрос аудитории",
+      "cluster_id": "C06",
+      "idea_type": "audience_question",
+      "status": "draft_no_medical_claims",
+      "parts": [
+        "Пилинг, микронидлинг, ботулинотерапия — в какой последовательности и с какими паузами? В вопросах врачам на английском это одна из самых повторяющихся тем нашей выборки.\n\nКосметологам: какие вопросы об интервалах между процедурами вам задают чаще всего? Соберём их и сверим с тем, что есть в исследованиях."
+      ],
+      "medical_claims": [],
+      "basis_urls": [
+        "https://www.realself.com/question/tallinn-ee-long-wait-after-chemical-peel-microneedling",
+        "https://www.realself.com/question/chandler-az-botox-days-after-chemical-peel"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 306,
+          "limit": 500,
+          "fits": true
+        }
+      ],
+      "text_sha256": "3dd38d70d59f8e0663a2a6e54229be121a2480ad982106f65790176ff4318c04",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора"
+      ]
+    },
+    {
+      "id": "T-04",
+      "channel": "threads",
+      "format": "тема для исследования",
+      "cluster_id": "C12",
+      "idea_type": "research_first",
+      "status": "research_draft",
+      "parts": [
+        "Лизаты бифидобактерий и «пробиотики» в косметике: на русскоязычных площадках спрашивают, есть ли от них заметный эффект.\n\nНаша позиция: пока не посмотрели клинические данные, мы не утверждаем ни «работает», ни «не работает». Готовим разбор: что заявляют производители, что проверено исследованиями, где данных нет."
+      ],
+      "medical_claims": [],
+      "basis_urls": [
+        "https://kosmetista.ru/blog/137393-lysaterica-serum-probiotiki-dlya-krasoty-zdorovya.html",
+        "https://kosmetista.ru/blog/149979-syvorotka-s-probiotikami-ma-nyo-bifida-biome-compl.html"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 314,
+          "limit": 500,
+          "fits": true
+        }
+      ],
+      "text_sha256": "369d1436f74becda7b77535272c0d41b4658238bdc95653a0a3b31994f2f7934",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора"
+      ]
+    },
+    {
+      "id": "T-05",
+      "channel": "threads",
+      "format": "вопрос аудитории",
+      "cluster_id": "C07",
+      "idea_type": "audience_question",
+      "status": "draft_no_medical_claims",
+      "parts": [
+        "Покраснение, розацеа, «кожа не переносит ничего» — в собранных обсуждениях люди чаще всего спрашивают, что можно наносить и что может усиливать покраснение.\n\nЧто вы хотели бы понять в первую очередь? Мы разберём это по исследованиям и рекомендациям, а не по отзывам. Диагноз ставит только врач."
+      ],
+      "medical_claims": [],
+      "basis_urls": [
+        "https://community.sephora.com/t5/Skincare-Aware/Rosacea-prone-skin-Sharing-my-Skincare-Routine/m-p/7007508",
+        "https://doctu.ru/consult/question/mozhno-li-poseshhat-banju-pri-rozacea-ili-pryshhakh"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 294,
+          "limit": 500,
+          "fits": true
+        }
+      ],
+      "text_sha256": "b3fe24042139ad4ea6be627d8ac4ddc8ff08f97419c383dc903f4267fb6e881a",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора"
+      ]
+    },
+    {
+      "id": "XS-01",
+      "channel": "x",
+      "format": "тред (5 постов)",
+      "cluster_id": "C01",
+      "idea_type": "thread",
+      "status": "research_draft",
+      "parts": [
+        "Ретиноиды: почему первые недели вызывают столько вопросов. Короткий тред по тому, что спрашивают на русско- и англоязычных форумах, и что мы проверим по исследованиям. 1/5",
+        "Что спрашивают чаще всего: нормальны ли шелушение и высыпания в начале, сколько это длится, когда остановиться, с чем можно сочетать. 2/5",
+        "Что нужно проверить, прежде чем отвечать: как часто бывает раздражение при старте [источник]; помогает ли постепенное введение [источник]; чем отличаются ретинол, ретиналь и третиноин [источник]. 3/5",
+        "Чего мы делать не будем: давать схемы по фото, ставить диагнозы и выдавать отзывы за доказательства. 4/5",
+        "Полный разбор — после проверки источников и рецензии врача. Что добавить в список вопросов? 5/5"
+      ],
+      "medical_claims": [
+        "частота и длительность раздражения при начале местных ретиноидов",
+        "эффект постепенного введения на переносимость",
+        "различия ретинола, ретинальдегида и третиноина"
+      ],
+      "basis_urls": [
+        "https://kosmetista.ru/blog/chillout/153872-retinol-i-vysypaniya.html",
+        "https://www.acne.org/forums/4-prescription-acne-medications/356715-tretinoin-is-killing-my-skin",
+        "https://www.woman.ru/beauty/face/thread/5743923/"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 171,
+          "limit": 280,
+          "fits": true
+        },
+        {
+          "part": 2,
+          "length": 137,
+          "limit": 280,
+          "fits": true
+        },
+        {
+          "part": 3,
+          "length": 199,
+          "limit": 280,
+          "fits": true
+        },
+        {
+          "part": 4,
+          "length": 104,
+          "limit": 280,
+          "fits": true
+        },
+        {
+          "part": 5,
+          "length": 95,
+          "limit": 280,
+          "fits": true
+        }
+      ],
+      "text_sha256": "1f37b769b080d53ed93ba4274c6e87ba3a325141561e79b397c9e75fb65e83ce",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора",
+        "утверждения не проверены по источникам",
+        "нет медицинской рецензии"
+      ]
+    },
+    {
+      "id": "TS-01",
+      "channel": "threads",
+      "format": "серия (4 поста)",
+      "cluster_id": "C09",
+      "idea_type": "thread",
+      "status": "research_draft",
+      "parts": [
+        "Биоревитализация, мезотерапия, PRP, экзосомы. В собранных отзывах и обсуждениях главный вопрос не «где», а «есть ли эффект и не обман ли это». Серия о том, как мы будем это проверять. 1/4",
+        "Шаг 1. Разделяем процедуры: у них разные препараты, техники и цели, поэтому «работает или нет» для них — разные вопросы. 2/4",
+        "Шаг 2. Ищем клинические исследования у людей и систематические обзоры. Отзывы и фото «до и после» показывают ожидания, но не доказывают эффект. Если данных мало или они противоречат друг другу — так и напишем. [источники] 3/4",
+        "Шаг 3. Текст проверяет врач-рецензент, и только потом он выходит. Что вы хотите узнать о каждой из этих процедур? 4/4"
+      ],
+      "medical_claims": [
+        "у названных процедур разная доказательная база (утверждение о состоянии доказательств — после поиска)"
+      ],
+      "basis_urls": [
+        "https://woman.ru/beauty/plastic/thread/4119901/85",
+        "https://otzovik.com/review_2894717.html",
+        "https://www.realself.com/review/vampire-facial-microneedling-prp-worth"
+      ],
+      "length_checks": [
+        {
+          "part": 1,
+          "length": 187,
+          "limit": 500,
+          "fits": true
+        },
+        {
+          "part": 2,
+          "length": 124,
+          "limit": 500,
+          "fits": true
+        },
+        {
+          "part": 3,
+          "length": 225,
+          "limit": 500,
+          "fits": true
+        },
+        {
+          "part": 4,
+          "length": 117,
+          "limit": 500,
+          "fits": true
+        }
+      ],
+      "text_sha256": "1adfc7571ea90df6f19dd8d55debde62e6f2ebfd21697c19c657076ab9b88569",
+      "version": 1,
+      "publishable": false,
+      "blocked_by": [
+        "публикация выключена в config/channels.yaml",
+        "аккаунт не подключён",
+        "нет одобрения редактора",
+        "утверждения не проверены по источникам",
+        "нет медицинской рецензии"
+      ]
+    }
+  ]
+}

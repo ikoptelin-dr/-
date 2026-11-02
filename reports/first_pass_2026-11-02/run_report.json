@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "generated_at": "2026-11-02T08:18:38+00:00",
+    "run_id": "first-pass-20261102T081837Z",
+    "dataset": "websearch_discovery_2026-11-02.json",
+    "is_synthetic": false
+  },
+  "ingest": {
+    "links_in_dataset": 241,
+    "new_records": 231,
+    "repeat_hits_merged": 10,
+    "blocked_searches": [
+      {
+        "search_id": "S01",
+        "query": "retinol purging or irritation how long question",
+        "error": "API Error: 400 The following domains are not accessible to our user agent: ['reddit.com']"
+      }
+    ]
+  },
+  "summary": {
+    "records_after_exact_dedup": 231,
+    "near_duplicates": 6,
+    "by_kind": {
+      "discussion": 79,
+      "article_or_blog": 39,
+      "question": 38,
+      "shop_or_commercial": 24,
+      "review": 18,
+      "listing": 9,
+      "news_event_edu": 8,
+      "scientific": 8,
+      "excluded_profile": 4,
+      "excluded_third_party_tool": 2,
+      "spam": 1,
+      "excluded_mirror": 1
+    },
+    "by_language": {
+      "en": 105,
+      "ru": 75,
+      "und": 30,
+      "es": 9,
+      "de": 4,
+      "pt": 2,
+      "fr": 2,
+      "vi": 1,
+      "id": 1,
+      "uk": 1,
+      "el": 1
+    },
+    "demand_records_in_clusters": 122,
+    "excluded_from_clustering": {
+      "near_duplicate": 6,
+      "kind:listing": 8,
+      "no_concept_match": 6,
+      "kind:excluded_profile": 4,
+      "kind:shop_or_commercial": 23,
+      "kind:article_or_blog": 37,
+      "no_text": 5,
+      "no_cluster": 1,
+      "kind:news_event_edu": 8,
+      "kind:scientific": 8,
+      "kind:excluded_third_party_tool": 2,
+      "kind:spam": 1,
+      "kind:excluded_mirror": 1
+    },
+    "possible_ad_or_spam": 25,
+    "title_from_url": 28
+  },
+  "clusters": 13,
+  "ideas": 47,
+  "drafts": 12,
+  "draft_errors": [],
+  "briefs": 3,
+  "brief_errors": [],
+  "live_sources": "не запускались в этом проходе: хосты закрыты сетевой политикой окружения (см. config/sources.yaml access_now)",
+  "costs_measured": {
+    "llm_usd": 0,
+    "paid_api_usd": 0,
+    "note": "платные API и модели приложения не вызывались; стоимость веб-поиска в сессии разработки не измеряется инструментом"
+  }
+}
