@@ -1,0 +1,20 @@
+# Каналы публикации в собственные аккаунты. Версия 0.1.0, 2026-11-02.
+# ВНИМАНИЕ: публикация выключена. Включает только владелец, после подключения аккаунтов.
+publishing_enabled: false
+stop_file: var/queue/STOP          # если файл существует — очередь остановлена
+channels:
+  x:
+    enabled: false
+    post_max_weighted: 280
+    url_weight: 23
+    limits_evidence: "открытая спецификация twitter-text v3 (вес 1 для латиницы и кириллицы, 2 для CJK/эмодзи, URL = 23). Официальная страница docs.x.com в этой сессии недоступна — перепроверить"
+    publish_api: "POST https://api.x.com/2/tweets (OAuth 2.0 user context) — по документации, не проверено вызовом"
+    cost_evidence: "по факту использования; ставки за создание поста в сторонних источниках расходятся ($0.010–0.015, с URL до $0.20) — сверить с кабинетом разработчика"
+    min_interval_minutes: 60
+  threads:
+    enabled: false
+    post_max_chars: 500
+    limits_evidence: "500 символов — сторонние источники; официально подтверждён только лимит 250 постов через API за 24 часа"
+    publish_api: "POST graph.threads.net/v1.0/{user-id}/threads (контейнер) → POST /{user-id}/threads_publish — по документации, не проверено вызовом"
+    daily_api_post_limit: 250
+    min_interval_minutes: 60

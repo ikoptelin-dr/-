@@ -1,0 +1,172 @@
+# Черновики для X и Threads, первый проход 2026-11-02.
+# Автор текста: Claude в сессии разработки (не модель приложения). Это исследовательские черновики:
+# ни один не готов к публикации. Числа вида {C01.n} подставляются из кластеров при сборке очереди.
+# medical_claims — утверждения, которые нельзя публиковать до проверки источников и медицинской рецензии.
+# Правила: не копируем чужие сообщения, не пересказываем истории конкретных людей, не даём индивидуальных советов.
+drafts:
+  # ---------------- X: 5 самостоятельных постов ----------------
+  - id: X-01
+    channel: x
+    format: вопрос аудитории
+    cluster_id: C01
+    idea_type: audience_question
+    status: draft_no_medical_claims
+    parts:
+      - "Начинали ретинол или третиноин? Что было непонятнее всего в первые недели: шелушение, высыпания, сколько ждать, с чем сочетать?\n\nВ {C01.n} обсуждениях из нашей выборки эти вопросы повторяются. Соберём их и разберём по исследованиям."
+    medical_claims: []
+    basis_urls:
+      - https://kosmetista.ru/blog/chillout/146521-retinol-s-chego-nachat.html
+      - https://www.acne.org/forums/4-prescription-acne-medications/367304-skin-purging-3-months-into-tretinoin
+  - id: X-02
+    channel: x
+    format: заблуждение (анонс разбора)
+    cluster_id: C03
+    idea_type: misconception
+    status: research_draft
+    parts:
+      - "Частое ожидание: «лазер уберёт мелазму раз и навсегда».\n\nВ вопросах к врачам, которые мы собрали, звучит и обратное: «после лазера стало хуже». Что из этого подтверждают исследования — разберём с источниками, без советов по фото."
+    medical_claims:
+      - "лазерное лечение мелазмы у части пациентов сопровождается ухудшением или рецидивом — пост лишь упоминает это как вопрос, но тема требует источников до выпуска"
+    basis_urls:
+      - https://www.realself.com/question/49-severe-melasma-halo-lasers-worse-years-prior-peels
+      - https://www.realself.com/question/los-angeles-ca-co2-laser-treatment-worsen-melasma
+  - id: X-03
+    channel: x
+    format: наблюдение + анонс
+    cluster_id: C09
+    idea_type: misconception
+    status: research_draft
+    parts:
+      - "На русскоязычном форуме ветка с сомнениями в биоревитализации набрала больше 5 тысяч ответов. Люди спрашивают не «где сделать», а «работает ли это вообще».\n\nГотовим разбор: что есть в клинических исследованиях, а чего пока нет."
+    medical_claims: []
+    basis_urls:
+      - https://woman.ru/beauty/plastic/thread/4119901/85
+      - https://woman.ru/beauty/medley2/thread/4157683/21
+  - id: X-04
+    channel: x
+    format: короткий пост
+    cluster_id: C04
+    idea_type: research_first
+    status: research_draft
+    parts:
+      - "Частый вопрос после филлера губ: «это нормальный отёк или уже нет?»\n\nМы не оцениваем фото и не ставим диагнозы. Готовим материал: какие сроки отёка описаны в исследованиях и при каких признаках нужно сразу к врачу."
+    medical_claims:
+      - "существуют описанные в исследованиях типичные сроки отёка после филлеров губ"
+      - "есть признаки, при которых нужна срочная помощь"
+    basis_urls:
+      - https://www.realself.com/question/douglas-park-au-lip-filler-swelling
+      - https://www.realself.com/question/poland-fluctual-swelling-after-lip-fillers-months-after
+  - id: X-05
+    channel: x
+    format: вопрос аудитории
+    cluster_id: C02
+    idea_type: audience_question
+    status: draft_no_medical_claims
+    parts:
+      - "Ниацинамид: одни пишут «работает», другие — «высыпания и раздражение».\n\nЕсли пробовали: какая была концентрация, что ещё было в уходе, сколько ждали результата? Собираем вопросы для разбора с источниками. Индивидуальных советов не даём."
+    medical_claims: []
+    basis_urls:
+      - https://kosmetista.ru/blog/chillout/139137-kozha-ne-lyubit-niacinamid.html
+      - https://www.gopicky.com/discussion/2955/why-my-skin-can-t-handle-niacinamide
+
+  # ---------------- Threads: 5 самостоятельных постов ----------------
+  - id: T-01
+    channel: threads
+    format: короткий пост
+    cluster_id: C05
+    idea_type: research_first
+    status: research_draft
+    parts:
+      - "После ботулинотерапии лба люди часто спрашивают врачей одно и то же: почему тяжело поднимать брови, не «опустилось» ли веко и сколько это продлится.\n\nВ нашей выборке таких вопросов {C05.n}. Мы готовим разбор по исследованиям: почему это бывает, какие сроки описаны и когда нужно вернуться к врачу. Фото не оцениваем и диагнозы не ставим."
+    medical_claims:
+      - "тяжесть бровей и птоз после ботулинотерапии имеют описанные причины и сроки"
+    basis_urls:
+      - https://www.realself.com/question/michigan-mi-botox-eyes-feel-heavy-eyebrows
+      - https://doctu.ru/consult/question/chto-delat-pri-ptoze-verkhnego-veka-posle-botoksa-2
+  - id: T-02
+    channel: threads
+    format: вопрос аудитории
+    cluster_id: C11
+    idea_type: audience_question
+    status: draft_no_medical_claims
+    parts:
+      - "Азелаиновая кислота и витамин C — два средства, о которых чаще всего спрашивают люди с чувствительной кожей в обсуждениях, которые мы собрали.\n\nВопрос к вам: что для вас важнее всего понять перед тем, как начать — пощиплет ли, с чем можно сочетать, сколько ждать результата? Ответы помогут выбрать, что разобрать первым."
+    medical_claims: []
+    basis_urls:
+      - https://www.acne.org/forums/3-over-the-counter-acne-medications-and-products/386534-who-has-successfully-used-azelaic-acid
+      - https://community.sephora.com/t5/Sensitive-Skin/Vitamin-C-for-sensitive-skin/m-p/3472648
+  - id: T-03
+    channel: threads
+    format: вопрос аудитории
+    cluster_id: C06
+    idea_type: audience_question
+    status: draft_no_medical_claims
+    parts:
+      - "Пилинг, микронидлинг, ботулинотерапия — в какой последовательности и с какими паузами? В вопросах врачам на английском это одна из самых повторяющихся тем нашей выборки.\n\nКосметологам: какие вопросы об интервалах между процедурами вам задают чаще всего? Соберём их и сверим с тем, что есть в исследованиях."
+    medical_claims: []
+    basis_urls:
+      - https://www.realself.com/question/tallinn-ee-long-wait-after-chemical-peel-microneedling
+      - https://www.realself.com/question/chandler-az-botox-days-after-chemical-peel
+  - id: T-04
+    channel: threads
+    format: тема для исследования
+    cluster_id: C12
+    idea_type: research_first
+    status: research_draft
+    parts:
+      - "Лизаты бифидобактерий и «пробиотики» в косметике: на русскоязычных площадках спрашивают, есть ли от них заметный эффект.\n\nНаша позиция: пока не посмотрели клинические данные, мы не утверждаем ни «работает», ни «не работает». Готовим разбор: что заявляют производители, что проверено исследованиями, где данных нет."
+    medical_claims: []
+    basis_urls:
+      - https://kosmetista.ru/blog/137393-lysaterica-serum-probiotiki-dlya-krasoty-zdorovya.html
+      - https://kosmetista.ru/blog/149979-syvorotka-s-probiotikami-ma-nyo-bifida-biome-compl.html
+  - id: T-05
+    channel: threads
+    format: вопрос аудитории
+    cluster_id: C07
+    idea_type: audience_question
+    status: draft_no_medical_claims
+    parts:
+      - "Покраснение, розацеа, «кожа не переносит ничего» — в собранных обсуждениях люди чаще всего спрашивают, что можно наносить и что может усиливать покраснение.\n\nЧто вы хотели бы понять в первую очередь? Мы разберём это по исследованиям и рекомендациям, а не по отзывам. Диагноз ставит только врач."
+    medical_claims: []
+    basis_urls:
+      - https://community.sephora.com/t5/Skincare-Aware/Rosacea-prone-skin-Sharing-my-Skincare-Routine/m-p/7007508
+      - https://doctu.ru/consult/question/mozhno-li-poseshhat-banju-pri-rozacea-ili-pryshhakh
+
+  # ---------------- Серии ----------------
+  - id: XS-01
+    channel: x
+    format: тред (5 постов)
+    cluster_id: C01
+    idea_type: thread
+    status: research_draft
+    parts:
+      - "Ретиноиды: почему первые недели вызывают столько вопросов. Короткий тред по тому, что спрашивают на русско- и англоязычных форумах, и что мы проверим по исследованиям. 1/5"
+      - "Что спрашивают чаще всего: нормальны ли шелушение и высыпания в начале, сколько это длится, когда остановиться, с чем можно сочетать. 2/5"
+      - "Что нужно проверить, прежде чем отвечать: как часто бывает раздражение при старте [источник]; помогает ли постепенное введение [источник]; чем отличаются ретинол, ретиналь и третиноин [источник]. 3/5"
+      - "Чего мы делать не будем: давать схемы по фото, ставить диагнозы и выдавать отзывы за доказательства. 4/5"
+      - "Полный разбор — после проверки источников и рецензии врача. Что добавить в список вопросов? 5/5"
+    medical_claims:
+      - "частота и длительность раздражения при начале местных ретиноидов"
+      - "эффект постепенного введения на переносимость"
+      - "различия ретинола, ретинальдегида и третиноина"
+    basis_urls:
+      - https://kosmetista.ru/blog/chillout/153872-retinol-i-vysypaniya.html
+      - https://www.acne.org/forums/4-prescription-acne-medications/356715-tretinoin-is-killing-my-skin
+      - https://www.woman.ru/beauty/face/thread/5743923/
+  - id: TS-01
+    channel: threads
+    format: серия (4 поста)
+    cluster_id: C09
+    idea_type: thread
+    status: research_draft
+    parts:
+      - "Биоревитализация, мезотерапия, PRP, экзосомы. В собранных отзывах и обсуждениях главный вопрос не «где», а «есть ли эффект и не обман ли это». Серия о том, как мы будем это проверять. 1/4"
+      - "Шаг 1. Разделяем процедуры: у них разные препараты, техники и цели, поэтому «работает или нет» для них — разные вопросы. 2/4"
+      - "Шаг 2. Ищем клинические исследования у людей и систематические обзоры. Отзывы и фото «до и после» показывают ожидания, но не доказывают эффект. Если данных мало или они противоречат друг другу — так и напишем. [источники] 3/4"
+      - "Шаг 3. Текст проверяет врач-рецензент, и только потом он выходит. Что вы хотите узнать о каждой из этих процедур? 4/4"
+    medical_claims:
+      - "у названных процедур разная доказательная база (утверждение о состоянии доказательств — после поиска)"
+    basis_urls:
+      - https://woman.ru/beauty/plastic/thread/4119901/85
+      - https://otzovik.com/review_2894717.html
+      - https://www.realself.com/review/vampire-facial-microneedling-prp-worth

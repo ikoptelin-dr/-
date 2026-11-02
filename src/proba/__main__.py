@@ -1,0 +1,61 @@
+"""Командная строка Proba Intelligence Engine.
+
+  python -m proba first-pass            # импорт → очистка → кластеры → очередь → задания (без сети)
+  python -m proba collect --adapter stackexchange --query "acne" --max 100   # живой сбор (нужен открытый хост)
+  python -m proba queue-check           # почему черновики нельзя опубликовать
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import sys
+from pathlib import Path
+
+from .pipeline import ROOT, first_pass
+
+
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(prog="proba")
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    fp = sub.add_parser("first-pass")
+    fp.add_argument("--dataset", default=str(ROOT / "data/raw/websearch_discovery_2026-11-02.json"))
+    fp.add_argument("--drafts", default=str(ROOT / "content/drafts/2026-11-02.yaml"))
+    fp.add_argument("--out", default=str(ROOT / "reports/first_pass_2026-11-02"))
+    fp.add_argument("--db", default=str(ROOT / "var/demand.sqlite"))
+    co = sub.add_parser("collect")
+    co.add_argument("--adapter", required=True, choices=["stackexchange", "reddit", "bluesky", "x", "threads"])
+    co.add_argument("--query", action="append", required=True)
+    co.add_argument("--max", type=int, default=100)
+    co.add_argument("--db", default=str(ROOT / "var/demand.sqlite"))
+    qc = sub.add_parser("queue-check")
+    qc.add_argument("--queue", default=str(ROOT / "reports/first_pass_2026-11-02/queue/queue.json"))
+    args = ap.parse_args(argv)
+
+    if args.cmd == "first-pass":
+        report = first_pass(Path(args.out), Path(args.db), Path(args.dataset), Path(args.drafts))
+        print(json.dumps({k: report[k] for k in ("ingest", "clusters", "ideas", "drafts", "draft_errors", "briefs", "brief_errors")}, ensure_ascii=False, indent=2))
+        return 1 if report["draft_errors"] or report["brief_errors"] else 0
+    if args.cmd == "collect":
+        from .demand.adapters import live
+        from .demand.collect import collect
+        from .demand.store import Store
+        cls = {"stackexchange": live.StackExchangeAdapter, "reddit": live.RedditAdapter, "bluesky": live.BlueskyAdapter,
+               "x": live.XRecentSearchAdapter, "threads": live.ThreadsKeywordSearchAdapter}[args.adapter]
+        res = collect(Store(args.db), cls(), args.query, args.max)
+        print(json.dumps(res.to_dict(), ensure_ascii=False, indent=2))
+        return 0 if res.status in ("ok", "partial") else 2
+    if args.cmd == "queue-check":
+        import yaml
+        from .content.publish import Outbox
+        cfg = yaml.safe_load((ROOT / "config/channels.yaml").read_text(encoding="utf-8"))
+        q = json.loads(Path(args.queue).read_text(encoding="utf-8"))
+        ob = Outbox(":memory:", cfg, ROOT)
+        for d in q["drafts"]:
+            print(d["id"], "→", "; ".join(ob.blockers(d, dict(os.environ))))
+        return 0
+    return 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

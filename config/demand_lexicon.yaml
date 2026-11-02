@@ -1,0 +1,128 @@
+# Многоязычный словарь понятий и кластеров спроса. Версия 0.1.0, 2026-11-02.
+# Регулярные выражения применяются к нижнему регистру заголовка (и слагу URL, если заголовок пустой).
+# Это прозрачная детерминированная разметка, а не ML-модель: её можно читать и исправлять.
+version: "0.1.0"
+concepts:
+  retinoids: ["ретин", "третиноин", "дифферин", "retin", "tretinoin", "adapalene", "retinal", "retiron"]
+  niacinamide: ["ниацинамид", "niacinamide", "nicomide", "νιασιναμίδη"]
+  pigmentation: ["пигмент", "мелазм", "гидрохинон", "осветл", "pigment", "melasma", "malasma", "hydroquinone", "lytera", "tri-luma", "manchas", "pigmentflecken", "dark marks", "pie\\b", "red marks"]
+  fillers: ["филлер", "filler", "hyaluronidase"]
+  botulinum: ["ботокс", "ботулин", "птоз", "botox", "heavy brow", "eyebrow", "scowling"]
+  peels: ["пилинг", "peel", "спикул"]
+  microneedling: ["микронидлинг", "microneedling", "дермапен"]
+  rosacea_redness: ["розацеа", "купероз", "красн", "rosacea", "redness", "flaming red", "seborrheic"]
+  acne: ["акне", "прыщ", "постакне", "высыпан", "acne", "breakout", "break out", "purging", "jerawat", "mụn"]
+  biorevitalization: ["биоревитал", "мезотерап", "мезонит", "плазмолифт", "plasmolift", "биоплазм", "prp\\b", "prf\\b", "vampire facial", "exosome", "exo-xom", "экзосом"]
+  sunscreen: ["\\bspf", "солнцезащ", "sunscreen", "white cast", "protector solar", "sun serum", "sunblock", "photoderm", "heliocare"]
+  vitamin_c: ["витамин с", "витамин c", "vitamin c"]
+  azelaic: ["азелаин", "azelaic", "finacea", "azelex", "skinoren"]
+  probiotics_lysates: ["лизат", "пробиот", "бифид", "bifida", "lysate", "probiot"]
+  diy_injections: ["инъекции самой себе", "self[- ]inject", "своими руками", "в домашних условиях"]
+  sensitive_barrier: ["чувствительн", "барьер", "сухой кож", "шелуш", "sensitive", "barrier", "can't handle", "не любит"]
+  makeup_cosmetics: ["декоративная косметика", "makeup"]
+intents:
+  question: ["\\?", "^как ", "^что ", "^можно ли", "^почему", "^какая", "^какой", "^кто делал", "с чего начать", "^how ", "^is it", "^can ", "^will ", "^why ", "^does ", "^what ", "^who has", "^has anyone", "^should", "^cuáles", "help"]
+  problem: ["раздраж", "не помогает", "шелуш", "высыпан", "отек", "отёк", "птоз", "хуже", "провал", "последствия", "swelling", "swollen", "worse", "killing", "bumpy", "sore", "heavy", "no improvement", "flaming", "can't handle", "white cast", "breakout", "purging", "beware", "warning", "tight"]
+  desired_outcome: ["избав", "убрать", "лечение", "результат", "осветл", "work", "worth it", "successfully", "improvement", "reduce", "fade", "even out", "alleviate"]
+  objection: ["правда", "обманывают", "спорная", "или провал", "невидимый результат", "где же результат", "работает ли", "стоит ли", "worth it", "why does .* work for some", "not others", "scam", "дорого"]
+ad_cues: ["pack", "descuento", "regalo", "punkte sammeln", "bonuspunkte", "скидк", "купить", "промокод", "маркетплейс", "novedades", "де подарунок"]
+professional_cues: ["мои клиент", "клиентам", "протокол", "esthetician", "эстетист", "scope", "форум косметологов"]
+# Основной кластер записи выбирается по этому порядку: сначала конкретные средства и процедуры,
+# затем состояния кожи. Остальные совпадения учитываются как дополнительные упоминания.
+primary_order: [C13, C12, C01, C02, C11, C04, C05, C09, C06, C10, C03, C07, C08]
+clusters:
+  - id: C01
+    name: "Ретиноиды: как начать и что считать нормальной реакцией"
+    concepts: [retinoids]
+    publication_topics:
+      - "Раздражение или «пурджинг»: как различать и когда остановиться"
+      - "Ретинол, ретиналь, третиноин: в чём разница для кожи и для рецепта"
+    research_question: "Сколько длится и как выглядит ретиноидный дерматит при начале терапии, и какие схемы старта снижают раздражение?"
+    pubmed_query_draft: '(retinoids[MeSH] OR retinol OR tretinoin OR retinaldehyde) AND (irritant dermatitis OR tolerability OR "retinoid dermatitis") AND (topical)'
+  - id: C02
+    name: "Ниацинамид: переносимость и высыпания"
+    concepts: [niacinamide]
+    publication_topics:
+      - "Почему одна сыворотка с ниацинамидом «работает», а другая нет: концентрация, формула, ожидания"
+    research_question: "Связан ли местный ниацинамид с раздражением или высыпаниями и от чего это зависит?"
+    pubmed_query_draft: 'niacinamide[MeSH] AND (topical OR cosmetic) AND (irritation OR tolerability OR acne)'
+  - id: C03
+    name: "Пигментация и мелазма: что помогает и что может ухудшить"
+    concepts: [pigmentation]
+    publication_topics:
+      - "Почему лазер иногда ухудшает мелазму"
+      - "Гидрохинон и альтернативы: что известно о пользе и рисках"
+    research_question: "Какие методы лечения мелазмы имеют доказательства пользы, и при каких вмешательствах описано ухудшение?"
+    pubmed_query_draft: 'melanosis[MeSH] OR melasma AND (laser OR hydroquinone OR tranexamic acid) AND (randomized controlled trial[pt] OR systematic review[pt])'
+  - id: C04
+    name: "Филлеры: отёк, бугорки и сроки восстановления"
+    concepts: [fillers]
+    publication_topics:
+      - "Отёк после филлера губ: какие сроки описаны и какие признаки требуют врача"
+    research_question: "Каковы описанные сроки и частота отёка и узелков после введения гиалуроновых филлеров губ, и какие признаки осложнений требуют срочной помощи?"
+    pubmed_query_draft: 'hyaluronic acid[MeSH] AND (dermal fillers[MeSH] OR lip augmentation) AND (edema OR nodules OR adverse events)'
+  - id: C05
+    name: "Ботулинотерапия: тяжесть бровей, птоз, отёки"
+    concepts: [botulinum]
+    publication_topics:
+      - "Тяжесть во лбу и опущение брови после ботулинотерапии: почему бывает и сколько длится"
+    research_question: "Как часто встречаются птоз и тяжесть бровей после ботулинотерапии верхней трети лица и сколько они длятся?"
+    pubmed_query_draft: 'botulinum toxins, type A[MeSH] AND (forehead OR glabellar) AND (ptosis OR brow OR adverse events)'
+  - id: C06
+    name: "Пилинги и микронидлинг: сочетание, интервалы, восстановление"
+    concepts: [peels, microneedling]
+    publication_topics:
+      - "Пилинг и микронидлинг: что известно об интервалах между процедурами"
+    research_question: "Какие данные есть о безопасных интервалах и сочетании химических пилингов, микронидлинга и инъекций?"
+    pubmed_query_draft: '(chemexfoliation[MeSH] OR chemical peel) AND (microneedling OR percutaneous collagen induction) AND (interval OR combination OR safety)'
+  - id: C07
+    name: "Розацеа, покраснение и чувствительная кожа"
+    concepts: [rosacea_redness, sensitive_barrier]
+    publication_topics:
+      - "Розацеа и уход: какие активы обсуждают и что о них известно"
+    research_question: "Какие местные средства и уход имеют доказательства при розацеа и что может ухудшать покраснение?"
+    pubmed_query_draft: 'rosacea[MeSH] AND (topical OR skin care) AND (randomized controlled trial[pt] OR systematic review[pt] OR guideline[pt])'
+  - id: C08
+    name: "Акне и постакне"
+    concepts: [acne]
+    publication_topics:
+      - "Почему «ничего не помогает» при акне: ожидания, сроки, когда к врачу"
+      - "Красные и тёмные следы после акне: в чём разница"
+    research_question: "Какие сроки ответа на типовые схемы лечения акне описаны и чем различаются поствоспалительная эритема и гиперпигментация?"
+    pubmed_query_draft: 'acne vulgaris[MeSH] AND (time to response OR adherence) OR (post-inflammatory hyperpigmentation OR post-inflammatory erythema)'
+  - id: C09
+    name: "Биоревитализация, мезотерапия, PRP и экзосомы: «работает ли?»"
+    concepts: [biorevitalization]
+    publication_topics:
+      - "Биоревитализация и мезотерапия: что известно о пользе, а что — маркетинг"
+      - "Экзосомы в косметологии: стадия доказательств"
+    research_question: "Какие клинические доказательства есть у биоревитализации, мезотерапии, PRP и экзосом для кожи лица и каковы риски?"
+    pubmed_query_draft: '(mesotherapy OR skin booster OR platelet-rich plasma OR exosomes) AND (face OR skin rejuvenation) AND (randomized controlled trial[pt] OR systematic review[pt])'
+  - id: C10
+    name: "Солнцезащита: выбор SPF, белый след, сочетание с активами"
+    concepts: [sunscreen]
+    publication_topics:
+      - "Минеральный или химический SPF: что важно для чувствительной и тёмной кожи"
+    research_question: "Какие данные есть о переносимости и приверженности разным типам солнцезащитных средств?"
+    pubmed_query_draft: 'sunscreening agents[MeSH] AND (adherence OR white cast OR mineral OR skin of color)'
+  - id: C11
+    name: "Витамин C и азелаиновая кислота для чувствительной кожи"
+    concepts: [vitamin_c, azelaic]
+    publication_topics:
+      - "Азелаиновая кислота: при каких задачах её обсуждают и что известно"
+    research_question: "Что известно об эффективности и переносимости азелаиновой кислоты и местного витамина C при чувствительной коже, розацеа и акне?"
+    pubmed_query_draft: '(azelaic acid OR ascorbic acid topical) AND (rosacea OR acne OR sensitive skin) AND (randomized controlled trial[pt] OR systematic review[pt])'
+  - id: C12
+    name: "Пробиотики и лизаты в косметике: есть ли эффект"
+    concepts: [probiotics_lysates]
+    publication_topics:
+      - "Лизаты бифидобактерий в косметике: что заявляют и что проверено"
+    research_question: "Какие клинические данные есть о местном применении лизатов и пробиотиков в косметике?"
+    pubmed_query_draft: '(probiotics OR bacterial lysate OR Bifidobacterium lysate) AND (topical OR cosmetic) AND skin'
+  - id: C13
+    name: "Самостоятельные инъекции и «домашние» процедуры"
+    concepts: [diy_injections]
+    publication_topics:
+      - "Почему инъекции «самой себе» обсуждают и в чём риски"
+    research_question: "Какие осложнения описаны при самостоятельном введении инъекционных препаратов в косметических целях?"
+    pubmed_query_draft: '(self-injection OR self-administered) AND (dermal fillers OR botulinum toxin OR cosmetic injectables) AND complications'

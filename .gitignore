@@ -1,0 +1,12 @@
+# Создан заново 2026-11-02 (оригинал из стартового пакета не был загружен, см. DECISIONS Q-10).
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+var/
+*.sqlite
+*.db

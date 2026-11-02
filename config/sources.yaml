@@ -1,0 +1,308 @@
+# Реестр источников спроса (косметология). Версия 0.1.0, 2026-11-02.
+# evidence — чем подтверждены сведения в этой строке:
+#   discovery   — площадка и URL обсуждений реально найдены веб-поиском 2026-11-02 (data/raw/websearch_discovery_2026-11-02.json);
+#   official_snippet — фраза из официальной документации, видимая во фрагменте поисковой выдачи (сама страница не открывалась);
+#   third_party — сторонние блоги, требует перепроверки по официальному источнику;
+#   not_verified — предположение разработчика, проверить до использования.
+# access_now — доступ из текущей облачной среды: blocked_network (сетевая политика окружения, 403 CONNECT),
+#   blocked_crawler (поисковый инструмент сессии не индексирует домен), discovery_only (только заголовок+URL через поиск).
+# Стоимость указывается только если подтверждена; иначе null.
+version: "0.1.0"
+sources:
+  - id: woman_ru
+    name: "Woman.ru — форум «Красота»"
+    url: "https://www.woman.ru/beauty/"
+    language: ru
+    geography: "русскоязычная аудитория (страна не подтверждена)"
+    audience: consumer
+    topics: [уход за лицом, пигментация, акне, ретиноиды, инъекционные процедуры, биоревитализация]
+    activity_signals: "в заголовках выдачи видно число ответов: от 17 до 5 516 в найденных ветках"
+    data_available: "заголовок, число ответов (из заголовка выдачи); тексты сообщений не получены"
+    acquisition: {api: null, rss: not_verified, public_pages: "требует проверки robots.txt и условий площадки", export: null}
+    restrictions: "условия использования не проверены; прямой доступ закрыт сетевой политикой"
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 1
+    rationale: "крупные долгоживущие ветки с вопросами и возражениями потребителей по процедурам; русский язык"
+  - id: kosmetista_ru
+    name: "Kosmetista.ru — пользовательские блоги и отзывы"
+    url: "https://kosmetista.ru/blog/"
+    language: ru
+    geography: "русскоязычная аудитория"
+    audience: consumer
+    topics: [ниацинамид, ретинол, кислоты, SPF, пробиотики и лизаты]
+    activity_signals: "много пользовательских постов на одну тему (найдено 25+); метрики реакции в выдаче не видны"
+    data_available: "заголовок; часть заголовков в выдаче — транслит URL"
+    acquisition: {api: null, rss: not_verified, public_pages: "требует проверки условий", export: null}
+    restrictions: "посты о продуктах могут быть спонсорскими — маркировать вероятную рекламу"
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 1
+    rationale: "русскоязычные вопросы об ингредиентах, включая лизаты бифидобактерий (стратегическая тема Proba)"
+  - id: doctu_ru
+    name: "Doctu.ru — вопросы пациентов и ответы врачей"
+    url: "https://doctu.ru/consult/"
+    language: ru
+    geography: "Россия (по разделам городов msk/spb)"
+    audience: consumer_question_pro_answer
+    topics: [ботулинотерапия, розацеа, купероз, пигментация]
+    activity_signals: "в заголовках — число ответов врачей (2)"
+    data_available: "заголовок-вопрос; ответы не получены. Страницы профилей врачей НЕ собираются"
+    acquisition: {api: null, rss: null, public_pages: "требует проверки условий", export: null}
+    restrictions: "в выдаче есть профили врачей — исключаются как персональные страницы"
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 2
+    rationale: "формулировки вопросов, которые реально задают врачам; ответы показывают профессиональную позицию"
+  - id: health_mail_ru
+    name: "Здоровье Mail — консультации"
+    url: "https://health.mail.ru/consultation/"
+    language: ru
+    geography: "русскоязычная аудитория"
+    audience: consumer_question_pro_answer
+    topics: [пигментация]
+    activity_signals: "найдена 1 консультация; остальное — статьи редакции (не сигнал спроса)"
+    data_available: "заголовок"
+    acquisition: {api: null, rss: not_verified, public_pages: not_verified, export: null}
+    restrictions: null
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 3
+    rationale: "мало вопросов в выдаче; статьи редакции полезны как картина предложения, не спроса"
+  - id: otzovik
+    name: "Otzovik — отзывы о процедурах и средствах"
+    url: "https://otzovik.com/"
+    language: ru
+    geography: "русскоязычная аудитория"
+    audience: consumer
+    topics: [плазмолифтинг, экзосомы, пилинги]
+    activity_signals: "отдельные отзывы и сводные страницы"
+    data_available: "заголовок"
+    acquisition: {api: null, rss: null, public_pages: "требует проверки условий площадки", export: null}
+    restrictions: "отзывы о клиниках и брендах — высокий риск рекламы; имена клиник не используются в контенте"
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 3
+    rationale: "показывает возражения и разочарования; требует строгой фильтрации рекламы"
+  - id: pikabu
+    name: "Pikabu — посты и обсуждения"
+    url: "https://pikabu.ru/"
+    language: ru
+    geography: "русскоязычная аудитория"
+    audience: mixed
+    topics: [акне, уход, атопический дерматит]
+    activity_signals: "найдено 4 поста и 1 страница тега"
+    data_available: "заголовок; дата видна в одном заголовке"
+    acquisition: {api: null, rss: not_verified, public_pages: not_verified, export: null}
+    restrictions: null
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 3
+    rationale: "смешанная аудитория, мало прицельных вопросов в выдаче"
+  - id: realself
+    name: "RealSelf — вопросы пациентов, ответы врачей, отзывы"
+    url: "https://www.realself.com/"
+    language: en
+    geography: "США, Великобритания, Канада, Австралия и др. (по городам в URL вопросов)"
+    audience: consumer_question_pro_answer
+    topics: [филлеры губ, ботулотоксин, мелазма, пилинги, микронидлинг, PRP, экзосомы]
+    activity_signals: "в выдаче 40+ уникальных вопросов по одной-двум темам за запрос"
+    data_available: "заголовок-вопрос; ответы врачей и даты не получены"
+    acquisition: {api: null, rss: null, public_pages: "требует проверки условий площадки", export: null}
+    restrictions: "в URL вопросов есть город спрашивающего — в демонстрации не показываем"
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 1
+    rationale: "самый плотный источник конкретных вопросов о процедурах на английском"
+  - id: acne_org
+    name: "Acne.org — форумы и отзывы"
+    url: "https://www.acne.org/forums/"
+    language: en
+    geography: "англоязычная аудитория"
+    audience: consumer
+    topics: [третиноин, азелаиновая кислота, розацеа, постакне, ниацинамид]
+    activity_signals: "разделы форума по препаратам и состояниям; 20+ веток в выдаче"
+    data_available: "заголовок"
+    acquisition: {api: null, rss: not_verified, public_pages: "требует проверки условий", export: null}
+    restrictions: "площадка продаёт собственные продукты — разделы о них маркируются"
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 1
+    rationale: "долгие ветки об опыте рецептурных и безрецептурных средств"
+  - id: sephora_community
+    name: "Sephora Beauty Insider Community"
+    url: "https://community.sephora.com/"
+    language: en
+    geography: "англоязычная аудитория"
+    audience: consumer
+    topics: [витамин C, розацеа, чувствительная кожа, микронидлинг]
+    activity_signals: "ветки с ответами (Re:)"
+    data_available: "заголовок"
+    acquisition: {api: null, rss: not_verified, public_pages: not_verified, export: null}
+    restrictions: "сообщество ритейлера: обсуждения продуктов, возможен маркетинг"
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 2
+    rationale: "вопросы о подборе средств для чувствительной кожи"
+  - id: gopicky
+    name: "Picky (GoPicky) — обсуждения ухода"
+    url: "https://www.gopicky.com/discussion/"
+    language: en
+    geography: "не подтверждена"
+    audience: consumer
+    topics: [ниацинамид, минеральный SPF, азелаиновая кислота]
+    activity_signals: "несколько веток"
+    data_available: "заголовок (часто усечён)"
+    acquisition: {api: null, rss: null, public_pages: not_verified, export: null}
+    restrictions: null
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 2
+    rationale: "вопросы о переносимости активов"
+  - id: doctoralia
+    name: "Doctoralia — вопросы пациентов экспертам"
+    url: "https://www.doctoralia.co/pregunta-al-experto/"
+    language: es
+    geography: "Колумбия (домен .co); сеть работает и в других странах — не проверено"
+    audience: consumer_question_pro_answer
+    topics: [мелазма, защита от солнца]
+    activity_signals: "найдена страница вопросов одного эксперта (2092 вопроса)"
+    data_available: "заголовок"
+    acquisition: {api: null, rss: null, public_pages: not_verified, export: null}
+    restrictions: null
+    cost: null
+    access_now: discovery_only
+    evidence: discovery
+    priority: 2
+    rationale: "кандидат для испанского языка: формат «вопрос — ответ врача»"
+  - id: reddit
+    name: "Reddit (r/SkincareAddiction, r/AsianBeauty, r/30PlusSkinCare, r/Microneedling и др.)"
+    url: "https://www.reddit.com/"
+    language: en
+    geography: "глобальная, преимущественно англоязычная"
+    audience: consumer
+    topics: [все темы ухода]
+    activity_signals: "не измерено в этой среде"
+    data_available: "через Data API: посты, комментарии, оценки, даты (по документации, не проверено здесь)"
+    acquisition: {api: "Reddit Data API, OAuth", rss: "есть публичные RSS разделов (не проверено здесь)", public_pages: null, export: null}
+    restrictions: "по анонсу 2023 г.: 100 запросов/мин на OAuth-клиент, коммерческое использование — по отдельному соглашению (third_party); зеркала Reddit (libreddit и др.) НЕ используем"
+    cost: null
+    access_now: blocked_network
+    evidence: third_party
+    priority: 1
+    rationale: "крупнейший англоязычный источник вопросов об уходе; нужен ключ приложения и открытый хост"
+  - id: stackexchange_medsci
+    name: "Stack Exchange — Medical Sciences (теги dermatology, skin)"
+    url: "https://medicalsciences.stackexchange.com/"
+    language: en
+    geography: "глобальная"
+    audience: mixed
+    topics: [дерматология]
+    activity_signals: "не измерено"
+    data_available: "вопросы, ответы, оценки, даты, лицензия CC BY-SA (по документации, не проверено здесь)"
+    acquisition: {api: "Stack Exchange API 2.3 (ключ необязателен)", rss: "есть ленты вопросов (не проверено)", public_pages: null, export: "дампы данных"}
+    restrictions: "квоты API без ключа малы; требуется атрибуция"
+    cost: null
+    access_now: blocked_network
+    evidence: not_verified
+    priority: 2
+    rationale: "открытый API и лицензия; мало косметологии — полезен как калибровочный источник"
+  - id: bluesky
+    name: "Bluesky — публичные посты"
+    url: "https://bsky.app/"
+    language: multi
+    geography: "глобальная"
+    audience: mixed
+    topics: [skincare, dermatology]
+    activity_signals: "не измерено"
+    data_available: "публичные посты, лайки, ответы (по документации AT Protocol, не проверено здесь)"
+    acquisition: {api: "app.bsky.feed.searchPosts (AppView)", rss: null, public_pages: null, export: null}
+    restrictions: "требуется ли авторизация для поиска — не подтверждено"
+    cost: null
+    access_now: blocked_network
+    evidence: not_verified
+    priority: 2
+    rationale: "открытый протокол; дополнительный социальный сигнал, если X дорог"
+  - id: x
+    name: "X (Twitter)"
+    url: "https://x.com/"
+    language: multi
+    geography: "глобальная"
+    audience: mixed
+    topics: [все]
+    activity_signals: "не измерено"
+    data_available: "чтение: recent search (последние дни), посты, метрики; публикация: POST /2/tweets в свой аккаунт"
+    acquisition: {api: "X API v2", rss: null, public_pages: null, export: null}
+    restrictions: "официально: оплата по факту использования, без подписок (official_snippet docs.x.com). Цены — только из сторонних источников: чтение ≈ $0.005 за пост, создание поста ≈ $0.010–0.015, с ссылкой до $0.20; бесплатный уровень для новых разработчиков закрыт с февраля 2026 (third_party). Чтение и публикация — разные операции с разной оплатой"
+    cost: "по факту использования; ставки не подтверждены официально"
+    access_now: blocked_network
+    evidence: official_snippet
+    priority: 2
+    rationale: "сбор сигналов платный за каждую прочитанную запись — включать только с бюджетом и лимитом"
+  - id: threads
+    name: "Threads (Meta)"
+    url: "https://www.threads.com/"
+    language: multi
+    geography: "глобальная"
+    audience: mixed
+    topics: [все]
+    activity_signals: "не измерено"
+    data_available: "публикация в свой профиль; поиск по ключевым словам; аналитика своих постов"
+    acquisition: {api: "Threads API (graph.threads.net)", rss: null, public_pages: null, export: null}
+    restrictions: "официально (official_snippet): лимит 250 постов через API за скользящие 24 часа; разрешение threads_keyword_search нужно для поиска, без него поиск идёт только по своим постам. Квота поиска в источниках расходится (2 200/24 ч или 500/7 дней — third_party). Длина поста 500 символов — не подтверждена официально в этой сессии"
+    cost: "платные тарифы не найдены (third_party: «бесплатно, но с лимитами»)"
+    access_now: blocked_network
+    evidence: official_snippet
+    priority: 1
+    rationale: "основной канал публикации; поиск чужих постов требует отдельного разрешения и проверки приложения Meta"
+  - id: vk
+    name: "VK — сообщества и обсуждения"
+    url: "https://vk.com/"
+    language: ru
+    geography: "Россия и СНГ"
+    audience: mixed
+    topics: [все]
+    activity_signals: "не измерено"
+    data_available: "по документации VK API — посты и комментарии открытых сообществ (не проверено)"
+    acquisition: {api: "VK API (нужен токен)", rss: null, public_pages: null, export: null}
+    restrictions: "не исследовано в этой сессии"
+    cost: null
+    access_now: blocked_network
+    evidence: not_verified
+    priority: 2
+    rationale: "крупнейший русскоязычный социальный источник; требует токена и проверки условий"
+  - id: telegram
+    name: "Telegram — открытые каналы и чаты косметологов"
+    url: "https://t.me/"
+    language: ru
+    geography: "русскоязычная аудитория и др."
+    audience: professional
+    topics: [профессиональные обсуждения]
+    activity_signals: "не измерено; поиск по профессиональным форумам указал на Telegram как на место профессиональных обсуждений"
+    data_available: "не проверено"
+    acquisition: {api: "Telegram API (нужен api_id и аккаунт)", rss: null, public_pages: null, export: "экспорт чатов участником"}
+    restrictions: "закрытые профессиональные чаты — только с согласия администраторов"
+    cost: null
+    access_now: blocked_network
+    evidence: not_verified
+    priority: 1
+    rationale: "русскоязычные профессиональные форумы в выдаче не найдены — вероятное место профессионального спроса"
+excluded_patterns:
+  - pattern: "lr\\.[a-z.]*psf\\.lt|libreddit|redlib"
+    reason: "сторонние зеркала Reddit: обход условий площадки"
+  - pattern: "gummysearch\\.com|treendly\\.com"
+    reason: "сторонние инструменты аналитики, не первичный источник"
+  - pattern: "lists\\.galaxyproject\\.org"
+    reason: "спам в чужом списке рассылки"
+  - pattern: "doctu\\.ru/(spb|msk)/doctor/|lyko\\.com/en/community/"
+    reason: "страницы профилей людей — не собираем"
