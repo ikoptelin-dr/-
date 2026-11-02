@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://proba.example/schemas/review.schema.json",
+  "title": "Рецензия",
+  "description": "Контракт 0.1.0. Домен example служит идентификатором, не действующим API.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "is_synthetic": {
+      "type": "boolean"
+    },
+    "article_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "article_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "content_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "reviewer_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "human": {
+      "const": true
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "approved",
+        "changes_requested",
+        "rejected"
+      ]
+    },
+    "checklist": {
+      "type": "object",
+      "properties": {
+        "sources_checked": {
+          "type": "boolean"
+        },
+        "claims_checked": {
+          "type": "boolean"
+        },
+        "limitations_checked": {
+          "type": "boolean"
+        },
+        "disclosures_checked": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "sources_checked",
+        "claims_checked",
+        "limitations_checked",
+        "disclosures_checked"
+      ],
+      "additionalProperties": false
+    },
+    "blocking_issues": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "comments": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "is_synthetic",
+    "article_id",
+    "article_version",
+    "content_hash",
+    "reviewer_id",
+    "human",
+    "decision",
+    "checklist",
+    "blocking_issues",
+    "comments",
+    "reviewed_at",
+    "expires_at"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "const": "approved"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "blocking_issues": {
+            "maxItems": 0
+          },
+          "checklist": {
+            "properties": {
+              "sources_checked": {
+                "const": true
+              },
+              "claims_checked": {
+                "const": true
+              },
+              "limitations_checked": {
+                "const": true
+              },
+              "disclosures_checked": {
+                "const": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

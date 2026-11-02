@@ -1,0 +1,23 @@
+{
+  "id": "review-demo",
+  "schema_version": "0.1.0",
+  "is_synthetic": true,
+  "article_id": "article-demo",
+  "article_version": 1,
+  "content_hash": "1c58fc9b1a7534bebf00ba6dd19a40ac356179b3cea661c7da102da2bf05f564",
+  "reviewer_id": "human-demo-not-a-real-person",
+  "human": true,
+  "decision": "changes_requested",
+  "checklist": {
+    "sources_checked": false,
+    "claims_checked": false,
+    "limitations_checked": false,
+    "disclosures_checked": false
+  },
+  "blocking_issues": [
+    "Источник синтетический и не проверен"
+  ],
+  "comments": "Тестовая рецензия, не настоящее решение врача.",
+  "reviewed_at": "2026-11-02T10:00:00+07:00",
+  "expires_at": "2026-12-02T10:00:00+07:00"
+}

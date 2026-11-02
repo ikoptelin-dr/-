@@ -1,0 +1,30 @@
+# Проектная конфигурация. Приложение, читающее её, ещё не реализовано.
+version: "0.1.0"
+default_specialty: cosmetology
+specialties:
+  cosmetology:
+    enabled: true
+    language: ru
+    audience: professionals
+    human_review_required: true
+    reviewer_required: true
+    scope: "Доказательный профессиональный контент по косметологии"
+  dermatology:
+    enabled: false
+    language: ru
+    audience: professionals
+    human_review_required: true
+    reviewer_required: true
+    scope: "Позднее: отдельная профильная приёмка"
+  gynecology:
+    enabled: false
+    language: ru
+    audience: professionals
+    human_review_required: true
+    reviewer_required: true
+    scope: "Позднее: отдельная профильная приёмка"
+review_policy:
+  approval_validity_days: 30
+  published_recheck_days: 180
+  invalidate_on_content_change: true
+  distinct_reviewer_and_publisher: true

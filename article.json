@@ -1,0 +1,34 @@
+{
+  "id": "article-demo",
+  "schema_version": "0.1.0",
+  "is_synthetic": true,
+  "topic_id": "topic-demo",
+  "version": 1,
+  "specialty": "cosmetology",
+  "language": "ru",
+  "title": "Учебный черновик",
+  "body_markdown": "Синтетическое утверждение для проверки структуры [claim:claim-demo].",
+  "claims": [
+    {
+      "id": "claim-demo",
+      "text": "Учебная формулировка без медицинского вывода",
+      "source_ids": [
+        "source-demo"
+      ],
+      "support": "unsupported",
+      "evidence_notes": "Синтетический источник; подтверждение отсутствует.",
+      "limitations": [
+        "Не предназначено для выпуска"
+      ]
+    }
+  ],
+  "source_ids": [
+    "source-demo"
+  ],
+  "disclosures": "Синтетический пример. Реальных спонсоров нет.",
+  "content_hash": "1c58fc9b1a7534bebf00ba6dd19a40ac356179b3cea661c7da102da2bf05f564",
+  "status": "changes_requested",
+  "review_id": "review-demo",
+  "publication": null,
+  "updated_at": "2026-11-02T10:00:00+07:00"
+}

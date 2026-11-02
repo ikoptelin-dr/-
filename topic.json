@@ -1,0 +1,18 @@
+{
+  "id": "topic-demo",
+  "schema_version": "0.1.0",
+  "is_synthetic": true,
+  "specialty": "cosmetology",
+  "language": "ru",
+  "audience": "professionals",
+  "title": "Синтетическая проверка редакционного процесса",
+  "question": "Как проверить прослеживаемость учебного утверждения?",
+  "inclusion_criteria": [
+    "Только синтетические записи"
+  ],
+  "exclusion_criteria": [
+    "Реальные медицинские выводы"
+  ],
+  "status": "active",
+  "created_at": "2026-11-02T10:00:00+07:00"
+}

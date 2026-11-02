@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://proba.example/schemas/source.schema.json",
+  "title": "Источник",
+  "description": "Контракт 0.1.0. Домен example служит идентификатором, не действующим API.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "is_synthetic": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^10\\.\\d{4,9}/\\S+$"
+    },
+    "pmid": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9]+$"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1800,
+      "maximum": 2200
+    },
+    "study_type": {
+      "type": "string",
+      "enum": [
+        "systematic_review",
+        "randomized_trial",
+        "observational",
+        "preclinical",
+        "guideline",
+        "other"
+      ]
+    },
+    "access_level": {
+      "type": "string",
+      "enum": [
+        "full_text",
+        "abstract_only",
+        "metadata_only"
+      ]
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "unverified",
+        "unavailable"
+      ]
+    },
+    "retraction_status": {
+      "type": "string",
+      "enum": [
+        "not_retracted",
+        "retracted",
+        "unknown"
+      ]
+    },
+    "checked_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "is_synthetic",
+    "title",
+    "url",
+    "doi",
+    "pmid",
+    "year",
+    "study_type",
+    "access_level",
+    "verification_status",
+    "retraction_status",
+    "checked_at",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

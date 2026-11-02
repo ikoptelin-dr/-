@@ -1,0 +1,18 @@
+{
+  "id": "source-demo",
+  "schema_version": "0.1.0",
+  "is_synthetic": true,
+  "title": "Учебный источник — не исследование",
+  "url": "https://example.org/demo",
+  "doi": null,
+  "pmid": null,
+  "year": 2026,
+  "study_type": "other",
+  "access_level": "metadata_only",
+  "verification_status": "unverified",
+  "retraction_status": "unknown",
+  "checked_at": "2026-11-02T10:00:00+07:00",
+  "limitations": [
+    "Синтетическая запись; не использовать для публикации"
+  ]
+}

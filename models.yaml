@@ -1,0 +1,38 @@
+# Шаблон маршрутизации: модель и цены намеренно не выбраны.
+version: "0.1.0"
+external_calls_enabled: false
+provider: null
+model_id: null
+api_key_env: LLM_API_KEY
+base_url_env: LLM_BASE_URL
+limits:
+  max_run_cost_usd: 0
+  max_daily_cost_usd: 0
+  max_input_tokens_per_call: 12000
+  max_output_tokens_per_call: 4000
+  max_retries: 2
+  max_json_repair_attempts: 1
+  timeout_seconds: 60
+pricing:
+  input_usd_per_million_tokens: null
+  output_usd_per_million_tokens: null
+routing:
+  planner: default
+  researcher: default
+  evidence_analyst: default
+  writer: default
+  quality_auditor: default
+  review_coordinator: default
+  distribution: default
+  analyst: default
+profiles:
+  default:
+    provider: null
+    model_id: null
+    enabled: false
+experiments:
+  deepseek_super_agent:
+    enabled: false
+    production_allowed: false
+    implemented: false
+    note: "Экспериментальная опция, не продакшн; требует отдельной проверки"
