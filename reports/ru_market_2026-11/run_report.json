@@ -1,0 +1,199 @@
+{
+  "generated_at": "2026-11-04T11:32:04+00:00",
+  "dataset": "forums_ru_2026-11",
+  "lexicon_version": "0.2.0",
+  "jtbd_version": "0.1.0",
+  "import": {
+    "adapter": "forum_export",
+    "dataset": "forums_ru_2026-11",
+    "threads": 32,
+    "messages": 387,
+    "sources": [
+      "it_alfemminile",
+      "ru_pf_k"
+    ],
+    "dropped_fields": [
+      "language_label_note"
+    ],
+    "dropped_pii_like_fields": []
+  },
+  "cleaning": {
+    "statuses": {
+      "ok": 292,
+      "ad_or_spam_own": 22,
+      "ad_or_spam_export": 22,
+      "brand_answer": 14,
+      "off_topic_export": 14,
+      "short_context": 9,
+      "empty": 6,
+      "duplicate": 5,
+      "possible_ad_export": 2,
+      "administrative_export": 1
+    },
+    "ad_agreement": {
+      "both": 18,
+      "export_only": 24,
+      "own_only": 4
+    },
+    "duplicates": [
+      {
+        "record_id": "ru_pf_k:85467",
+        "duplicate_of": "ru_pf_k:84036"
+      },
+      {
+        "record_id": "ru_pf_k:86581",
+        "duplicate_of": "ru_pf_k:86020"
+      },
+      {
+        "record_id": "ru_pf_k:87387",
+        "duplicate_of": "ru_pf_k:87386"
+      },
+      {
+        "record_id": "ru_pf_k:174037",
+        "duplicate_of": "ru_pf_k:167406"
+      },
+      {
+        "record_id": "ru_pf_k:174092",
+        "duplicate_of": "ru_pf_k:174086"
+      },
+      {
+        "record_id": "ru_pf_k:176574",
+        "duplicate_of": "ru_pf_k:167406"
+      },
+      {
+        "record_id": "ru_pf_k:177390",
+        "duplicate_of": "ru_pf_k:177389"
+      },
+      {
+        "record_id": "ru_pf_k:177400",
+        "duplicate_of": "ru_pf_k:177399"
+      },
+      {
+        "record_id": "ru_pf_k:177401",
+        "duplicate_of": "ru_pf_k:177399"
+      },
+      {
+        "record_id": "ru_pf_k:177402",
+        "duplicate_of": "ru_pf_k:177399"
+      },
+      {
+        "record_id": "ru_pf_k:178534",
+        "duplicate_of": "ru_pf_k:178533"
+      },
+      {
+        "record_id": "ru_pf_k:178613",
+        "duplicate_of": "ru_pf_k:13268"
+      },
+      {
+        "record_id": "ru_pf_k:189458",
+        "duplicate_of": "ru_pf_k:176574"
+      },
+      {
+        "record_id": "it_alfemminile:Discussion_6084585",
+        "duplicate_of": "it_alfemminile:Discussion_6084521"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "it_alfemminile",
+      "name": "Alfemminile (forum.alfemminile.com)",
+      "language": "it",
+      "audience": "consumer",
+      "note": "итальянский потребительский форум — не российский рынок",
+      "threads": 12,
+      "messages": 49,
+      "messages_signal": 48,
+      "threads_created": {
+        "first": "2004-06-18",
+        "last": "2026-10-16"
+      },
+      "messages_period": {
+        "first": "2004-06-18",
+        "last": "2026-10-29"
+      },
+      "messages_signal_by_period": {
+        "historical": 33,
+        "actual": 15
+      },
+      "threads_with_actual_signal": 7,
+      "messages_by_year": {
+        "2004": 12,
+        "2019": 13,
+        "2022": 1,
+        "2023": 7,
+        "2024": 13,
+        "2025": 1,
+        "2026": 2
+      },
+      "signal_by_segment": {
+        "consumer": 48
+      },
+      "segment_basis": {
+        "export_curated_label": 13,
+        "consumer_only_source": 35
+      }
+    },
+    {
+      "source_id": "ru_pf_k",
+      "name": "PF-K (pf-k.ru), форум косметологов",
+      "language": "ru",
+      "audience": "professional_mixed",
+      "note": "профессиональная площадка, но пишут и потребители, и продавцы",
+      "threads": 20,
+      "messages": 338,
+      "messages_signal": 244,
+      "threads_created": {
+        "first": "2009-10-16",
+        "last": "2019-06-24"
+      },
+      "messages_period": {
+        "first": "2009-10-16",
+        "last": "2025-07-13"
+      },
+      "messages_signal_by_period": {
+        "historical": 239,
+        "actual": 5
+      },
+      "threads_with_actual_signal": 2,
+      "messages_by_year": {
+        "2009": 5,
+        "2010": 16,
+        "2011": 18,
+        "2012": 60,
+        "2013": 27,
+        "2014": 10,
+        "2015": 11,
+        "2016": 25,
+        "2017": 65,
+        "2018": 32,
+        "2019": 18,
+        "2020": 40,
+        "2021": 2,
+        "2022": 2,
+        "2023": 2,
+        "2024": 4,
+        "2025": 1
+      },
+      "signal_by_segment": {
+        "unclear": 157,
+        "professional": 75,
+        "consumer": 12
+      },
+      "segment_basis": {
+        "no_cues": 156,
+        "text_cues": 63,
+        "export_curated_label": 24,
+        "mixed_cues": 1
+      }
+    }
+  ],
+  "actual_years": [
+    2024,
+    2026
+  ],
+  "clusters": 17,
+  "messages_signal_without_concept": 59,
+  "external_calls": 0,
+  "is_synthetic": false
+}

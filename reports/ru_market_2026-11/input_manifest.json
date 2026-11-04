@@ -1,0 +1,272 @@
+{
+  "dataset": "forums_ru_2026-11",
+  "input_files": {
+    "MANIFEST.sha256.json": "92869613f74134fb82254db2ddad5fa912d3ca01e612c4350f8f7ea3ac7c5d67",
+    "clusters.json": "e06be20a22dcc03dd94748ae531bd3fe9f0f842995424756aa5016bf9bcf39cc",
+    "excluded_or_duplicate.json": "502e4e26bfdf1a182c5966326a1e6823b9557d9ccf858a220243162ae4047483",
+    "messages_all.jsonl": "ccf5a02ca38afc07f3b4b996cab6057da48cc145b026c32a7f354c76eca21293",
+    "messages_for_analysis.jsonl": "8120dcb4b8079f903740d784c741983c4d93a8cb86db3e27118ada6851c0f797",
+    "needs.jsonl": "e2700769ffc7bc238b6d9b5501699a94e699ecb97c40231e7d4996802f72879e",
+    "summary.json": "4a2fe966e68bbb8633c7f6dfb6aa7d950f08e7021243cddd56f92b9fe7babf18",
+    "threads.jsonl": "a97df76a8819fb2335df1e96457ffd648efbdeb12362ed4702415a8c95eee5ca"
+  },
+  "threads": [
+    {
+      "thread_key": "ru_pf_k:20604",
+      "url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20604.html/",
+      "title": "Тема для новичков",
+      "created": "2015-10-30",
+      "messages": 24,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:20763",
+      "url": "https://pf-k.ru/forums/christina-kosmetika-dlya-kosmetologov-vysokogo-ranga-t20763.html/",
+      "title": "Christina косметика для косметологов высокого ранга",
+      "created": "2015-11-16",
+      "messages": 7,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:26587",
+      "url": "https://pf-k.ru/forums/%D1%82%D1%80%D0%B0%D0%B2%D1%8F%D0%BD%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%B2-%D1%87%D0%B5%D0%BC-%D0%BF%D1%80%D0%B5%D0%B8%D0%BC%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B0-t26587.html/",
+      "title": "Травяные пилинги, в чем преимущества!",
+      "created": "2018-11-14",
+      "messages": 8,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:11023",
+      "url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0-collin-paris-resultime-t11023.html/",
+      "title": "Косметика Collin Paris Resultime",
+      "created": "2012-11-06",
+      "messages": 5,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:2417",
+      "url": "https://pf-k.ru/forums/bioline-jato-t2417.html/",
+      "title": "BIOLINE JaTo",
+      "created": "2010-04-21",
+      "messages": 23,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:15632",
+      "url": "https://pf-k.ru/forums/%D0%B3%D0%B4%D0%B5-%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%84-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D1%83-%D0%B2-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B5-t15632.html/",
+      "title": "Где Купить Проф. Косметику В Москве",
+      "created": "2014-03-31",
+      "messages": 37,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:23269",
+      "url": "https://pf-k.ru/forums/%D0%BB%D0%BE%D1%81%D1%8C%D0%BE%D0%BD-velaspray-ease-%D0%B4%D0%BB%D1%8F-velashape-%D0%B8-velasmooth-t23269.html/",
+      "title": "Лосьон Velaspray Ease для Velashape и Velasmooth",
+      "created": "2016-08-25",
+      "messages": 5,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:3760",
+      "url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0-vagheggi-%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%8F-t3760.html/",
+      "title": "косметика Vagheggi (Италия)",
+      "created": "2010-10-27",
+      "messages": 9,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:27302",
+      "url": "https://pf-k.ru/forums/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0-%D1%82%D1%80%D0%B5%D0%B4%D0%BB%D0%B8%D1%84%D1%82%D0%B8%D0%BD%D0%B3%D0%B0-%D0%BD%D0%B8%D1%82%D1%8F%D0%BC%D0%B8-cara-thread-%D1%81-%D1%85%D0%B8%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC%D0%B8-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B0%D0%BC%D0%B8-pro-peel-t27302.html/",
+      "title": "Практика тредлифтинга нитями CARA Thread с химическими пилингами PRO PEEL",
+      "created": "2019-06-24",
+      "messages": 4,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:23374",
+      "url": "https://pf-k.ru/forums/freihaut-products-for-professionals-t23374.html/",
+      "title": "Freihaut-products For Professionals",
+      "created": "2016-09-05",
+      "messages": 3,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:26198",
+      "url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0-%D0%B7%D0%B0-%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-t26198.html/",
+      "title": "корейская косметика за и против.",
+      "created": "2018-07-18",
+      "messages": 21,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:7173",
+      "url": "https://pf-k.ru/forums/hydro-peptide-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0-t7173.html/",
+      "title": "Hydro-peptide Америка",
+      "created": "2011-08-13",
+      "messages": 16,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:1551",
+      "url": "https://pf-k.ru/forums/beauty-style-t1551.html/",
+      "title": "\"Beauty Style\"",
+      "created": "2009-12-08",
+      "messages": 54,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:26510",
+      "url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8-%D0%BB%D0%B8%D1%86%D0%B0-t26510.html/",
+      "title": "Косметические маски для очистки лица",
+      "created": "2018-10-15",
+      "messages": 14,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:25393",
+      "url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BB%D0%B8%D1%86%D0%B0-t25393.html/",
+      "title": "Косметика для лица",
+      "created": "2017-09-17",
+      "messages": 13,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:23412",
+      "url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/",
+      "title": "АНА-КИСЛОТЫ, ОНИ ЖЕ ФРУКТОВЫЕ ПИЛИНГИ  ПРОТИВ ПИГМЕНТНЫХ ПЯТЕН И ВЕСНУШЕК",
+      "created": "2016-09-08",
+      "messages": 29,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:8666",
+      "url": "https://pf-k.ru/forums/hikari-t8666.html/",
+      "title": "Hikari",
+      "created": "2012-02-03",
+      "messages": 37,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:1282",
+      "url": "https://pf-k.ru/forums/%D0%BA%D1%82%D0%BE-%D1%82%D0%BE-%D0%B7%D0%BD%D0%B0%D0%B5%D1%82-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%B5-%D0%BF%D0%BE%D1%80%D1%82%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B5-t1282.html/",
+      "title": "Кто то знает хорошие порталы по косметике?",
+      "created": "2009-10-16",
+      "messages": 6,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:6878",
+      "url": "https://pf-k.ru/forums/%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B5-janssen-%D1%8F%D0%BD%D1%81%D0%B5%D0%BD-t6878.html/",
+      "title": "Чистка На Косметике Janssen (янсен)",
+      "created": "2011-07-05",
+      "messages": 20,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:27235",
+      "url": "https://pf-k.ru/forums/%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2-advance-%D0%BF%D0%BE%D0%B7%D0%B2%D0%BE%D0%BB%D1%8F%D0%B5%D1%82-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D1%8C-%D0%B4%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%83%D1%8E-%D1%80%D0%B5%D0%B2%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E-%D0%BA%D0%BE%D0%B6%D0%B8-%D1%80%D0%B5%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8E-%D0%B8-%D1%84%D0%B8%D0%BB%D0%BB%D0%B8%D0%BD%D0%B3-t27235.html/",
+      "title": "Применение препаратов ADVANCE позволяет выполнить длительную ревитализацию кожи реструктуризацию и филлинг",
+      "created": "2019-05-29",
+      "messages": 3,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "it_alfemminile:6088996",
+      "url": "https://forum.alfemminile.com/discussion/6088996/skincare-naturale",
+      "title": "Skincare Naturale",
+      "created": "2024-05-07",
+      "messages": 3,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:6085638",
+      "url": "https://forum.alfemminile.com/discussion/6085638/cosmetici-naturali-con-cbd-cosa-ne-pensate",
+      "title": "Cosmetici naturali con CBD cosa ne pensate?",
+      "created": "2024-03-14",
+      "messages": 2,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:6093025",
+      "url": "https://forum.alfemminile.com/discussion/6093025/problema-enorme-peli-sul-viso-entrate",
+      "title": "Problema ENORME peli sul viso, entrate??",
+      "created": "2024-07-19",
+      "messages": 4,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:6084585",
+      "url": "https://forum.alfemminile.com/discussion/6084585/acne-e-pillola",
+      "title": "Acne e pillola",
+      "created": "2024-02-28",
+      "messages": 3,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:6085212",
+      "url": "https://forum.alfemminile.com/discussion/6085212/spironolattone-per-lacne",
+      "title": "Spironolattone per l'acne?",
+      "created": "2024-03-08",
+      "messages": 1,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:6084521",
+      "url": "https://forum.alfemminile.com/discussion/6084521/acne-che-non-guarisce",
+      "title": "Acne che non guarisce",
+      "created": "2024-02-28",
+      "messages": 1,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:6073805",
+      "url": "https://forum.alfemminile.com/discussion/6073805/problema-alle-labbra-aiuto",
+      "title": "Problema alle labbra, aiuto",
+      "created": "2023-09-22",
+      "messages": 3,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:6073050",
+      "url": "https://forum.alfemminile.com/discussion/6073050/ricrescita-dei-peli-dopo-laser-al-diodo",
+      "title": "Ricrescita dei peli dopo laser al diodo",
+      "created": "2023-09-12",
+      "messages": 2,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:6066070",
+      "url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
+      "title": "Rimedi antirughe?",
+      "created": "2023-06-11",
+      "messages": 2,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:5846494",
+      "url": "https://forum.alfemminile.com/discussion/5846494/crema-al-retinolo",
+      "title": "Crema al retinolo?",
+      "created": "2019-06-04",
+      "messages": 14,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:331075",
+      "url": "https://forum.alfemminile.com/discussion/331075/retinolo-retinaldeide-retinoidi-fou",
+      "title": "Retinolo, retinaldeide, retinoidi",
+      "created": "2004-06-18",
+      "messages": 12,
+      "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "it_alfemminile:6122128",
+      "url": "https://forum.alfemminile.com/discussion/6122128/epilazione-medicale",
+      "title": "Epilazione medicale",
+      "created": "2026-10-16",
+      "messages": 2,
+      "completeness": "pagination_followed_count_unverified"
+    }
+  ],
+  "note": "Сырые тексты не публикуются и не коммитятся. Источник выгрузки — репозиторий ikoptelin-dr/Analys_cosmetology."
+}

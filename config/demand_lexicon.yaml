@@ -1,35 +1,47 @@
-# Многоязычный словарь понятий и кластеров спроса. Версия 0.1.0, 2026-11-02.
+# Многоязычный словарь понятий и кластеров спроса. Версия 0.2.0, 2026-11-04 (0.1.0 — 2026-11-02).
+# 0.2.0: добавлены итальянские написания, понятия и кластеры C14–C21 для текстов сообщений форумов
+# (эпиляция, поставщики, бренды, цена, протоколы кабинета, обучение, возраст, состав и обещания).
+# Миграция: прежние C01–C13 сохранены с теми же id; первый проход 2026-11-02 по заголовкам не пересчитывался.
 # Регулярные выражения применяются к нижнему регистру заголовка (и слагу URL, если заголовок пустой).
 # Это прозрачная детерминированная разметка, а не ML-модель: её можно читать и исправлять.
-version: "0.1.0"
+version: "0.2.0"
 concepts:
-  retinoids: ["ретин", "третиноин", "дифферин", "retin", "tretinoin", "adapalene", "retinal", "retiron"]
+  retinoids: ["ретин", "acnatac", "retinald", "третиноин", "дифферин", "retin", "tretinoin", "adapalene", "retinal", "retiron"]
   niacinamide: ["ниацинамид", "niacinamide", "nicomide", "νιασιναμίδη"]
-  pigmentation: ["пигмент", "мелазм", "гидрохинон", "осветл", "pigment", "melasma", "malasma", "hydroquinone", "lytera", "tri-luma", "manchas", "pigmentflecken", "dark marks", "pie\\b", "red marks"]
+  pigmentation: ["пигмент", "macchi", "discromi", "мелазм", "гидрохинон", "осветл", "pigment", "melasma", "malasma", "hydroquinone", "lytera", "tri-luma", "manchas", "pigmentflecken", "dark marks", "pie\\b", "red marks"]
   fillers: ["филлер", "filler", "hyaluronidase"]
   botulinum: ["ботокс", "ботулин", "птоз", "botox", "heavy brow", "eyebrow", "scowling"]
-  peels: ["пилинг", "peel", "спикул"]
+  peels: ["пилинг", "peel", "спикул", "кислот", "\\baha\\b", "\\bbha\\b", "гликол", "миндальн", "acid", "peeling", "esfolia"]
   microneedling: ["микронидлинг", "microneedling", "дермапен"]
   rosacea_redness: ["розацеа", "купероз", "красн", "rosacea", "redness", "flaming red", "seborrheic"]
-  acne: ["акне", "прыщ", "постакне", "высыпан", "acne", "breakout", "break out", "purging", "jerawat", "mụn"]
+  acne: ["акне", "комедон", "воспалительн", "brufol", "spironolatt", "спиронолакт", "cisti\\b", "прыщ", "постакне", "высыпан", "acne", "breakout", "break out", "purging", "jerawat", "mụn"]
   biorevitalization: ["биоревитал", "мезотерап", "мезонит", "плазмолифт", "plasmolift", "биоплазм", "prp\\b", "prf\\b", "vampire facial", "exosome", "exo-xom", "экзосом"]
   sunscreen: ["\\bspf", "солнцезащ", "sunscreen", "white cast", "protector solar", "sun serum", "sunblock", "photoderm", "heliocare"]
   vitamin_c: ["витамин с", "витамин c", "vitamin c"]
   azelaic: ["азелаин", "azelaic", "finacea", "azelex", "skinoren"]
   probiotics_lysates: ["лизат", "пробиот", "бифид", "bifida", "lysate", "probiot"]
   diy_injections: ["инъекции самой себе", "self[- ]inject", "своими руками", "в домашних условиях"]
-  sensitive_barrier: ["чувствительн", "барьер", "сухой кож", "шелуш", "sensitive", "barrier", "can't handle", "не любит"]
+  sensitive_barrier: ["чувствительн", "зуд", "аллерг", "непереносим", "жжен", "раздраж", "irritaz", "allerg", "bruciore", "screpol", "sensibil", "pruri", "барьер", "сухой кож", "шелуш", "sensitive", "barrier", "can't handle", "не любит"]
   makeup_cosmetics: ["декоративная косметика", "makeup"]
+  lips_herpes: ["\\bгуб", "герпес", "хейлит", "labbra", "herpes", "cheilit"]
+  hair_removal: ["эпиляц", "депиляц", "удалени\\w* волос", "фотоэпил", "\\bipl\\b", "elos", "\\bpeli\\b", "epilaz", "depilaz", "laser al diodo", "luce pulsata", "elettrocoagul", "hair removal", "ceretta"]
+  supply_purchase: ["поставщик", "дистрибьют", "где купить", "где можно купить", "закупк", "закупа", "представител", "дилер", "интернет-магазин", "магазин", "доставк", "в наличии", "снят\\w* с продажи", "исчез"]
+  price_value: ["цен[аыуе]", "стоимост", "дорог", "дешев", "недорог", "бюджет", "окупа", "расход", "прайс", "\\bруб", "евро", "€", "costa", "soldi", "prezzo"]
+  brand_choice: ["бренд", "марк[аиуе]\\b", "линейк", "\\bлини[яиюей]\\b", "кто работает", "работал\\w* на", "отзыв", "корейск", "израильск", "американск", "итальянск", "французск", "производител", "marca", "marchi"]
+  cabinet_protocols: ["протокол", "чистк", "альгинат", "маск[аиуе]\\b", "масс?аж", "фонофорез", "аппарат", "карбокси", "мезоролл", "этап", "последовательност", "в кабинет", "в салон", "процедур[ау]\\b", "maschera"]
+  training_career: ["обучени", "семинар", "мастер-класс", "тренинг", "сертификат", "медицинск\\w* образован", "новичк", "начинающ", "диплом", "наставник", "бизнес"]
+  aging_homecare: ["морщин", "возраст", "антивозраст", "anti-?age", "лифтинг", "тургор", "мешк\\w* под глаз", "век[иа]\\b", "увядан", "rughe", "antirughe", "invecchiam", "домашн\\w* уход"]
+  ingredient_claims: ["состав", "ингредиент", "коллаген", "пептид", "\\bcbd\\b", "натуральн", "органическ", "стволов", "фито", "naturale", "naturali", "biologic", "fai da te", "ingredient", "концентрац", "concentraz"]
 intents:
   question: ["\\?", "^как ", "^что ", "^можно ли", "^почему", "^какая", "^какой", "^кто делал", "с чего начать", "^how ", "^is it", "^can ", "^will ", "^why ", "^does ", "^what ", "^who has", "^has anyone", "^should", "^cuáles", "help"]
   problem: ["раздраж", "не помогает", "шелуш", "высыпан", "отек", "отёк", "птоз", "хуже", "провал", "последствия", "swelling", "swollen", "worse", "killing", "bumpy", "sore", "heavy", "no improvement", "flaming", "can't handle", "white cast", "breakout", "purging", "beware", "warning", "tight"]
   desired_outcome: ["избав", "убрать", "лечение", "результат", "осветл", "work", "worth it", "successfully", "improvement", "reduce", "fade", "even out", "alleviate"]
   objection: ["правда", "обманывают", "спорная", "или провал", "невидимый результат", "где же результат", "работает ли", "стоит ли", "worth it", "why does .* work for some", "not others", "scam", "дорого"]
 ad_cues: ["pack", "descuento", "regalo", "punkte sammeln", "bonuspunkte", "скидк", "купить", "промокод", "маркетплейс", "novedades", "де подарунок"]
-professional_cues: ["мои клиент", "клиентам", "протокол", "esthetician", "эстетист", "scope", "форум косметологов"]
+professional_cues: ["мои клиент", "моим клиент", "клиентам", "клиентов", "клиентк", "у клиент", "в работе", "в работу", "в кабинет", "в салон", "прайс салона", "в прайс", "работаю на", "работаем на", "провожу", "коллег", "закупк", "наставник", "семинар", "обучени", "протокол", "esthetician", "эстетист", "scope", "форум косметологов"]
 # Основной кластер записи выбирается по этому порядку: сначала конкретные средства и процедуры,
 # затем состояния кожи. Остальные совпадения учитываются как дополнительные упоминания.
-primary_order: [C13, C12, C01, C02, C11, C04, C05, C09, C06, C10, C03, C07, C08]
+primary_order: [C13, C12, C01, C02, C11, C04, C05, C09, C14, C06, C10, C03, C08, C07, C21, C20, C18, C19, C15, C17, C16]
 clusters:
   - id: C01
     name: "Ретиноиды: как начать и что считать нормальной реакцией"
@@ -69,15 +81,15 @@ clusters:
     research_question: "Как часто встречаются птоз и тяжесть бровей после ботулинотерапии верхней трети лица и сколько они длятся?"
     pubmed_query_draft: 'botulinum toxins, type A[MeSH] AND (forehead OR glabellar) AND (ptosis OR brow OR adverse events)'
   - id: C06
-    name: "Пилинги и микронидлинг: сочетание, интервалы, восстановление"
+    name: "Пилинги, кислоты и микронидлинг: выбор, сочетание, восстановление"
     concepts: [peels, microneedling]
     publication_topics:
       - "Пилинг и микронидлинг: что известно об интервалах между процедурами"
     research_question: "Какие данные есть о безопасных интервалах и сочетании химических пилингов, микронидлинга и инъекций?"
     pubmed_query_draft: '(chemexfoliation[MeSH] OR chemical peel) AND (microneedling OR percutaneous collagen induction) AND (interval OR combination OR safety)'
   - id: C07
-    name: "Розацеа, покраснение и чувствительная кожа"
-    concepts: [rosacea_redness, sensitive_barrier]
+    name: "Розацеа, раздражение и чувствительная кожа (в т.ч. губы)"
+    concepts: [rosacea_redness, sensitive_barrier, lips_herpes]
     publication_topics:
       - "Розацеа и уход: какие активы обсуждают и что о них известно"
     research_question: "Какие местные средства и уход имеют доказательства при розацеа и что может ухудшать покраснение?"
@@ -126,3 +138,52 @@ clusters:
       - "Почему инъекции «самой себе» обсуждают и в чём риски"
     research_question: "Какие осложнения описаны при самостоятельном введении инъекционных препаратов в косметических целях?"
     pubmed_query_draft: '(self-injection OR self-administered) AND (dermal fillers OR botulinum toxin OR cosmetic injectables) AND complications'
+  # --- 0.2.0: темы из текстов сообщений форумов ---------------------------------------------
+  - id: C14
+    name: "Эпиляция: лазер, IPL — результат, число сеансов, подготовка"
+    concepts: [hair_removal]
+    publication_topics: ["Сколько сеансов лазерной эпиляции нужно и что считать нормальным результатом"]
+    research_question: "Какова описанная эффективность и длительность результата диодного лазера и IPL для удаления волос, и от чего она зависит?"
+    pubmed_query_draft: '(hair removal[MeSH] OR laser hair removal) AND (diode OR intense pulsed light) AND (efficacy OR randomized controlled trial[pt] OR systematic review[pt])'
+  - id: C15
+    name: "Поставщики, закупка и исчезнувшие из продажи средства"
+    concepts: [supply_purchase]
+    publication_topics: ["Как проверить официального поставщика профессиональной косметики (без рекламы брендов)"]
+    research_question: null
+    pubmed_query_draft: null
+  - id: C16
+    name: "Выбор бренда и линии: независимый опыт коллег"
+    concepts: [brand_choice]
+    publication_topics: ["Как оценивать профессиональную линию до закупки: что спросить, какие данные запросить"]
+    research_question: "Какие данные (клинические исследования, состав, концентрации) производитель должен предоставить, чтобы оценить заявленный эффект?"
+    pubmed_query_draft: null
+  - id: C17
+    name: "Цена, расход и окупаемость"
+    concepts: [price_value]
+    publication_topics: ["Как считать стоимость процедуры по расходу средств"]
+    research_question: null
+    pubmed_query_draft: null
+  - id: C18
+    name: "Протоколы и уход в кабинете: чистка, маски, аппараты"
+    concepts: [cabinet_protocols]
+    publication_topics: ["Чистка лица: что известно о пользе и рисках механической и аппаратной чистки"]
+    research_question: "Какие доказательства есть у кабинетных процедур ухода (чистка, альгинатные маски, фонофорез, карбокситерапия) и какие нежелательные реакции описаны?"
+    pubmed_query_draft: '(comedone extraction OR facial cleansing OR carboxytherapy OR phonophoresis) AND (skin OR face) AND (efficacy OR adverse effects)'
+  - id: C19
+    name: "Обучение, вход в профессию и границы компетенции"
+    concepts: [training_career]
+    publication_topics: ["Что может косметолог без медицинского образования и где граница с врачом"]
+    research_question: null
+    pubmed_query_draft: null
+  - id: C20
+    name: "Возрастные изменения и домашний уход"
+    concepts: [aging_homecare]
+    publication_topics: ["Что домашний уход может и не может сделать с морщинами"]
+    research_question: "Какие местные средства имеют доказательства уменьшения признаков фотостарения?"
+    pubmed_query_draft: '(skin aging[MeSH] OR photoaging) AND (topical OR cosmetic) AND (randomized controlled trial[pt] OR systematic review[pt])'
+  - id: C21
+    name: "Состав и обещания: коллаген, пептиды, «натуральное», CBD"
+    concepts: [ingredient_claims]
+    publication_topics: ["Питьевой коллаген, CBD, «натуральная» косметика: что заявляют и что проверено"]
+    research_question: "Какие клинические данные есть о пероральном коллагене и местном CBD для кожи?"
+    pubmed_query_draft: '(collagen peptides oral OR cannabidiol topical) AND skin AND (randomized controlled trial[pt] OR systematic review[pt])'

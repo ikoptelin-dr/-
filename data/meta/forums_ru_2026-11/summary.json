@@ -1,0 +1,37 @@
+{
+  "generated_on": "2026-11-04",
+  "sources": 2,
+  "threads": 32,
+  "messages_total": 387,
+  "nonempty_messages": 381,
+  "analysis_messages": 317,
+  "curated_needs_including_counterexamples": 63,
+  "counterexamples": 1,
+  "clusters": 12,
+  "exact_duplicate_messages": 7,
+  "roles": {
+    "administrative": 1,
+    "curated_need": 63,
+    "off_topic": 16,
+    "discussion": 216,
+    "promotion": 39,
+    "empty": 6,
+    "short_context": 29,
+    "possible_promotion": 3,
+    "brand_answer": 14
+  },
+  "source_message_counts": {
+    "ru_pf_k": 338,
+    "it_alfemminile": 49
+  },
+  "language_message_counts": {
+    "ru": 332,
+    "en": 6,
+    "it": 49
+  },
+  "recent_24_month_messages": 7,
+  "date_min": "2004-06-18T10:07:52+00:00",
+  "date_max": "2026-10-29T21:12:33+00:00",
+  "new_downloads_this_run": 0,
+  "embedding_or_statistical_clustering_used": false
+}

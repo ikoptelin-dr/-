@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "387 input records preserved; exact original text, dates, URLs, quotation links unchanged",
+    "All need evidence references resolve to source text",
+    "Cluster counts and memberships consistent",
+    "Excluded records absent from analysis subset, retained in full corpus",
+    "All 32 threads exported",
+    "Each message appears exactly once in full corpus and disjoint batches",
+    "Known cross-thread duplicate and counterexample preserved"
+  ],
+  "messages": 387,
+  "analysis_messages": 317,
+  "needs": 63,
+  "clusters": 12,
+  "batch_files": 7,
+  "scope_note": "Structural and reproducibility checks; not a claim of exhaustive semantic review or medical correctness."
+}
