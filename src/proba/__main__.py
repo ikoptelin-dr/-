@@ -4,6 +4,7 @@
   python -m proba collect --adapter stackexchange --query "acne" --max 100   # живой сбор (нужен открытый хост)
   python -m proba queue-check           # почему черновики нельзя опубликовать
   python -m proba forum-report          # выгрузка форумов → очистка → сегменты → кластеры → отчёт (без сети)
+  python -m proba wordstat-masks        # списки масок для ручного сбора в Вордстате + шаблон для частот
 """
 from __future__ import annotations
 
@@ -36,6 +37,9 @@ def main(argv: list[str] | None = None) -> int:
     fr.add_argument("--out", default=str(ROOT / "reports/ru_market_2026-11"))
     fr.add_argument("--lexicon", default=str(ROOT / "config/demand_lexicon.yaml"))
     fr.add_argument("--jtbd", default=str(ROOT / "config/jtbd_ru_2026-11.yaml"))
+    wm = sub.add_parser("wordstat-masks")
+    wm.add_argument("--masks", default=str(ROOT / "config/wordstat_masks_wave1.yaml"))
+    wm.add_argument("--out", default=str(ROOT / "reports/wordstat_wave1"))
     args = ap.parse_args(argv)
 
     if args.cmd == "first-pass":
@@ -56,6 +60,12 @@ def main(argv: list[str] | None = None) -> int:
         data = args.data or [str(ROOT / "data/raw/forums_ru_2026-11"), str(ROOT / "data/raw/forums_ru_fresh_2026-11")]
         rr = run([Path(d) for d in data], Path(args.out), Path(args.lexicon), Path(args.jtbd))
         print(json.dumps({k: rr[k] for k in ("import", "cleaning", "clusters")}, ensure_ascii=False, indent=2)[:2000])
+        return 0
+    if args.cmd == "wordstat-masks":
+        import yaml
+        from .demand.wordstat import load, write
+        lex = yaml.safe_load((ROOT / "config/demand_lexicon.yaml").read_text(encoding="utf-8"))
+        print(json.dumps(write(load(Path(args.masks), lex), Path(args.out)), ensure_ascii=False))
         return 0
     if args.cmd == "queue-check":
         import yaml

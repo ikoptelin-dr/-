@@ -262,3 +262,27 @@ def test_price_concept_ignores_scars_and_dear():
     low = "дорогая, у меня рубцы после акне"
     assert not any(re.search(p, low) for p in LEX["concepts"]["price_value"])
     assert any(re.search(p, "процедура стоит 5000 руб") for p in LEX["concepts"]["price_value"])
+
+
+# --- Вордстат: списки масок ---------------------------------------------------------------
+def test_wordstat_masks_valid_and_rendered(tmp_path):
+    from proba.demand.wordstat import exact_form, intent, load, write
+    data = load(ROOT / "config/wordstat_masks_wave1.yaml", LEX)
+    counts = write(data, tmp_path / "ws")
+    assert counts["all"] >= 300 and 15 <= counts["A"] <= 25
+    assert exact_form("осложнения в косметологии") == '"!осложнения +в !косметологии"'
+    assert intent("акнекутан") == "navigational" and intent("ботокс цена") == "commercial"
+    assert intent("работа косметологом", "pro") == "noise_candidate"
+    body = (tmp_path / "ws" / "README.md").read_text(encoding="utf-8")
+    assert "Частот в этом файле нет" in body
+    assert not re.search(r"\|\s*\d{2,}\s*\|", body)        # никаких выдуманных частот в таблицах
+    assert len((tmp_path / "ws" / "masks_all.txt").read_text(encoding="utf-8").split("\n")) - 1 == counts["all"]
+
+
+def test_wordstat_duplicate_mask_rejected(tmp_path):
+    from proba.demand.wordstat import load
+    p = tmp_path / "m.yaml"
+    p.write_text('version: "x"\nminus_words_consumer: []\nminus_words_pro: []\ngroups:\n'
+                 '  - {id: G1, cluster: C01, title: t, audience: consumer, masks: [{q: "ретинол"}, {q: "ретинол"}]}\n', encoding="utf-8")
+    with pytest.raises(ValueError, match="повтор"):
+        load(p, LEX)
