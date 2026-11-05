@@ -1,41 +1,79 @@
 {
-  "generated_at": "2026-11-04T11:32:04+00:00",
-  "dataset": "forums_ru_2026-11",
-  "lexicon_version": "0.2.0",
-  "jtbd_version": "0.1.0",
+  "generated_at": "2026-11-05T02:57:58+00:00",
+  "datasets": [
+    "forums_ru_2026-11",
+    "forums_ru_fresh_2026-11"
+  ],
+  "lexicon_version": "0.2.1",
+  "jtbd_version": "0.2.0",
   "import": {
-    "adapter": "forum_export",
-    "dataset": "forums_ru_2026-11",
-    "threads": 32,
-    "messages": 387,
+    "datasets": [
+      "forums_ru_2026-11",
+      "forums_ru_fresh_2026-11"
+    ],
+    "threads": 100,
+    "messages": 2288,
     "sources": [
       "it_alfemminile",
+      "pikabu",
       "ru_pf_k"
     ],
     "dropped_fields": [
       "language_label_note"
     ],
-    "dropped_pii_like_fields": []
+    "dropped_pii_like_fields": [],
+    "per_dataset": [
+      {
+        "adapter": "forum_export",
+        "dataset": "forums_ru_2026-11",
+        "threads": 32,
+        "messages": 387,
+        "sources": [
+          "it_alfemminile",
+          "ru_pf_k"
+        ],
+        "dropped_fields": [
+          "language_label_note"
+        ],
+        "dropped_pii_like_fields": []
+      },
+      {
+        "adapter": "forum_export",
+        "dataset": "forums_ru_fresh_2026-11",
+        "threads": 68,
+        "messages": 1901,
+        "sources": [
+          "pikabu",
+          "ru_pf_k"
+        ],
+        "dropped_fields": [],
+        "dropped_pii_like_fields": []
+      }
+    ]
   },
   "cleaning": {
     "statuses": {
-      "ok": 292,
-      "ad_or_spam_own": 22,
+      "ok": 2010,
+      "short_context": 110,
+      "ad_or_spam_own": 58,
+      "empty": 41,
       "ad_or_spam_export": 22,
+      "duplicate": 16,
       "brand_answer": 14,
       "off_topic_export": 14,
-      "short_context": 9,
-      "empty": 6,
-      "duplicate": 5,
       "possible_ad_export": 2,
       "administrative_export": 1
     },
     "ad_agreement": {
       "both": 18,
       "export_only": 24,
-      "own_only": 4
+      "own_only": 40
     },
     "duplicates": [
+      {
+        "record_id": "ru_pf_k:21351",
+        "duplicate_of": "ru_pf_k:20893"
+      },
       {
         "record_id": "ru_pf_k:85467",
         "duplicate_of": "ru_pf_k:84036"
@@ -49,6 +87,34 @@
         "duplicate_of": "ru_pf_k:87386"
       },
       {
+        "record_id": "ru_pf_k:122138",
+        "duplicate_of": "ru_pf_k:122137"
+      },
+      {
+        "record_id": "ru_pf_k:124958",
+        "duplicate_of": "ru_pf_k:124957"
+      },
+      {
+        "record_id": "ru_pf_k:125570",
+        "duplicate_of": "ru_pf_k:125569"
+      },
+      {
+        "record_id": "ru_pf_k:125571",
+        "duplicate_of": "ru_pf_k:125569"
+      },
+      {
+        "record_id": "ru_pf_k:125624",
+        "duplicate_of": "ru_pf_k:125623"
+      },
+      {
+        "record_id": "ru_pf_k:151885",
+        "duplicate_of": "ru_pf_k:151879"
+      },
+      {
+        "record_id": "ru_pf_k:151888",
+        "duplicate_of": "ru_pf_k:151879"
+      },
+      {
         "record_id": "ru_pf_k:174037",
         "duplicate_of": "ru_pf_k:167406"
       },
@@ -59,6 +125,10 @@
       {
         "record_id": "ru_pf_k:176574",
         "duplicate_of": "ru_pf_k:167406"
+      },
+      {
+        "record_id": "ru_pf_k:177341",
+        "duplicate_of": "ru_pf_k:177340"
       },
       {
         "record_id": "ru_pf_k:177390",
@@ -91,6 +161,14 @@
       {
         "record_id": "it_alfemminile:Discussion_6084585",
         "duplicate_of": "it_alfemminile:Discussion_6084521"
+      },
+      {
+        "record_id": "ru_pf_k:198295",
+        "duplicate_of": "ru_pf_k:198293"
+      },
+      {
+        "record_id": "pikabu:story:14356149",
+        "duplicate_of": "pikabu:comment:405229269"
       }
     ]
   },
@@ -135,56 +213,91 @@
       }
     },
     {
+      "source_id": "pikabu",
+      "name": "Пикабу (pikabu.ru), посты и комментарии по тегам",
+      "language": "ru",
+      "audience": "consumer",
+      "note": "потребительская площадка; среди постов есть статьи и реклама косметологов",
+      "threads": 57,
+      "messages": 725,
+      "messages_signal": 619,
+      "threads_created": {
+        "first": "2024-01-09",
+        "last": "2026-11-03"
+      },
+      "messages_period": {
+        "first": "2024-01-09",
+        "last": "2026-11-04"
+      },
+      "messages_signal_by_period": {
+        "actual": 619
+      },
+      "threads_with_actual_signal": 57,
+      "messages_by_year": {
+        "2024": 148,
+        "2025": 23,
+        "2026": 554
+      },
+      "signal_by_segment": {
+        "consumer": 609,
+        "professional": 10
+      },
+      "segment_basis": {
+        "consumer_only_source": 597,
+        "text_cues": 22
+      }
+    },
+    {
       "source_id": "ru_pf_k",
       "name": "PF-K (pf-k.ru), форум косметологов",
       "language": "ru",
       "audience": "professional_mixed",
       "note": "профессиональная площадка, но пишут и потребители, и продавцы",
-      "threads": 20,
-      "messages": 338,
-      "messages_signal": 244,
+      "threads": 31,
+      "messages": 1514,
+      "messages_signal": 1343,
       "threads_created": {
-        "first": "2009-10-16",
-        "last": "2019-06-24"
+        "first": "2009-04-22",
+        "last": "2023-08-04"
       },
       "messages_period": {
-        "first": "2009-10-16",
+        "first": "2009-04-22",
         "last": "2025-07-13"
       },
       "messages_signal_by_period": {
-        "historical": 239,
-        "actual": 5
+        "historical": 1310,
+        "actual": 33
       },
-      "threads_with_actual_signal": 2,
+      "threads_with_actual_signal": 10,
       "messages_by_year": {
-        "2009": 5,
-        "2010": 16,
-        "2011": 18,
-        "2012": 60,
-        "2013": 27,
-        "2014": 10,
-        "2015": 11,
-        "2016": 25,
-        "2017": 65,
-        "2018": 32,
-        "2019": 18,
-        "2020": 40,
+        "2009": 53,
+        "2010": 204,
+        "2011": 177,
+        "2012": 182,
+        "2013": 65,
+        "2014": 185,
+        "2015": 200,
+        "2016": 97,
+        "2017": 118,
+        "2018": 71,
+        "2019": 36,
+        "2020": 63,
         "2021": 2,
         "2022": 2,
-        "2023": 2,
-        "2024": 4,
+        "2023": 22,
+        "2024": 36,
         "2025": 1
       },
       "signal_by_segment": {
-        "unclear": 157,
-        "professional": 75,
-        "consumer": 12
+        "professional": 360,
+        "unclear": 961,
+        "consumer": 22
       },
       "segment_basis": {
-        "no_cues": 156,
-        "text_cues": 63,
-        "export_curated_label": 24,
-        "mixed_cues": 1
+        "text_cues": 359,
+        "no_cues": 957,
+        "mixed_cues": 4,
+        "export_curated_label": 23
       }
     }
   ],
@@ -192,8 +305,8 @@
     2024,
     2026
   ],
-  "clusters": 17,
-  "messages_signal_without_concept": 59,
+  "clusters": 21,
+  "messages_signal_without_concept": 849,
   "external_calls": 0,
   "is_synthetic": false
 }

@@ -240,3 +240,25 @@ def test_real_export_matches_manifest():
             assert hashlib.sha256(p.read_bytes()).hexdigest() == sha, p.name
             checked += 1
     assert checked >= 3
+
+
+def test_two_datasets_merge_and_reject_overlap(corpus, tmp_path):
+    other = write(tmp_path / "fresh", [thread("pikabu", "77", "Розацеа: что помогает?", "2026-01-01T00:00:00+03:00")],
+                  [msg("pikabu", "77", "story:1", "Годами краснеет лицо и жжёт, что провоцирует обострение?", date="2026-01-01T00:00:00+03:00")])
+    rr = run([corpus, other], tmp_path / "out", ROOT / "config/demand_lexicon.yaml", ROOT / "config/jtbd_ru_2026-11.yaml")
+    assert rr["import"]["threads"] == 4 and rr["datasets"] == ["forums_test", "fresh"]
+    with pytest.raises(ValueError, match="нескольких выгрузках"):
+        run([corpus, corpus], tmp_path / "out2", ROOT / "config/demand_lexicon.yaml", ROOT / "config/jtbd_ru_2026-11.yaml")
+
+
+def test_brand_blog_voice_is_ad():
+    m = fa.Msg("pikabu:1", "pikabu:t", "pikabu", "u", "2026-01-01", "ru",
+               "Мы в Компании регулярно сталкиваемся с вопросом, в каком порядке наносить средства", {}, "")
+    fa.clean([m])
+    assert m.status == "ad_or_spam_own"
+
+
+def test_price_concept_ignores_scars_and_dear():
+    low = "дорогая, у меня рубцы после акне"
+    assert not any(re.search(p, low) for p in LEX["concepts"]["price_value"])
+    assert any(re.search(p, "процедура стоит 5000 руб") for p in LEX["concepts"]["price_value"])

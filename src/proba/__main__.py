@@ -32,7 +32,7 @@ def main(argv: list[str] | None = None) -> int:
     qc = sub.add_parser("queue-check")
     qc.add_argument("--queue", default=str(ROOT / "reports/first_pass_2026-11-02/queue/queue.json"))
     fr = sub.add_parser("forum-report")
-    fr.add_argument("--data", default=str(ROOT / "data/raw/forums_ru_2026-11"))
+    fr.add_argument("--data", action="append", help="папка выгрузки; можно несколько раз")
     fr.add_argument("--out", default=str(ROOT / "reports/ru_market_2026-11"))
     fr.add_argument("--lexicon", default=str(ROOT / "config/demand_lexicon.yaml"))
     fr.add_argument("--jtbd", default=str(ROOT / "config/jtbd_ru_2026-11.yaml"))
@@ -53,7 +53,8 @@ def main(argv: list[str] | None = None) -> int:
         return 0 if res.status in ("ok", "partial") else 2
     if args.cmd == "forum-report":
         from .demand.forum_report import run
-        rr = run(Path(args.data), Path(args.out), Path(args.lexicon), Path(args.jtbd))
+        data = args.data or [str(ROOT / "data/raw/forums_ru_2026-11"), str(ROOT / "data/raw/forums_ru_fresh_2026-11")]
+        rr = run([Path(d) for d in data], Path(args.out), Path(args.lexicon), Path(args.jtbd))
         print(json.dumps({k: rr[k] for k in ("import", "cleaning", "clusters")}, ensure_ascii=False, indent=2)[:2000])
         return 0
     if args.cmd == "queue-check":

@@ -7,15 +7,15 @@
         "diy_injections"
       ],
       "observations": {
-        "threads": 1,
+        "threads": 2,
         "threads_by_period": {
           "actual": 0,
-          "historical": 1
+          "historical": 2
         },
         "threads_by_segment": {
           "professional": 0,
           "consumer": 0,
-          "unclear": 1
+          "unclear": 2
         },
         "threads_by_segment_source": {},
         "threads_by_segment_period": {
@@ -24,26 +24,26 @@
           "consumer|actual": 0,
           "consumer|historical": 0,
           "unclear|actual": 0,
-          "unclear|historical": 1
+          "unclear|historical": 2
         },
-        "messages_direct": 1,
+        "messages_direct": 2,
         "messages_direct_by_period": {
           "actual": 0,
-          "historical": 1
+          "historical": 2
         },
         "messages_direct_by_segment": {
           "professional": 0,
           "consumer": 0,
-          "unclear": 1
+          "unclear": 2
         },
         "messages_thread_context": 0,
         "sources_count": 1,
         "sources": {
-          "ru_pf_k": 1
+          "ru_pf_k": 2
         },
         "period": {
           "first": "2016-09-08",
-          "last": "2016-09-08"
+          "last": "2018-03-31"
         },
         "curated_needs": 0,
         "export_cluster_crosswalk": {
@@ -56,6 +56,17 @@
             "thread_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/",
             "thread_title": "АНА-КИСЛОТЫ, ОНИ ЖЕ ФРУКТОВЫЕ ПИЛИНГИ  ПРОТИВ ПИГМЕНТНЫХ ПЯТЕН И ВЕСНУШЕК",
             "date": "2016-09-08",
+            "period": "historical",
+            "segment": "unclear",
+            "source": "ru_pf_k",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pf-k.ru/forums/%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80%D1%8B-%D0%BD%D0%B0%D0%BF%D1%80%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%84%D1%82%D0%B8%D0%BD%D0%B3-t576.html/#comment-170726",
+            "thread_url": "https://pf-k.ru/forums/%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80%D1%8B-%D0%BD%D0%B0%D0%BF%D1%80%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%84%D1%82%D0%B8%D0%BD%D0%B3-t576.html/",
+            "thread_title": "Процедуры напрвленные на лифтинг",
+            "date": "2018-03-31",
             "period": "historical",
             "segment": "unclear",
             "source": "ru_pf_k",
@@ -91,45 +102,47 @@
         "probiotics_lysates"
       ],
       "observations": {
-        "threads": 1,
+        "threads": 4,
         "threads_by_period": {
-          "actual": 0,
-          "historical": 1
+          "actual": 1,
+          "historical": 3
         },
         "threads_by_segment": {
-          "professional": 1,
-          "consumer": 0,
-          "unclear": 0
+          "professional": 2,
+          "consumer": 1,
+          "unclear": 1
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 1
+          "professional|ru_pf_k": 2,
+          "consumer|pikabu": 1
         },
         "threads_by_segment_period": {
           "professional|actual": 0,
-          "professional|historical": 1,
-          "consumer|actual": 0,
+          "professional|historical": 2,
+          "consumer|actual": 1,
           "consumer|historical": 0,
           "unclear|actual": 0,
-          "unclear|historical": 0
+          "unclear|historical": 1
         },
-        "messages_direct": 2,
+        "messages_direct": 5,
         "messages_direct_by_period": {
-          "actual": 0,
-          "historical": 2
+          "actual": 1,
+          "historical": 4
         },
         "messages_direct_by_segment": {
-          "professional": 2,
-          "consumer": 0,
-          "unclear": 0
+          "professional": 3,
+          "consumer": 1,
+          "unclear": 1
         },
         "messages_thread_context": 0,
-        "sources_count": 1,
+        "sources_count": 2,
         "sources": {
-          "ru_pf_k": 1
+          "ru_pf_k": 3,
+          "pikabu": 1
         },
         "period": {
-          "first": "2011-11-21",
-          "last": "2012-04-08"
+          "first": "2010-05-02",
+          "last": "2024-12-18"
         },
         "curated_needs": 0,
         "export_cluster_crosswalk": {
@@ -142,10 +155,43 @@
         },
         "examples": [
           {
+            "message_url": "https://pikabu.ru/story/post_ne_dlya_yestetov_ishchu_pomoshchipodskazki_vracha_12149095?cid=333438996",
+            "thread_url": "https://pikabu.ru/story/post_ne_dlya_yestetov_ishchu_pomoshchipodskazki_vracha_12149095",
+            "thread_title": "Пост не для эстетов, ищу помощи/подсказки врача⁠⁠",
+            "date": "2024-12-18",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
             "message_url": "https://pf-k.ru/forums/beauty-style-t1551.html/#comment-77393",
             "thread_url": "https://pf-k.ru/forums/beauty-style-t1551.html/",
             "thread_title": "\"Beauty Style\"",
             "date": "2012-04-08",
+            "period": "historical",
+            "segment": "professional",
+            "source": "ru_pf_k",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pf-k.ru/forums/%D0%BB%D0%B0%D0%B7%D0%B5%D1%80-t6881.html/#comment-73300",
+            "thread_url": "https://pf-k.ru/forums/%D0%BB%D0%B0%D0%B7%D0%B5%D1%80-t6881.html/",
+            "thread_title": "Лазер",
+            "date": "2012-02-08",
+            "period": "historical",
+            "segment": "unclear",
+            "source": "ru_pf_k",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pf-k.ru/forums/%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D1%84%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D1%82%D0%B5-%D0%B2-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-t1397.html/#comment-23078",
+            "thread_url": "https://pf-k.ru/forums/%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D1%84%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D1%82%D0%B5-%D0%B2-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-t1397.html/",
+            "thread_title": "Какой филлер используете в работе?",
+            "date": "2010-05-02",
             "period": "historical",
             "segment": "professional",
             "source": "ru_pf_k",
@@ -168,10 +214,7 @@
       },
       "limitations": [
         "разметка по словарю понятий: возможны пропуски и ложные совпадения",
-        "частота в выборке — не объём рынка; тренд не оценивался",
-        "нет сообщений 2024–2026: только исторические данные",
-        "один источник — может отражать особенность площадки",
-        "меньше трёх тем — наблюдение единичное"
+        "частота в выборке — не объём рынка; тренд не оценивался"
       ]
     },
     {
@@ -181,47 +224,50 @@
         "retinoids"
       ],
       "observations": {
-        "threads": 5,
+        "threads": 20,
         "threads_by_period": {
-          "actual": 1,
-          "historical": 4
+          "actual": 15,
+          "historical": 5
         },
         "threads_by_segment": {
-          "professional": 1,
-          "consumer": 4,
+          "professional": 3,
+          "consumer": 18,
           "unclear": 0
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 1,
-          "consumer|it_alfemminile": 4
+          "professional|ru_pf_k": 2,
+          "professional|pikabu": 1,
+          "consumer|it_alfemminile": 4,
+          "consumer|pikabu": 14
         },
         "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 1,
-          "consumer|actual": 1,
+          "professional|actual": 1,
+          "professional|historical": 2,
+          "consumer|actual": 15,
           "consumer|historical": 3,
           "unclear|actual": 0,
           "unclear|historical": 0
         },
-        "messages_direct": 20,
+        "messages_direct": 68,
         "messages_direct_by_period": {
-          "actual": 1,
-          "historical": 19
+          "actual": 48,
+          "historical": 20
         },
         "messages_direct_by_segment": {
-          "professional": 1,
-          "consumer": 19,
+          "professional": 3,
+          "consumer": 65,
           "unclear": 0
         },
-        "messages_thread_context": 9,
-        "sources_count": 2,
+        "messages_thread_context": 38,
+        "sources_count": 3,
         "sources": {
+          "pikabu": 14,
           "it_alfemminile": 4,
-          "ru_pf_k": 1
+          "ru_pf_k": 2
         },
         "period": {
           "first": "2004-06-18",
-          "last": "2024-03-08"
+          "last": "2026-10-17"
         },
         "curated_needs": 6,
         "export_cluster_crosswalk": {
@@ -246,46 +292,46 @@
             "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/comment/31515736/#Comment_31515736",
-            "thread_url": "https://forum.alfemminile.com/discussion/331075/retinolo-retinaldeide-retinoidi-fou",
-            "thread_title": "Retinolo, retinaldeide, retinoidi",
-            "date": "2004-06-18",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/pochemu_zimoy_lyudi_figachat_retinoidyi_i_pravda_li_chto_pro_spf_mozhno_zabyit_13730721",
+            "thread_url": "https://pikabu.ru/story/pochemu_zimoy_lyudi_figachat_retinoidyi_i_pravda_li_chto_pro_spf_mozhno_zabyit_13730721",
+            "thread_title": "Почему зимой люди фигачат ретиноиды, и правда ли, что про SPF можно забыть⁠⁠",
+            "date": "2026-02-26",
+            "period": "actual",
             "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Как оценить ожидаемый результат косметического ретиноида и сочетание с кислотами?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
-          },
-          {
-            "message_url": "https://forum.alfemminile.com/discussion/5846494/crema-al-retinolo",
-            "thread_url": "https://forum.alfemminile.com/discussion/5846494/crema-al-retinolo",
-            "thread_title": "Crema al retinolo?",
-            "date": "2019-06-04",
-            "period": "historical",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Как выбирать ретинол по концентрации и составу, избегая скрытой рекламы?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
-          },
-          {
-            "message_url": "https://forum.alfemminile.com/discussion/comment/43706163/#Comment_43706163",
-            "thread_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_title": "Rimedi antirughe?",
-            "date": "2023-06-18",
-            "period": "historical",
-            "segment": "consumer",
-            "source": "it_alfemminile",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/#comment-56031",
-            "thread_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/",
-            "thread_title": "BIOLINE JaTo",
-            "date": "2011-05-23",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/mindalnaya_kislota_pochemu_ona_ne_zhzhyotsya_no_rabotaet_i_kogda_vsyotaki_proigryivaet_13660456",
+            "thread_url": "https://pikabu.ru/story/mindalnaya_kislota_pochemu_ona_ne_zhzhyotsya_no_rabotaet_i_kogda_vsyotaki_proigryivaet_13660456",
+            "thread_title": "Миндальная кислота: почему она не жжётся, но работает (и когда всё-таки проигрывает)⁠⁠",
+            "date": "2026-02-04",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/manka_na_gubakh_i_ne_tolko__granulyi_fordaysa_14229624",
+            "thread_url": "https://pikabu.ru/story/manka_na_gubakh_i_ne_tolko__granulyi_fordaysa_14229624",
+            "thread_title": "Манка на губах и не только - гранулы Фордайса⁠⁠",
+            "date": "2026-08-10",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___13738042",
+            "thread_url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___13738042",
+            "thread_title": "Акне + хороший косметолог + акнекутан = ???⁠⁠",
+            "date": "2026-02-28",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           }
@@ -298,7 +344,7 @@
         ],
         "research_question": "Сколько длится и как выглядит ретиноидный дерматит при начале терапии, и какие схемы старта снижают раздражение?"
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": {
           "jtbd": "Когда клиент спрашивает про ретинол или уже пользуется им, я хочу уметь объяснить разницу форм и концентраций и нормальную реакцию на старте, чтобы клиент не бросил уход и не навредил себе.",
@@ -337,53 +383,442 @@
       ]
     },
     {
+      "id": "C02",
+      "name": "Ниацинамид: переносимость и высыпания",
+      "concepts": [
+        "niacinamide"
+      ],
+      "observations": {
+        "threads": 3,
+        "threads_by_period": {
+          "actual": 3,
+          "historical": 0
+        },
+        "threads_by_segment": {
+          "professional": 0,
+          "consumer": 3,
+          "unclear": 0
+        },
+        "threads_by_segment_source": {
+          "consumer|pikabu": 3
+        },
+        "threads_by_segment_period": {
+          "professional|actual": 0,
+          "professional|historical": 0,
+          "consumer|actual": 3,
+          "consumer|historical": 0,
+          "unclear|actual": 0,
+          "unclear|historical": 0
+        },
+        "messages_direct": 4,
+        "messages_direct_by_period": {
+          "actual": 4,
+          "historical": 0
+        },
+        "messages_direct_by_segment": {
+          "professional": 0,
+          "consumer": 4,
+          "unclear": 0
+        },
+        "messages_thread_context": 0,
+        "sources_count": 1,
+        "sources": {
+          "pikabu": 3
+        },
+        "period": {
+          "first": "2026-02-04",
+          "last": "2026-05-06"
+        },
+        "curated_needs": 0,
+        "export_cluster_crosswalk": {},
+        "examples": [
+          {
+            "message_url": "https://pikabu.ru/story/mindalnaya_kislota_pochemu_ona_ne_zhzhyotsya_no_rabotaet_i_kogda_vsyotaki_proigryivaet_13660456",
+            "thread_url": "https://pikabu.ru/story/mindalnaya_kislota_pochemu_ona_ne_zhzhyotsya_no_rabotaet_i_kogda_vsyotaki_proigryivaet_13660456",
+            "thread_title": "Миндальная кислота: почему она не жжётся, но работает (и когда всё-таки проигрывает)⁠⁠",
+            "date": "2026-02-04",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/syivorotok_mnogo_a_litso_odno_kak_ne_povestis_na_vrane_na_yetiketke_13925776",
+            "thread_url": "https://pikabu.ru/story/syivorotok_mnogo_a_litso_odno_kak_ne_povestis_na_vrane_na_yetiketke_13925776",
+            "thread_title": "Сывороток много, а лицо одно: как не повестись на вранье на этикетке?⁠⁠",
+            "date": "2026-04-28",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/zhirnaya_kozha_ne_povod_ustraivat_ey_karatelnyiy_ukhod_13949181",
+            "thread_url": "https://pikabu.ru/story/zhirnaya_kozha_ne_povod_ustraivat_ey_karatelnyiy_ukhod_13949181",
+            "thread_title": "Жирная кожа: не повод устраивать ей карательный уход⁠⁠",
+            "date": "2026-05-06",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          }
+        ]
+      },
+      "hypotheses": {
+        "publication_topics": [
+          "Почему одна сыворотка с ниацинамидом «работает», а другая нет: концентрация, формула, ожидания"
+        ],
+        "research_question": "Связан ли местный ниацинамид с раздражением или высыпаниями и от чего это зависит?"
+      },
+      "confidence": "низкая",
+      "jtbd": null,
+      "limitations": [
+        "разметка по словарю понятий: возможны пропуски и ложные совпадения",
+        "частота в выборке — не объём рынка; тренд не оценивался",
+        "один источник — может отражать особенность площадки"
+      ]
+    },
+    {
+      "id": "C11",
+      "name": "Витамин C и азелаиновая кислота для чувствительной кожи",
+      "concepts": [
+        "vitamin_c",
+        "azelaic"
+      ],
+      "observations": {
+        "threads": 8,
+        "threads_by_period": {
+          "actual": 7,
+          "historical": 1
+        },
+        "threads_by_segment": {
+          "professional": 0,
+          "consumer": 7,
+          "unclear": 1
+        },
+        "threads_by_segment_source": {
+          "consumer|pikabu": 7
+        },
+        "threads_by_segment_period": {
+          "professional|actual": 0,
+          "professional|historical": 0,
+          "consumer|actual": 7,
+          "consumer|historical": 0,
+          "unclear|actual": 0,
+          "unclear|historical": 1
+        },
+        "messages_direct": 9,
+        "messages_direct_by_period": {
+          "actual": 8,
+          "historical": 1
+        },
+        "messages_direct_by_segment": {
+          "professional": 0,
+          "consumer": 8,
+          "unclear": 1
+        },
+        "messages_thread_context": 0,
+        "sources_count": 2,
+        "sources": {
+          "pikabu": 7,
+          "ru_pf_k": 1
+        },
+        "period": {
+          "first": "2018-05-12",
+          "last": "2026-11-03"
+        },
+        "curated_needs": 0,
+        "export_cluster_crosswalk": {},
+        "examples": [
+          {
+            "message_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_title": "Что делать с красными щеками, чтобы не вырос нос⁠⁠",
+            "date": "2026-11-03",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/syivorotok_mnogo_a_litso_odno_kak_ne_povestis_na_vrane_na_yetiketke_13925776",
+            "thread_url": "https://pikabu.ru/story/syivorotok_mnogo_a_litso_odno_kak_ne_povestis_na_vrane_na_yetiketke_13925776",
+            "thread_title": "Сывороток много, а лицо одно: как не повестись на вранье на этикетке?⁠⁠",
+            "date": "2026-04-28",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/zhirnaya_kozha_ne_povod_ustraivat_ey_karatelnyiy_ukhod_13949181",
+            "thread_url": "https://pikabu.ru/story/zhirnaya_kozha_ne_povod_ustraivat_ey_karatelnyiy_ukhod_13949181",
+            "thread_title": "Жирная кожа: не повод устраивать ей карательный уход⁠⁠",
+            "date": "2026-05-06",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/sintetika_vs_naturalnogo_vitamina_s_14059387",
+            "thread_url": "https://pikabu.ru/story/sintetika_vs_naturalnogo_vitamina_s_14059387",
+            "thread_title": "Синтетика vs. натурального витамина С⁠⁠",
+            "date": "2026-06-13",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/mnogo_ovoshchey_chtob_na_pope_ne_byilo_pryishchey_14455759",
+            "thread_url": "https://pikabu.ru/story/mnogo_ovoshchey_chtob_na_pope_ne_byilo_pryishchey_14455759",
+            "thread_title": "Много овощей, чтоб на попе не было прыщей⁠⁠",
+            "date": "2026-10-24",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          }
+        ]
+      },
+      "hypotheses": {
+        "publication_topics": [
+          "Азелаиновая кислота: при каких задачах её обсуждают и что известно"
+        ],
+        "research_question": "Что известно об эффективности и переносимости азелаиновой кислоты и местного витамина C при чувствительной коже, розацеа и акне?"
+      },
+      "confidence": "средняя",
+      "jtbd": null,
+      "limitations": [
+        "разметка по словарю понятий: возможны пропуски и ложные совпадения",
+        "частота в выборке — не объём рынка; тренд не оценивался"
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "Филлеры: отёк, бугорки и сроки восстановления",
+      "concepts": [
+        "fillers"
+      ],
+      "observations": {
+        "threads": 15,
+        "threads_by_period": {
+          "actual": 12,
+          "historical": 8
+        },
+        "threads_by_segment": {
+          "professional": 6,
+          "consumer": 6,
+          "unclear": 10
+        },
+        "threads_by_segment_source": {
+          "professional|ru_pf_k": 5,
+          "professional|pikabu": 1,
+          "consumer|pikabu": 4,
+          "consumer|ru_pf_k": 2
+        },
+        "threads_by_segment_period": {
+          "professional|actual": 4,
+          "professional|historical": 4,
+          "consumer|actual": 4,
+          "consumer|historical": 2,
+          "unclear|actual": 7,
+          "unclear|historical": 7
+        },
+        "messages_direct": 224,
+        "messages_direct_by_period": {
+          "actual": 20,
+          "historical": 204
+        },
+        "messages_direct_by_segment": {
+          "professional": 86,
+          "consumer": 7,
+          "unclear": 131
+        },
+        "messages_thread_context": 565,
+        "sources_count": 2,
+        "sources": {
+          "ru_pf_k": 10,
+          "pikabu": 5
+        },
+        "period": {
+          "first": "2009-11-10",
+          "last": "2026-10-25"
+        },
+        "curated_needs": 0,
+        "export_cluster_crosswalk": {},
+        "examples": [
+          {
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/plyus_galochka_v_kopilke_girudoterapii_11099306?cid=298203120",
+            "thread_url": "https://pikabu.ru/story/plyus_galochka_v_kopilke_girudoterapii_11099306",
+            "thread_title": "Плюс галочка в копилке гирудотерапии⁠⁠",
+            "date": "2024-02-05",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/devushka_khochet_nakachat_gubyi_a_mne_strashno_14003094",
+            "thread_url": "https://pikabu.ru/story/devushka_khochet_nakachat_gubyi_a_mne_strashno_14003094",
+            "thread_title": "Девушка хочет накачать губы, а мне страшно⁠⁠",
+            "date": "2026-05-25",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pf-k.ru/forums/%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B8-%D0%BA-%D0%BB%D0%B0%D0%B7%D0%B5%D1%80%D0%BD%D0%BE%D0%B9-%D1%88%D0%BB%D0%B8%D1%84%D0%BE%D0%B2%D0%BA%D0%B5-t30753.html/#comment-198293",
+            "thread_url": "https://pf-k.ru/forums/%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B8-%D0%BA-%D0%BB%D0%B0%D0%B7%D0%B5%D1%80%D0%BD%D0%BE%D0%B9-%D1%88%D0%BB%D0%B8%D1%84%D0%BE%D0%B2%D0%BA%D0%B5-t30753.html/",
+            "thread_title": "Подготовка кожи к лазерной шлифовке",
+            "date": "2024-04-22",
+            "period": "actual",
+            "segment": "unclear",
+            "source": "ru_pf_k",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20613.html/#comment-198288",
+            "thread_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20613.html/",
+            "thread_title": "Тема для новичков",
+            "date": "2024-03-26",
+            "period": "actual",
+            "segment": "unclear",
+            "source": "ru_pf_k",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          }
+        ]
+      },
+      "hypotheses": {
+        "publication_topics": [
+          "Отёк после филлера губ: какие сроки описаны и какие признаки требуют врача"
+        ],
+        "research_question": "Каковы описанные сроки и частота отёка и узелков после введения гиалуроновых филлеров губ, и какие признаки осложнений требуют срочной помощи?"
+      },
+      "confidence": "средняя",
+      "jtbd": {
+        "specialist": {
+          "jtbd": "Когда я ввожу в практику новый инъекционный препарат (филлер, коллагеновый гель), я хочу знать технику разведения, расход на зону и реальную длительность эффекта по независимым данным, чтобы не опираться только на материалы производителя.",
+          "questions": [
+            "Какой филлер вы используете в работе и почему?",
+            "Как гидратировать коллагеновый препарат (физраствор или PRP)?",
+            "Сколько препарата нужно на лицо и шею?",
+            "Что делать при дефиците препарата у дистрибьюторов?"
+          ],
+          "fears": [
+            "Перебои поставок популярного препарата"
+          ],
+          "objections": [
+            "Восторженные ответы о конкретном препарате на форуме похожи на скрытую рекламу"
+          ],
+          "action": {
+            "format": "вебинар Proba Pro",
+            "note": "Коллагеновые и гиалуроновые инъекции: что показывают исследования о длительности эффекта и осложнениях. Только с врачом-рецензентом НГУ; без продвижения препаратов."
+          }
+        },
+        "consumer": {
+          "jtbd": "Когда я (или близкий человек) собираюсь сделать губы, ботокс или филлер, я хочу заранее знать возможные побочные эффекты и как выбрать специалиста, чтобы не получить осложнение, о котором не предупредили.",
+          "questions": [
+            "О каких побочных эффектах должен предупредить косметолог?",
+            "Почему после процедуры губы и лицо отекли?",
+            "Как понять, что специалист и препарат безопасны?"
+          ],
+          "fears": [
+            "Осложнения, о которых не предупредили",
+            "Неестественный результат",
+            "Страх за партнёра, который хочет процедуру"
+          ],
+          "objections": [
+            "Высокая цена — не гарантия качества",
+            "Искусственное омоложение — «непринятие себя» (частое мнение в комментариях)"
+          ],
+          "action": {
+            "format": "статья на сайт",
+            "note": "Что вам обязаны рассказать до ботулинотерапии и филлеров: противопоказания, частые и редкие осложнения, сроки отёка. После научного досье и рецензии. Плюс пост-чек-лист «вопросы косметологу до процедуры»."
+          }
+        }
+      },
+      "limitations": [
+        "разметка по словарю понятий: возможны пропуски и ложные совпадения",
+        "частота в выборке — не объём рынка; тренд не оценивался"
+      ]
+    },
+    {
       "id": "C05",
       "name": "Ботулинотерапия: тяжесть бровей, птоз, отёки",
       "concepts": [
         "botulinum"
       ],
       "observations": {
-        "threads": 2,
+        "threads": 11,
         "threads_by_period": {
-          "actual": 0,
-          "historical": 2
+          "actual": 5,
+          "historical": 6
         },
         "threads_by_segment": {
-          "professional": 1,
-          "consumer": 1,
-          "unclear": 0
+          "professional": 6,
+          "consumer": 4,
+          "unclear": 3
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 1,
+          "professional|ru_pf_k": 4,
+          "professional|pikabu": 2,
+          "consumer|pikabu": 3,
           "consumer|it_alfemminile": 1
         },
         "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 1,
-          "consumer|actual": 0,
+          "professional|actual": 2,
+          "professional|historical": 4,
+          "consumer|actual": 3,
           "consumer|historical": 1,
           "unclear|actual": 0,
-          "unclear|historical": 0
+          "unclear|historical": 3
         },
-        "messages_direct": 2,
+        "messages_direct": 19,
         "messages_direct_by_period": {
-          "actual": 0,
-          "historical": 2
+          "actual": 7,
+          "historical": 12
         },
         "messages_direct_by_segment": {
-          "professional": 1,
-          "consumer": 1,
-          "unclear": 0
+          "professional": 7,
+          "consumer": 6,
+          "unclear": 6
         },
-        "messages_thread_context": 0,
-        "sources_count": 2,
+        "messages_thread_context": 24,
+        "sources_count": 3,
         "sources": {
-          "ru_pf_k": 1,
+          "ru_pf_k": 5,
+          "pikabu": 5,
           "it_alfemminile": 1
         },
         "period": {
-          "first": "2019-01-04",
-          "last": "2023-06-18"
+          "first": "2009-11-29",
+          "last": "2026-10-25"
         },
         "curated_needs": 1,
         "export_cluster_crosswalk": {
@@ -393,24 +828,57 @@
         },
         "examples": [
           {
-            "message_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8-%D0%BB%D0%B8%D1%86%D0%B0-t26510.html/#comment-173158",
-            "thread_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8-%D0%BB%D0%B8%D1%86%D0%B0-t26510.html/",
-            "thread_title": "Косметические маски для очистки лица",
-            "date": "2019-01-04",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как разобраться в процедурах, если регулярно посещаешь косметолога, но не понимаешь назначения?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/comment/43706163/#Comment_43706163",
-            "thread_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_title": "Rimedi antirughe?",
-            "date": "2023-06-18",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_title": "Правда ли, что микротоки помогают бороться со старением кожи?⁠⁠",
+            "date": "2026-05-15",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/kolbasnyiy_yad_paralich_dyikhaniya_i_sluchaynoe_otkryitie_realnaya_istoriya_sozdaniya_botoksa_14373922",
+            "thread_url": "https://pikabu.ru/story/kolbasnyiy_yad_paralich_dyikhaniya_i_sluchaynoe_otkryitie_realnaya_istoriya_sozdaniya_botoksa_14373922",
+            "thread_title": "Колбасный яд, паралич дыхания и случайное открытие: реальная история создания ботокса!⁠⁠",
+            "date": "2026-09-28",
+            "period": "actual",
             "segment": "consumer",
-            "source": "it_alfemminile",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/zhena_sdelala_gubyi_14456791",
+            "thread_url": "https://pikabu.ru/story/zhena_sdelala_gubyi_14456791",
+            "thread_title": "Жена сделала губы)⁠⁠",
+            "date": "2026-10-24",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/botoks_filleryi_i_kosmetologi_kotoryie_ne_preduprezhdali_o_pobochkakh_14125086?cid=397672540",
+            "thread_url": "https://pikabu.ru/story/botoks_filleryi_i_kosmetologi_kotoryie_ne_preduprezhdali_o_pobochkakh_14125086",
+            "thread_title": "Ботокс, филлеры и косметологи, которые не предупреждали о побочках⁠⁠",
+            "date": "2026-07-06",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           }
@@ -422,17 +890,138 @@
         ],
         "research_question": "Как часто встречаются птоз и тяжесть бровей после ботулинотерапии верхней трети лица и сколько они длятся?"
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": null,
         "consumer": null,
-        "note": "2 упоминания вскользь — JTBD не формулируется"
+        "note": "отдельно не выделен: вопросы о ботулинотерапии на Пикабу попали в C04 вместе с филлерами"
       },
       "limitations": [
         "разметка по словарю понятий: возможны пропуски и ложные совпадения",
-        "частота в выборке — не объём рынка; тренд не оценивался",
-        "нет сообщений 2024–2026: только исторические данные",
-        "меньше трёх тем — наблюдение единичное"
+        "частота в выборке — не объём рынка; тренд не оценивался"
+      ]
+    },
+    {
+      "id": "C09",
+      "name": "Биоревитализация, мезотерапия, PRP и экзосомы: «работает ли?»",
+      "concepts": [
+        "biorevitalization"
+      ],
+      "observations": {
+        "threads": 8,
+        "threads_by_period": {
+          "actual": 2,
+          "historical": 6
+        },
+        "threads_by_segment": {
+          "professional": 3,
+          "consumer": 0,
+          "unclear": 7
+        },
+        "threads_by_segment_source": {
+          "professional|ru_pf_k": 2,
+          "professional|pikabu": 1
+        },
+        "threads_by_segment_period": {
+          "professional|actual": 1,
+          "professional|historical": 2,
+          "consumer|actual": 0,
+          "consumer|historical": 0,
+          "unclear|actual": 1,
+          "unclear|historical": 6
+        },
+        "messages_direct": 36,
+        "messages_direct_by_period": {
+          "actual": 2,
+          "historical": 34
+        },
+        "messages_direct_by_segment": {
+          "professional": 14,
+          "consumer": 0,
+          "unclear": 22
+        },
+        "messages_thread_context": 0,
+        "sources_count": 2,
+        "sources": {
+          "ru_pf_k": 7,
+          "pikabu": 1
+        },
+        "period": {
+          "first": "2009-11-26",
+          "last": "2026-07-31"
+        },
+        "curated_needs": 0,
+        "export_cluster_crosswalk": {},
+        "examples": [
+          {
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pf-k.ru/forums/%D1%81%D1%84%D0%B5%D1%80%D0%BE%D0%B3%D0%B5%D0%BB%D1%8C-%D0%B8%D0%BB%D0%B8-%D0%BA%D0%BE%D0%BB%D0%BB%D0%BE%D1%81%D1%82-t30318.html/#comment-198283",
+            "thread_url": "https://pf-k.ru/forums/%D1%81%D1%84%D0%B5%D1%80%D0%BE%D0%B3%D0%B5%D0%BB%D1%8C-%D0%B8%D0%BB%D0%B8-%D0%BA%D0%BE%D0%BB%D0%BB%D0%BE%D1%81%D1%82-t30318.html/",
+            "thread_title": "Сферогель или Коллост?",
+            "date": "2024-03-13",
+            "period": "actual",
+            "segment": "unclear",
+            "source": "ru_pf_k",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pf-k.ru/forums/%D0%BB%D0%B0%D0%B7%D0%B5%D1%80-t6881.html/#comment-94254",
+            "thread_url": "https://pf-k.ru/forums/%D0%BB%D0%B0%D0%B7%D0%B5%D1%80-t6881.html/",
+            "thread_title": "Лазер",
+            "date": "2012-12-24",
+            "period": "historical",
+            "segment": "unclear",
+            "source": "ru_pf_k",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pf-k.ru/forums/%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D1%84%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D1%82%D0%B5-%D0%B2-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-t1397.html/#comment-12404",
+            "thread_url": "https://pf-k.ru/forums/%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D1%84%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D1%82%D0%B5-%D0%B2-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-t1397.html/",
+            "thread_title": "Какой филлер используете в работе?",
+            "date": "2009-11-29",
+            "period": "historical",
+            "segment": "professional",
+            "source": "ru_pf_k",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pf-k.ru/forums/%D1%84%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-%D0%BF%D0%BE%D0%B4-%D0%B3%D0%BB%D0%B0%D0%B7%D0%B0-t15635.html/#comment-125580",
+            "thread_url": "https://pf-k.ru/forums/%D1%84%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-%D0%BF%D0%BE%D0%B4-%D0%B3%D0%BB%D0%B0%D0%B7%D0%B0-t15635.html/",
+            "thread_title": "Филлер Под Глаза",
+            "date": "2014-05-12",
+            "period": "historical",
+            "segment": "unclear",
+            "source": "ru_pf_k",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          }
+        ]
+      },
+      "hypotheses": {
+        "publication_topics": [
+          "Биоревитализация и мезотерапия: что известно о пользе, а что — маркетинг",
+          "Экзосомы в косметологии: стадия доказательств"
+        ],
+        "research_question": "Какие клинические доказательства есть у биоревитализации, мезотерапии, PRP и экзосом для кожи лица и каковы риски?"
+      },
+      "confidence": "средняя",
+      "jtbd": null,
+      "limitations": [
+        "разметка по словарю понятий: возможны пропуски и ложные совпадения",
+        "частота в выборке — не объём рынка; тренд не оценивался"
       ]
     },
     {
@@ -442,46 +1031,49 @@
         "hair_removal"
       ],
       "observations": {
-        "threads": 4,
+        "threads": 9,
         "threads_by_period": {
-          "actual": 2,
-          "historical": 2
-        },
-        "threads_by_segment": {
-          "professional": 1,
-          "consumer": 3,
-          "unclear": 0
-        },
-        "threads_by_segment_source": {
-          "professional|ru_pf_k": 1,
-          "consumer|it_alfemminile": 3
-        },
-        "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 1,
-          "consumer|actual": 2,
-          "consumer|historical": 1,
-          "unclear|actual": 0,
-          "unclear|historical": 0
-        },
-        "messages_direct": 5,
-        "messages_direct_by_period": {
-          "actual": 2,
+          "actual": 6,
           "historical": 3
         },
-        "messages_direct_by_segment": {
-          "professional": 1,
-          "consumer": 4,
-          "unclear": 0
+        "threads_by_segment": {
+          "professional": 3,
+          "consumer": 6,
+          "unclear": 1
         },
-        "messages_thread_context": 4,
-        "sources_count": 2,
+        "threads_by_segment_source": {
+          "professional|pikabu": 1,
+          "professional|ru_pf_k": 2,
+          "consumer|it_alfemminile": 3,
+          "consumer|pikabu": 3
+        },
+        "threads_by_segment_period": {
+          "professional|actual": 1,
+          "professional|historical": 2,
+          "consumer|actual": 5,
+          "consumer|historical": 1,
+          "unclear|actual": 0,
+          "unclear|historical": 1
+        },
+        "messages_direct": 30,
+        "messages_direct_by_period": {
+          "actual": 6,
+          "historical": 24
+        },
+        "messages_direct_by_segment": {
+          "professional": 8,
+          "consumer": 7,
+          "unclear": 15
+        },
+        "messages_thread_context": 14,
+        "sources_count": 3,
         "sources": {
+          "pikabu": 4,
           "it_alfemminile": 3,
-          "ru_pf_k": 1
+          "ru_pf_k": 2
         },
         "period": {
-          "first": "2016-04-24",
+          "first": "2011-09-16",
           "last": "2026-10-29"
         },
         "curated_needs": 4,
@@ -514,26 +1106,37 @@
             "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/6073050/ricrescita-dei-peli-dopo-laser-al-diodo",
-            "thread_url": "https://forum.alfemminile.com/discussion/6073050/ricrescita-dei-peli-dopo-laser-al-diodo",
-            "thread_title": "Ricrescita dei peli dopo laser al diodo",
-            "date": "2023-09-12",
-            "period": "historical",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Как оценить эффект пяти сеансов диодного лазера и решить, продолжать ли расходы?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20604.html/#comment-157441",
-            "thread_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20604.html/",
-            "thread_title": "Тема для новичков",
-            "date": "2016-04-24",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Где найти недорогого поставщика одноразовых расходных материалов?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/udalenie_volos_na_litse_7_sposobov_i_kakoy_vyibrat_dlya_kazhdoy_zonyi_14401589",
+            "thread_url": "https://pikabu.ru/story/udalenie_volos_na_litse_7_sposobov_i_kakoy_vyibrat_dlya_kazhdoy_zonyi_14401589",
+            "thread_title": "Удаление волос на лице: 7 способов и какой выбрать для каждой зоны⁠⁠",
+            "date": "2026-10-07",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/o_marketologakh_i_yepilyatsii_14061686",
+            "thread_url": "https://pikabu.ru/story/o_marketologakh_i_yepilyatsii_14061686",
+            "thread_title": "О маркетологах и эпиляции⁠⁠",
+            "date": "2026-06-14",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           }
         ]
       },
@@ -543,7 +1146,7 @@
         ],
         "research_question": "Какова описанная эффективность и длительность результата диодного лазера и IPL для удаления волос, и от чего она зависит?"
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": {
           "jtbd": "Когда клиент недоволен результатом эпиляции после нескольких сеансов, я хочу уметь объяснить ожидаемый результат и число сеансов, чтобы сохранить доверие и честно говорить о цене.",
@@ -590,48 +1193,51 @@
         "microneedling"
       ],
       "observations": {
-        "threads": 12,
+        "threads": 44,
         "threads_by_period": {
-          "actual": 0,
-          "historical": 11
+          "actual": 26,
+          "historical": 17
         },
         "threads_by_segment": {
-          "professional": 6,
-          "consumer": 4,
-          "unclear": 9
+          "professional": 15,
+          "consumer": 28,
+          "unclear": 15
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 6,
-          "consumer|it_alfemminile": 2,
-          "consumer|ru_pf_k": 2
+          "professional|ru_pf_k": 11,
+          "professional|pikabu": 4,
+          "consumer|pikabu": 24,
+          "consumer|ru_pf_k": 2,
+          "consumer|it_alfemminile": 2
         },
         "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 6,
-          "consumer|actual": 0,
+          "professional|actual": 4,
+          "professional|historical": 11,
+          "consumer|actual": 24,
           "consumer|historical": 4,
           "unclear|actual": 0,
-          "unclear|historical": 9
+          "unclear|historical": 15
         },
-        "messages_direct": 57,
+        "messages_direct": 152,
         "messages_direct_by_period": {
-          "actual": 0,
-          "historical": 57
+          "actual": 45,
+          "historical": 107
         },
         "messages_direct_by_segment": {
-          "professional": 15,
-          "consumer": 10,
-          "unclear": 32
+          "professional": 34,
+          "consumer": 51,
+          "unclear": 67
         },
-        "messages_thread_context": 3,
-        "sources_count": 2,
+        "messages_thread_context": 40,
+        "sources_count": 3,
         "sources": {
-          "ru_pf_k": 10,
+          "pikabu": 26,
+          "ru_pf_k": 16,
           "it_alfemminile": 2
         },
         "period": {
           "first": "2004-06-18",
-          "last": "2023-06-18"
+          "last": "2026-11-03"
         },
         "curated_needs": 14,
         "export_cluster_crosswalk": {
@@ -649,57 +1255,57 @@
         },
         "examples": [
           {
-            "message_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_title": "Rimedi antirughe?",
-            "date": "2023-06-11",
-            "period": "historical",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Как пересмотреть уход, когда кремы, пилинги и аппаратные процедуры не решили проблему линий и сухости?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
-          },
-          {
-            "message_url": "https://forum.alfemminile.com/discussion/331075/retinolo-retinaldeide-retinoidi-fou",
-            "thread_url": "https://forum.alfemminile.com/discussion/331075/retinolo-retinaldeide-retinoidi-fou",
-            "thread_title": "Retinolo, retinaldeide, retinoidi",
-            "date": "2004-06-18",
-            "period": "historical",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Чем отличаются ретинол, ретинальдегид и другие ретиноиды; сопоставимы ли их проценты?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
-          },
-          {
-            "message_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/#comment-22337",
-            "thread_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/",
-            "thread_title": "BIOLINE JaTo",
-            "date": "2010-04-21",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Стоит ли вводить дорогой бренд в работу без независимых отзывов коллег?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/#comment-161351",
-            "thread_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/",
-            "thread_title": "АНА-КИСЛОТЫ, ОНИ ЖЕ ФРУКТОВЫЕ ПИЛИНГИ  ПРОТИВ ПИГМЕНТНЫХ ПЯТЕН И ВЕСНУШЕК",
-            "date": "2016-09-19",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_title": "Правда ли, что микротоки помогают бороться со старением кожи?⁠⁠",
+            "date": "2026-05-15",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как совместить работу с акне и возрастными изменениями?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/beauty-style-t1551.html/#comment-87852",
-            "thread_url": "https://pf-k.ru/forums/beauty-style-t1551.html/",
-            "thread_title": "\"Beauty Style\"",
-            "date": "2012-09-26",
-            "period": "historical",
-            "segment": "unclear",
-            "source": "ru_pf_k",
+            "message_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_title": "Что делать с красными щеками, чтобы не вырос нос⁠⁠",
+            "date": "2026-11-03",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_title": "Адская технологическая задача — сделать косметический стик⁠⁠",
+            "date": "2026-09-01",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_title": "Если зимой мазать руки увлажняющим кремом — будет только хуже — fixed⁠⁠",
+            "date": "2026-02-12",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           }
@@ -711,7 +1317,7 @@
         ],
         "research_question": "Какие данные есть о безопасных интервалах и сочетании химических пилингов, микронидлинга и инъекций?"
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": {
           "jtbd": "Когда у клиента сочетаются акне, пигментация и возрастные изменения, я хочу понять, какие кислоты и пилинги можно сочетать и в каком режиме, чтобы работать с несколькими задачами без раздражения.",
@@ -752,8 +1358,7 @@
       },
       "limitations": [
         "разметка по словарю понятий: возможны пропуски и ложные совпадения",
-        "частота в выборке — не объём рынка; тренд не оценивался",
-        "нет сообщений 2024–2026: только исторические данные"
+        "частота в выборке — не объём рынка; тренд не оценивался"
       ]
     },
     {
@@ -763,47 +1368,50 @@
         "sunscreen"
       ],
       "observations": {
-        "threads": 5,
+        "threads": 18,
         "threads_by_period": {
-          "actual": 0,
+          "actual": 13,
           "historical": 5
         },
         "threads_by_segment": {
-          "professional": 3,
-          "consumer": 1,
+          "professional": 4,
+          "consumer": 14,
           "unclear": 2
         },
         "threads_by_segment_source": {
           "professional|ru_pf_k": 3,
+          "professional|pikabu": 1,
+          "consumer|pikabu": 13,
           "consumer|it_alfemminile": 1
         },
         "threads_by_segment_period": {
-          "professional|actual": 0,
+          "professional|actual": 1,
           "professional|historical": 3,
-          "consumer|actual": 0,
+          "consumer|actual": 13,
           "consumer|historical": 1,
           "unclear|actual": 0,
           "unclear|historical": 2
         },
-        "messages_direct": 6,
+        "messages_direct": 22,
         "messages_direct_by_period": {
-          "actual": 0,
+          "actual": 16,
           "historical": 6
         },
         "messages_direct_by_segment": {
-          "professional": 3,
-          "consumer": 1,
+          "professional": 4,
+          "consumer": 16,
           "unclear": 2
         },
-        "messages_thread_context": 0,
-        "sources_count": 2,
+        "messages_thread_context": 35,
+        "sources_count": 3,
         "sources": {
+          "pikabu": 13,
           "ru_pf_k": 4,
           "it_alfemminile": 1
         },
         "period": {
           "first": "2011-05-23",
-          "last": "2019-06-05"
+          "last": "2026-11-03"
         },
         "curated_needs": 0,
         "export_cluster_crosswalk": {
@@ -819,57 +1427,57 @@
         },
         "examples": [
           {
-            "message_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/#comment-161071",
-            "thread_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/",
-            "thread_title": "АНА-КИСЛОТЫ, ОНИ ЖЕ ФРУКТОВЫЕ ПИЛИНГИ  ПРОТИВ ПИГМЕНТНЫХ ПЯТЕН И ВЕСНУШЕК",
-            "date": "2016-09-08",
-            "period": "historical",
-            "segment": "unclear",
-            "source": "ru_pf_k",
-            "paraphrase_ru": null,
-            "paraphrase_basis": null
-          },
-          {
-            "message_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/#comment-83444",
-            "thread_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/",
-            "thread_title": "BIOLINE JaTo",
-            "date": "2012-07-11",
-            "period": "historical",
-            "segment": "unclear",
-            "source": "ru_pf_k",
-            "paraphrase_ru": null,
-            "paraphrase_basis": null
-          },
-          {
-            "message_url": "https://pf-k.ru/forums/%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B5-janssen-%D1%8F%D0%BD%D1%81%D0%B5%D0%BD-t6878.html/#comment-146931",
-            "thread_url": "https://pf-k.ru/forums/%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B5-janssen-%D1%8F%D0%BD%D1%81%D0%B5%D0%BD-t6878.html/",
-            "thread_title": "Чистка На Косметике Janssen (янсен)",
-            "date": "2015-06-11",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/hydro-peptide-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0-t7173.html/#comment-97139",
-            "thread_url": "https://pf-k.ru/forums/hydro-peptide-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0-t7173.html/",
-            "thread_title": "Hydro-peptide Америка",
-            "date": "2013-02-07",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": null,
-            "paraphrase_basis": null
-          },
-          {
-            "message_url": "https://forum.alfemminile.com/discussion/comment/19145710/#Comment_19145710",
-            "thread_url": "https://forum.alfemminile.com/discussion/5846494/crema-al-retinolo",
-            "thread_title": "Crema al retinolo?",
-            "date": "2019-06-05",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_title": "Что делать с красными щеками, чтобы не вырос нос⁠⁠",
+            "date": "2026-11-03",
+            "period": "actual",
             "segment": "consumer",
-            "source": "it_alfemminile",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/pochemu_zimoy_lyudi_figachat_retinoidyi_i_pravda_li_chto_pro_spf_mozhno_zabyit_13730721",
+            "thread_url": "https://pikabu.ru/story/pochemu_zimoy_lyudi_figachat_retinoidyi_i_pravda_li_chto_pro_spf_mozhno_zabyit_13730721",
+            "thread_title": "Почему зимой люди фигачат ретиноиды, и правда ли, что про SPF можно забыть⁠⁠",
+            "date": "2026-02-26",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/syivorotok_mnogo_a_litso_odno_kak_ne_povestis_na_vrane_na_yetiketke_13925776",
+            "thread_url": "https://pikabu.ru/story/syivorotok_mnogo_a_litso_odno_kak_ne_povestis_na_vrane_na_yetiketke_13925776",
+            "thread_title": "Сывороток много, а лицо одно: как не повестись на вранье на этикетке?⁠⁠",
+            "date": "2026-04-28",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/zhirnaya_kozha_ne_povod_ustraivat_ey_karatelnyiy_ukhod_13949181",
+            "thread_url": "https://pikabu.ru/story/zhirnaya_kozha_ne_povod_ustraivat_ey_karatelnyiy_ukhod_13949181",
+            "thread_title": "Жирная кожа: не повод устраивать ей карательный уход⁠⁠",
+            "date": "2026-05-06",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           }
@@ -881,7 +1489,7 @@
         ],
         "research_question": "Какие данные есть о переносимости и приверженности разным типам солнцезащитных средств?"
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": {
           "jtbd": "Когда я назначаю кислоты или пилинги, я хочу правильно объяснить клиенту солнцезащиту, чтобы избежать пигментации после процедур.",
@@ -893,12 +1501,27 @@
             "note": "Мало прямых вопросов: SPF упоминается внутри тем о кислотах и уходе. Совместить с C06."
           }
         },
-        "consumer": null
+        "consumer": {
+          "jtbd": "Когда я пользуюсь ретиноидами или кислотами (особенно зимой), я хочу понять, нужен ли SPF и в каком порядке наносить средства, чтобы не получить пигментацию и не тратить деньги на лишнее.",
+          "questions": [
+            "Нужен ли SPF зимой при ретиноидах?",
+            "В каком порядке наносить тонер, сыворотку, крем и SPF?"
+          ],
+          "fears": [
+            "Пигментация после активов"
+          ],
+          "objections": [
+            "Скепсис к «УФ-индексу» и SPF в комментариях"
+          ],
+          "action": {
+            "format": "пост",
+            "note": "SPF зимой и порядок нанесения средств — короткая серия + ролик; связать с C01 и C06."
+          }
+        }
       },
       "limitations": [
         "разметка по словарю понятий: возможны пропуски и ложные совпадения",
-        "частота в выборке — не объём рынка; тренд не оценивался",
-        "нет сообщений 2024–2026: только исторические данные"
+        "частота в выборке — не объём рынка; тренд не оценивался"
       ]
     },
     {
@@ -908,48 +1531,51 @@
         "pigmentation"
       ],
       "observations": {
-        "threads": 4,
+        "threads": 15,
         "threads_by_period": {
-          "actual": 1,
-          "historical": 3
+          "actual": 8,
+          "historical": 7
         },
         "threads_by_segment": {
-          "professional": 2,
-          "consumer": 2,
-          "unclear": 3
+          "professional": 6,
+          "consumer": 8,
+          "unclear": 7
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 2,
+          "professional|pikabu": 2,
+          "professional|ru_pf_k": 4,
+          "consumer|pikabu": 5,
           "consumer|it_alfemminile": 1,
-          "consumer|ru_pf_k": 1
+          "consumer|ru_pf_k": 2
         },
         "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 2,
-          "consumer|actual": 1,
-          "consumer|historical": 1,
+          "professional|actual": 2,
+          "professional|historical": 4,
+          "consumer|actual": 6,
+          "consumer|historical": 2,
           "unclear|actual": 0,
-          "unclear|historical": 3
+          "unclear|historical": 7
         },
-        "messages_direct": 11,
+        "messages_direct": 44,
         "messages_direct_by_period": {
-          "actual": 1,
-          "historical": 10
+          "actual": 13,
+          "historical": 31
         },
         "messages_direct_by_segment": {
-          "professional": 2,
-          "consumer": 1,
-          "unclear": 8
+          "professional": 15,
+          "consumer": 12,
+          "unclear": 17
         },
-        "messages_thread_context": 10,
-        "sources_count": 2,
+        "messages_thread_context": 24,
+        "sources_count": 3,
         "sources": {
-          "ru_pf_k": 3,
+          "ru_pf_k": 7,
+          "pikabu": 7,
           "it_alfemminile": 1
         },
         "period": {
-          "first": "2011-11-30",
-          "last": "2024-08-12"
+          "first": "2011-07-06",
+          "last": "2026-07-31"
         },
         "curated_needs": 11,
         "export_cluster_crosswalk": {
@@ -965,46 +1591,57 @@
         },
         "examples": [
           {
-            "message_url": "https://forum.alfemminile.com/discussion/comment/44279084/#Comment_44279084",
-            "thread_url": "https://forum.alfemminile.com/discussion/6093025/problema-enorme-peli-sul-viso-entrate",
-            "thread_title": "Problema ENORME peli sul viso, entrate??",
-            "date": "2024-08-12",
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_title": "Правда ли, что микротоки помогают бороться со старением кожи?⁠⁠",
+            "date": "2026-05-15",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/pochemu_zimoy_lyudi_figachat_retinoidyi_i_pravda_li_chto_pro_spf_mozhno_zabyit_13730721",
+            "thread_url": "https://pikabu.ru/story/pochemu_zimoy_lyudi_figachat_retinoidyi_i_pravda_li_chto_pro_spf_mozhno_zabyit_13730721",
+            "thread_title": "Почему зимой люди фигачат ретиноиды, и правда ли, что про SPF можно забыть⁠⁠",
+            "date": "2026-02-26",
             "period": "actual",
             "segment": "consumer",
-            "source": "it_alfemminile",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/#comment-163244",
-            "thread_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/",
-            "thread_title": "АНА-КИСЛОТЫ, ОНИ ЖЕ ФРУКТОВЫЕ ПИЛИНГИ  ПРОТИВ ПИГМЕНТНЫХ ПЯТЕН И ВЕСНУШЕК",
-            "date": "2016-11-26",
-            "period": "historical",
-            "segment": "unclear",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Можно ли использовать кислотный тоник ежедневно при пигментации?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
-          },
-          {
-            "message_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/#comment-83444",
-            "thread_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/",
-            "thread_title": "BIOLINE JaTo",
-            "date": "2012-07-11",
-            "period": "historical",
-            "segment": "unclear",
-            "source": "ru_pf_k",
+            "message_url": "https://pikabu.ru/story/mindalnaya_kislota_pochemu_ona_ne_zhzhyotsya_no_rabotaet_i_kogda_vsyotaki_proigryivaet_13660456",
+            "thread_url": "https://pikabu.ru/story/mindalnaya_kislota_pochemu_ona_ne_zhzhyotsya_no_rabotaet_i_kogda_vsyotaki_proigryivaet_13660456",
+            "thread_title": "Миндальная кислота: почему она не жжётся, но работает (и когда всё-таки проигрывает)⁠⁠",
+            "date": "2026-02-04",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/beauty-style-t1551.html/#comment-67577",
-            "thread_url": "https://pf-k.ru/forums/beauty-style-t1551.html/",
-            "thread_title": "\"Beauty Style\"",
-            "date": "2011-11-30",
-            "period": "historical",
-            "segment": "unclear",
-            "source": "ru_pf_k",
+            "message_url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___1_mesyats_13829114",
+            "thread_url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___1_mesyats_13829114",
+            "thread_title": "Акне + хороший косметолог + акнекутан = ??? 1 месяц⁠⁠",
+            "date": "2026-03-28",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           }
@@ -1017,7 +1654,7 @@
         ],
         "research_question": "Какие методы лечения мелазмы имеют доказательства пользы, и при каких вмешательствах описано ухудшение?"
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": {
           "jtbd": "Когда клиент просит убрать пигментные пятна, я хочу понимать, какие средства и процедуры имеют доказательства и что может ухудшить пигментацию, чтобы не обещать лишнего.",
@@ -1064,48 +1701,51 @@
         "acne"
       ],
       "observations": {
-        "threads": 12,
+        "threads": 52,
         "threads_by_period": {
-          "actual": 4,
-          "historical": 8
+          "actual": 41,
+          "historical": 12
         },
         "threads_by_segment": {
-          "professional": 5,
-          "consumer": 7,
-          "unclear": 4
+          "professional": 16,
+          "consumer": 39,
+          "unclear": 10
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 5,
+          "professional|ru_pf_k": 10,
+          "professional|pikabu": 6,
           "consumer|it_alfemminile": 5,
+          "consumer|pikabu": 32,
           "consumer|ru_pf_k": 2
         },
         "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 5,
-          "consumer|actual": 4,
+          "professional|actual": 7,
+          "professional|historical": 9,
+          "consumer|actual": 36,
           "consumer|historical": 3,
-          "unclear|actual": 0,
-          "unclear|historical": 4
+          "unclear|actual": 3,
+          "unclear|historical": 8
         },
-        "messages_direct": 23,
+        "messages_direct": 163,
         "messages_direct_by_period": {
-          "actual": 4,
-          "historical": 19
+          "actual": 115,
+          "historical": 48
         },
         "messages_direct_by_segment": {
-          "professional": 7,
-          "consumer": 7,
-          "unclear": 9
+          "professional": 26,
+          "consumer": 106,
+          "unclear": 31
         },
-        "messages_thread_context": 1,
-        "sources_count": 2,
+        "messages_thread_context": 51,
+        "sources_count": 3,
         "sources": {
-          "ru_pf_k": 7,
+          "pikabu": 34,
+          "ru_pf_k": 13,
           "it_alfemminile": 5
         },
         "period": {
           "first": "2004-06-18",
-          "last": "2024-11-21"
+          "last": "2026-11-03"
         },
         "curated_needs": 5,
         "export_cluster_crosswalk": {
@@ -1134,48 +1774,48 @@
             "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/6084521/acne-che-non-guarisce",
-            "thread_url": "https://forum.alfemminile.com/discussion/6084521/acne-che-non-guarisce",
-            "thread_title": "Acne che non guarisce",
-            "date": "2024-02-28",
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
             "period": "actual",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": null,
-            "paraphrase_basis": null
-          },
-          {
-            "message_url": "https://forum.alfemminile.com/discussion/comment/44090753/#Comment_44090753",
-            "thread_url": "https://forum.alfemminile.com/discussion/6084585/acne-e-pillola",
-            "thread_title": "Acne e pillola",
-            "date": "2024-03-10",
-            "period": "actual",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": null,
-            "paraphrase_basis": null
-          },
-          {
-            "message_url": "https://forum.alfemminile.com/discussion/comment/44388945/#Comment_44388945",
-            "thread_url": "https://forum.alfemminile.com/discussion/6085638/cosmetici-naturali-con-cbd-cosa-ne-pensate",
-            "thread_title": "Cosmetici naturali con CBD cosa ne pensate?",
-            "date": "2024-11-21",
-            "period": "actual",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": null,
-            "paraphrase_basis": null
-          },
-          {
-            "message_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/#comment-161351",
-            "thread_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/",
-            "thread_title": "АНА-КИСЛОТЫ, ОНИ ЖЕ ФРУКТОВЫЕ ПИЛИНГИ  ПРОТИВ ПИГМЕНТНЫХ ПЯТЕН И ВЕСНУШЕК",
-            "date": "2016-09-19",
-            "period": "historical",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как совместить работу с акне и возрастными изменениями?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_title": "Что делать с красными щеками, чтобы не вырос нос⁠⁠",
+            "date": "2026-11-03",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_title": "Адская технологическая задача — сделать косметический стик⁠⁠",
+            "date": "2026-09-01",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_title": "Если зимой мазать руки увлажняющим кремом — будет только хуже — fixed⁠⁠",
+            "date": "2026-02-12",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           }
         ]
       },
@@ -1209,11 +1849,17 @@
           "questions": [
             "Через сколько оценивать результат лечения?",
             "Почему на фоне лечения стало хуже?",
-            "Можно ли попросить у врача другой препарат?"
+            "Можно ли попросить у врача другой препарат?",
+            "Какой из назначенных гелей выбрать?",
+            "Что можно и нельзя на изотретиноине (алкоголь, сухость, побочные эффекты)?",
+            "Где найти компетентного дерматолога по акне и постакне?",
+            "Чем убрать красные пятна и рубцы после акне?"
           ],
           "fears": [
             "Ещё раз потратить деньги на бесполезные кремы",
-            "Врач не слушает"
+            "Врач не слушает",
+            "Побочные эффекты изотретиноина; самый тяжёлый — третий месяц курса",
+            "Годы поиска специалиста методом проб и ошибок"
           ],
           "objections": [
             "По отзывам, местные ретиноиды сушат кожу и дают обострение на старте"
@@ -1238,62 +1884,64 @@
         "lips_herpes"
       ],
       "observations": {
-        "threads": 13,
+        "threads": 53,
         "threads_by_period": {
-          "actual": 3,
-          "historical": 10
+          "actual": 36,
+          "historical": 17
         },
         "threads_by_segment": {
-          "professional": 5,
-          "consumer": 7,
-          "unclear": 6
+          "professional": 18,
+          "consumer": 39,
+          "unclear": 12
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 5,
+          "professional|ru_pf_k": 12,
+          "professional|pikabu": 6,
           "consumer|it_alfemminile": 6,
+          "consumer|pikabu": 32,
           "consumer|ru_pf_k": 1
         },
         "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 5,
-          "consumer|actual": 3,
+          "professional|actual": 6,
+          "professional|historical": 12,
+          "consumer|actual": 35,
           "consumer|historical": 4,
-          "unclear|actual": 0,
-          "unclear|historical": 6
+          "unclear|actual": 1,
+          "unclear|historical": 11
         },
-        "messages_direct": 33,
+        "messages_direct": 219,
         "messages_direct_by_period": {
-          "actual": 3,
-          "historical": 30
+          "actual": 96,
+          "historical": 123
         },
         "messages_direct_by_segment": {
-          "professional": 11,
-          "consumer": 9,
-          "unclear": 13
+          "professional": 54,
+          "consumer": 90,
+          "unclear": 75
         },
-        "messages_thread_context": 0,
-        "sources_count": 2,
+        "messages_thread_context": 50,
+        "sources_count": 3,
         "sources": {
-          "ru_pf_k": 7,
+          "pikabu": 32,
+          "ru_pf_k": 15,
           "it_alfemminile": 6
         },
         "period": {
           "first": "2004-06-18",
-          "last": "2026-10-16"
+          "last": "2026-11-04"
         },
         "curated_needs": 7,
         "export_cluster_crosswalk": {
-          "K02": 18,
+          "K02": 17,
           "K09": 12,
-          "K11": 9,
+          "K11": 8,
           "K04": 7,
-          "K03": 6,
           "K07": 6,
+          "K03": 5,
           "K12": 5,
           "K08": 4,
           "K01": 4,
           "K06": 1,
-          "K05": 1,
           "K10": 1
         },
         "examples": [
@@ -1320,37 +1968,37 @@
             "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/comment/44167285/#Comment_44167285",
-            "thread_url": "https://forum.alfemminile.com/discussion/6088996/skincare-naturale",
-            "thread_title": "Skincare Naturale",
-            "date": "2024-05-07",
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
             "period": "actual",
-            "segment": "consumer",
-            "source": "it_alfemminile",
+            "segment": "professional",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_title": "Rimedi antirughe?",
-            "date": "2023-06-11",
-            "period": "historical",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Как пересмотреть уход, когда кремы, пилинги и аппаратные процедуры не решили проблему линий и сухости?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_title": "Правда ли, что микротоки помогают бороться со старением кожи?⁠⁠",
+            "date": "2026-05-15",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/6073805/problema-alle-labbra-aiuto",
-            "thread_url": "https://forum.alfemminile.com/discussion/6073805/problema-alle-labbra-aiuto",
-            "thread_title": "Problema alle labbra, aiuto",
-            "date": "2023-09-22",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_title": "Что делать с красными щеками, чтобы не вырос нос⁠⁠",
+            "date": "2026-11-03",
+            "period": "actual",
             "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Как разобраться в повторяющемся жжении и трещинах губ и возможных раздражителях?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           }
         ]
       },
@@ -1382,20 +2030,26 @@
           }
         },
         "consumer": {
-          "jtbd": "Когда кожа (или губы) жжёт, трескается и проблема возвращается, я хочу понять возможную причину и когда идти к врачу, чтобы перестать перебирать средства наугад.",
+          "jtbd": "Когда лицо краснеет и жжёт годами (розацеа, купероз) или губы трескаются и проблема возвращается, я хочу понять, что провоцирует обострения и что реально помогает, чтобы перестать перебирать средства наугад.",
           "questions": [
             "Это аллергия на помаду/пасту, герпес или дерматит?",
-            "Почему проблема возвращается после лечения?"
+            "Почему проблема возвращается после лечения?",
+            "Что провоцирует обострение розацеа?",
+            "Как убрать сосуды на лице?",
+            "Правда ли, что покраснение носа — признак алкоголизма?",
+            "Опасны ли гранулы Фордайса на губах?"
           ],
           "fears": [
-            "Не знать, что это, и сделать хуже"
+            "Не знать, что это, и сделать хуже",
+            "Стигма: красное лицо принимают за признак пьянства"
           ],
           "objections": [
-            "Врач не объяснил, что это"
+            "Врач не объяснил, что это",
+            "Лечение помогает частично и ненадолго"
           ],
           "action": {
             "format": "статья на сайт",
-            "note": "Сухость, жжение, трещины губ: какие бывают причины и когда к дерматологу. Только после научного досье и рецензии; без самодиагностики."
+            "note": "Розацеа и купероз: триггеры, что известно о лечении, когда к дерматологу, развенчание мифа «красный нос — от алкоголя». Отдельно — губы (трещины, Фордайс). Только после научного досье и рецензии."
           }
         }
       },
@@ -1411,53 +2065,56 @@
         "ingredient_claims"
       ],
       "observations": {
-        "threads": 16,
+        "threads": 47,
         "threads_by_period": {
-          "actual": 3,
-          "historical": 13
+          "actual": 30,
+          "historical": 22
         },
         "threads_by_segment": {
-          "professional": 4,
-          "consumer": 6,
-          "unclear": 9
+          "professional": 11,
+          "consumer": 26,
+          "unclear": 20
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 4,
+          "professional|ru_pf_k": 8,
+          "professional|pikabu": 3,
+          "consumer|pikabu": 19,
           "consumer|it_alfemminile": 5,
-          "consumer|ru_pf_k": 1
+          "consumer|ru_pf_k": 2
         },
         "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 4,
-          "consumer|actual": 2,
-          "consumer|historical": 4,
-          "unclear|actual": 1,
-          "unclear|historical": 8
+          "professional|actual": 4,
+          "professional|historical": 8,
+          "consumer|actual": 21,
+          "consumer|historical": 5,
+          "unclear|actual": 7,
+          "unclear|historical": 18
         },
-        "messages_direct": 38,
+        "messages_direct": 152,
         "messages_direct_by_period": {
-          "actual": 7,
-          "historical": 31
+          "actual": 53,
+          "historical": 99
         },
         "messages_direct_by_segment": {
-          "professional": 10,
-          "consumer": 11,
-          "unclear": 17
+          "professional": 35,
+          "consumer": 44,
+          "unclear": 73
         },
-        "messages_thread_context": 0,
-        "sources_count": 2,
+        "messages_thread_context": 17,
+        "sources_count": 3,
         "sources": {
-          "ru_pf_k": 11,
+          "ru_pf_k": 21,
+          "pikabu": 21,
           "it_alfemminile": 5
         },
         "period": {
           "first": "2004-06-18",
-          "last": "2025-02-10"
+          "last": "2026-11-03"
         },
-        "curated_needs": 9,
+        "curated_needs": 8,
         "export_cluster_crosswalk": {
           "K02": 22,
-          "K12": 22,
+          "K12": 21,
           "K11": 9,
           "K04": 8,
           "K06": 4,
@@ -1502,26 +2159,26 @@
             "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_title": "Rimedi antirughe?",
-            "date": "2023-06-11",
-            "period": "historical",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Как пересмотреть уход, когда кремы, пилинги и аппаратные процедуры не решили проблему линий и сухости?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/#comment-22337",
-            "thread_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/",
-            "thread_title": "BIOLINE JaTo",
-            "date": "2010-04-21",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_title": "Правда ли, что микротоки помогают бороться со старением кожи?⁠⁠",
+            "date": "2026-05-15",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Стоит ли вводить дорогой бренд в работу без независимых отзывов коллег?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           }
         ]
       },
@@ -1579,47 +2236,51 @@
         "aging_homecare"
       ],
       "observations": {
-        "threads": 11,
+        "threads": 44,
         "threads_by_period": {
-          "actual": 0,
-          "historical": 10
+          "actual": 29,
+          "historical": 18
         },
         "threads_by_segment": {
-          "professional": 5,
-          "consumer": 3,
-          "unclear": 4
-        },
-        "threads_by_segment_source": {
-          "professional|ru_pf_k": 5,
-          "consumer|it_alfemminile": 3
-        },
-        "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 5,
-          "consumer|actual": 0,
-          "consumer|historical": 3,
-          "unclear|actual": 0,
-          "unclear|historical": 4
-        },
-        "messages_direct": 27,
-        "messages_direct_by_period": {
-          "actual": 0,
-          "historical": 27
-        },
-        "messages_direct_by_segment": {
-          "professional": 10,
-          "consumer": 5,
+          "professional": 16,
+          "consumer": 25,
           "unclear": 12
         },
-        "messages_thread_context": 0,
-        "sources_count": 2,
+        "threads_by_segment_source": {
+          "professional|ru_pf_k": 12,
+          "professional|pikabu": 4,
+          "consumer|pikabu": 21,
+          "consumer|it_alfemminile": 3,
+          "consumer|ru_pf_k": 1
+        },
+        "threads_by_segment_period": {
+          "professional|actual": 4,
+          "professional|historical": 12,
+          "consumer|actual": 21,
+          "consumer|historical": 4,
+          "unclear|actual": 5,
+          "unclear|historical": 11
+        },
+        "messages_direct": 182,
+        "messages_direct_by_period": {
+          "actual": 54,
+          "historical": 128
+        },
+        "messages_direct_by_segment": {
+          "professional": 46,
+          "consumer": 50,
+          "unclear": 86
+        },
+        "messages_thread_context": 52,
+        "sources_count": 3,
         "sources": {
-          "ru_pf_k": 8,
+          "pikabu": 24,
+          "ru_pf_k": 17,
           "it_alfemminile": 3
         },
         "period": {
           "first": "2004-06-18",
-          "last": "2023-06-18"
+          "last": "2026-11-03"
         },
         "curated_needs": 4,
         "export_cluster_crosswalk": {
@@ -1637,57 +2298,57 @@
         },
         "examples": [
           {
-            "message_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_url": "https://forum.alfemminile.com/discussion/6066070/rimedi-antirughe",
-            "thread_title": "Rimedi antirughe?",
-            "date": "2023-06-11",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_title": "Правда ли, что микротоки помогают бороться со старением кожи?⁠⁠",
+            "date": "2026-05-15",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+            "thread_title": "Что делать с красными щеками, чтобы не вырос нос⁠⁠",
+            "date": "2026-11-03",
+            "period": "actual",
             "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Как пересмотреть уход, когда кремы, пилинги и аппаратные процедуры не решили проблему линий и сухости?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/331075/retinolo-retinaldeide-retinoidi-fou",
-            "thread_url": "https://forum.alfemminile.com/discussion/331075/retinolo-retinaldeide-retinoidi-fou",
-            "thread_title": "Retinolo, retinaldeide, retinoidi",
-            "date": "2004-06-18",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_title": "Адская технологическая задача — сделать косметический стик⁠⁠",
+            "date": "2026-09-01",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
+          },
+          {
+            "message_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_title": "Если зимой мазать руки увлажняющим кремом — будет только хуже — fixed⁠⁠",
+            "date": "2026-02-12",
+            "period": "actual",
             "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Чем отличаются ретинол, ретинальдегид и другие ретиноиды; сопоставимы ли их проценты?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
-          },
-          {
-            "message_url": "https://pf-k.ru/forums/beauty-style-t1551.html/#comment-71392",
-            "thread_url": "https://pf-k.ru/forums/beauty-style-t1551.html/",
-            "thread_title": "\"Beauty Style\"",
-            "date": "2012-01-19",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Почему после маски у клиентов несколько дней зудят веки?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
-          },
-          {
-            "message_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/#comment-161351",
-            "thread_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/",
-            "thread_title": "АНА-КИСЛОТЫ, ОНИ ЖЕ ФРУКТОВЫЕ ПИЛИНГИ  ПРОТИВ ПИГМЕНТНЫХ ПЯТЕН И ВЕСНУШЕК",
-            "date": "2016-09-19",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как совместить работу с акне и возрастными изменениями?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
-          },
-          {
-            "message_url": "https://pf-k.ru/forums/%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B5-janssen-%D1%8F%D0%BD%D1%81%D0%B5%D0%BD-t6878.html/#comment-81824",
-            "thread_url": "https://pf-k.ru/forums/%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B5-janssen-%D1%8F%D0%BD%D1%81%D0%B5%D0%BD-t6878.html/",
-            "thread_title": "Чистка На Косметике Janssen (янсен)",
-            "date": "2012-06-13",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           }
@@ -1699,7 +2360,7 @@
         ],
         "research_question": "Какие местные средства имеют доказательства уменьшения признаков фотостарения?"
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": {
           "jtbd": "Когда я подбираю домашний уход возрастному клиенту, я хочу понимать, что реально работает против признаков старения, чтобы рекомендации совпадали с ожиданиями клиента.",
@@ -1735,8 +2396,7 @@
       },
       "limitations": [
         "разметка по словарю понятий: возможны пропуски и ложные совпадения",
-        "частота в выборке — не объём рынка; тренд не оценивался",
-        "нет сообщений 2024–2026: только исторические данные"
+        "частота в выборке — не объём рынка; тренд не оценивался"
       ]
     },
     {
@@ -1746,48 +2406,51 @@
         "cabinet_protocols"
       ],
       "observations": {
-        "threads": 14,
+        "threads": 44,
         "threads_by_period": {
-          "actual": 3,
-          "historical": 12
+          "actual": 29,
+          "historical": 17
         },
         "threads_by_segment": {
-          "professional": 9,
-          "consumer": 4,
-          "unclear": 9
+          "professional": 17,
+          "consumer": 27,
+          "unclear": 16
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 9,
-          "consumer|ru_pf_k": 3,
+          "professional|ru_pf_k": 13,
+          "professional|pikabu": 4,
+          "consumer|pikabu": 21,
+          "consumer|ru_pf_k": 5,
           "consumer|it_alfemminile": 1
         },
         "threads_by_segment_period": {
-          "professional|actual": 2,
-          "professional|historical": 8,
-          "consumer|actual": 1,
-          "consumer|historical": 3,
-          "unclear|actual": 0,
-          "unclear|historical": 9
+          "professional|actual": 6,
+          "professional|historical": 12,
+          "consumer|actual": 22,
+          "consumer|historical": 5,
+          "unclear|actual": 3,
+          "unclear|historical": 14
         },
-        "messages_direct": 81,
+        "messages_direct": 246,
         "messages_direct_by_period": {
-          "actual": 4,
-          "historical": 77
+          "actual": 36,
+          "historical": 210
         },
         "messages_direct_by_segment": {
-          "professional": 33,
-          "consumer": 6,
-          "unclear": 42
+          "professional": 84,
+          "consumer": 33,
+          "unclear": 129
         },
         "messages_thread_context": 4,
-        "sources_count": 2,
+        "sources_count": 3,
         "sources": {
-          "ru_pf_k": 13,
+          "pikabu": 23,
+          "ru_pf_k": 20,
           "it_alfemminile": 1
         },
         "period": {
-          "first": "2009-12-08",
-          "last": "2025-07-13"
+          "first": "2009-04-22",
+          "last": "2026-10-16"
         },
         "curated_needs": 14,
         "export_cluster_crosswalk": {
@@ -1838,26 +2501,26 @@
             "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8-%D0%BB%D0%B8%D1%86%D0%B0-t26510.html/#comment-172482",
-            "thread_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8-%D0%BB%D0%B8%D1%86%D0%B0-t26510.html/",
-            "thread_title": "Косметические маски для очистки лица",
-            "date": "2018-10-15",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Что представляют собой альгинатные маски и как оценивать обещания эффекта?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/hikari-t8666.html/#comment-107463",
-            "thread_url": "https://pf-k.ru/forums/hikari-t8666.html/",
-            "thread_title": "Hikari",
-            "date": "2013-07-31",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_title": "Правда ли, что микротоки помогают бороться со старением кожи?⁠⁠",
+            "date": "2026-05-15",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как оценить мезококтейли для работы с мезороллером без доступного регионального семинара?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           }
         ]
       },
@@ -1920,45 +2583,47 @@
         "training_career"
       ],
       "observations": {
-        "threads": 9,
+        "threads": 17,
         "threads_by_period": {
-          "actual": 1,
-          "historical": 9
+          "actual": 5,
+          "historical": 15
         },
         "threads_by_segment": {
-          "professional": 7,
-          "consumer": 0,
-          "unclear": 4
+          "professional": 13,
+          "consumer": 2,
+          "unclear": 10
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 7
+          "professional|ru_pf_k": 13,
+          "consumer|pikabu": 2
         },
         "threads_by_segment_period": {
-          "professional|actual": 1,
-          "professional|historical": 7,
-          "consumer|actual": 0,
+          "professional|actual": 2,
+          "professional|historical": 13,
+          "consumer|actual": 2,
           "consumer|historical": 0,
-          "unclear|actual": 1,
-          "unclear|historical": 4
+          "unclear|actual": 3,
+          "unclear|historical": 10
         },
-        "messages_direct": 17,
+        "messages_direct": 114,
         "messages_direct_by_period": {
-          "actual": 0,
-          "historical": 17
+          "actual": 2,
+          "historical": 112
         },
         "messages_direct_by_segment": {
-          "professional": 13,
-          "consumer": 0,
-          "unclear": 4
+          "professional": 88,
+          "consumer": 2,
+          "unclear": 24
         },
-        "messages_thread_context": 8,
-        "sources_count": 1,
+        "messages_thread_context": 53,
+        "sources_count": 2,
         "sources": {
-          "ru_pf_k": 9
+          "ru_pf_k": 15,
+          "pikabu": 2
         },
         "period": {
-          "first": "2009-12-08",
-          "last": "2025-07-13"
+          "first": "2009-11-25",
+          "last": "2026-07-06"
         },
         "curated_needs": 9,
         "export_cluster_crosswalk": {
@@ -1983,48 +2648,48 @@
             "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
           },
           {
-            "message_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/#comment-22337",
-            "thread_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/",
-            "thread_title": "BIOLINE JaTo",
-            "date": "2010-04-21",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Стоит ли вводить дорогой бренд в работу без независимых отзывов коллег?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/botoks_filleryi_i_kosmetologi_kotoryie_ne_preduprezhdali_o_pobochkakh_14125086?cid=397672540",
+            "thread_url": "https://pikabu.ru/story/botoks_filleryi_i_kosmetologi_kotoryie_ne_preduprezhdali_o_pobochkakh_14125086",
+            "thread_title": "Ботокс, филлеры и косметологи, которые не предупреждали о побочках⁠⁠",
+            "date": "2026-07-06",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/hikari-t8666.html/#comment-107463",
-            "thread_url": "https://pf-k.ru/forums/hikari-t8666.html/",
-            "thread_title": "Hikari",
-            "date": "2013-07-31",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как оценить мезококтейли для работы с мезороллером без доступного регионального семинара?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/syivorotok_mnogo_a_litso_odno_kak_ne_povestis_na_vrane_na_yetiketke_13925776?cid=390933270",
+            "thread_url": "https://pikabu.ru/story/syivorotok_mnogo_a_litso_odno_kak_ne_povestis_na_vrane_na_yetiketke_13925776",
+            "thread_title": "Сывороток много, а лицо одно: как не повестись на вранье на этикетке?⁠⁠",
+            "date": "2026-04-29",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/christina-kosmetika-dlya-kosmetologov-vysokogo-ranga-t20763.html/#comment-173614",
-            "thread_url": "https://pf-k.ru/forums/christina-kosmetika-dlya-kosmetologov-vysokogo-ranga-t20763.html/",
-            "thread_title": "Christina косметика для косметологов высокого ранга",
-            "date": "2019-03-12",
-            "period": "historical",
-            "segment": "professional",
+            "message_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20613.html/#comment-198288",
+            "thread_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20613.html/",
+            "thread_title": "Тема для новичков",
+            "date": "2024-03-26",
+            "period": "actual",
+            "segment": "unclear",
             "source": "ru_pf_k",
-            "paraphrase_ru": "Возможно ли обучение аппаратной косметологии без медицинского образования?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/hydro-peptide-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0-t7173.html/#comment-127062",
-            "thread_url": "https://pf-k.ru/forums/hydro-peptide-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0-t7173.html/",
-            "thread_title": "Hydro-peptide Америка",
-            "date": "2014-06-05",
-            "period": "historical",
-            "segment": "professional",
+            "message_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20610.html/#comment-198294",
+            "thread_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20610.html/",
+            "thread_title": "Тема для новичков",
+            "date": "2024-04-24",
+            "period": "actual",
+            "segment": "unclear",
             "source": "ru_pf_k",
-            "paraphrase_ru": "Где найти расписание обучения по выбранной марке?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           }
         ]
       },
@@ -2034,7 +2699,7 @@
         ],
         "research_question": null
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": {
           "jtbd": "Когда я начинаю работать или хочу освоить новое направление (аппаратная косметология, мезороллер), я хочу понять, какое обучение нужно и где граница моей компетенции без медицинского образования, чтобы работать законно и безопасно.",
@@ -2059,9 +2724,7 @@
       },
       "limitations": [
         "разметка по словарю понятий: возможны пропуски и ложные совпадения",
-        "частота в выборке — не объём рынка; тренд не оценивался",
-        "нет сообщений 2024–2026: только исторические данные",
-        "один источник — может отражать особенность площадки"
+        "частота в выборке — не объём рынка; тренд не оценивался"
       ]
     },
     {
@@ -2071,46 +2734,49 @@
         "supply_purchase"
       ],
       "observations": {
-        "threads": 12,
+        "threads": 29,
         "threads_by_period": {
-          "actual": 0,
-          "historical": 12
+          "actual": 11,
+          "historical": 18
         },
         "threads_by_segment": {
-          "professional": 7,
-          "consumer": 1,
-          "unclear": 11
+          "professional": 14,
+          "consumer": 10,
+          "unclear": 17
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 7,
+          "professional|ru_pf_k": 13,
+          "professional|pikabu": 1,
+          "consumer|pikabu": 9,
           "consumer|ru_pf_k": 1
         },
         "threads_by_segment_period": {
-          "professional|actual": 0,
-          "professional|historical": 7,
-          "consumer|actual": 0,
+          "professional|actual": 2,
+          "professional|historical": 12,
+          "consumer|actual": 9,
           "consumer|historical": 1,
-          "unclear|actual": 0,
-          "unclear|historical": 11
+          "unclear|actual": 1,
+          "unclear|historical": 16
         },
-        "messages_direct": 36,
+        "messages_direct": 113,
         "messages_direct_by_period": {
-          "actual": 0,
-          "historical": 36
+          "actual": 17,
+          "historical": 96
         },
         "messages_direct_by_segment": {
-          "professional": 11,
-          "consumer": 1,
-          "unclear": 24
+          "professional": 27,
+          "consumer": 15,
+          "unclear": 71
         },
         "messages_thread_context": 19,
-        "sources_count": 1,
+        "sources_count": 2,
         "sources": {
-          "ru_pf_k": 12
+          "ru_pf_k": 19,
+          "pikabu": 10
         },
         "period": {
           "first": "2009-10-16",
-          "last": "2023-07-21"
+          "last": "2026-09-28"
         },
         "curated_needs": 8,
         "export_cluster_crosswalk": {
@@ -2125,59 +2791,59 @@
         },
         "examples": [
           {
-            "message_url": "https://pf-k.ru/forums/%D0%B3%D0%B4%D0%B5-%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%84-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D1%83-%D0%B2-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B5-t15632.html/#comment-123175",
-            "thread_url": "https://pf-k.ru/forums/%D0%B3%D0%B4%D0%B5-%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%84-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D1%83-%D0%B2-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B5-t15632.html/",
-            "thread_title": "Где Купить Проф. Косметику В Москве",
-            "date": "2014-03-31",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_title": "Адская технологическая задача — сделать косметический стик⁠⁠",
+            "date": "2026-09-01",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Где закупать несколько профессиональных брендов у поставщика с проверкой документов?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0-%D0%B7%D0%B0-%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-t26198.html/#comment-178936",
-            "thread_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0-%D0%B7%D0%B0-%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-t26198.html/",
-            "thread_title": "корейская косметика за и против.",
-            "date": "2020-11-06",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как сравнить поставщиков космецевтики перед пробной закупкой?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/pochemu_zimoy_lyudi_figachat_retinoidyi_i_pravda_li_chto_pro_spf_mozhno_zabyit_13730721",
+            "thread_url": "https://pikabu.ru/story/pochemu_zimoy_lyudi_figachat_retinoidyi_i_pravda_li_chto_pro_spf_mozhno_zabyit_13730721",
+            "thread_title": "Почему зимой люди фигачат ретиноиды, и правда ли, что про SPF можно забыть⁠⁠",
+            "date": "2026-02-26",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20604.html/#comment-157441",
-            "thread_url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20604.html/",
-            "thread_title": "Тема для новичков",
-            "date": "2016-04-24",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Где найти недорогого поставщика одноразовых расходных материалов?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/kolbasnyiy_yad_paralich_dyikhaniya_i_sluchaynoe_otkryitie_realnaya_istoriya_sozdaniya_botoksa_14373922",
+            "thread_url": "https://pikabu.ru/story/kolbasnyiy_yad_paralich_dyikhaniya_i_sluchaynoe_otkryitie_realnaya_istoriya_sozdaniya_botoksa_14373922",
+            "thread_title": "Колбасный яд, паралич дыхания и случайное открытие: реальная история создания ботокса!⁠⁠",
+            "date": "2026-09-28",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/#comment-164916",
-            "thread_url": "https://pf-k.ru/forums/%D0%B0%D0%BD%D0%B0-%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D1%8B-%D0%BE%D0%BD%D0%B8-%D0%B6%D0%B5-%D1%84%D1%80%D1%83%D0%BA%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D0%BF%D0%B8%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D1%8B%D1%85-%D0%BF%D1%8F%D1%82%D0%B5%D0%BD-%D0%B8-%D0%B2%D0%B5%D1%81%D0%BD%D1%83%D1%88%D0%B5%D0%BA-t23412.html/",
-            "thread_title": "АНА-КИСЛОТЫ, ОНИ ЖЕ ФРУКТОВЫЕ ПИЛИНГИ  ПРОТИВ ПИГМЕНТНЫХ ПЯТЕН И ВЕСНУШЕК",
-            "date": "2017-01-31",
-            "period": "historical",
-            "segment": "unclear",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Что делать, если привычный крем исчез из продажи?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/devushka_khochet_nakachat_gubyi_a_mne_strashno_14003094",
+            "thread_url": "https://pikabu.ru/story/devushka_khochet_nakachat_gubyi_a_mne_strashno_14003094",
+            "thread_title": "Девушка хочет накачать губы, а мне страшно⁠⁠",
+            "date": "2026-05-25",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/hydro-peptide-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0-t7173.html/#comment-60767",
-            "thread_url": "https://pf-k.ru/forums/hydro-peptide-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0-t7173.html/",
-            "thread_title": "Hydro-peptide Америка",
-            "date": "2011-08-13",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как получить опыт коллег до первой закупки новой линии?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/plyus_galochka_v_kopilke_girudoterapii_11099306",
+            "thread_url": "https://pikabu.ru/story/plyus_galochka_v_kopilke_girudoterapii_11099306",
+            "thread_title": "Плюс галочка в копилке гирудотерапии⁠⁠",
+            "date": "2024-02-05",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           }
         ]
       },
@@ -2187,7 +2853,7 @@
         ],
         "research_question": null
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": {
           "jtbd": "Когда мне нужно закупить профессиональную косметику или расходники, я хочу быстро найти официального поставщика в своём городе с документами и надёжной доставкой, чтобы получить подлинный продукт с нормальным сроком годности и не сорвать записи клиентов.",
@@ -2228,9 +2894,7 @@
       },
       "limitations": [
         "разметка по словарю понятий: возможны пропуски и ложные совпадения",
-        "частота в выборке — не объём рынка; тренд не оценивался",
-        "нет сообщений 2024–2026: только исторические данные",
-        "один источник — может отражать особенность площадки"
+        "частота в выборке — не объём рынка; тренд не оценивался"
       ]
     },
     {
@@ -2240,62 +2904,65 @@
         "price_value"
       ],
       "observations": {
-        "threads": 13,
+        "threads": 38,
         "threads_by_period": {
-          "actual": 3,
-          "historical": 12
+          "actual": 21,
+          "historical": 18
         },
         "threads_by_segment": {
-          "professional": 7,
-          "consumer": 4,
-          "unclear": 6
+          "professional": 14,
+          "consumer": 22,
+          "unclear": 13
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 7,
+          "professional|ru_pf_k": 11,
+          "professional|pikabu": 3,
           "consumer|it_alfemminile": 3,
-          "consumer|ru_pf_k": 1
+          "consumer|pikabu": 17,
+          "consumer|ru_pf_k": 2
         },
         "threads_by_segment_period": {
-          "professional|actual": 2,
-          "professional|historical": 7,
-          "consumer|actual": 1,
-          "consumer|historical": 3,
+          "professional|actual": 5,
+          "professional|historical": 10,
+          "consumer|actual": 18,
+          "consumer|historical": 4,
           "unclear|actual": 0,
-          "unclear|historical": 6
+          "unclear|historical": 13
         },
-        "messages_direct": 43,
+        "messages_direct": 180,
         "messages_direct_by_period": {
-          "actual": 3,
-          "historical": 40
+          "actual": 26,
+          "historical": 154
         },
         "messages_direct_by_segment": {
-          "professional": 16,
-          "consumer": 5,
-          "unclear": 22
+          "professional": 63,
+          "consumer": 27,
+          "unclear": 90
         },
-        "messages_thread_context": 0,
-        "sources_count": 2,
+        "messages_thread_context": 23,
+        "sources_count": 3,
         "sources": {
-          "ru_pf_k": 10,
+          "pikabu": 18,
+          "ru_pf_k": 17,
           "it_alfemminile": 3
         },
         "period": {
-          "first": "2010-04-21",
-          "last": "2025-07-13"
+          "first": "2009-11-15",
+          "last": "2026-10-18"
         },
-        "curated_needs": 8,
+        "curated_needs": 7,
         "export_cluster_crosswalk": {
-          "K03": 26,
-          "K02": 25,
-          "K01": 15,
-          "K11": 6,
-          "K09": 4,
+          "K02": 23,
+          "K03": 22,
+          "K01": 11,
+          "K11": 5,
+          "K09": 5,
+          "K04": 3,
           "K07": 3,
-          "K06": 2,
+          "K12": 2,
           "K10": 2,
-          "K12": 1,
           "K05": 1,
-          "K04": 1
+          "K06": 1
         },
         "examples": [
           {
@@ -2332,26 +2999,26 @@
             "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
           },
           {
-            "message_url": "https://forum.alfemminile.com/discussion/6073050/ricrescita-dei-peli-dopo-laser-al-diodo",
-            "thread_url": "https://forum.alfemminile.com/discussion/6073050/ricrescita-dei-peli-dopo-laser-al-diodo",
-            "thread_title": "Ricrescita dei peli dopo laser al diodo",
-            "date": "2023-09-12",
-            "period": "historical",
-            "segment": "consumer",
-            "source": "it_alfemminile",
-            "paraphrase_ru": "Как оценить эффект пяти сеансов диодного лазера и решить, продолжать ли расходы?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
+            "period": "actual",
+            "segment": "professional",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D0%B3%D0%B4%D0%B5-%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%84-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D1%83-%D0%B2-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B5-t15632.html/#comment-166773",
-            "thread_url": "https://pf-k.ru/forums/%D0%B3%D0%B4%D0%B5-%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%84-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D1%83-%D0%B2-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B5-t15632.html/",
-            "thread_title": "Где Купить Проф. Косметику В Москве",
-            "date": "2017-05-11",
-            "period": "historical",
-            "segment": "unclear",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как сравнить стоимость и результат филлера с альтернативой?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_title": "Если зимой мазать руки увлажняющим кремом — будет только хуже — fixed⁠⁠",
+            "date": "2026-02-12",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           }
         ]
       },
@@ -2413,48 +3080,51 @@
         "brand_choice"
       ],
       "observations": {
-        "threads": 13,
+        "threads": 42,
         "threads_by_period": {
-          "actual": 1,
-          "historical": 13
+          "actual": 21,
+          "historical": 22
         },
         "threads_by_segment": {
-          "professional": 10,
-          "consumer": 3,
-          "unclear": 13
+          "professional": 20,
+          "consumer": 22,
+          "unclear": 20
         },
         "threads_by_segment_source": {
-          "professional|ru_pf_k": 10,
-          "consumer|ru_pf_k": 3
+          "professional|ru_pf_k": 17,
+          "professional|pikabu": 3,
+          "consumer|pikabu": 17,
+          "consumer|ru_pf_k": 5
         },
         "threads_by_segment_period": {
-          "professional|actual": 1,
-          "professional|historical": 10,
-          "consumer|actual": 0,
-          "consumer|historical": 3,
-          "unclear|actual": 0,
-          "unclear|historical": 13
+          "professional|actual": 4,
+          "professional|historical": 17,
+          "consumer|actual": 17,
+          "consumer|historical": 5,
+          "unclear|actual": 1,
+          "unclear|historical": 19
         },
-        "messages_direct": 69,
+        "messages_direct": 253,
         "messages_direct_by_period": {
-          "actual": 1,
-          "historical": 68
+          "actual": 27,
+          "historical": 226
         },
         "messages_direct_by_segment": {
-          "professional": 23,
-          "consumer": 5,
-          "unclear": 41
+          "professional": 93,
+          "consumer": 27,
+          "unclear": 133
         },
         "messages_thread_context": 4,
-        "sources_count": 1,
+        "sources_count": 2,
         "sources": {
-          "ru_pf_k": 13
+          "ru_pf_k": 23,
+          "pikabu": 19
         },
         "period": {
           "first": "2009-10-16",
-          "last": "2024-06-14"
+          "last": "2026-11-04"
         },
-        "curated_needs": 10,
+        "curated_needs": 9,
         "export_cluster_crosswalk": {
           "K02": 56,
           "K01": 18,
@@ -2464,65 +3134,65 @@
           "K04": 7,
           "K05": 5,
           "K07": 4,
-          "K12": 3,
+          "K12": 2,
           "K06": 1,
           "K08": 1
         },
         "examples": [
           {
-            "message_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/#comment-198309",
-            "thread_url": "https://pf-k.ru/forums/bioline-jato-t2417.html/",
-            "thread_title": "BIOLINE JaTo",
-            "date": "2024-06-14",
+            "message_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+            "thread_title": "Что брутальные мужики делают у косметолога⁠⁠",
+            "date": "2026-07-31",
             "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
+            "source": "pikabu",
             "paraphrase_ru": null,
             "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D0%B3%D0%B4%D0%B5-%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%84-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D1%83-%D0%B2-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B5-t15632.html/#comment-123175",
-            "thread_url": "https://pf-k.ru/forums/%D0%B3%D0%B4%D0%B5-%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D1%84-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D1%83-%D0%B2-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B5-t15632.html/",
-            "thread_title": "Где Купить Проф. Косметику В Москве",
-            "date": "2014-03-31",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+            "thread_title": "Правда ли, что микротоки помогают бороться со старением кожи?⁠⁠",
+            "date": "2026-05-15",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Где закупать несколько профессиональных брендов у поставщика с проверкой документов?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0-%D0%B7%D0%B0-%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-t26198.html/#comment-171857",
-            "thread_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0-%D0%B7%D0%B0-%D0%B8-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-t26198.html/",
-            "thread_title": "корейская косметика за и против.",
-            "date": "2018-08-02",
-            "period": "historical",
+            "message_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+            "thread_title": "Адская технологическая задача — сделать косметический стик⁠⁠",
+            "date": "2026-09-01",
+            "period": "actual",
             "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Насколько обосновано объяснение неподходящего ухода страной происхождения и типом кожи?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8-%D0%BB%D0%B8%D1%86%D0%B0-t26510.html/#comment-172482",
-            "thread_url": "https://pf-k.ru/forums/%D0%BA%D0%BE%D1%81%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BC%D0%B0%D1%81%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8-%D0%BB%D0%B8%D1%86%D0%B0-t26510.html/",
-            "thread_title": "Косметические маски для очистки лица",
-            "date": "2018-10-15",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Что представляют собой альгинатные маски и как оценивать обещания эффекта?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+            "thread_title": "Если зимой мазать руки увлажняющим кремом — будет только хуже — fixed⁠⁠",
+            "date": "2026-02-12",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           },
           {
-            "message_url": "https://pf-k.ru/forums/hikari-t8666.html/#comment-107463",
-            "thread_url": "https://pf-k.ru/forums/hikari-t8666.html/",
-            "thread_title": "Hikari",
-            "date": "2013-07-31",
-            "period": "historical",
-            "segment": "professional",
-            "source": "ru_pf_k",
-            "paraphrase_ru": "Как оценить мезококтейли для работы с мезороллером без доступного регионального семинара?",
-            "paraphrase_basis": "редакционный пересказ подготовителя выгрузки (needs.jsonl)"
+            "message_url": "https://pikabu.ru/story/kolbasnyiy_yad_paralich_dyikhaniya_i_sluchaynoe_otkryitie_realnaya_istoriya_sozdaniya_botoksa_14373922",
+            "thread_url": "https://pikabu.ru/story/kolbasnyiy_yad_paralich_dyikhaniya_i_sluchaynoe_otkryitie_realnaya_istoriya_sozdaniya_botoksa_14373922",
+            "thread_title": "Колбасный яд, паралич дыхания и случайное открытие: реальная история создания ботокса!⁠⁠",
+            "date": "2026-09-28",
+            "period": "actual",
+            "segment": "consumer",
+            "source": "pikabu",
+            "paraphrase_ru": null,
+            "paraphrase_basis": null
           }
         ]
       },
@@ -2532,7 +3202,7 @@
         ],
         "research_question": "Какие данные (клинические исследования, состав, концентрации) производитель должен предоставить, чтобы оценить заявленный эффект?"
       },
-      "confidence": "низкая",
+      "confidence": "средняя",
       "jtbd": {
         "specialist": {
           "jtbd": "Когда мне предлагают новую профессиональную линию (на выставке, семинаре дистрибьютора), я хочу узнать независимый опыт коллег и данные о составе и эффекте до закупки, чтобы не вложиться в продукт, который не даст результата у моих клиентов.",
@@ -2575,8 +3245,7 @@
       },
       "limitations": [
         "разметка по словарю понятий: возможны пропуски и ложные совпадения",
-        "частота в выборке — не объём рынка; тренд не оценивался",
-        "один источник — может отражать особенность площадки"
+        "частота в выборке — не объём рынка; тренд не оценивался"
       ]
     }
   ],
@@ -2585,230 +3254,250 @@
       {
         "id": "C16",
         "name": "Выбор бренда и линии: независимый опыт коллег",
-        "threads": 10,
-        "messages": 23,
+        "threads": 20,
+        "messages": 93,
         "threads_by_source": {
-          "ru_pf_k": 10
-        },
-        "threads_actual": 1,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C18",
-        "name": "Протоколы и уход в кабинете: чистка, маски, аппараты",
-        "threads": 9,
-        "messages": 33,
-        "threads_by_source": {
-          "ru_pf_k": 9
-        },
-        "threads_actual": 2,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C17",
-        "name": "Цена, расход и окупаемость",
-        "threads": 7,
-        "messages": 16,
-        "threads_by_source": {
-          "ru_pf_k": 7
-        },
-        "threads_actual": 2,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C19",
-        "name": "Обучение, вход в профессию и границы компетенции",
-        "threads": 7,
-        "messages": 13,
-        "threads_by_source": {
-          "ru_pf_k": 7
-        },
-        "threads_actual": 1,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C15",
-        "name": "Поставщики, закупка и исчезнувшие из продажи средства",
-        "threads": 7,
-        "messages": 11,
-        "threads_by_source": {
-          "ru_pf_k": 7
-        },
-        "threads_actual": 0,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C06",
-        "name": "Пилинги, кислоты и микронидлинг: выбор, сочетание, восстановление",
-        "threads": 6,
-        "messages": 15,
-        "threads_by_source": {
-          "ru_pf_k": 6
-        },
-        "threads_actual": 0,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C07",
-        "name": "Розацеа, раздражение и чувствительная кожа (в т.ч. губы)",
-        "threads": 5,
-        "messages": 11,
-        "threads_by_source": {
-          "ru_pf_k": 5
-        },
-        "threads_actual": 0,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C20",
-        "name": "Возрастные изменения и домашний уход",
-        "threads": 5,
-        "messages": 10,
-        "threads_by_source": {
-          "ru_pf_k": 5
-        },
-        "threads_actual": 0,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C08",
-        "name": "Акне и постакне",
-        "threads": 5,
-        "messages": 7,
-        "threads_by_source": {
-          "ru_pf_k": 5
-        },
-        "threads_actual": 0,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C21",
-        "name": "Состав и обещания: коллаген, пептиды, «натуральное», CBD",
-        "threads": 4,
-        "messages": 10,
-        "threads_by_source": {
-          "ru_pf_k": 4
-        },
-        "threads_actual": 0,
-        "confidence": "низкая"
-      }
-    ],
-    "consumer": [
-      {
-        "id": "C07",
-        "name": "Розацеа, раздражение и чувствительная кожа (в т.ч. губы)",
-        "threads": 7,
-        "messages": 9,
-        "threads_by_source": {
-          "it_alfemminile": 6,
-          "ru_pf_k": 1
-        },
-        "threads_actual": 3,
-        "confidence": "средняя"
-      },
-      {
-        "id": "C08",
-        "name": "Акне и постакне",
-        "threads": 7,
-        "messages": 7,
-        "threads_by_source": {
-          "it_alfemminile": 5,
-          "ru_pf_k": 2
+          "ru_pf_k": 17,
+          "pikabu": 3
         },
         "threads_actual": 4,
         "confidence": "средняя"
       },
       {
-        "id": "C21",
-        "name": "Состав и обещания: коллаген, пептиды, «натуральное», CBD",
-        "threads": 6,
-        "messages": 11,
+        "id": "C07",
+        "name": "Розацеа, раздражение и чувствительная кожа (в т.ч. губы)",
+        "threads": 18,
+        "messages": 54,
         "threads_by_source": {
-          "it_alfemminile": 5,
-          "ru_pf_k": 1
+          "ru_pf_k": 12,
+          "pikabu": 6
+        },
+        "threads_actual": 6,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C18",
+        "name": "Протоколы и уход в кабинете: чистка, маски, аппараты",
+        "threads": 17,
+        "messages": 84,
+        "threads_by_source": {
+          "ru_pf_k": 13,
+          "pikabu": 4
+        },
+        "threads_actual": 6,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C20",
+        "name": "Возрастные изменения и домашний уход",
+        "threads": 16,
+        "messages": 46,
+        "threads_by_source": {
+          "ru_pf_k": 12,
+          "pikabu": 4
+        },
+        "threads_actual": 4,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C08",
+        "name": "Акне и постакне",
+        "threads": 16,
+        "messages": 26,
+        "threads_by_source": {
+          "ru_pf_k": 10,
+          "pikabu": 6
+        },
+        "threads_actual": 7,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C06",
+        "name": "Пилинги, кислоты и микронидлинг: выбор, сочетание, восстановление",
+        "threads": 15,
+        "messages": 34,
+        "threads_by_source": {
+          "ru_pf_k": 11,
+          "pikabu": 4
+        },
+        "threads_actual": 4,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C17",
+        "name": "Цена, расход и окупаемость",
+        "threads": 14,
+        "messages": 63,
+        "threads_by_source": {
+          "ru_pf_k": 11,
+          "pikabu": 3
+        },
+        "threads_actual": 5,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C15",
+        "name": "Поставщики, закупка и исчезнувшие из продажи средства",
+        "threads": 14,
+        "messages": 27,
+        "threads_by_source": {
+          "ru_pf_k": 13,
+          "pikabu": 1
         },
         "threads_actual": 2,
         "confidence": "средняя"
       },
       {
-        "id": "C01",
-        "name": "Ретиноиды: как начать и что считать нормальной реакцией",
-        "threads": 4,
-        "messages": 19,
+        "id": "C19",
+        "name": "Обучение, вход в профессию и границы компетенции",
+        "threads": 13,
+        "messages": 88,
         "threads_by_source": {
-          "it_alfemminile": 4
+          "ru_pf_k": 13
         },
-        "threads_actual": 1,
+        "threads_actual": 2,
         "confidence": "низкая"
+      },
+      {
+        "id": "C21",
+        "name": "Состав и обещания: коллаген, пептиды, «натуральное», CBD",
+        "threads": 11,
+        "messages": 35,
+        "threads_by_source": {
+          "ru_pf_k": 8,
+          "pikabu": 3
+        },
+        "threads_actual": 4,
+        "confidence": "средняя"
+      }
+    ],
+    "consumer": [
+      {
+        "id": "C08",
+        "name": "Акне и постакне",
+        "threads": 39,
+        "messages": 106,
+        "threads_by_source": {
+          "it_alfemminile": 5,
+          "pikabu": 32,
+          "ru_pf_k": 2
+        },
+        "threads_actual": 36,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C07",
+        "name": "Розацеа, раздражение и чувствительная кожа (в т.ч. губы)",
+        "threads": 39,
+        "messages": 90,
+        "threads_by_source": {
+          "it_alfemminile": 6,
+          "pikabu": 32,
+          "ru_pf_k": 1
+        },
+        "threads_actual": 35,
+        "confidence": "средняя"
       },
       {
         "id": "C06",
         "name": "Пилинги, кислоты и микронидлинг: выбор, сочетание, восстановление",
-        "threads": 4,
-        "messages": 10,
+        "threads": 28,
+        "messages": 51,
         "threads_by_source": {
-          "it_alfemminile": 2,
-          "ru_pf_k": 2
+          "pikabu": 24,
+          "ru_pf_k": 2,
+          "it_alfemminile": 2
         },
-        "threads_actual": 0,
-        "confidence": "низкая"
+        "threads_actual": 24,
+        "confidence": "средняя"
       },
       {
         "id": "C18",
         "name": "Протоколы и уход в кабинете: чистка, маски, аппараты",
-        "threads": 4,
-        "messages": 6,
+        "threads": 27,
+        "messages": 33,
         "threads_by_source": {
-          "ru_pf_k": 3,
+          "pikabu": 21,
+          "ru_pf_k": 5,
           "it_alfemminile": 1
         },
-        "threads_actual": 1,
-        "confidence": "низкая"
+        "threads_actual": 22,
+        "confidence": "средняя"
       },
       {
-        "id": "C17",
-        "name": "Цена, расход и окупаемость",
-        "threads": 4,
-        "messages": 5,
+        "id": "C21",
+        "name": "Состав и обещания: коллаген, пептиды, «натуральное», CBD",
+        "threads": 26,
+        "messages": 44,
         "threads_by_source": {
-          "it_alfemminile": 3,
-          "ru_pf_k": 1
+          "pikabu": 19,
+          "it_alfemminile": 5,
+          "ru_pf_k": 2
         },
-        "threads_actual": 1,
-        "confidence": "низкая"
-      },
-      {
-        "id": "C16",
-        "name": "Выбор бренда и линии: независимый опыт коллег",
-        "threads": 3,
-        "messages": 5,
-        "threads_by_source": {
-          "ru_pf_k": 3
-        },
-        "threads_actual": 0,
-        "confidence": "низкая"
+        "threads_actual": 21,
+        "confidence": "средняя"
       },
       {
         "id": "C20",
         "name": "Возрастные изменения и домашний уход",
-        "threads": 3,
-        "messages": 5,
+        "threads": 25,
+        "messages": 50,
         "threads_by_source": {
-          "it_alfemminile": 3
+          "pikabu": 21,
+          "it_alfemminile": 3,
+          "ru_pf_k": 1
         },
-        "threads_actual": 0,
-        "confidence": "низкая"
+        "threads_actual": 21,
+        "confidence": "средняя"
       },
       {
-        "id": "C14",
-        "name": "Эпиляция: лазер, IPL — результат, число сеансов, подготовка",
-        "threads": 3,
-        "messages": 4,
+        "id": "C16",
+        "name": "Выбор бренда и линии: независимый опыт коллег",
+        "threads": 22,
+        "messages": 27,
         "threads_by_source": {
-          "it_alfemminile": 3
+          "pikabu": 17,
+          "ru_pf_k": 5
         },
-        "threads_actual": 2,
-        "confidence": "низкая"
+        "threads_actual": 17,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C17",
+        "name": "Цена, расход и окупаемость",
+        "threads": 22,
+        "messages": 27,
+        "threads_by_source": {
+          "it_alfemminile": 3,
+          "pikabu": 17,
+          "ru_pf_k": 2
+        },
+        "threads_actual": 18,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C01",
+        "name": "Ретиноиды: как начать и что считать нормальной реакцией",
+        "threads": 18,
+        "messages": 65,
+        "threads_by_source": {
+          "it_alfemminile": 4,
+          "pikabu": 14
+        },
+        "threads_actual": 15,
+        "confidence": "средняя"
+      },
+      {
+        "id": "C10",
+        "name": "Солнцезащита: выбор SPF, белый след, сочетание с активами",
+        "threads": 14,
+        "messages": 16,
+        "threads_by_source": {
+          "pikabu": 13,
+          "it_alfemminile": 1
+        },
+        "threads_actual": 13,
+        "confidence": "средняя"
       }
     ]
   }

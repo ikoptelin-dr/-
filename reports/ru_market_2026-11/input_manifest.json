@@ -1,14 +1,22 @@
 {
-  "dataset": "forums_ru_2026-11",
+  "datasets": [
+    "forums_ru_2026-11",
+    "forums_ru_fresh_2026-11"
+  ],
   "input_files": {
-    "MANIFEST.sha256.json": "92869613f74134fb82254db2ddad5fa912d3ca01e612c4350f8f7ea3ac7c5d67",
-    "clusters.json": "e06be20a22dcc03dd94748ae531bd3fe9f0f842995424756aa5016bf9bcf39cc",
-    "excluded_or_duplicate.json": "502e4e26bfdf1a182c5966326a1e6823b9557d9ccf858a220243162ae4047483",
-    "messages_all.jsonl": "ccf5a02ca38afc07f3b4b996cab6057da48cc145b026c32a7f354c76eca21293",
-    "messages_for_analysis.jsonl": "8120dcb4b8079f903740d784c741983c4d93a8cb86db3e27118ada6851c0f797",
-    "needs.jsonl": "e2700769ffc7bc238b6d9b5501699a94e699ecb97c40231e7d4996802f72879e",
-    "summary.json": "4a2fe966e68bbb8633c7f6dfb6aa7d950f08e7021243cddd56f92b9fe7babf18",
-    "threads.jsonl": "a97df76a8819fb2335df1e96457ffd648efbdeb12362ed4702415a8c95eee5ca"
+    "forums_ru_2026-11/MANIFEST.sha256.json": "92869613f74134fb82254db2ddad5fa912d3ca01e612c4350f8f7ea3ac7c5d67",
+    "forums_ru_2026-11/clusters.json": "e06be20a22dcc03dd94748ae531bd3fe9f0f842995424756aa5016bf9bcf39cc",
+    "forums_ru_2026-11/excluded_or_duplicate.json": "502e4e26bfdf1a182c5966326a1e6823b9557d9ccf858a220243162ae4047483",
+    "forums_ru_2026-11/messages_all.jsonl": "ccf5a02ca38afc07f3b4b996cab6057da48cc145b026c32a7f354c76eca21293",
+    "forums_ru_2026-11/messages_for_analysis.jsonl": "8120dcb4b8079f903740d784c741983c4d93a8cb86db3e27118ada6851c0f797",
+    "forums_ru_2026-11/needs.jsonl": "e2700769ffc7bc238b6d9b5501699a94e699ecb97c40231e7d4996802f72879e",
+    "forums_ru_2026-11/summary.json": "4a2fe966e68bbb8633c7f6dfb6aa7d950f08e7021243cddd56f92b9fe7babf18",
+    "forums_ru_2026-11/threads.jsonl": "a97df76a8819fb2335df1e96457ffd648efbdeb12362ed4702415a8c95eee5ca",
+    "forums_ru_fresh_2026-11/MANIFEST.sha256.json": "a97b43e330a7ff35d099190d05d2c3e34a57eca8cc1876f67742303a0d090a01",
+    "forums_ru_fresh_2026-11/messages_all.jsonl": "f86536954190d1563c48dc6c01ffeaee65337b0d1d24a4ebae5ec92b422f0628",
+    "forums_ru_fresh_2026-11/sources_status.json": "2c09e9c8fea32cbd79765691ccf7a043a863831a2b9ce28fb1d069d0f127cc2a",
+    "forums_ru_fresh_2026-11/threads.jsonl": "d8c161aa3e7b97f45eb30651e7fe6d987d54084538263c4a467c6e53b02a6cef",
+    "forums_ru_fresh_2026-11/wordstat_status.json": "aa601c47e0512f5e785bc8e665bd6f748ecfef3ffe3e38a965a9171733448a42"
   },
   "threads": [
     {
@@ -266,6 +274,550 @@
       "created": "2026-10-16",
       "messages": 2,
       "completeness": "pagination_followed_count_unverified"
+    },
+    {
+      "thread_key": "ru_pf_k:20610",
+      "url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20610.html/",
+      "title": "Тема для новичков",
+      "created": "2015-10-30",
+      "messages": 42,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:30753",
+      "url": "https://pf-k.ru/forums/%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B8-%D0%BA-%D0%BB%D0%B0%D0%B7%D0%B5%D1%80%D0%BD%D0%BE%D0%B9-%D1%88%D0%BB%D0%B8%D1%84%D0%BE%D0%B2%D0%BA%D0%B5-t30753.html/",
+      "title": "Подготовка кожи к лазерной шлифовке",
+      "created": "2023-08-04",
+      "messages": 5,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:20613",
+      "url": "https://pf-k.ru/forums/%D1%82%D0%B5%D0%BC%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-t20613.html/",
+      "title": "Тема для новичков",
+      "created": "2015-10-30",
+      "messages": 18,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:576",
+      "url": "https://pf-k.ru/forums/%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80%D1%8B-%D0%BD%D0%B0%D0%BF%D1%80%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%84%D1%82%D0%B8%D0%BD%D0%B3-t576.html/",
+      "title": "Процедуры напрвленные на лифтинг",
+      "created": "2009-04-22",
+      "messages": 105,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:29872",
+      "url": "https://pf-k.ru/forums/%D0%B3%D0%B8%D0%B4%D1%80%D0%B0%D1%82%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%B0-collost-micro-t29872.html/",
+      "title": "Гидратация препарата COLLOST Micro?",
+      "created": "2023-01-18",
+      "messages": 12,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:27175",
+      "url": "https://pf-k.ru/forums/%D1%85%D0%BE%D1%87%D1%83-%D1%83%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%B0-%D0%B2%D0%B5%D0%BD%D0%B5%D1%80%D1%8B-%D0%BD%D0%B0-%D1%88%D0%B5%D0%B5-t27175.html/",
+      "title": "Хочу убрать кольца Венеры на шее",
+      "created": "2019-05-10",
+      "messages": 5,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:18952",
+      "url": "https://pf-k.ru/forums/%D0%BE%D0%BC%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B6%D0%B8-%D1%80%D1%83%D0%BA-t18952.html/",
+      "title": "Омоложение Кожи Рук",
+      "created": "2015-04-19",
+      "messages": 14,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:30318",
+      "url": "https://pf-k.ru/forums/%D1%81%D1%84%D0%B5%D1%80%D0%BE%D0%B3%D0%B5%D0%BB%D1%8C-%D0%B8%D0%BB%D0%B8-%D0%BA%D0%BE%D0%BB%D0%BB%D0%BE%D1%81%D1%82-t30318.html/",
+      "title": "Сферогель или Коллост?",
+      "created": "2023-03-23",
+      "messages": 12,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:6881",
+      "url": "https://pf-k.ru/forums/%D0%BB%D0%B0%D0%B7%D0%B5%D1%80-t6881.html/",
+      "title": "Лазер",
+      "created": "2011-07-06",
+      "messages": 220,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:1397",
+      "url": "https://pf-k.ru/forums/%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D1%84%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D1%82%D0%B5-%D0%B2-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-t1397.html/",
+      "title": "Какой филлер используете в работе?",
+      "created": "2009-11-10",
+      "messages": 660,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "ru_pf_k:15635",
+      "url": "https://pf-k.ru/forums/%D1%84%D0%B8%D0%BB%D0%BB%D0%B5%D1%80-%D0%BF%D0%BE%D0%B4-%D0%B3%D0%BB%D0%B0%D0%B7%D0%B0-t15635.html/",
+      "title": "Филлер Под Глаза",
+      "created": "2014-04-01",
+      "messages": 83,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14416209",
+      "url": "https://pikabu.ru/story/v_yute_testiruyut_iivracha_dlya_lecheniya_akne_14416209",
+      "title": "В Юте тестируют ИИ-врача для лечения акне⁠⁠",
+      "created": "2026-10-12",
+      "messages": 2,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:12165913",
+      "url": "https://pikabu.ru/story/chto_provotsiruet_obostrenie_rozatsea_12165913",
+      "title": "Что провоцирует обострение розацеа?⁠⁠",
+      "created": "2024-12-22",
+      "messages": 2,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13919288",
+      "url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___2_mesyats_13919288",
+      "title": "Акне + хороший косметолог + акнекутан = ??? 2 месяц⁠⁠",
+      "created": "2026-04-26",
+      "messages": 2,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14466996",
+      "url": "https://pikabu.ru/story/toner_syivorotka_krem_spf__v_kakom_poryadke_vsyo_yeto_nanosit_14466996",
+      "title": "Тонер, сыворотка, крем, SPF — в каком порядке всё это наносить?⁠⁠",
+      "created": "2026-10-28",
+      "messages": 3,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13113647",
+      "url": "https://pikabu.ru/story/otvet_na_post_peresadka_volos_13113647",
+      "title": "Ответ на пост «Пересадка волос»⁠⁠7",
+      "created": "2025-08-25",
+      "messages": 3,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14188133",
+      "url": "https://pikabu.ru/story/kollagen_dokazannaya_dobavka_ili_udobnyiy_marketing_14188133",
+      "title": "Коллаген: доказанная добавка или удобный маркетинг?⁠⁠",
+      "created": "2026-07-27",
+      "messages": 3,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14198353",
+      "url": "https://pikabu.ru/story/kak_ya_sobrala_byudzhetnyiy_ukhod_za_litsom_za_3000_i_chto_iz_yetogo_vyishlo_14198353",
+      "title": "Как я собрала бюджетный уход за лицом за 3000 и что из этого вышло⁠⁠",
+      "created": "2026-07-30",
+      "messages": 3,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13949181",
+      "url": "https://pikabu.ru/story/zhirnaya_kozha_ne_povod_ustraivat_ey_karatelnyiy_ukhod_13949181",
+      "title": "Жирная кожа: не повод устраивать ей карательный уход⁠⁠",
+      "created": "2026-05-06",
+      "messages": 3,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13845521",
+      "url": "https://pikabu.ru/story/sistemnyie_retinoidyi_vvedenie_chast_pervaya_13845521",
+      "title": "Системные ретиноиды. Введение. Часть первая⁠⁠",
+      "created": "2026-04-03",
+      "messages": 4,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13738042",
+      "url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___13738042",
+      "title": "Акне + хороший косметолог + акнекутан = ???⁠⁠",
+      "created": "2026-02-28",
+      "messages": 4,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:12918572",
+      "url": "https://pikabu.ru/story/kuperoz_kak_ubrat_sosudyi_12918572",
+      "title": "Купероз: как убрать сосуды?⁠⁠",
+      "created": "2025-07-04",
+      "messages": 4,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14288282",
+      "url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___56_mesyats_14288282",
+      "title": "Акне + хороший косметолог + акнекутан = ??? 5-6 месяц⁠⁠",
+      "created": "2026-08-30",
+      "messages": 5,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:12050708",
+      "url": "https://pikabu.ru/story/preparat_ot_pokrasneniy_i_postakne_12050708",
+      "title": "Препарат от покраснений и постакне⁠⁠",
+      "created": "2024-11-22",
+      "messages": 5,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14399406",
+      "url": "https://pikabu.ru/story/esli_litso_otekaet_poyavilis_bryilya_i_nosogubki_14399406",
+      "title": "Если лицо отекает, появились брылья и носогубки⁠⁠",
+      "created": "2026-10-06",
+      "messages": 5,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14401589",
+      "url": "https://pikabu.ru/story/udalenie_volos_na_litse_7_sposobov_i_kakoy_vyibrat_dlya_kazhdoy_zonyi_14401589",
+      "title": "Удаление волос на лице: 7 способов и какой выбрать для каждой зоны⁠⁠",
+      "created": "2026-10-07",
+      "messages": 6,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14276544",
+      "url": "https://pikabu.ru/story/devushki_i_vyidavlivanie_pryishchey_14276544",
+      "title": "Девушки и выдавливание прыщей⁠⁠",
+      "created": "2026-08-26",
+      "messages": 6,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14317145",
+      "url": "https://pikabu.ru/story/razbor_dnevnogo_krema_natura_siberica_zashchita_i_uvlazhnenie_chto_realno_stoit_za_sostavom_14317145",
+      "title": "Разбор дневного крема Natura Siberica «Защита и увлажнение»: что реально стоит за составом⁠⁠",
+      "created": "2026-09-09",
+      "messages": 6,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13837957",
+      "url": "https://pikabu.ru/story/kollagen_dlya_uprugoy_kozhi_chto_delat_pit_est_ili_mazat_otvechayu_na_izvechnyiy_spor_13837957",
+      "title": "Коллаген для упругой кожи. Что делать? Пить, есть или мазать? Отвечаю на извечный спор⁠⁠",
+      "created": "2026-03-31",
+      "messages": 5,
+      "completeness": "partial"
+    },
+    {
+      "thread_key": "pikabu:14237044",
+      "url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___34_mesyats_14237044",
+      "title": "Акне + хороший косметолог + акнекутан = ??? 3-4 месяц⁠⁠",
+      "created": "2026-08-12",
+      "messages": 7,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13746118",
+      "url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___2_chast_13746118",
+      "title": "Акне + хороший косметолог + акнекутан = ??? 2 часть⁠⁠",
+      "created": "2026-03-02",
+      "messages": 7,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14161612",
+      "url": "https://pikabu.ru/story/kak_ya_uznala_chto_ya_gryaznulya_14161612",
+      "title": "Как я узнала, что я грязнуля⁠⁠",
+      "created": "2026-07-18",
+      "messages": 8,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13829114",
+      "url": "https://pikabu.ru/story/akne__khoroshiy_kosmetolog__aknekutan___1_mesyats_13829114",
+      "title": "Акне + хороший косметолог + акнекутан = ??? 1 месяц⁠⁠",
+      "created": "2026-03-28",
+      "messages": 8,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14487929",
+      "url": "https://pikabu.ru/story/chto_delat_s_krasnyimi_shchekami_chtobyi_ne_vyiros_nos_14487929",
+      "title": "Что делать с красными щеками, чтобы не вырос нос⁠⁠",
+      "created": "2026-11-03",
+      "messages": 9,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14070834",
+      "url": "https://pikabu.ru/story/alkogol_vo_vremya_priyoma_aknekutana_izotretinoina_14070834",
+      "title": "Алкоголь во время приёма Акнекутана (изотретиноина)?⁠⁠",
+      "created": "2026-06-17",
+      "messages": 9,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:11233748",
+      "url": "https://pikabu.ru/story/otvet_na_post_o_dermatologii_11233748",
+      "title": "Ответ на пост «О дерматологии»⁠⁠1",
+      "created": "2024-03-17",
+      "messages": 9,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:12187011",
+      "url": "https://pikabu.ru/story/kak_skryit_shramyi_ot_pryishchey_s_pomoshchyu_grima_12187011",
+      "title": "Как скрыть шрамы от прыщей с помощью грима?⁠⁠",
+      "created": "2024-12-27",
+      "messages": 9,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14061686",
+      "url": "https://pikabu.ru/story/o_marketologakh_i_yepilyatsii_14061686",
+      "title": "О маркетологах и эпиляции⁠⁠",
+      "created": "2026-06-14",
+      "messages": 9,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14059387",
+      "url": "https://pikabu.ru/story/sintetika_vs_naturalnogo_vitamina_s_14059387",
+      "title": "Синтетика vs. натурального витамина С⁠⁠",
+      "created": "2026-06-13",
+      "messages": 10,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13974297",
+      "url": "https://pikabu.ru/story/pravda_li_chto_mikrotoki_pomogayut_borotsya_so_stareniem_kozhi_13974297",
+      "title": "Правда ли, что микротоки помогают бороться со старением кожи?⁠⁠",
+      "created": "2026-05-15",
+      "messages": 10,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13925776",
+      "url": "https://pikabu.ru/story/syivorotok_mnogo_a_litso_odno_kak_ne_povestis_na_vrane_na_yetiketke_13925776",
+      "title": "Сывороток много, а лицо одно: как не повестись на вранье на этикетке?⁠⁠",
+      "created": "2026-04-28",
+      "messages": 8,
+      "completeness": "partial"
+    },
+    {
+      "thread_key": "pikabu:14373922",
+      "url": "https://pikabu.ru/story/kolbasnyiy_yad_paralich_dyikhaniya_i_sluchaynoe_otkryitie_realnaya_istoriya_sozdaniya_botoksa_14373922",
+      "title": "Колбасный яд, паралич дыхания и случайное открытие: реальная история создания ботокса!⁠⁠",
+      "created": "2026-09-28",
+      "messages": 11,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14117393",
+      "url": "https://pikabu.ru/story/idealnaya_kozha__yeto_dorogo_14117393",
+      "title": "Идеальная кожа - это дорого?⁠⁠",
+      "created": "2026-07-03",
+      "messages": 13,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:12616647",
+      "url": "https://pikabu.ru/story/a_chto_novogo_v_industrii_krasotyi_davayte_obsudim_12616647",
+      "title": "А что нового в индустрии красоты? Давайте обсудим!⁠⁠",
+      "created": "2025-04-16",
+      "messages": 13,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:11007713",
+      "url": "https://pikabu.ru/story/kto_delal_subtsiziyu_otkliknites_11007713",
+      "title": "Кто делал субцизию, откликнитесь!⁠⁠",
+      "created": "2024-01-09",
+      "messages": 13,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14293359",
+      "url": "https://pikabu.ru/story/adskaya_tekhnologicheskaya_zadacha__sdelat_kosmeticheskiy_stik_14293359",
+      "title": "Адская технологическая задача — сделать косметический стик⁠⁠",
+      "created": "2026-09-01",
+      "messages": 13,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:11016311",
+      "url": "https://pikabu.ru/story/posovetuyte_pozhaluysta_dermatokosmetologa_11016311",
+      "title": "Посоветуйте пожалуйста дерматокосметолога⁠⁠",
+      "created": "2024-01-12",
+      "messages": 14,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14456791",
+      "url": "https://pikabu.ru/story/zhena_sdelala_gubyi_14456791",
+      "title": "Жена сделала губы)⁠⁠",
+      "created": "2026-10-24",
+      "messages": 15,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14212381",
+      "url": "https://pikabu.ru/story/podtyazhka_litsa_vo_vetname_14212381",
+      "title": "Подтяжка лица во Вьетнаме⁠⁠",
+      "created": "2026-08-04",
+      "messages": 15,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14125086",
+      "url": "https://pikabu.ru/story/botoks_filleryi_i_kosmetologi_kotoryie_ne_preduprezhdali_o_pobochkakh_14125086",
+      "title": "Ботокс, филлеры и косметологи, которые не предупреждали о побочках⁠⁠",
+      "created": "2026-07-06",
+      "messages": 18,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14091338",
+      "url": "https://pikabu.ru/story/lishniy_ves_i_pigmentatsiya_14091338",
+      "title": "Лишний вес и пигментация⁠⁠",
+      "created": "2026-06-24",
+      "messages": 18,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14356149",
+      "url": "https://pikabu.ru/story/otvet_na_post_dekspantenol_sam_po_sebe_bespolezen_i_imenno_poyetomu_rabotaet_14356149",
+      "title": "Ответ на пост «Декспантенол сам по себе бесполезен, и именно поэтому работает»⁠⁠1",
+      "created": "2026-09-22",
+      "messages": 19,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14375831",
+      "url": "https://pikabu.ru/story/lyogkiy_net_sposob_perestat_kovyiryat_litso_14375831",
+      "title": "Лёгкий (нет!) способ перестать ковырять лицо⁠⁠",
+      "created": "2026-09-29",
+      "messages": 23,
+      "completeness": "partial"
+    },
+    {
+      "thread_key": "pikabu:14201179",
+      "url": "https://pikabu.ru/story/chto_brutalnyie_muzhiki_delayut_u_kosmetologa_14201179",
+      "title": "Что брутальные мужики делают у косметолога⁠⁠",
+      "created": "2026-07-31",
+      "messages": 24,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13660456",
+      "url": "https://pikabu.ru/story/mindalnaya_kislota_pochemu_ona_ne_zhzhyotsya_no_rabotaet_i_kogda_vsyotaki_proigryivaet_13660456",
+      "title": "Миндальная кислота: почему она не жжётся, но работает (и когда всё-таки проигрывает)⁠⁠",
+      "created": "2026-02-04",
+      "messages": 27,
+      "completeness": "partial"
+    },
+    {
+      "thread_key": "pikabu:11099306",
+      "url": "https://pikabu.ru/story/plyus_galochka_v_kopilke_girudoterapii_11099306",
+      "title": "Плюс галочка в копилке гирудотерапии⁠⁠",
+      "created": "2024-02-05",
+      "messages": 26,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14003094",
+      "url": "https://pikabu.ru/story/devushka_khochet_nakachat_gubyi_a_mne_strashno_14003094",
+      "title": "Девушка хочет накачать губы, а мне страшно⁠⁠",
+      "created": "2026-05-25",
+      "messages": 26,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13686111",
+      "url": "https://pikabu.ru/story/esli_zimoy_mazat_ruki_uvlazhnyayushchim_kremom__budet_tolko_khuzhe__fixed_13686111",
+      "title": "Если зимой мазать руки увлажняющим кремом — будет только хуже — fixed⁠⁠",
+      "created": "2026-02-12",
+      "messages": 30,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:11907053",
+      "url": "https://pikabu.ru/story/piling_varezhka_kese_dolzhna_byit_u_kazhdoy_zhenshchinyi_11907053",
+      "title": "Пилинг варежка кесе должна быть у каждой женщины!⁠⁠",
+      "created": "2024-10-13",
+      "messages": 32,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13730721",
+      "url": "https://pikabu.ru/story/pochemu_zimoy_lyudi_figachat_retinoidyi_i_pravda_li_chto_pro_spf_mozhno_zabyit_13730721",
+      "title": "Почему зимой люди фигачат ретиноиды, и правда ли, что про SPF можно забыть⁠⁠",
+      "created": "2026-02-26",
+      "messages": 40,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:12149095",
+      "url": "https://pikabu.ru/story/post_ne_dlya_yestetov_ishchu_pomoshchipodskazki_vracha_12149095",
+      "title": "Пост не для эстетов, ищу помощи/подсказки врача⁠⁠",
+      "created": "2024-12-18",
+      "messages": 42,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14431362",
+      "url": "https://pikabu.ru/story/dermatologi__otsenite__pozhaluysta_14431362",
+      "title": "Дерматологи , оцените , пожалуйста⁠⁠",
+      "created": "2026-10-16",
+      "messages": 48,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:14229624",
+      "url": "https://pikabu.ru/story/manka_na_gubakh_i_ne_tolko__granulyi_fordaysa_14229624",
+      "title": "Манка на губах и не только - гранулы Фордайса⁠⁠",
+      "created": "2026-08-10",
+      "messages": 53,
+      "completeness": "count_matched"
+    },
+    {
+      "thread_key": "pikabu:13880328",
+      "url": "https://pikabu.ru/story/delaem_deshevoe_khoroshee_zhidkoe_myilo_sami_polezno_yekonomno_i_interesno_13880328",
+      "title": "Делаем дешевое хорошее жидкое мыло сами. Полезно, экономно и интересно⁠⁠",
+      "created": "2026-04-14",
+      "messages": 10,
+      "completeness": "partial"
+    },
+    {
+      "thread_key": "pikabu:14354928",
+      "url": "https://pikabu.ru/story/dekspantenol_sam_po_sebe_bespolezen_i_imenno_poyetomu_rabotaet_14354928",
+      "title": "Декспантенол сам по себе бесполезен, и именно поэтому работает⁠⁠1",
+      "created": "2026-09-22",
+      "messages": 2,
+      "completeness": "partial"
+    },
+    {
+      "thread_key": "pikabu:14400647",
+      "url": "https://pikabu.ru/story/u_vas_est_primerno_sutki_chtobyi_reshit_budet_shram_zametnyim_ili_net_14400647",
+      "title": "У вас есть примерно сутки, чтобы решить, будет шрам заметным или нет⁠⁠",
+      "created": "2026-10-07",
+      "messages": 2,
+      "completeness": "partial"
+    },
+    {
+      "thread_key": "pikabu:14455759",
+      "url": "https://pikabu.ru/story/mnogo_ovoshchey_chtob_na_pope_ne_byilo_pryishchey_14455759",
+      "title": "Много овощей, чтоб на попе не было прыщей⁠⁠",
+      "created": "2026-10-24",
+      "messages": 2,
+      "completeness": "partial"
+    },
+    {
+      "thread_key": "pikabu:14373924",
+      "url": "https://pikabu.ru/story/ispolzuyte_zashchitu_14373924",
+      "title": "Используйте защиту⁠⁠",
+      "created": "2026-09-28",
+      "messages": 2,
+      "completeness": "partial"
     }
   ],
   "note": "Сырые тексты не публикуются и не коммитятся. Источник выгрузки — репозиторий ikoptelin-dr/Analys_cosmetology."
