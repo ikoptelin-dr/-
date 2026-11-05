@@ -5,6 +5,7 @@
   python -m proba queue-check           # почему черновики нельзя опубликовать
   python -m proba forum-report          # выгрузка форумов → очистка → сегменты → кластеры → отчёт (без сети)
   python -m proba wordstat-masks        # списки масок для ручного сбора в Вордстате + шаблон для частот
+  python -m proba wordstat-report       # разбор выгрузки Вордстата: разметка фраз, спрос по кластерам, вопросы
 """
 from __future__ import annotations
 
@@ -40,6 +41,10 @@ def main(argv: list[str] | None = None) -> int:
     wm = sub.add_parser("wordstat-masks")
     wm.add_argument("--masks", default=str(ROOT / "config/wordstat_masks_wave1.yaml"))
     wm.add_argument("--out", default=str(ROOT / "reports/wordstat_wave1"))
+    wr = sub.add_parser("wordstat-report")
+    wr.add_argument("--csv", default=str(ROOT / "data/raw/wordstat_2026-11/wordstat_wave1.csv"))
+    wr.add_argument("--out", default=str(ROOT / "reports/wordstat_wave1/analysis"))
+    wr.add_argument("--full", default=str(ROOT / "data/raw/wordstat_2026-11/clustered.csv"))
     args = ap.parse_args(argv)
 
     if args.cmd == "first-pass":
@@ -66,6 +71,17 @@ def main(argv: list[str] | None = None) -> int:
         from .demand.wordstat import load, write
         lex = yaml.safe_load((ROOT / "config/demand_lexicon.yaml").read_text(encoding="utf-8"))
         print(json.dumps(write(load(Path(args.masks), lex), Path(args.out)), ensure_ascii=False))
+        return 0
+    if args.cmd == "wordstat-report":
+        import yaml
+        from .demand import wordstat_analysis as wa
+        from .demand.wordstat import NAVIGATIONAL
+        lex = yaml.safe_load((ROOT / "config/demand_lexicon.yaml").read_text(encoding="utf-8"))
+        masks = yaml.safe_load((ROOT / "config/wordstat_masks_wave1.yaml").read_text(encoding="utf-8"))
+        a = wa.analyse(Path(args.csv), masks, lex, set(NAVIGATIONAL))
+        summary = wa.summarise(a, lex)
+        wa.write(a, summary, Path(args.out), Path(args.full))
+        print(json.dumps({"rows": a["rows"], "phrases": len(a["phrases"]), "masks": len(a["masks"]), "missing": len(a["missing"])}, ensure_ascii=False))
         return 0
     if args.cmd == "queue-check":
         import yaml

@@ -286,3 +286,36 @@ def test_wordstat_duplicate_mask_rejected(tmp_path):
                  '  - {id: G1, cluster: C01, title: t, audience: consumer, masks: [{q: "ретинол"}, {q: "ретинол"}]}\n', encoding="utf-8")
     with pytest.raises(ValueError, match="повтор"):
         load(p, LEX)
+
+
+# --- Вордстат: разбор выгрузки (СИНТЕТИЧЕСКИЕ строки) ------------------------------------
+def test_wordstat_analysis_marks_noise_and_keeps_all(tmp_path):
+    from proba.demand import wordstat_analysis as wa
+    from proba.demand.wordstat import NAVIGATIONAL
+    csv_path = tmp_path / "ws.csv"
+    csv_path.write_text("Тема;Запрос;Частота\n"
+                        "ботокс;ботокс;1000\nботокс;ботокс для волос;300\nботокс;что нельзя после ботокса;50\n"
+                        "!косметолог;косметолог;900\n!косметолог;косметолог москва;200\n!косметолог;курсы косметолога;100\n"
+                        "!косметолог;косметолог вакансии;40\nакне;почему прыщи;80\nакне;акнекутан;70\n", encoding="utf-8")
+    masks = yaml.safe_load((ROOT / "config/wordstat_masks_wave1.yaml").read_text(encoding="utf-8"))
+    a = wa.analyse(csv_path, masks, LEX, set(NAVIGATIONAL))
+    P = a["phrases"]
+    assert len(P) == 9                                            # ни одна фраза не удалена
+    assert P["ботокс для волос"].relevance == "adjacent_hair"
+    assert P["косметолог москва"].relevance == "local"
+    assert P["косметолог вакансии"].relevance == "job"
+    assert P["курсы косметолога"].relevance == "education" and P["курсы косметолога"].audience == "pro"
+    assert P["почему прыщи"].intent == "question" and P["почему прыщи"].cluster == "C08"
+    assert P["акнекутан"].intent == "navigational"
+    heads = {m["mask"]: m["head_freq"] for m in a["masks"]}
+    assert heads["косметолог"] == 900 and heads["ботокс"] == 1000   # !косметолог склеен с «косметолог»
+    s = {x["cluster"]: x for x in wa.summarise(a, LEX)}
+    assert s["C05"]["head_demand"] == 1000                        # спрос = head, частоты не суммируются
+
+
+def test_wordstat_csv_header_checked(tmp_path):
+    from proba.demand import wordstat_analysis as wa
+    p = tmp_path / "bad.csv"
+    p.write_text("a;b;c\nx;y;1\n", encoding="utf-8")
+    with pytest.raises(ValueError, match="Тема;Запрос;Частота"):
+        wa.load_csv(p)
