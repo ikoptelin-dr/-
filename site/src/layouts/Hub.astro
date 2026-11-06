@@ -14,22 +14,40 @@ interface Props {
   hub: string;
   title: string;
   description: string;
+  eyebrow?: string;
   cta?: { prefix: string; slug: string; text: string };
 }
-const { section, hub, title, description, cta } = Astro.props;
+const { section, hub, title, description, eyebrow, cta } = Astro.props;
 const intro = await getHubIntro({ section, hub });
 const items = await getHubItems({ section, hub });
 const Intro = intro ? (await render(intro.entry)).Content : null;
 const path = `/${section}/${hub}/`;
+const sectionLabel = section === 'pro' ? 'Proba Pro' : 'Для всех';
 ---
 <Base title={intro?.data.title ?? title} description={intro?.data.summary ?? description} path={path} noindex={intro ? !intro.indexable : false}>
-  <h1>{intro?.data.title ?? title}</h1>
-  {intro?.decision.draft && <p><strong data-draft-badge>Черновик вводного текста</strong> — не прошёл рецензию.</p>}
-  {Intro ? <Intro /> : <p data-hub-pending>Раздел готовится. Материалы появляются здесь только после проверки врачом.</p>}
-  {intro && <ReviewBlock data={intro.data} draft={intro.decision.draft} reason={intro.decision.reason} />}
-  {intro && <Sources sources={intro.data.sources} />}
-  <slot />
-  <h2>Материалы</h2>
-  <MaterialList items={items} empty="Пока нет опубликованных материалов: каждый выходит только после медицинской рецензии." />
-  {cta && <TelegramCta prefix={cta.prefix} slug={cta.slug} text={cta.text} />}
+  <header class="page-head">
+    <div class="container">
+      <p class="eyebrow"><a href={`/${section}/`}>{sectionLabel}</a>{eyebrow && <> · {eyebrow}</>}</p>
+      {intro?.decision.draft && <p class="page-head__badges"><span class="badge badge--draft" data-draft-badge>Черновик вводного текста</span></p>}
+      <h1>{intro?.data.title ?? title}</h1>
+      <p class="lead">{intro?.data.summary ?? description}</p>
+    </div>
+  </header>
+  <div class="container page-body">
+    <div>
+      {Intro ? <div class="prose"><Intro /></div> : <p class="notice" data-hub-pending>Раздел готовится. Материалы появляются здесь только после проверки врачом.</p>}
+      <div class="prose"><slot /></div>
+      {intro && <Sources sources={intro.data.sources} />}
+    </div>
+    <aside class="aside">
+      {intro && <ReviewBlock data={intro.data} draft={intro.decision.draft} reason={intro.decision.reason} />}
+      {cta && <TelegramCta prefix={cta.prefix} slug={cta.slug} text={cta.text} />}
+    </aside>
+  </div>
+  <section class="section">
+    <div class="container">
+      <div class="section__head"><h2>Материалы</h2><p class="mono">{items.length} опубликовано</p></div>
+      <MaterialList items={items} empty="Пока нет опубликованных материалов: каждый выходит только после медицинской рецензии." />
+    </div>
+  </section>
 </Base>

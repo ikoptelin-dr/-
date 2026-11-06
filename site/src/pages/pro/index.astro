@@ -1,19 +1,12 @@
 ---
-import Base from '../../layouts/Base.astro';
-import { getEntry, render } from 'astro:content';
-const page = await getEntry('pages', 'pro');
-const { Content } = await render(page!);
+import Simple from '../../layouts/Simple.astro';
 ---
-<Base title={page!.data.title} description={page!.data.description} path="/pro/">
-  <h1>{page!.data.title}</h1>
-  <Content />
-  <nav aria-label="Разделы Proba Pro">
-    <ul>
-      <li><a href="/pro/ne-akne/">Это не акне</a></li>
-      <li><a href="/pro/pamyatki/">Памятки</a></li>
-      <li><a href="/pro/razbory/">Разборы</a></li>
-      <li><a href="/pro/vebinary/">Вебинары</a></li>
-      <li><a href="/pro/klub/">Клуб (лист ожидания)</a></li>
-    </ul>
-  </nav>
-</Base>
+<Simple id="pro" path="/pro/" eyebrow="Proba Pro">
+  <ul class="subnav" aria-label="Разделы Proba Pro">
+    <li><a href="/pro/ne-akne/">Это не акне <span class="arrow">→</span></a></li>
+    <li><a href="/pro/pamyatki/">Памятки <span class="arrow">→</span></a></li>
+    <li><a href="/pro/razbory/">Разборы <span class="arrow">→</span></a></li>
+    <li><a href="/pro/vebinary/">Вебинары <span class="arrow">→</span></a></li>
+    <li><a href="/pro/klub/">Клуб (лист ожидания) <span class="arrow">→</span></a></li>
+  </ul>
+</Simple>

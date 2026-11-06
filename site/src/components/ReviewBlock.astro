@@ -6,18 +6,19 @@ const r = data.review;
 const fmt = (d: Date) => d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 ---
 {data.medical && (
-  <section aria-labelledby="checked" data-review-block>
+  <section class="panel" aria-labelledby="checked" data-review-block>
+    <p class="eyebrow">Медицинская рецензия</p>
     <h2 id="checked">Проверено</h2>
     {draft ? (
-      <p><strong data-draft-badge>Черновик.</strong> Материал не прошёл медицинскую рецензию ({reason}) и не опубликован.</p>
+      <p class="notice notice--draft"><strong data-draft-badge>Черновик.</strong> Материал не прошёл медицинскую рецензию ({reason}) и не опубликован.</p>
     ) : (
       <dl>
         <dt>Рецензент</dt><dd>{r.reviewer_name}, {r.reviewer_title}</dd>
         <dt>Дата рецензии</dt><dd><time datetime={r.reviewed_at.toISOString().slice(0, 10)}>{fmt(r.reviewed_at)}</time></dd>
-        <dt>Версия</dt><dd>{r.version}</dd>
+        <dt>Версия</dt><dd class="mono">{r.version}</dd>
         <dt>Отпечаток текста (SHA-256)</dt><dd><code>{r.content_sha256}</code></dd>
       </dl>
     )}
-    <p><a href="/redakcionnaya-politika/">Как мы проверяем материалы</a></p>
+    <p><a href="/redakcionnaya-politika/">Как мы проверяем материалы <span class="arrow">→</span></a></p>
   </section>
 )}

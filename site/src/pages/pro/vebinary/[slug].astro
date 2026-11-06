@@ -26,28 +26,42 @@ const ld = {
 ---
 <Base title={d.title} description={d.summary} path={path} jsonLd={ld}>
   <article data-webinar={d.slug}>
-    <h1>{d.title}</h1>
-    <p><strong>Для кого:</strong> {d.audience}</p>
-    <h2>Что разберём</h2>
-    <ol>{d.program.map((p) => <li>{p}</li>)}</ol>
-    <dl>
-      <dt>Спикер</dt>
-      <dd data-speaker>{v.speaker ? <>{v.speaker.name}{v.speaker.title && `, ${v.speaker.title}`}</> : 'Спикер будет объявлен'}</dd>
-      <dt>Дата</dt>
-      <dd>{d.date ? <time datetime={d.date.toISOString()}>{d.date.toLocaleString('ru-RU', { dateStyle: 'long', timeStyle: 'short', timeZone: 'Europe/Moscow' })} (МСК)</time> : 'Дата будет объявлена'}</dd>
-      <dt>Статус</dt><dd>{v.statusLabel}</dd>
-      <dt>Длительность</dt><dd>{d.duration}</dd>
-      <dt>Цена</dt><dd>{d.price ?? 'Будет объявлена'}</dd>
-      {d.materials_after.length > 0 && <><dt>Что получите</dt><dd>{d.materials_after.join(', ')}</dd></>}
-    </dl>
-    <p>
-      {v.canPay ? (
-        <a href={v.paymentUrl} rel="noopener" data-pay>Записаться (предоплата)</a>
-      ) : (
-        <span data-pay-disabled>Запись с предоплатой откроется позже. Оставьте контакт в листе ожидания — сообщим.</span>
-      )}
-    </p>
-    <p><a href="#form-webinar_waitlist">Не подходит дата — в лист ожидания</a></p>
+    <header class="page-head">
+      <div class="container">
+        <p class="eyebrow"><a href="/pro/vebinary/">Вебинары</a></p>
+        <p class="page-head__badges"><span class="badge"><span class="pulse" aria-hidden="true"></span> {v.statusLabel}</span><span class="badge">{d.duration}</span></p>
+        <h1>{d.title}</h1>
+        <p class="lead"><strong>Для кого:</strong> {d.audience}</p>
+      </div>
+    </header>
+    <div class="container page-body">
+      <div>
+        <h2>Что разберём</h2>
+        <ol class="program">{d.program.map((p) => <li>{p}</li>)}</ol>
+      </div>
+      <aside class="aside">
+        <div class="panel">
+          <dl>
+            <dt>Спикер</dt>
+            <dd data-speaker>{v.speaker ? <>{v.speaker.name}{v.speaker.title && `, ${v.speaker.title}`}</> : 'Спикер будет объявлен'}</dd>
+            <dt>Дата</dt>
+            <dd>{d.date ? <time datetime={d.date.toISOString()}>{d.date.toLocaleString('ru-RU', { dateStyle: 'long', timeStyle: 'short', timeZone: 'Europe/Moscow' })} (МСК)</time> : 'Дата будет объявлена'}</dd>
+            <dt>Статус</dt><dd>{v.statusLabel}</dd>
+            <dt>Длительность</dt><dd>{d.duration}</dd>
+            <dt>Цена</dt><dd>{d.price ?? 'Будет объявлена'}</dd>
+            {d.materials_after.length > 0 && <><dt>Что получите</dt><dd>{d.materials_after.join(', ')}</dd></>}
+          </dl>
+        </div>
+        {v.canPay ? (
+          <a class="btn btn--block" href={v.paymentUrl} rel="noopener" data-pay>Записаться (предоплата) <span class="arrow">→</span></a>
+        ) : (
+          <p class="notice" data-pay-disabled>Запись с предоплатой откроется позже. Оставьте контакт в листе ожидания — сообщим.</p>
+        )}
+        <a class="btn btn--ghost" href="#form-webinar_waitlist">Не подходит дата — в лист ожидания</a>
+      </aside>
+    </div>
   </article>
-  <WaitlistForm formType="webinar_waitlist" subject={d.slug} heading="Лист ожидания вебинара" />
+  <div class="container">
+    <WaitlistForm formType="webinar_waitlist" subject={d.slug} heading="Лист ожидания вебинара" />
+  </div>
 </Base>

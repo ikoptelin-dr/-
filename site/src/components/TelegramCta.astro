@@ -7,11 +7,12 @@ const { prefix, slug, text = 'Получить в Telegram' } = Astro.props;
 const param = botStartParam(prefix, slug);
 const href = config.telegram.bot_url ? `${config.telegram.bot_url}?start=${param}` : null;
 ---
-<aside aria-label="Получить в Telegram" data-telegram-cta data-start={param}>
+<aside class="cta-band" aria-label="Получить в Telegram" data-telegram-cta data-start={param}>
+  <p class="eyebrow">Telegram-бот</p>
   <h2>{text}</h2>
   {href ? (
-    <p><a href={href} rel="noopener">Открыть бота Proba в Telegram</a></p>
+    <p><a class="btn" href={href} rel="noopener">Открыть бота <span class="arrow">→</span></a></p>
   ) : (
-    <p>Бот Proba скоро заработает. Ссылка появится здесь.</p>
+    <p><span class="btn btn--disabled">Бот скоро заработает</span></p>
   )}
 </aside>

@@ -3,6 +3,7 @@
 import { config, siteUrl } from '../lib/config.mjs';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import '../styles/global.css';
 
 interface Props {
   title: string;
@@ -18,7 +19,7 @@ const canonical = siteUrl(path);
 const robots = noindex || config.preview ? 'noindex, nofollow' : 'index, follow';
 ---
 <!doctype html>
-<html lang="ru">
+<html lang="ru" class="no-js">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,13 +36,16 @@ const robots = noindex || config.preview ? 'noindex, nofollow' : 'index, follow'
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
   <body>
+    <a class="skip-link" href="#main">К содержанию</a>
+    <div class="bg-grid" aria-hidden="true"><div class="bg-grid__squares"></div><div class="bg-grid__lines"></div></div>
     {config.preview && (
-      <p role="status" data-preview-banner>Режим предпросмотра: показаны черновики, страницы закрыты от индексации.</p>
+      <p role="status" class="preview-banner" data-preview-banner>Режим предпросмотра: показаны черновики, страницы закрыты от индексации.</p>
     )}
-    <Header />
+    <Header path={path} />
     <main id="main">
       <slot />
     </main>
     <Footer />
+    <script src="../scripts/ui.js"></script>
   </body>
 </html>

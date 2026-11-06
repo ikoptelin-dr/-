@@ -1,48 +1,221 @@
 ---
 import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import WaitlistForm from '../components/WaitlistForm.astro';
 import { config } from '../lib/config.mjs';
-import { getEntry, render } from 'astro:content';
+import { getMaterials } from '../lib/content.mjs';
+import { getEntry } from 'astro:content';
+
 const page = await getEntry('pages', 'glavnaya');
-const { Content } = await render(page!);
+const published = (await getMaterials()).filter((m) => m.data.kind !== 'hub' && !m.decision.draft).length;
 // Упоминание НГУ — только после договора/письма (AUDIT, раздел 3).
-const webinarLine = config.partners.ngu_confirmed
-  ? 'Вебинары с преподавателями НГУ.'
-  : 'Вебинары для косметологов и врачей.';
+const webinarTitle = config.partners.ngu_confirmed ? 'Вебинары с преподавателями НГУ' : 'Вебинары для косметологов и врачей';
+
+// Реальные данные спроса: docs/site/SITEMAP.md (Яндекс Вордстат, базовая частота, вся Россия, волна 1, ноябрь 2026).
+const demand = [
+  { icon: 'search', num: '106 364', phrase: '«губы после увеличения»' },
+  { icon: 'search', num: '74 897', phrase: '«демодекоз»' },
+  { icon: 'search', num: '44 449', phrase: '«периоральный дерматит»' },
+] as const;
+
+const blocks = [
+  { icon: 'layers', href: '/pro/ne-akne/', title: 'Это не акне', text: 'Периоральный дерматит, демодекоз, себорейный дерматит — то, что путают с акне и лечат не тем. Как распознать в кабинете и когда направить к врачу.' },
+  { icon: 'doc', href: '/pro/pamyatki/', title: 'Памятки пациенту «после процедуры»', text: 'Готовые, проверенные врачом. Меньше тревожных звонков, больше доверия к вам.' },
+  { icon: 'video', href: '/pro/vebinary/', title: webinarTitle, text: 'Ближайший: «Это не акне» — распознать и направить.' },
+] as const;
+
+const steps = [
+  { n: '01', title: 'Источник', label: 'Шаг 01 · Источник', text: 'Каждое медицинское утверждение опирается на опубликованную работу. У источника указаны год, тип исследования и на ком оно проведено: на людях, животных или клетках.' },
+  { n: '02', title: 'Рецензия врача', label: 'Шаг 02 · Рецензия', text: 'Медицинский материал проверяет врач. Решение принимает человек: программы и модели не могут одобрить материал. Без одобрения материал не публикуется.' },
+  { n: '03', title: 'Версия и отпечаток', label: 'Шаг 03 · Версия', text: 'Рецензия привязана к точной версии текста и её отпечатку SHA-256. Изменились текст, заголовок, источники или раскрытие — нужна новая рецензия. Исправления видны в истории материала.' },
+];
+
+const tabs = [
+  { id: 'cosmetologists', label: 'Косметологам', icon: 'users', title: 'Ответы по данным, а не по рекламе', text: 'Профессиональных форумов больше нет, а ответы в чатах всё чаще похожи на рекламу. Здесь разборы исследований, памятки для пациентов, вебинары и скоро — закрытый клуб.',
+    benefits: [['Разборы', '«Исследование недели»: что доказано и на ком.'], ['Памятки', 'Для выдачи пациенту после процедуры — через бота, бесплатно.'], ['Клуб', 'Закрытое сообщество Proba Pro — лист ожидания открыт.']] },
+  { id: 'clinics', label: 'Клиникам', icon: 'shield', title: 'Команда, которая знает, когда направить', text: 'Мастер-класс «Это не акне» для команды, памятки с вашим логотипом, обучение персонала.',
+    benefits: [['Мастер-класс', '«Это не акне» для вашей команды.'], ['Памятки', 'Версия с логотипом клиники — по запросу.'], ['Обучение', 'Обучение персонала по материалам Proba.']] },
+  { id: 'schools', label: 'Учебным центрам', icon: 'school', title: 'Научная часть для ваших курсов', text: 'Научные модули и гостевые лекции для ваших курсов.',
+    benefits: [['Модули', 'Научные модули для программ.'], ['Лекции', 'Гостевые лекции редакции.'], ['Правила', 'Те же стандарты источников и рецензии.']] },
+  { id: 'brands', label: 'Брендам', icon: 'flask', title: 'Сотрудничество по прозрачным правилам', text: 'Спонсорство вебинаров и исследования мнения косметологов — только по правилам раздела «Реклама и независимость».',
+    benefits: [['Вебинары', 'Спонсорство — с пометкой и названием рекламодателя.'], ['Исследования', 'Опросы мнения косметологов.'], ['Граница', 'Рекламодатель не видит текст до публикации и не влияет на выводы.']] },
+] as const;
 ---
 <Base title={config.name} description={page!.data.description} path="/">
-  <h1>{page!.data.title}</h1>
-  <Content />
-  <section aria-labelledby="blocks">
-    <h2 id="blocks" hidden>Разделы</h2>
-    <ul>
-      <li>
-        <h3><a href="/pro/ne-akne/">Это не акне</a></h3>
-        <p>Периоральный дерматит, демодекоз, себорейный дерматит — то, что путают с акне и лечат не тем. Как распознать в кабинете и когда направить к врачу.</p>
-      </li>
-      <li>
-        <h3><a href="/pro/pamyatki/">Памятки пациенту «после процедуры»</a></h3>
-        <p>Готовые, проверенные врачом. Меньше тревожных звонков, больше доверия к вам.</p>
-      </li>
-      <li>
-        <h3><a href="/pro/vebinary/">{webinarLine}</a></h3>
-        <p>Ближайший: <a href="/pro/vebinary/ne-akne/">«Это не акне»</a>.</p>
-      </li>
-    </ul>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <p class="badge" data-reveal><span class="pulse" aria-hidden="true"></span> Независимая экспертиза · косметология</p>
+      <h1 class="hero__title" data-reveal>
+        <span>Распознать,</span>
+        <span><em>не навредить,</em></span>
+        <span>направить</span>
+      </h1>
+      <p class="hero__lead" data-reveal>Где кончается косметология и начинается дерматология. Разбираем исследования за вас — без рекламы брендов.</p>
+      <div class="hero__actions" data-reveal>
+        <a class="btn" href="/pro/">Для специалистов <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href="/dlya-vseh/">Для всех</a>
+      </div>
+    </div>
   </section>
-  <section aria-labelledby="trust">
-    <h2 id="trust">Почему нам можно верить</h2>
-    <ul>
-      <li>у каждого утверждения — источник;</li>
-      <li>каждый материал проверяет врач, указаны дата и версия;</li>
-      <li>мы не продаём в независимых материалах ничего; реклама — только в отдельном разделе и с пометкой. <a href="/reklama-i-nezavisimost/">Правила</a></li>
-    </ul>
+
+  <!-- Спрос -->
+  <section class="section" aria-labelledby="demand">
+    <div class="container">
+      <div class="section__head" data-reveal>
+        <div><p class="eyebrow">Спрос</p><h2 id="demand">Люди ищут ответ после процедуры — и находят чужой</h2></div>
+        <p>Столько раз в месяц эти фразы ищут в Яндексе. Мы хотим, чтобы на них отвечали данные и врач, а не реклама.</p>
+      </div>
+      <div class="cells" data-reveal>
+        {demand.map((d) => (
+          <div class="cell">
+            <span class="cell__icon"><Icon name={d.icon} /></span>
+            <span class="cell__num">{d.num}</span>
+            <p class="cell__label">запросов в месяц · {d.phrase}</p>
+          </div>
+        ))}
+      </div>
+      <p class="footnote">Яндекс Вордстат, базовая частота, вся Россия, ноябрь 2026.</p>
+    </div>
   </section>
-  <section aria-labelledby="patients">
-    <h2 id="patients">Для пациентов</h2>
-    <p><a href="/dlya-vseh/">Что нормально после процедуры, а что — повод к врачу</a></p>
+
+  <!-- Разделы -->
+  <section class="section" aria-labelledby="sections">
+    <div class="container">
+      <div class="section__head" data-reveal>
+        <div><p class="eyebrow">Proba Pro</p><h2 id="sections">Для косметологов и врачей</h2></div>
+        <p>Распознать, не навредить, направить: три формата, с которых начинается Proba.</p>
+      </div>
+      <div class="cells" data-reveal>
+        {blocks.map((b) => (
+          <article class="cell">
+            <span class="cell__icon"><Icon name={b.icon} /></span>
+            <h3><a href={b.href}>{b.title}</a></h3>
+            <p>{b.text}</p>
+            <span class="cell__more">Открыть <span class="arrow">→</span></span>
+          </article>
+        ))}
+      </div>
+    </div>
   </section>
-  <section aria-labelledby="subscribe">
-    <h2 id="subscribe">Подпишитесь на Telegram Proba Pro: 3 разбора в неделю</h2>
-    {config.telegram.pro_channel_url ? <p><a href={config.telegram.pro_channel_url} rel="noopener">Подписаться</a></p> : <p>Канал скоро откроется.</p>}
+
+  <!-- Text reveal -->
+  <section class="section" aria-label="О Proba">
+    <div class="container">
+      <p class="eyebrow">Почему Proba</p>
+      <p class="reveal-text" data-word-reveal>О коже и процедурах говорят все, но почти все при этом что-то продают. Мы делаем независимый источник: читаем исследования, проверяем их с врачами и объясняем — косметологу, как распознать и не навредить, пациенту — что нормально, а когда к врачу.</p>
+      <p><a class="cell__more" href="/o-proekte/">О проекте <span class="arrow">→</span></a></p>
+    </div>
+  </section>
+
+  <!-- Workflow -->
+  <section class="section" aria-labelledby="workflow">
+    <div class="container">
+      <div class="section__head" data-reveal>
+        <div><p class="eyebrow">Почему нам можно верить</p><h2 id="workflow">Источник → рецензия → версия</h2></div>
+        <p>Мы не продаём ничего в независимых материалах. Реклама — только в отдельном разделе и с пометкой.</p>
+      </div>
+      <div class="workflow">
+        <ol class="steps" data-steps>
+          {steps.map((s, i) => (
+            <li class="step" data-label={s.label}>
+              <button class="step__btn" type="button" aria-expanded="false" aria-controls={`step-${i}`}>
+                <span class="step__num">{s.n}</span>
+                <span class="step__title">{s.title}</span>
+                <span class="step__sign" aria-hidden="true">+</span>
+              </button>
+              <div class="step__body" id={`step-${i}`}><div><p>{s.text}</p></div></div>
+            </li>
+          ))}
+        </ol>
+        <div>
+          <figure class="sticky-card">
+            <div class="sticky-card__media">
+              <svg viewBox="0 0 400 300" aria-hidden="true">
+                <rect width="400" height="300" fill="#d9d8d1" />
+                <g fill="none" stroke="#1c1c1c" stroke-width="1">
+                  <rect x="110" y="40" width="180" height="230" fill="#f7f6f2" />
+                  <path d="M135 75h110M135 95h130M135 115h90M135 150h130M135 170h120M135 190h70" />
+                  <circle cx="250" cy="225" r="22" />
+                  <path d="M240 225l7 7 13-14" />
+                  <path d="M60 0v300M340 0v300M0 150h400" stroke-dasharray="2 6" opacity="0.5" />
+                </g>
+              </svg>
+            </div>
+            <figcaption class="sticky-card__meta">
+              <div class="sticky-card__row"><span data-step-label>Шаг 01 · Источник</span><strong>Proba</strong></div>
+              <div class="scanline" role="presentation"></div>
+              <div class="sticky-card__row"><span>Статус</span><strong>Первые материалы на рецензии</strong></div>
+              <div class="sticky-card__row"><span>Опубликовано после рецензии</span><strong>{published}</strong></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <p class="footnote"><a href="/redakcionnaya-politika/">Редакционная политика</a> · <a href="/reklama-i-nezavisimost/">Реклама и независимость</a></p>
+    </div>
+  </section>
+
+  <!-- Tabs -->
+  <section class="section" aria-labelledby="audiences">
+    <div class="container">
+      <div class="section__head" data-reveal>
+        <div><p class="eyebrow">Кому</p><h2 id="audiences">Proba для вашей работы</h2></div>
+        <p><a href="/partneram/">Партнёрам: клиникам, учебным центрам, брендам <span class="arrow">→</span></a></p>
+      </div>
+      <div data-tabs>
+        <div class="tabs__list" role="tablist" aria-label="Аудитории">
+          {tabs.map((t) => <button class="tabs__tab" role="tab" id={`tab-${t.id}`} aria-controls={`panel-${t.id}`} aria-selected="false" type="button">{t.label}</button>)}
+        </div>
+        {tabs.map((t) => (
+          <div class="tab-card" role="tabpanel" id={`panel-${t.id}`} aria-labelledby={`tab-${t.id}`}>
+            <span class="tab-card__ghost"><Icon name={t.icon} size={240} /></span>
+            <p class="eyebrow">{t.label}</p>
+            <h3>{t.title}</h3>
+            <p>{t.text}</p>
+            <div class="benefits">
+              {t.benefits.map(([label, text]) => (<div class="benefit"><span class="benefit__label">{label}</span><p>{text}</p></div>))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Для пациентов + Telegram -->
+  <section class="section" aria-labelledby="patients">
+    <div class="container">
+      <div class="cells">
+        <article class="cell">
+          <span class="cell__icon"><Icon name="check" /></span>
+          <p class="cell__label">Для пациентов</p>
+          <h3 id="patients"><a href="/dlya-vseh/">Что нормально после процедуры, а что — повод к врачу</a></h3>
+          <span class="cell__more">Раздел «Для всех» <span class="arrow">→</span></span>
+        </article>
+        <article class="cell">
+          <span class="cell__icon"><Icon name="doc" /></span>
+          <p class="cell__label">Telegram Proba Pro</p>
+          <h3>3 разбора в неделю</h3>
+          {config.telegram.pro_channel_url ? <a class="cell__more" href={config.telegram.pro_channel_url} rel="noopener">Подписаться <span class="arrow">→</span></a> : <span class="cell__more">Канал скоро откроется</span>}
+        </article>
+        <article class="cell">
+          <span class="cell__icon"><Icon name="video" /></span>
+          <p class="cell__label">Вебинар</p>
+          <h3><a href="/pro/vebinary/ne-akne/">«Это не акне»: распознать и направить</a></h3>
+          <span class="cell__more">Программа и лист ожидания <span class="arrow">→</span></span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма -->
+  <section class="section" aria-labelledby="access" id="dostup">
+    <div class="container form-grid">
+      <div data-reveal>
+        <p class="eyebrow">Клуб Proba Pro</p>
+        <h2 class="form-grid__title" id="access">Запросить <em class="accent">доступ</em></h2>
+        <p>Закрытый клуб для косметологов и врачей готовится к запуску. Оставьте контакт — сообщим первыми.</p>
+      </div>
+      <WaitlistForm formType="club_waitlist" subject="klub" heading="Лист ожидания клуба" bare submit="Запросить доступ" />
+    </div>
   </section>
 </Base>

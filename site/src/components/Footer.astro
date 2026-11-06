@@ -2,24 +2,41 @@
 import { config } from '../lib/config.mjs';
 const tg = config.telegram;
 ---
-<footer>
-  <nav aria-label="Telegram">
-    <ul>
-      <li>{tg.pro_channel_url ? <a href={tg.pro_channel_url} rel="noopener">Telegram Proba Pro</a> : <span>Telegram Proba Pro — скоро</span>}</li>
-      <li>{tg.public_channel_url ? <a href={tg.public_channel_url} rel="noopener">Telegram «Proba»</a> : <span>Telegram «Proba» — скоро</span>}</li>
-    </ul>
-  </nav>
-  <nav aria-label="Правила и документы">
-    <ul>
-      <li><a href="/reklama-i-nezavisimost/">Реклама и независимость</a></li>
-      <li><a href="/redakcionnaya-politika/">Как мы проверяем</a></li>
-      <li><a href="/redakciya/">Редакция</a></li>
-      <li><a href="/partneram/">Партнёрам</a></li>
-      <li><a href="/kontakty/">Контакты</a></li>
-      <li><a href="/politika-konfidencialnosti/">Политика конфиденциальности</a></li>
-      <li><a href="/soglasie-na-obrabotku/">Согласие на обработку персональных данных</a></li>
-      <li><a href="/medicinskaya-ogovorka/">Медицинская оговорка</a></li>
-    </ul>
-  </nav>
-  <p><small>Материалы Proba не заменяют консультацию врача.</small></p>
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <p class="site-footer__big">Распознать, не навредить, направить.</p>
+        <nav aria-label="Telegram">
+          <ul>
+            <li>{tg.pro_channel_url ? <a href={tg.pro_channel_url} rel="noopener">Telegram Proba Pro <span class="arrow">→</span></a> : <span class="mono">Telegram Proba Pro — скоро</span>}</li>
+            <li>{tg.public_channel_url ? <a href={tg.public_channel_url} rel="noopener">Telegram «Proba» <span class="arrow">→</span></a> : <span class="mono">Telegram «Proba» — скоро</span>}</li>
+          </ul>
+        </nav>
+      </div>
+      <nav aria-labelledby="f-about">
+        <h2 id="f-about">Проект</h2>
+        <ul>
+          <li><a href="/o-proekte/">О проекте</a></li>
+          <li><a href="/redakciya/">Редакция</a></li>
+          <li><a href="/redakcionnaya-politika/">Как мы проверяем</a></li>
+          <li><a href="/reklama-i-nezavisimost/">Реклама и независимость</a></li>
+          <li><a href="/partneram/">Партнёрам</a></li>
+          <li><a href="/kontakty/">Контакты</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="f-legal">
+        <h2 id="f-legal">Документы</h2>
+        <ul>
+          <li><a href="/politika-konfidencialnosti/">Политика конфиденциальности</a></li>
+          <li><a href="/soglasie-na-obrabotku/">Согласие на обработку персональных данных</a></li>
+          <li><a href="/medicinskaya-ogovorka/">Медицинская оговорка</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© {config.name}</span>
+      <span>Материалы Proba не заменяют консультацию врача.</span>
+    </div>
+  </div>
 </footer>

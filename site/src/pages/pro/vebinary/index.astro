@@ -5,19 +5,33 @@ import { webinarView } from '../../../lib/webinar.mjs';
 const webinars = await getWebinars();
 ---
 <Base title="Вебинары" description="Вебинары Proba для косметологов и врачей: программа, спикер, запись и лист ожидания." path="/pro/vebinary/">
-  <h1>Вебинары</h1>
-  {webinars.length === 0 ? <p>Вебинары скоро появятся.</p> : (
-    <ul data-webinar-list>
-      {webinars.map((w) => {
-        const v = webinarView(w.data);
-        return (
-          <li>
-            <h2><a href={`/pro/vebinary/${w.data.slug}/`}>{w.data.title}</a></h2>
-            <p>{w.data.summary}</p>
-            <p>Статус: {v.statusLabel}. Спикер: {v.speaker ? v.speaker.name : 'спикер будет объявлен'}.</p>
-          </li>
-        );
-      })}
-    </ul>
-  )}
+  <header class="page-head">
+    <div class="container">
+      <p class="eyebrow"><a href="/pro/">Proba Pro</a> · Вебинары</p>
+      <h1>Вебинары</h1>
+      <p class="lead">Практические разборы для косметологов и врачей: программа, спикер, предзапись и лист ожидания.</p>
+    </div>
+  </header>
+  <section class="section">
+    <div class="container">
+      {webinars.length === 0 ? <p class="empty">Вебинары скоро появятся.</p> : (
+        <ul class="material-list" data-webinar-list>
+          {webinars.map((w) => {
+            const v = webinarView(w.data);
+            return (
+              <li>
+                <article>
+                  <p class="page-head__badges"><span class="badge badge--pro">{v.statusLabel}</span><span class="badge">{w.data.duration}</span></p>
+                  <h3><a href={`/pro/vebinary/${w.data.slug}/`}>{w.data.title}</a></h3>
+                  <p>{w.data.summary}</p>
+                  <p class="cell__label">Спикер: {v.speaker ? v.speaker.name : 'спикер будет объявлен'}</p>
+                  <span class="cell__more">Программа <span class="arrow">→</span></span>
+                </article>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
+  </section>
 </Base>

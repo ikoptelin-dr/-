@@ -3,20 +3,33 @@
 import Base from './Base.astro';
 import { getEntry, render } from 'astro:content';
 
-interface Props { id: string; path: string }
-const { id, path } = Astro.props;
+interface Props { id: string; path: string; eyebrow?: string; wide?: boolean }
+const { id, path, eyebrow = 'Proba', wide = false } = Astro.props;
 const page = await getEntry('pages', id);
 if (!page) throw new Error(`Нет страницы pages/${id}.md`);
 const { Content } = await render(page);
+const fmt = (d: Date) => d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 ---
 <Base title={page.data.title} description={page.data.description} path={path} noindex={page.data.noindex}>
   <article data-page={id}>
-    <h1>{page.data.title}</h1>
-    {page.data.legal_draft && (
-      // TODO(юрист): финальный текст — юрист. Пока черновик.
-      <p data-legal-draft><strong>Черновик документа.</strong> Финальный текст готовит юрист.</p>
-    )}
-    <Content />
-    <slot />
+    <header class="page-head">
+      <div class="container">
+        <p class="eyebrow">{eyebrow}</p>
+        {page.data.legal_draft && (
+          // TODO(юрист): финальный текст — юрист. Пока черновик.
+          <p class="page-head__badges"><span class="badge badge--draft" data-legal-draft>Черновик документа · финальный текст готовит юрист</span></p>
+        )}
+        <h1>{page.data.title}</h1>
+        <p class="lead">{page.data.description}</p>
+      </div>
+    </header>
+    <div class={`container page-body ${wide ? '' : 'page-body--single'}`}>
+      <div>
+        <div class="prose"><Content /></div>
+        <slot />
+        <p class="footnote">Обновлено {fmt(page.data.updated_at)}</p>
+      </div>
+      <slot name="aside" />
+    </div>
   </article>
 </Base>

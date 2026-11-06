@@ -4,22 +4,24 @@ import { config } from '../lib/config.mjs';
 import ConsentCheckbox from './ConsentCheckbox.astro';
 import Honeypot from './Honeypot.astro';
 ---
-<section aria-labelledby="form-partner">
+<section aria-labelledby="form-partner" class="form-section">
   <h2 id="form-partner">Заявка партнёра</h2>
   <form method="post" action={`${config.forms_endpoint}/partner`} data-form="partner">
     <Honeypot />
-    <p><label>Имя <input type="text" name="name" required maxlength="100" autocomplete="name" /></label></p>
-    <p><label>Организация <input type="text" name="organization" required maxlength="200" autocomplete="organization" /></label></p>
+    <label class="field"><span class="field__label">Имя</span><input type="text" name="name" required maxlength="100" autocomplete="name" placeholder="Как к вам обращаться" /></label>
+    <label class="field"><span class="field__label">Организация</span><input type="text" name="organization" required maxlength="200" autocomplete="organization" placeholder="Название" /></label>
     <fieldset>
       <legend>Тип организации</legend>
-      <label><input type="radio" name="org_type" value="clinic" required /> Клиника или салон</label>
-      <label><input type="radio" name="org_type" value="school" /> Учебный центр</label>
-      <label><input type="radio" name="org_type" value="brand" /> Бренд или производитель</label>
+      <div class="choices">
+        <label class="choice"><input type="radio" name="org_type" value="clinic" required /><span>Клиника или салон</span></label>
+        <label class="choice"><input type="radio" name="org_type" value="school" /><span>Учебный центр</span></label>
+        <label class="choice"><input type="radio" name="org_type" value="brand" /><span>Бренд</span></label>
+      </div>
     </fieldset>
-    <p><label>Email или Telegram <input type="text" name="contact" required maxlength="100" /></label></p>
-    <p><label>Город <input type="text" name="city" maxlength="100" /></label></p>
-    <p><label>Что интересно <textarea name="message" maxlength="2000" rows="5"></textarea></label></p>
+    <label class="field"><span class="field__label">Email или Telegram</span><input type="text" name="contact" required maxlength="100" placeholder="name@mail.ru или @username" /></label>
+    <label class="field"><span class="field__label">Город</span><input type="text" name="city" maxlength="100" placeholder="Необязательно" /></label>
+    <label class="field"><span class="field__label">Что интересно</span><textarea name="message" maxlength="2000" rows="5" placeholder="Пара слов о задаче"></textarea></label>
     <ConsentCheckbox />
-    <p><button type="submit">Отправить заявку</button></p>
+    <button class="btn btn--block" type="submit">Отправить заявку <span class="arrow">→</span></button>
   </form>
 </section>

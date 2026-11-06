@@ -1,14 +1,26 @@
 ---
 import { config } from '../lib/config.mjs';
+interface Props { path?: string }
+const { path = '/' } = Astro.props;
+const links = [
+  { href: '/pro/', label: 'Для специалистов', match: (p: string) => p.startsWith('/pro/') && !p.startsWith('/pro/vebinary/') },
+  { href: '/dlya-vseh/', label: 'Для всех', match: (p: string) => p.startsWith('/dlya-vseh/') },
+  { href: '/pro/vebinary/', label: 'Вебинары', match: (p: string) => p.startsWith('/pro/vebinary/') },
+  { href: '/o-proekte/', label: 'О проекте', match: (p: string) => p === '/o-proekte/' },
+];
 ---
-<header>
-  <p><a href="/">{config.name}</a></p>
-  <nav aria-label="Основная навигация">
-    <ul>
-      <li><a href="/pro/">Для специалистов</a></li>
-      <li><a href="/dlya-vseh/">Для всех</a></li>
-      <li><a href="/pro/vebinary/">Вебинары</a></li>
-      <li><a href="/o-proekte/">О проекте</a></li>
-    </ul>
-  </nav>
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="/" aria-label={`${config.name} — на главную`}>
+      <span class="brand__bar brand__bar--a"></span>
+      <span class="brand__name">{config.name}</span>
+      <span class="brand__bar brand__bar--b"></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Меню</button>
+    <nav class="nav" id="site-nav" aria-label="Основная навигация">
+      <ul>
+        {links.map((l) => <li><a href={l.href} aria-current={l.match(path) ? 'page' : undefined}>{l.label}</a></li>)}
+      </ul>
+    </nav>
+  </div>
 </header>

@@ -3,7 +3,7 @@ interface Props { sources?: any[] }
 const { sources = [] } = Astro.props;
 ---
 {sources.length > 0 && (
-  <section aria-labelledby="sources" data-sources>
+  <section class="sources" aria-labelledby="sources" data-sources>
     <h2 id="sources">Источники</h2>
     <ol>
       {sources.map((s) => (

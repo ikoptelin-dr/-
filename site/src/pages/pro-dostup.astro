@@ -3,10 +3,10 @@
 // а соблюдение правил подачи информации о лекарствах специалистам. TODO(юрист): формулировка.
 import Simple from '../layouts/Simple.astro';
 ---
-<Simple id="pro-dostup" path="/pro-dostup/">
+<Simple id="pro-dostup" path="/pro-dostup/" eyebrow="Доступ">
   <form data-pro-access>
-    <p><label><input type="checkbox" name="confirm" required /> Я медицинский или косметологический специалист</label></p>
-    <p><button type="submit">Подтвердить</button></p>
+    <label class="consent"><input type="checkbox" name="confirm" required /><span>Я медицинский или косметологический специалист</span></label>
+    <button class="btn" type="submit">Подтвердить <span class="arrow">→</span></button>
   </form>
   <p data-pro-access-done hidden>Подтверждено. <a href="/pro/">Вернуться к материалам</a>.</p>
   <script is:inline>

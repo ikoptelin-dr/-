@@ -2,11 +2,16 @@
 import Base from '../layouts/Base.astro';
 ---
 <Base title="Страница не найдена" description="Такой страницы нет на сайте Proba." path="/404/" noindex>
-  <h1>Страница не найдена</h1>
-  <p>Возможно, материал ещё готовится или адрес изменился.</p>
-  <ul>
-    <li><a href="/">На главную</a></li>
-    <li><a href="/pro/">Для специалистов</a></li>
-    <li><a href="/dlya-vseh/">Для всех</a></li>
-  </ul>
+  <section class="hero">
+    <div class="container">
+      <p class="badge"><span class="pulse" aria-hidden="true"></span> Ошибка 404</p>
+      <h1 class="hero__title"><span>Страница</span><span><em>не найдена</em></span></h1>
+      <p class="hero__lead">Возможно, материал ещё готовится или адрес изменился.</p>
+      <div class="hero__actions">
+        <a class="btn" href="/">На главную <span class="arrow">→</span></a>
+        <a class="btn btn--ghost" href="/pro/">Для специалистов</a>
+        <a class="btn btn--ghost" href="/dlya-vseh/">Для всех</a>
+      </div>
+    </div>
+  </section>
 </Base>

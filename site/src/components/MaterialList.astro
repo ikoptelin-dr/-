@@ -1,19 +1,24 @@
 ---
 interface Props { items: any[]; empty: string }
 const { items, empty } = Astro.props;
+const fmt = (d: Date) => d.toLocaleDateString('ru-RU', { day: '2-digit', month: '2-digit', year: 'numeric', timeZone: 'UTC' });
 ---
 {items.length === 0 ? (
-  <p data-empty-list>{empty}</p>
+  <p class="empty" data-empty-list>{empty}</p>
 ) : (
-  <ul data-material-list>
+  <ul class="material-list" data-material-list>
     {items.map((m) => (
       <li>
         <article>
+          <p class="page-head__badges">
+            {m.decision.draft && <span class="badge badge--draft" data-draft-badge>Черновик</span>}
+            {m.data.sponsored && <span class="badge badge--ad" data-ad-badge>Реклама · {m.data.sponsored.sponsor}</span>}
+            {m.data.pro_only && <span class="badge badge--pro">Для специалистов</span>}
+            <time class="badge" datetime={m.data.updated_at.toISOString().slice(0, 10)}>{fmt(m.data.updated_at)}</time>
+          </p>
           <h3><a href={m.path}>{m.data.title}</a></h3>
-          {m.decision.draft && <p><strong data-draft-badge>Черновик</strong></p>}
-          {m.data.sponsored && <p><strong data-ad-badge>Реклама</strong> · {m.data.sponsored.sponsor}</p>}
-          {m.data.pro_only && <p><small>Для специалистов</small></p>}
           <p>{m.data.summary}</p>
+          <span class="cell__more">Читать <span class="arrow">→</span></span>
         </article>
       </li>
     ))}

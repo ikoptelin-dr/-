@@ -1,7 +1,7 @@
 // Интеграционные тесты: настоящая сборка Astro на синтетических фикстурах.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { buildSite, read, exists, htmlFiles } from './helpers/build.mjs';
 import { material, nonMedicalSponsored } from './helpers/fixtures.mjs';
@@ -135,15 +135,20 @@ test('формы: обязательное согласие со ссылкой,
   }
 });
 
-test('без декоративного CSS и сторонних трекеров', () => {
+test('без сторонних трекеров и внешних ресурсов: стили, скрипты и шрифты — со своего сайта', () => {
   for (const file of htmlFiles(main.out)) {
     const html = readFileSync(file, 'utf8');
-    assert.ok(!/<style[\s>]/.test(html), `<style> в ${file}`);
-    assert.ok(!/rel="stylesheet"/.test(html), `stylesheet в ${file}`);
-    assert.ok(!/\sstyle="/.test(html), `style= в ${file}`);
-    assert.ok(!/<script[^>]+src=/.test(html), `внешний скрипт в ${file}`);
+    for (const [, url] of html.matchAll(/<(?:script|link|img|iframe)[^>]+(?:src|href)="([^"]+)"/g)) {
+      assert.ok(url.startsWith('/') || url.startsWith('https://proba.example/'), `внешний ресурс ${url} в ${file}`);
+    }
+    assert.ok(!/fonts\.googleapis|googletagmanager|google-analytics|mc\.yandex|metrika/i.test(html), `трекер или внешний шрифт в ${file}`);
   }
-  assert.ok(!existsSync(join(main.out, '_astro')), 'нет собранных ассетов CSS/JS');
+  const assets = join(main.out, '_astro');
+  const css = readdirSync(assets).filter((f) => f.endsWith('.css')).map((f) => readFileSync(join(assets, f), 'utf8')).join('\n');
+  assert.ok(css.length > 0, 'стили собраны');
+  for (const [, url] of css.matchAll(/url\(([^)]+)\)/g)) {
+    assert.ok(!/^["']?https?:/.test(url), `внешний url в CSS: ${url}`);
+  }
 });
 
 test('robots.txt продакшна указывает sitemap', () => {

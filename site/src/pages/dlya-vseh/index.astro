@@ -1,17 +1,11 @@
 ---
-import Base from '../../layouts/Base.astro';
-import { getEntry, render } from 'astro:content';
-const page = await getEntry('pages', 'dlya-vseh');
-const { Content } = await render(page!);
+import Simple from '../../layouts/Simple.astro';
 ---
-<Base title={page!.data.title} description={page!.data.description} path="/dlya-vseh/">
-  <h1>{page!.data.title}</h1>
-  <Content />
-  <h2>Разделы</h2>
-  <ul>
-    <li><a href="/dlya-vseh/posle-procedur/">Что нормально после процедуры</a></li>
-    <li>Прыщи: аптека или врач — скоро</li>
-    <li>Это не акне — скоро</li>
-    <li>Процедуры простыми словами — скоро</li>
+<Simple id="dlya-vseh" path="/dlya-vseh/" eyebrow="Для всех">
+  <ul class="subnav" aria-label="Разделы">
+    <li><a href="/dlya-vseh/posle-procedur/">Что нормально после процедуры <span class="arrow">→</span></a></li>
+    <li><span>Прыщи: аптека или врач — скоро</span></li>
+    <li><span>Это не акне — скоро</span></li>
+    <li><span>Процедуры простыми словами — скоро</span></li>
   </ul>
-</Base>
+</Simple>
