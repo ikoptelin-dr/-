@@ -7,6 +7,7 @@ dependencies = ["jsonschema==4.25.1", "PyYAML==6.0.3", "rfc3339-validator==0.1.4
 
 [project.optional-dependencies]
 dev = ["pytest==8.4.2"]
+analysis = ["numpy==2.5.3", "scipy==1.18.1", "scikit-learn==1.9.1"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

@@ -1,0 +1,693 @@
+{
+  "correspondence_analysis": {
+    "explained": [
+      0.362,
+      0.241,
+      0.18
+    ],
+    "intents": {
+      "broad": [
+        0.347,
+        -0.264
+      ],
+      "question": [
+        0.17,
+        0.228
+      ],
+      "info": [
+        0.017,
+        0.469
+      ],
+      "reviews": [
+        0.108,
+        0.254
+      ],
+      "commercial": [
+        -1.742,
+        -0.77
+      ],
+      "navigational": [
+        -0.985,
+        1.544
+      ],
+      "diy": [
+        0.176,
+        -0.163
+      ]
+    },
+    "jobs": {
+      "acne-why": [
+        0.247,
+        0.487
+      ],
+      "acne-treat": [
+        0.136,
+        0.6
+      ],
+      "acne-blackheads": [
+        0.44,
+        -0.284
+      ],
+      "acne-squeeze": [
+        0.523,
+        -0.402
+      ],
+      "acne-isotretinoin": [
+        -0.76,
+        0.936
+      ],
+      "acne-topical-drug": [
+        -1.071,
+        1.189
+      ],
+      "acne-hormonal": [
+        0.159,
+        0.318
+      ],
+      "acne-marks": [
+        0.202,
+        0.114
+      ],
+      "acne-lifestyle": [
+        0.457,
+        -0.275
+      ],
+      "redness-why": [
+        0.312,
+        0.13
+      ],
+      "rosacea-manage": [
+        0.315,
+        -0.015
+      ],
+      "vessels": [
+        0.292,
+        -0.095
+      ],
+      "barrier": [
+        0.403,
+        -0.15
+      ],
+      "lips": [
+        0.37,
+        0.016
+      ],
+      "pigment": [
+        0.323,
+        -0.121
+      ],
+      "retinoid-start": [
+        -0.179,
+        0.249
+      ],
+      "acids-home": [
+        0.203,
+        -0.291
+      ],
+      "spf": [
+        0.36,
+        -0.428
+      ],
+      "routine-basics": [
+        0.301,
+        -0.241
+      ],
+      "collagen-check": [
+        0.155,
+        -0.207
+      ],
+      "natural-check": [
+        -0.067,
+        -0.556
+      ],
+      "label-check": [
+        -0.735,
+        1.162
+      ],
+      "aging-wrinkles": [
+        0.314,
+        -0.163
+      ],
+      "aging-shape": [
+        0.31,
+        -0.056
+      ],
+      "home-devices": [
+        0.341,
+        -0.278
+      ],
+      "botox-decide": [
+        -0.111,
+        0.354
+      ],
+      "botox-after": [
+        0.137,
+        0.689
+      ],
+      "lips-decide": [
+        0.239,
+        -0.043
+      ],
+      "lips-after": [
+        0.093,
+        0.664
+      ],
+      "injectables-decide": [
+        -0.056,
+        0.099
+      ],
+      "injectables-after": [
+        0.097,
+        0.691
+      ],
+      "cabinet-what": [
+        0.246,
+        -0.275
+      ],
+      "hair-removal": [
+        0.243,
+        -0.227
+      ],
+      "lifting-hardware": [
+        0.085,
+        -0.125
+      ],
+      "price": [
+        -2.811,
+        -1.522
+      ],
+      "choose-specialist": [
+        0.167,
+        0.478
+      ],
+      "diy-procedures": [
+        0.244,
+        -0.243
+      ],
+      "pro-career": [
+        0.413,
+        -0.303
+      ],
+      "pro-line-choice": [
+        -0.252,
+        -0.686
+      ],
+      "pro-equipment": [
+        -0.17,
+        -0.519
+      ],
+      "pro-supply": [
+        -0.814,
+        -0.672
+      ],
+      "pro-protocol": [
+        0.062,
+        -0.025
+      ],
+      "pro-safety": [
+        0.103,
+        0.732
+      ],
+      "pro-money": [
+        0.273,
+        0.147
+      ]
+    }
+  },
+  "job_clustering": {
+    "k": 6,
+    "silhouette": 0.347,
+    "ari_vs_modes": 0.126,
+    "groups": {
+      "1": [
+        "acne-blackheads",
+        "acne-squeeze",
+        "acne-marks",
+        "rosacea-manage",
+        "vessels",
+        "barrier",
+        "pigment",
+        "retinoid-start",
+        "acids-home",
+        "spf",
+        "routine-basics",
+        "collagen-check",
+        "natural-check",
+        "aging-wrinkles",
+        "aging-shape",
+        "home-devices",
+        "botox-decide",
+        "lips-decide",
+        "injectables-decide",
+        "cabinet-what",
+        "hair-removal",
+        "lifting-hardware"
+      ],
+      "2": [
+        "acne-isotretinoin",
+        "acne-topical-drug",
+        "label-check"
+      ],
+      "3": [
+        "price"
+      ],
+      "4": [
+        "acne-why",
+        "acne-treat",
+        "acne-hormonal",
+        "acne-lifestyle",
+        "redness-why",
+        "lips",
+        "botox-after",
+        "lips-after",
+        "injectables-after"
+      ],
+      "5": [
+        "choose-specialist"
+      ],
+      "6": [
+        "diy-procedures"
+      ]
+    },
+    "pca_explained": [
+      0.292,
+      0.165,
+      0.136
+    ],
+    "pca_loadings": {
+      "PC1": {
+        "log_forum_msgs": 0.51,
+        "forum_vs_search": 0.48,
+        "question": -0.36,
+        "info": -0.36,
+        "broad": 0.29
+      },
+      "PC2": {
+        "forum_fresh_share": 0.46,
+        "question": -0.44,
+        "info": -0.41,
+        "diy": 0.37,
+        "reviews": 0.31
+      }
+    }
+  },
+  "nmf_topics": {
+    "k": 14,
+    "topics": [
+      {
+        "topic": 0,
+        "top_terms": [
+          "дерматолог",
+          "дерматолог косметолог",
+          "косметолог дерматолог",
+          "детский",
+          "детский дерматолог",
+          "врач",
+          "врач дерматолог",
+          "клиника"
+        ],
+        "phrases": 1915,
+        "mass_rough": 3131470
+      },
+      {
+        "topic": 1,
+        "top_terms": [
+          "коллаген",
+          "типа",
+          "пить",
+          "морской",
+          "пить коллаген",
+          "коллаген типа",
+          "купить",
+          "эвалар"
+        ],
+        "phrases": 3298,
+        "mass_rough": 4074418
+      },
+      {
+        "topic": 2,
+        "top_terms": [
+          "косметология",
+          "аппаратная",
+          "обучение",
+          "аппаратная косметология",
+          "клиника",
+          "аппарат",
+          "нижний",
+          "саранск"
+        ],
+        "phrases": 2462,
+        "mass_rough": 1721737
+      },
+      {
+        "topic": 3,
+        "top_terms": [
+          "косметолог",
+          "дерматолог косметолог",
+          "косметолог эстетист",
+          "эстетист",
+          "обучение",
+          "косметолог дерматолог",
+          "ольга",
+          "елена"
+        ],
+        "phrases": 3303,
+        "mass_rough": 1847553
+      },
+      {
+        "topic": 4,
+        "top_terms": [
+          "пилинг",
+          "кожи",
+          "карбоновый пилинг",
+          "карбоновый",
+          "купить",
+          "peel",
+          "ангиофарм",
+          "желтый"
+        ],
+        "phrases": 3121,
+        "mass_rough": 1559508
+      },
+      {
+        "topic": 5,
+        "top_terms": [
+          "прыщи",
+          "лице",
+          "прыщи лице",
+          "давить",
+          "почему",
+          "видео",
+          "подбородке",
+          "прыщи подбородке"
+        ],
+        "phrases": 5208,
+        "mass_rough": 8786327
+      },
+      {
+        "topic": 6,
+        "top_terms": [
+          "биоревитализация",
+          "фото",
+          "губ",
+          "препараты",
+          "препарат",
+          "процедура",
+          "эффект",
+          "новокутан"
+        ],
+        "phrases": 4133,
+        "mass_rough": 1470265
+      },
+      {
+        "topic": 7,
+        "top_terms": [
+          "акне",
+          "акне лице",
+          "видео",
+          "лечение",
+          "удаление",
+          "лечение акне",
+          "акне видео",
+          "лице"
+        ],
+        "phrases": 4090,
+        "mass_rough": 2497916
+      },
+      {
+        "topic": 8,
+        "top_terms": [
+          "лазерная",
+          "эпиляция",
+          "лазерная эпиляция",
+          "бикини",
+          "сколько",
+          "эпиляция бикини",
+          "шугаринг",
+          "электроэпиляция"
+        ],
+        "phrases": 3539,
+        "mass_rough": 1498739
+      },
+      {
+        "topic": 9,
+        "top_terms": [
+          "массаж",
+          "видео",
+          "делать",
+          "делать массаж",
+          "морщин",
+          "домашних",
+          "массаж видео",
+          "губ"
+        ],
+        "phrases": 5435,
+        "mass_rough": 1724954
+      },
+      {
+        "topic": 10,
+        "top_terms": [
+          "черные",
+          "точки",
+          "черные точки",
+          "видео",
+          "комедоны",
+          "удаление",
+          "точки лице",
+          "угри"
+        ],
+        "phrases": 3224,
+        "mass_rough": 3270225
+      },
+      {
+        "topic": 11,
+        "top_terms": [
+          "прыщей",
+          "чистка",
+          "лице",
+          "видео",
+          "выдавливание",
+          "прыщей лице",
+          "черных",
+          "точек"
+        ],
+        "phrases": 15246,
+        "mass_rough": 12116916
+      },
+      {
+        "topic": 12,
+        "top_terms": [
+          "ботокс",
+          "сколько",
+          "губ",
+          "филлер",
+          "колоть",
+          "колоть ботокс",
+          "фото",
+          "увеличения"
+        ],
+        "phrases": 15709,
+        "mass_rough": 6192454
+      },
+      {
+        "topic": 13,
+        "top_terms": [
+          "сыворотка",
+          "крем",
+          "ретинолом",
+          "spf",
+          "сыворотка ретинолом",
+          "морщин",
+          "витамином",
+          "ниацинамидом"
+        ],
+        "phrases": 20930,
+        "mass_rough": 5703359
+      }
+    ],
+    "nmi_topics_vs_jobs": 0.385,
+    "job_coverage_phrases": 0.771,
+    "job_coverage_mass": 0.633
+  },
+  "forum_segment_test": {
+    "chi2": 618.5,
+    "dof": 68,
+    "p": 9.558312045711248e-90,
+    "cramers_v": 0.488,
+    "n": 1299,
+    "top_positive_residuals": [
+      [
+        "acne-isotretinoin",
+        "consumer",
+        8.1
+      ],
+      [
+        "retinoid-start",
+        "consumer",
+        7.4
+      ],
+      [
+        "spf",
+        "consumer",
+        5.6
+      ],
+      [
+        "acne-topical-drug",
+        "consumer",
+        5.3
+      ],
+      [
+        "barrier",
+        "consumer",
+        5.1
+      ],
+      [
+        "natural-check",
+        "consumer",
+        5.1
+      ],
+      [
+        "acne-blackheads",
+        "consumer",
+        4.1
+      ],
+      [
+        "rosacea-manage",
+        "consumer",
+        4.0
+      ]
+    ]
+  },
+  "pfk_period_test": {
+    "chi2": 150.0,
+    "dof": 26,
+    "p": 2.1098158689903487e-19,
+    "cramers_v": 0.402,
+    "n": 930,
+    "top_positive_residuals": [
+      [
+        "collagen-check",
+        "actual",
+        7.8
+      ],
+      [
+        "injectables-decide",
+        "actual",
+        6.7
+      ],
+      [
+        "acne-marks",
+        "actual",
+        2.1
+      ],
+      [
+        "aging-shape",
+        "actual",
+        1.7
+      ],
+      [
+        "barrier",
+        "actual",
+        1.3
+      ],
+      [
+        "pro-protocol",
+        "actual",
+        1.1
+      ],
+      [
+        "lips-decide",
+        "historical",
+        0.7
+      ],
+      [
+        "price",
+        "historical",
+        0.4
+      ]
+    ]
+  },
+  "cooccurrence_lift": [
+    [
+      "rosacea-manage",
+      "vessels",
+      5,
+      8.22
+    ],
+    [
+      "botox-decide",
+      "lips-decide",
+      4,
+      4.7
+    ],
+    [
+      "aging-shape",
+      "injectables-decide",
+      5,
+      4.4
+    ],
+    [
+      "injectables-decide",
+      "lips-decide",
+      5,
+      4.4
+    ],
+    [
+      "acne-isotretinoin",
+      "acne-topical-drug",
+      6,
+      4.23
+    ],
+    [
+      "injectables-decide",
+      "pro-career",
+      4,
+      4.11
+    ],
+    [
+      "acne-isotretinoin",
+      "retinoid-start",
+      9,
+      4.04
+    ],
+    [
+      "acne-blackheads",
+      "acne-lifestyle",
+      4,
+      3.89
+    ],
+    [
+      "acne-squeeze",
+      "retinoid-start",
+      4,
+      3.84
+    ],
+    [
+      "botox-decide",
+      "pro-line-choice",
+      4,
+      3.65
+    ],
+    [
+      "botox-decide",
+      "injectables-decide",
+      5,
+      3.43
+    ],
+    [
+      "injectables-decide",
+      "pro-protocol",
+      6,
+      3.36
+    ]
+  ],
+  "search_vs_forum_spearman": {
+    "rho": 0.45,
+    "p": 0.0052,
+    "n": 37
+  },
+  "n": {
+    "wordstat_phrases_used": 91613,
+    "forum_messages_used": 1962
+  }
+}

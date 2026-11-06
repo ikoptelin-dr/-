@@ -319,3 +319,16 @@ def test_wordstat_csv_header_checked(tmp_path):
     p.write_text("a;b;c\nx;y;1\n", encoding="utf-8")
     with pytest.raises(ValueError, match="Тема;Запрос;Частота"):
         wa.load_csv(p)
+
+
+def test_jtbd_codebook_valid():
+    jobs = yaml.safe_load((ROOT / "config/jtbd_jobs.yaml").read_text(encoding="utf-8"))["jobs"]
+    ids = [j["id"] for j in jobs]
+    assert len(ids) == len(set(ids))
+    clusters = {c["id"] for c in LEX["clusters"]}
+    modes = {"after", "treat", "decide", "routine", "check", "navigate", "pro_buy", "pro_do", "pro_safe", "pro_money", "pro_career"}
+    for j in jobs:
+        assert j["segment"] in ("consumer", "pro") and j["mode"] in modes and j["cluster"] in clusters, j["id"]
+        assert j["job"].startswith("Когда ") and ", я хочу " in j["job"] and ", чтобы " in j["job"], j["id"]
+        for p in j["patterns"]:
+            re.compile(p)
