@@ -1,0 +1,15 @@
+---
+// Редакция и эксперты: выводятся только люди с consent_public: true.
+import Simple from '../layouts/Simple.astro';
+import { getPublicPeople } from '../lib/content.mjs';
+const people = await getPublicPeople();
+---
+<Simple id="redakciya" path="/redakciya/">
+  {people.length === 0 ? (
+    <p data-people-empty>Состав редакции и рецензентов будет опубликован после их согласия на раскрытие имени.</p>
+  ) : (
+    <ul data-people>
+      {people.map((p) => (<li><h2>{p.name}</h2><p>{p.role}</p>{p.bio && <p>{p.bio}</p>}</li>))}
+    </ul>
+  )}
+</Simple>

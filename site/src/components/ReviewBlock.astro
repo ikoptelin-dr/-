@@ -1,0 +1,23 @@
+---
+// Блок «Проверено»: рецензент, дата, версия, хеш. Для черновика — честная плашка.
+interface Props { data: any; draft: boolean; reason: string }
+const { data, draft, reason } = Astro.props;
+const r = data.review;
+const fmt = (d: Date) => d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+---
+{data.medical && (
+  <section aria-labelledby="checked" data-review-block>
+    <h2 id="checked">Проверено</h2>
+    {draft ? (
+      <p><strong data-draft-badge>Черновик.</strong> Материал не прошёл медицинскую рецензию ({reason}) и не опубликован.</p>
+    ) : (
+      <dl>
+        <dt>Рецензент</dt><dd>{r.reviewer_name}, {r.reviewer_title}</dd>
+        <dt>Дата рецензии</dt><dd><time datetime={r.reviewed_at.toISOString().slice(0, 10)}>{fmt(r.reviewed_at)}</time></dd>
+        <dt>Версия</dt><dd>{r.version}</dd>
+        <dt>Отпечаток текста (SHA-256)</dt><dd><code>{r.content_sha256}</code></dd>
+      </dl>
+    )}
+    <p><a href="/redakcionnaya-politika/">Как мы проверяем материалы</a></p>
+  </section>
+)}

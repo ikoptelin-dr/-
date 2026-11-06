@@ -1,0 +1,23 @@
+{
+  "name": "proba-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Сайт Proba, этап 1: каркас без дизайна",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "build:preview": "ASTRO_TELEMETRY_DISABLED=1 PROBA_PREVIEW=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "forms": "node server/forms-server.mjs",
+    "hash": "node scripts/hash-material.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs"
+  },
+  "dependencies": {
+    "astro": "5.18.1",
+    "yaml": "2.8.1"
+  }
+}

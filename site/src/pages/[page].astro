@@ -1,0 +1,21 @@
+---
+// Простые страницы верхнего уровня из src/content/pages/.
+import Simple from '../layouts/Simple.astro';
+
+export const SIMPLE_PAGES = [
+  'o-proekte',
+  'redakcionnaya-politika',
+  'reklama-i-nezavisimost',
+  'kontakty',
+  'politika-konfidencialnosti',
+  'soglasie-na-obrabotku',
+  'medicinskaya-ogovorka',
+  'zayavka-otpravlena',
+  'zayavka-oshibka',
+];
+export function getStaticPaths() {
+  return SIMPLE_PAGES.map((page) => ({ params: { page } }));
+}
+const { page } = Astro.params;
+---
+<Simple id={page} path={`/${page}/`} />

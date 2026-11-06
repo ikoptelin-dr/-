@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import { config } from '../lib/config.mjs';
+import { getEntry, render } from 'astro:content';
+const page = await getEntry('pages', 'glavnaya');
+const { Content } = await render(page!);
+// Упоминание НГУ — только после договора/письма (AUDIT, раздел 3).
+const webinarLine = config.partners.ngu_confirmed
+  ? 'Вебинары с преподавателями НГУ.'
+  : 'Вебинары для косметологов и врачей.';
+---
+<Base title={config.name} description={page!.data.description} path="/">
+  <h1>{page!.data.title}</h1>
+  <Content />
+  <section aria-labelledby="blocks">
+    <h2 id="blocks" hidden>Разделы</h2>
+    <ul>
+      <li>
+        <h3><a href="/pro/ne-akne/">Это не акне</a></h3>
+        <p>Периоральный дерматит, демодекоз, себорейный дерматит — то, что путают с акне и лечат не тем. Как распознать в кабинете и когда направить к врачу.</p>
+      </li>
+      <li>
+        <h3><a href="/pro/pamyatki/">Памятки пациенту «после процедуры»</a></h3>
+        <p>Готовые, проверенные врачом. Меньше тревожных звонков, больше доверия к вам.</p>
+      </li>
+      <li>
+        <h3><a href="/pro/vebinary/">{webinarLine}</a></h3>
+        <p>Ближайший: <a href="/pro/vebinary/ne-akne/">«Это не акне»</a>.</p>
+      </li>
+    </ul>
+  </section>
+  <section aria-labelledby="trust">
+    <h2 id="trust">Почему нам можно верить</h2>
+    <ul>
+      <li>у каждого утверждения — источник;</li>
+      <li>каждый материал проверяет врач, указаны дата и версия;</li>
+      <li>мы не продаём в независимых материалах ничего; реклама — только в отдельном разделе и с пометкой. <a href="/reklama-i-nezavisimost/">Правила</a></li>
+    </ul>
+  </section>
+  <section aria-labelledby="patients">
+    <h2 id="patients">Для пациентов</h2>
+    <p><a href="/dlya-vseh/">Что нормально после процедуры, а что — повод к врачу</a></p>
+  </section>
+  <section aria-labelledby="subscribe">
+    <h2 id="subscribe">Подпишитесь на Telegram Proba Pro: 3 разбора в неделю</h2>
+    {config.telegram.pro_channel_url ? <p><a href={config.telegram.pro_channel_url} rel="noopener">Подписаться</a></p> : <p>Канал скоро откроется.</p>}
+  </section>
+</Base>

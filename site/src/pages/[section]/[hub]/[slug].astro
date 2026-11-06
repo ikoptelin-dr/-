@@ -1,0 +1,20 @@
+---
+// Страница материала: /pro/pamyatki/<slug>/, /pro/razbory/<slug>/, /pro/ne-akne/<slug>/, /dlya-vseh/<hub>/<slug>/.
+// Попадают только материалы, прошедшие правила публикации (src/lib/rules.mjs).
+import Material from '../../../layouts/Material.astro';
+import { getMaterials } from '../../../lib/content.mjs';
+import { render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const all = await getMaterials();
+  return all
+    .filter((m) => m.data.kind !== 'hub')
+    .map((m) => {
+      const [, section, hub, slug] = m.path.split('/');
+      return { params: { section, hub, slug }, props: { m } };
+    });
+}
+const { m } = Astro.props;
+const { Content } = await render(m.entry);
+---
+<Material m={m}><Content /></Material>

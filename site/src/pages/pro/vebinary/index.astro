@@ -1,0 +1,23 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getWebinars } from '../../../lib/content.mjs';
+import { webinarView } from '../../../lib/webinar.mjs';
+const webinars = await getWebinars();
+---
+<Base title="Вебинары" description="Вебинары Proba для косметологов и врачей: программа, спикер, запись и лист ожидания." path="/pro/vebinary/">
+  <h1>Вебинары</h1>
+  {webinars.length === 0 ? <p>Вебинары скоро появятся.</p> : (
+    <ul data-webinar-list>
+      {webinars.map((w) => {
+        const v = webinarView(w.data);
+        return (
+          <li>
+            <h2><a href={`/pro/vebinary/${w.data.slug}/`}>{w.data.title}</a></h2>
+            <p>{w.data.summary}</p>
+            <p>Статус: {v.statusLabel}. Спикер: {v.speaker ? v.speaker.name : 'спикер будет объявлен'}.</p>
+          </li>
+        );
+      })}
+    </ul>
+  )}
+</Base>

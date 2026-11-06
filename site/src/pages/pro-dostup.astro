@@ -1,0 +1,28 @@
+---
+// Подтверждение «я специалист» (ТЗ, раздел 6). Это не авторизация и не защита,
+// а соблюдение правил подачи информации о лекарствах специалистам. TODO(юрист): формулировка.
+import Simple from '../layouts/Simple.astro';
+---
+<Simple id="pro-dostup" path="/pro-dostup/">
+  <form data-pro-access>
+    <p><label><input type="checkbox" name="confirm" required /> Я медицинский или косметологический специалист</label></p>
+    <p><button type="submit">Подтвердить</button></p>
+  </form>
+  <p data-pro-access-done hidden>Подтверждено. <a href="/pro/">Вернуться к материалам</a>.</p>
+  <script is:inline>
+    (function () {
+      var form = document.querySelector('[data-pro-access]');
+      var done = document.querySelector('[data-pro-access-done]');
+      function safeNext() {
+        var next = new URLSearchParams(location.search).get('next') || '';
+        return /^\/[a-z0-9\-\/]*$/.test(next) ? next : null; // только внутренние пути сайта
+      }
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        try { localStorage.setItem('proba_pro_confirmed', '1'); } catch (err) {}
+        var next = safeNext();
+        if (next) { location.href = next; } else { form.hidden = true; done.hidden = false; }
+      });
+    })();
+  </script>
+</Simple>

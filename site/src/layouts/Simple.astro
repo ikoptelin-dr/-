@@ -1,0 +1,22 @@
+---
+// Простая страница (ТЗ, раздел 4, п. 5): текст из коллекции pages.
+import Base from './Base.astro';
+import { getEntry, render } from 'astro:content';
+
+interface Props { id: string; path: string }
+const { id, path } = Astro.props;
+const page = await getEntry('pages', id);
+if (!page) throw new Error(`Нет страницы pages/${id}.md`);
+const { Content } = await render(page);
+---
+<Base title={page.data.title} description={page.data.description} path={path} noindex={page.data.noindex}>
+  <article data-page={id}>
+    <h1>{page.data.title}</h1>
+    {page.data.legal_draft && (
+      // TODO(юрист): финальный текст — юрист. Пока черновик.
+      <p data-legal-draft><strong>Черновик документа.</strong> Финальный текст готовит юрист.</p>
+    )}
+    <Content />
+    <slot />
+  </article>
+</Base>

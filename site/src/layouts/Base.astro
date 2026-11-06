@@ -1,0 +1,47 @@
+---
+// Базовый шаблон: семантический HTML без декоративного CSS (дизайн ляжет поверх).
+import { config, siteUrl } from '../lib/config.mjs';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  noindex?: boolean;
+  ogType?: string;
+  jsonLd?: object | null;
+}
+const { title, description, path, noindex = false, ogType = 'website', jsonLd = null } = Astro.props;
+const fullTitle = path === '/' ? `${config.name} — ${config.tagline}` : `${title} — ${config.name}`;
+const canonical = siteUrl(path);
+const robots = noindex || config.preview ? 'noindex, nofollow' : 'index, follow';
+---
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={config.name} />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    {config.preview && (
+      <p role="status" data-preview-banner>Режим предпросмотра: показаны черновики, страницы закрыты от индексации.</p>
+    )}
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,72 @@
+---
+// Шаблон материала (ТЗ, раздел 4, п. 3).
+import Base from './Base.astro';
+import ReviewBlock from '../components/ReviewBlock.astro';
+import Sources from '../components/Sources.astro';
+import TelegramCta from '../components/TelegramCta.astro';
+import { materialJsonLd } from '../lib/jsonld.mjs';
+import { botStartForMaterial } from '../lib/rules.mjs';
+
+interface Props { m: any }
+const { m } = Astro.props;
+const d = m.data;
+const start = botStartForMaterial(d);
+const [prefix, ...rest] = start.split('_');
+const fmt = (x: Date) => x.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+---
+<Base title={d.title} description={d.summary} path={m.path} noindex={!m.indexable} ogType="article" jsonLd={materialJsonLd(m)}>
+  <article data-material data-kind={d.kind} data-medical={String(d.medical)}>
+    <header>
+      {m.decision.draft && <p><strong data-draft-badge>Черновик</strong></p>}
+      {d.sponsored && (
+        <p data-ad-label><strong>Реклама.</strong> Рекламодатель: {d.sponsored.sponsor}{d.sponsored.marking_erid && <>. erid: {d.sponsored.marking_erid}</>}</p>
+      )}
+      <h1>{d.title}</h1>
+      <p>{d.summary}</p>
+      <p><small>Обновлено: <time datetime={d.updated_at.toISOString().slice(0, 10)}>{fmt(d.updated_at)}</time></small></p>
+    </header>
+
+    {d.pro_only && (
+      <p data-pro-gate-notice>
+        Материал о лекарственных средствах предназначен для специалистов.
+        <a href={`/pro-dostup/?next=${encodeURIComponent(m.path)}`}>Подтвердить, что я специалист</a>.
+      </p>
+    )}
+    <div data-pro-only={d.pro_only ? 'true' : undefined} hidden={d.pro_only ? true : undefined}>
+      <slot />
+    </div>
+
+    <ReviewBlock data={d} draft={m.decision.draft} reason={m.decision.reason} />
+    <Sources sources={d.sources} />
+
+    <section aria-labelledby="disclosure">
+      <h2 id="disclosure">Раскрытие интересов</h2>
+      <p>{d.disclosure}</p>
+      <p><a href="/reklama-i-nezavisimost/">Правила рекламы и независимости</a></p>
+    </section>
+
+    {d.medical && (
+      <p data-medical-disclaimer><small>Материал носит информационный характер и не заменяет консультацию врача. <a href="/medicinskaya-ogovorka/">Медицинская оговорка</a>.</small></p>
+    )}
+
+    {d.changelog.length > 0 && (
+      <section aria-labelledby="changelog">
+        <h2 id="changelog">История изменений</h2>
+        <ul>
+          {d.changelog.map((c: any) => (<li><time datetime={c.date.toISOString().slice(0, 10)}>{fmt(c.date)}</time>: {c.change}</li>))}
+        </ul>
+      </section>
+    )}
+  </article>
+  {!m.decision.draft && <TelegramCta prefix={prefix} slug={rest.join('_')} />}
+  {d.pro_only && (
+    <script is:inline>
+      try {
+        if (localStorage.getItem('proba_pro_confirmed') === '1') {
+          document.querySelectorAll('[data-pro-only]').forEach((el) => el.removeAttribute('hidden'));
+          document.querySelectorAll('[data-pro-gate-notice]').forEach((el) => el.setAttribute('hidden', ''));
+        }
+      } catch (e) {}
+    </script>
+  )}
+</Base>

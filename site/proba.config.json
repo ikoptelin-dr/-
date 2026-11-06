@@ -1,0 +1,22 @@
+{
+  "_comment": "Конфигурация сайта без секретов. Пустая строка = ещё не решено владельцем (см. docs/site/AUDIT.md, раздел 5). Секреты — только в переменных окружения (.env.example).",
+  "name": "Proba",
+  "tagline": "Независимая экспертиза для косметологов и врачей",
+  "site_url": "https://proba.example",
+  "language": "ru",
+  "telegram": {
+    "pro_channel_url": "",
+    "public_channel_url": "",
+    "bot_url": ""
+  },
+  "webinar_payment_url": "",
+  "forms_endpoint": "http://localhost:8787/api/forms",
+  "contacts": {
+    "email": "",
+    "telegram": ""
+  },
+  "partners": {
+    "_comment": "true только после договора или письма НГУ (AUDIT, раздел 3).",
+    "ngu_confirmed": false
+  }
+}

@@ -1,0 +1,53 @@
+---
+// Шаблон вебинара (ТЗ, раздел 4, п. 4). Спикер без consent: true выводится как «спикер будет объявлен».
+import Base from '../../../layouts/Base.astro';
+import WaitlistForm from '../../../components/WaitlistForm.astro';
+import { getWebinars } from '../../../lib/content.mjs';
+import { webinarView } from '../../../lib/webinar.mjs';
+
+export async function getStaticPaths() {
+  const items = await getWebinars();
+  return items.map((w) => ({ params: { slug: w.data.slug }, props: { w } }));
+}
+const { w } = Astro.props;
+const d = w.data;
+const v = webinarView(d);
+const path = `/pro/vebinary/${d.slug}/`;
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'EducationEvent',
+  name: d.title,
+  description: d.summary,
+  inLanguage: 'ru',
+  eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
+  ...(d.date ? { startDate: d.date.toISOString() } : {}),
+  ...(v.speaker ? { performer: { '@type': 'Person', name: v.speaker.name, jobTitle: v.speaker.title } } : {}),
+};
+---
+<Base title={d.title} description={d.summary} path={path} jsonLd={ld}>
+  <article data-webinar={d.slug}>
+    <h1>{d.title}</h1>
+    <p><strong>Для кого:</strong> {d.audience}</p>
+    <h2>Что разберём</h2>
+    <ol>{d.program.map((p) => <li>{p}</li>)}</ol>
+    <dl>
+      <dt>Спикер</dt>
+      <dd data-speaker>{v.speaker ? <>{v.speaker.name}{v.speaker.title && `, ${v.speaker.title}`}</> : 'Спикер будет объявлен'}</dd>
+      <dt>Дата</dt>
+      <dd>{d.date ? <time datetime={d.date.toISOString()}>{d.date.toLocaleString('ru-RU', { dateStyle: 'long', timeStyle: 'short', timeZone: 'Europe/Moscow' })} (МСК)</time> : 'Дата будет объявлена'}</dd>
+      <dt>Статус</dt><dd>{v.statusLabel}</dd>
+      <dt>Длительность</dt><dd>{d.duration}</dd>
+      <dt>Цена</dt><dd>{d.price ?? 'Будет объявлена'}</dd>
+      {d.materials_after.length > 0 && <><dt>Что получите</dt><dd>{d.materials_after.join(', ')}</dd></>}
+    </dl>
+    <p>
+      {v.canPay ? (
+        <a href={v.paymentUrl} rel="noopener" data-pay>Записаться (предоплата)</a>
+      ) : (
+        <span data-pay-disabled>Запись с предоплатой откроется позже. Оставьте контакт в листе ожидания — сообщим.</span>
+      )}
+    </p>
+    <p><a href="#form-webinar_waitlist">Не подходит дата — в лист ожидания</a></p>
+  </article>
+  <WaitlistForm formType="webinar_waitlist" subject={d.slug} heading="Лист ожидания вебинара" />
+</Base>

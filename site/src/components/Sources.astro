@@ -1,0 +1,16 @@
+---
+interface Props { sources?: any[] }
+const { sources = [] } = Astro.props;
+---
+{sources.length > 0 && (
+  <section aria-labelledby="sources" data-sources>
+    <h2 id="sources">Источники</h2>
+    <ol>
+      {sources.map((s) => (
+        <li>
+          <a href={s.url} rel="noopener nofollow">{s.title}</a> ({s.year}). Тип: {s.type}. Исследование на ком: <strong>{s.on_whom}</strong>.
+        </li>
+      ))}
+    </ol>
+  </section>
+)}

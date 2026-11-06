@@ -1,0 +1,26 @@
+---
+// Лист ожидания (вебинар или клуб). ТЗ, раздел 5.
+import { config } from '../lib/config.mjs';
+import ConsentCheckbox from './ConsentCheckbox.astro';
+import Honeypot from './Honeypot.astro';
+interface Props { formType: 'webinar_waitlist' | 'club_waitlist'; subject?: string; heading?: string }
+const { formType, subject = '', heading = 'Лист ожидания' } = Astro.props;
+---
+<section aria-labelledby={`form-${formType}`}>
+  <h2 id={`form-${formType}`}>{heading}</h2>
+  <form method="post" action={`${config.forms_endpoint}/${formType}`} data-form={formType}>
+    <input type="hidden" name="subject" value={subject} />
+    <Honeypot />
+    <p><label>Имя <input type="text" name="name" required maxlength="100" autocomplete="name" /></label></p>
+    <p><label>Email или Telegram <input type="text" name="contact" required maxlength="100" autocomplete="email" /></label></p>
+    <fieldset>
+      <legend>Кто вы</legend>
+      <label><input type="radio" name="role" value="cosmetologist" required /> Косметолог</label>
+      <label><input type="radio" name="role" value="doctor" /> Врач</label>
+      <label><input type="radio" name="role" value="other" /> Другое</label>
+    </fieldset>
+    <p><label>Город <input type="text" name="city" maxlength="100" autocomplete="address-level2" /></label></p>
+    <ConsentCheckbox />
+    <p><button type="submit">Записаться в лист ожидания</button></p>
+  </form>
+</section>

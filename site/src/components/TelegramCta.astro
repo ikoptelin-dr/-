@@ -1,0 +1,17 @@
+---
+// Блок «Получить в Telegram»: ссылка на бота с параметром материала (?start=pamyatka_guby).
+import { config } from '../lib/config.mjs';
+import { botStartParam } from '../lib/rules.mjs';
+interface Props { prefix: string; slug: string; text?: string }
+const { prefix, slug, text = 'Получить в Telegram' } = Astro.props;
+const param = botStartParam(prefix, slug);
+const href = config.telegram.bot_url ? `${config.telegram.bot_url}?start=${param}` : null;
+---
+<aside aria-label="Получить в Telegram" data-telegram-cta data-start={param}>
+  <h2>{text}</h2>
+  {href ? (
+    <p><a href={href} rel="noopener">Открыть бота Proba в Telegram</a></p>
+  ) : (
+    <p>Бот Proba скоро заработает. Ссылка появится здесь.</p>
+  )}
+</aside>

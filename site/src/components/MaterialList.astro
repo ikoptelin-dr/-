@@ -1,0 +1,21 @@
+---
+interface Props { items: any[]; empty: string }
+const { items, empty } = Astro.props;
+---
+{items.length === 0 ? (
+  <p data-empty-list>{empty}</p>
+) : (
+  <ul data-material-list>
+    {items.map((m) => (
+      <li>
+        <article>
+          <h3><a href={m.path}>{m.data.title}</a></h3>
+          {m.decision.draft && <p><strong data-draft-badge>Черновик</strong></p>}
+          {m.data.sponsored && <p><strong data-ad-badge>Реклама</strong> · {m.data.sponsored.sponsor}</p>}
+          {m.data.pro_only && <p><small>Для специалистов</small></p>}
+          <p>{m.data.summary}</p>
+        </article>
+      </li>
+    ))}
+  </ul>
+)}

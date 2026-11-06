@@ -1,0 +1,25 @@
+---
+// Заявка партнёра. ТЗ, раздел 5.
+import { config } from '../lib/config.mjs';
+import ConsentCheckbox from './ConsentCheckbox.astro';
+import Honeypot from './Honeypot.astro';
+---
+<section aria-labelledby="form-partner">
+  <h2 id="form-partner">Заявка партнёра</h2>
+  <form method="post" action={`${config.forms_endpoint}/partner`} data-form="partner">
+    <Honeypot />
+    <p><label>Имя <input type="text" name="name" required maxlength="100" autocomplete="name" /></label></p>
+    <p><label>Организация <input type="text" name="organization" required maxlength="200" autocomplete="organization" /></label></p>
+    <fieldset>
+      <legend>Тип организации</legend>
+      <label><input type="radio" name="org_type" value="clinic" required /> Клиника или салон</label>
+      <label><input type="radio" name="org_type" value="school" /> Учебный центр</label>
+      <label><input type="radio" name="org_type" value="brand" /> Бренд или производитель</label>
+    </fieldset>
+    <p><label>Email или Telegram <input type="text" name="contact" required maxlength="100" /></label></p>
+    <p><label>Город <input type="text" name="city" maxlength="100" /></label></p>
+    <p><label>Что интересно <textarea name="message" maxlength="2000" rows="5"></textarea></label></p>
+    <ConsentCheckbox />
+    <p><button type="submit">Отправить заявку</button></p>
+  </form>
+</section>

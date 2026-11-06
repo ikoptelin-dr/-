@@ -1,0 +1,35 @@
+---
+// Шаблон хаба раздела (ТЗ, раздел 4, п. 2). Вводный текст хаба — медицинский материал kind: hub;
+// пока он не одобрен, в продакшне вместо него нейтральная фраза о подготовке.
+import Base from './Base.astro';
+import MaterialList from '../components/MaterialList.astro';
+import TelegramCta from '../components/TelegramCta.astro';
+import ReviewBlock from '../components/ReviewBlock.astro';
+import Sources from '../components/Sources.astro';
+import { getHubIntro, getHubItems } from '../lib/content.mjs';
+import { render } from 'astro:content';
+
+interface Props {
+  section: 'pro' | 'dlya-vseh';
+  hub: string;
+  title: string;
+  description: string;
+  cta?: { prefix: string; slug: string; text: string };
+}
+const { section, hub, title, description, cta } = Astro.props;
+const intro = await getHubIntro({ section, hub });
+const items = await getHubItems({ section, hub });
+const Intro = intro ? (await render(intro.entry)).Content : null;
+const path = `/${section}/${hub}/`;
+---
+<Base title={intro?.data.title ?? title} description={intro?.data.summary ?? description} path={path} noindex={intro ? !intro.indexable : false}>
+  <h1>{intro?.data.title ?? title}</h1>
+  {intro?.decision.draft && <p><strong data-draft-badge>Черновик вводного текста</strong> — не прошёл рецензию.</p>}
+  {Intro ? <Intro /> : <p data-hub-pending>Раздел готовится. Материалы появляются здесь только после проверки врачом.</p>}
+  {intro && <ReviewBlock data={intro.data} draft={intro.decision.draft} reason={intro.decision.reason} />}
+  {intro && <Sources sources={intro.data.sources} />}
+  <slot />
+  <h2>Материалы</h2>
+  <MaterialList items={items} empty="Пока нет опубликованных материалов: каждый выходит только после медицинской рецензии." />
+  {cta && <TelegramCta prefix={cta.prefix} slug={cta.slug} text={cta.text} />}
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getEntry, render } from 'astro:content';
+const page = await getEntry('pages', 'pro');
+const { Content } = await render(page!);
+---
+<Base title={page!.data.title} description={page!.data.description} path="/pro/">
+  <h1>{page!.data.title}</h1>
+  <Content />
+  <nav aria-label="Разделы Proba Pro">
+    <ul>
+      <li><a href="/pro/ne-akne/">Это не акне</a></li>
+      <li><a href="/pro/pamyatki/">Памятки</a></li>
+      <li><a href="/pro/razbory/">Разборы</a></li>
+      <li><a href="/pro/vebinary/">Вебинары</a></li>
+      <li><a href="/pro/klub/">Клуб (лист ожидания)</a></li>
+    </ul>
+  </nav>
+</Base>
