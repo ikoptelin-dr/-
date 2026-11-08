@@ -21,6 +21,8 @@
 | `research/R02-publics-method.md` | методика поиска и выгрузки мамских пабликов ВК и Telegram, пороги П1–П4 |
 | `scripts/publics/` | сборщики ВК и Telegram (не проверены на живом API), классификатор тем постов (`--selftest`) |
 | `zamery/z20-publics-template.csv` | шаблон для ручного прохода по пабликам |
+| `research/R03-serp-results.md` | выдача Яндекса по 71 запросу: Алиса, кто в топ-10, Комаровский, местные, курсы |
+| `scripts/parse_serp.py`, `analyze_serp.py`, `serp_domain_types.py` | разбор выдачи → `zamery/z12-*` |
 | `inputs/external-sources.md` | Росстат: население и рождаемость НСО |
 | `scripts/parse_direct_forecast.py` | собирает все выгрузки в `zamery/z03-direct-forecast.csv` (нужен `pip install xlrd`) |
 

@@ -1,0 +1,1336 @@
+{
+ "unmapped": [],
+ "regions": {
+  "65": 71
+ },
+ "top10_type_share": {
+  "boundary": {
+   "results": 60,
+   "brand": 0.3,
+   "clinic": 0.283,
+   "shop": 0.267,
+   "media": 0.1,
+   "lab": 0.017,
+   "course": 0.017,
+   "state": 0.017,
+   "local_nsk_share": 0.017
+  },
+  "brand": {
+   "results": 30,
+   "social": 0.267,
+   "shop": 0.2,
+   "media": 0.2,
+   "state": 0.1,
+   "brand": 0.1,
+   "clinic": 0.067,
+   "yandex": 0.067,
+   "local_nsk_share": 0.0
+  },
+  "clinic": {
+   "results": 59,
+   "aggregator": 0.475,
+   "clinic": 0.305,
+   "telemed": 0.068,
+   "media": 0.068,
+   "yandex": 0.051,
+   "shop": 0.017,
+   "course": 0.017,
+   "local_nsk_share": 0.559
+  },
+  "intent": {
+   "results": 59,
+   "course": 0.39,
+   "clinic": 0.203,
+   "aggregator": 0.102,
+   "telemed": 0.085,
+   "media": 0.085,
+   "state": 0.068,
+   "yandex": 0.034,
+   "brand": 0.017,
+   "social": 0.017,
+   "local_nsk_share": 0.186
+  },
+  "night": {
+   "results": 300,
+   "clinic": 0.517,
+   "brand": 0.167,
+   "media": 0.15,
+   "lab": 0.077,
+   "state": 0.04,
+   "shop": 0.027,
+   "aggregator": 0.013,
+   "course": 0.007,
+   "telemed": 0.003,
+   "local_nsk_share": 0.003
+  },
+  "paid": {
+   "results": 200,
+   "clinic": 0.325,
+   "brand": 0.295,
+   "media": 0.11,
+   "state": 0.07,
+   "social": 0.065,
+   "course": 0.04,
+   "shop": 0.035,
+   "lab": 0.02,
+   "aggregator": 0.02,
+   "telemed": 0.015,
+   "yandex": 0.005,
+   "local_nsk_share": 0.0
+  }
+ },
+ "top_domains_night": [
+  [
+   "smdoctor.ru",
+   17,
+   "clinic"
+  ],
+  [
+   "mc21.ru",
+   12,
+   "clinic"
+  ],
+  [
+   "klinikabudzdorov.ru",
+   12,
+   "clinic"
+  ],
+  [
+   "fantasyclinic.ru",
+   9,
+   "clinic"
+  ],
+  [
+   "probolezny.ru",
+   9,
+   "media"
+  ],
+  [
+   "gemotest.ru",
+   8,
+   "lab"
+  ],
+  [
+   "invitro.ru",
+   7,
+   "lab"
+  ],
+  [
+   "smclinic.ru",
+   7,
+   "clinic"
+  ],
+  [
+   "fdoctor.ru",
+   6,
+   "clinic"
+  ],
+  [
+   "nestlebaby.ru",
+   6,
+   "brand"
+  ],
+  [
+   "medicinadeti.ru",
+   5,
+   "clinic"
+  ],
+  [
+   "doct.ru",
+   5,
+   "media"
+  ],
+  [
+   "krasotaimedicina.ru",
+   4,
+   "media"
+  ],
+  [
+   "gmsclinic.ru",
+   4,
+   "clinic"
+  ],
+  [
+   "lit-baby.ru",
+   4,
+   "media"
+  ]
+ ],
+ "top_domains_paid": [
+  [
+   "mamako.ru",
+   10,
+   "brand"
+  ],
+  [
+   "nutrilak.com",
+   8,
+   "brand"
+  ],
+  [
+   "mc21.ru",
+   7,
+   "clinic"
+  ],
+  [
+   "smdoctor.ru",
+   7,
+   "clinic"
+  ],
+  [
+   "nutriclub.ru",
+   7,
+   "brand"
+  ],
+  [
+   "nestlebaby.ru",
+   6,
+   "brand"
+  ],
+  [
+   "klinikabudzdorov.ru",
+   5,
+   "clinic"
+  ],
+  [
+   "krasotaimedicina.ru",
+   4,
+   "media"
+  ],
+  [
+   "pediatr-russia.ru",
+   4,
+   "state"
+  ],
+  [
+   "probolezny.ru",
+   4,
+   "media"
+  ],
+  [
+   "huggies.ru",
+   4,
+   "brand"
+  ],
+  [
+   "frutonyanya.ru",
+   4,
+   "brand"
+  ],
+  [
+   "apteka.ru",
+   3,
+   "shop"
+  ],
+  [
+   "youtube.com",
+   3,
+   "social"
+  ],
+  [
+   "lit-baby.ru",
+   3,
+   "media"
+  ]
+ ],
+ "state_in_top10": [
+  [
+   "атопический дерматит у ребенка",
+   "10",
+   "pediatr-russia.ru"
+  ],
+  [
+   "ацетонемическая рвота",
+   "10",
+   "cyberleninka.ru"
+  ],
+  [
+   "диатез или атопический дерматит",
+   "9",
+   "bsmu.by"
+  ],
+  [
+   "застой молока",
+   "8",
+   "fnkc-fmba.ru"
+  ],
+  [
+   "как вводить прикорм при аллергии",
+   "7",
+   "cyberleninka.ru"
+  ],
+  [
+   "как закончить гв",
+   "10",
+   "здоровыедети124.рф"
+  ],
+  [
+   "календарь прививок по возрасту",
+   "2",
+   "privivka.spb.ru"
+  ],
+  [
+   "календарь прививок по возрасту",
+   "3",
+   "msch9fmba.ru"
+  ],
+  [
+   "календарь прививок по возрасту",
+   "4",
+   "pediatr-russia.ru"
+  ],
+  [
+   "календарь прививок по возрасту",
+   "7",
+   "org.gnicpm.ru"
+  ],
+  [
+   "календарь прививок по возрасту",
+   "8",
+   "sp62.mos.ru"
+  ],
+  [
+   "когда вызывать скорую ребенку",
+   "8",
+   "dzunmmc.gosuslugi.ru"
+  ],
+  [
+   "когда к врачу с ребенком",
+   "2",
+   "med-b-kamenskaya-r22.gosweb.gosuslugi.ru"
+  ],
+  [
+   "когда к врачу с ребенком",
+   "3",
+   "mos.ru"
+  ],
+  [
+   "когда к врачу с ребенком",
+   "7",
+   "rgnkc.ru"
+  ],
+  [
+   "когда к врачу с ребенком",
+   "8",
+   "gu99.site.gov.spb.ru"
+  ],
+  [
+   "когда к врачу с ребенком",
+   "10",
+   "mosgorzdrav.ru"
+  ],
+  [
+   "когда начинать прикорм",
+   "1",
+   "pediatr-russia.ru"
+  ],
+  [
+   "когда начинать прикорм",
+   "4",
+   "pediatr-russia.ru"
+  ],
+  [
+   "комаровский прикорм",
+   "5",
+   "profilaktica.ru"
+  ],
+  [
+   "комаровский прикорм",
+   "9",
+   "pediatr-russia.ru"
+  ],
+  [
+   "комаровский температура",
+   "4",
+   "profilaktica.ru"
+  ],
+  [
+   "крапивница у ребенка",
+   "8",
+   "nczd.ru"
+  ],
+  [
+   "крапивница у ребенка",
+   "9",
+   "pediatr-russia.ru"
+  ],
+  [
+   "курс атопический дерматит",
+   "2",
+   "raaci.ru"
+  ],
+  [
+   "курс атопический дерматит",
+   "5",
+   "rcrm.by"
+  ],
+  [
+   "курс атопический дерматит",
+   "6",
+   "pediatr-russia.ru"
+  ],
+  [
+   "лактостаз",
+   "3",
+   "fnkc-fmba.ru"
+  ],
+  [
+   "ребенок не ест прикорм",
+   "2",
+   "здоровыедети124.рф"
+  ],
+  [
+   "ребенок не ест прикорм",
+   "6",
+   "nczd.ru"
+  ],
+  [
+   "сцеживание грудного молока",
+   "8",
+   "nkcgv.ncagp.ru"
+  ],
+  [
+   "трещина на соске",
+   "2",
+   "fnkc-fmba.ru"
+  ],
+  [
+   "чем сбивать температуру ребёнку",
+   "4",
+   "pediatr-russia.ru"
+  ],
+  [
+   "школа молодых мам новосибирск",
+   "7",
+   "kcozsrnsk.ru"
+  ]
+ ],
+ "pages_with_state_top10_by_group": {
+  "brand": "2/3",
+  "intent": "2/6",
+  "night": "7/30",
+  "boundary": "1/6",
+  "paid": "8/20",
+  "clinic": "0/6"
+ },
+ "local_in_top10_nonclinic": [
+  [
+   "аквадетрим дозировка",
+   "9",
+   "superapteka.ru"
+  ],
+  [
+   "когда к врачу с ребенком",
+   "2",
+   "med-b-kamenskaya-r22.gosweb.gosuslugi.ru"
+  ],
+  [
+   "курс по грудному вскармливанию",
+   "10",
+   "institut-medicina.ru"
+  ],
+  [
+   "курсы для молодых мам",
+   "1",
+   "2gis.ru"
+  ],
+  [
+   "курсы для молодых мам",
+   "2",
+   "novosibirsk.mamadeti.ru"
+  ],
+  [
+   "курсы для молодых мам",
+   "3",
+   "yandex.ru"
+  ],
+  [
+   "школа молодых мам новосибирск",
+   "1",
+   "2gis.ru"
+  ],
+  [
+   "школа молодых мам новосибирск",
+   "2",
+   "novosibirsk.mamadeti.ru"
+  ],
+  [
+   "школа молодых мам новосибирск",
+   "3",
+   "yandex.ru"
+  ],
+  [
+   "школа молодых мам новосибирск",
+   "5",
+   "cnmt.ru"
+  ],
+  [
+   "школа молодых мам новосибирск",
+   "7",
+   "kcozsrnsk.ru"
+  ],
+  [
+   "школа молодых мам новосибирск",
+   "8",
+   "novosibirsk.yarkiedeti.ru"
+  ],
+  [
+   "школа молодых мам новосибирск",
+   "10",
+   "nsk.krasotaimedicina.ru"
+  ]
+ ],
+ "komarovsky_in_organic": [
+  [
+   "как отучить засыпать без груди",
+   "10",
+   "youtube.com"
+  ],
+  [
+   "комаровский",
+   "1",
+   "ru.wikipedia.org"
+  ],
+  [
+   "комаровский",
+   "10",
+   "tv3.ru"
+  ],
+  [
+   "комаровский",
+   "12",
+   "lenta.ru"
+  ],
+  [
+   "комаровский",
+   "2",
+   "ru.ruwiki.ru"
+  ],
+  [
+   "комаровский",
+   "3",
+   "telegram.me"
+  ],
+  [
+   "комаровский",
+   "4",
+   "litres.ru"
+  ],
+  [
+   "комаровский",
+   "5",
+   "books.yandex.ru"
+  ],
+  [
+   "комаровский",
+   "6",
+   "livelib.ru"
+  ],
+  [
+   "комаровский",
+   "7",
+   "chitai-gorod.ru"
+  ],
+  [
+   "комаровский",
+   "8",
+   "tiktok.com"
+  ],
+  [
+   "комаровский",
+   "9",
+   "labirint.ru"
+  ],
+  [
+   "комаровский прикорм",
+   "1",
+   "youtube.com"
+  ],
+  [
+   "комаровский прикорм",
+   "10",
+   "colicrocodile.ru"
+  ],
+  [
+   "комаровский прикорм",
+   "3",
+   "youtube.com"
+  ],
+  [
+   "комаровский прикорм",
+   "4",
+   "youtube.com"
+  ],
+  [
+   "комаровский прикорм",
+   "5",
+   "profilaktica.ru"
+  ],
+  [
+   "комаровский прикорм",
+   "6",
+   "yandex.ru"
+  ],
+  [
+   "комаровский прикорм",
+   "7",
+   "milkrb.ru"
+  ],
+  [
+   "комаровский температура",
+   "2",
+   "t.me"
+  ],
+  [
+   "комаровский температура",
+   "3",
+   "litres.ru"
+  ],
+  [
+   "комаровский температура",
+   "5",
+   "ya-roditel.ru"
+  ],
+  [
+   "комаровский температура",
+   "7",
+   "belta.by"
+  ],
+  [
+   "комаровский температура",
+   "9",
+   "yandex.ru"
+  ]
+ ],
+ "alice_by_group": {
+  "boundary": "4/6",
+  "brand": "3/3",
+  "clinic": "2/6",
+  "intent": "4/6",
+  "night": "30/30",
+  "paid": "19/20"
+ },
+ "alice_texts": [
+  {
+   "query": "аквадетрим дозировка",
+   "group": "boundary",
+   "chars": 3550,
+   "treatment_terms": 20,
+   "when_to_doctor_terms": 0,
+   "sources": "vidal.ru; gorzdrav.org; planetazdorovo.ru; zdravcity.ru; stolichki.ru; rigla.ru; zdorov.ru; rlsnet.ru"
+  },
+  {
+   "query": "атопический дерматит у ребенка",
+   "group": "paid",
+   "chars": 5266,
+   "treatment_terms": 8,
+   "when_to_doctor_terms": 0,
+   "sources": "gemotest.ru; klinikabudzdorov.ru; smdoctor.ru; zn48.ru; spb.fomin-clinic.ru; citilab.ru; fomin-clinic.ru; rc.mc21.ru; avzpharm.ru; gmsclinic.ru; teledoctor24.ru"
+  },
+  {
+   "query": "ацетонемическая рвота",
+   "group": "night",
+   "chars": 2485,
+   "treatment_terms": 2,
+   "when_to_doctor_terms": 1,
+   "sources": "mckvest.ru; 1dmc.ru"
+  },
+  {
+   "query": "желтушка у новорожденного",
+   "group": "paid",
+   "chars": 1032,
+   "treatment_terms": 1,
+   "when_to_doctor_terms": 0,
+   "sources": "medicinadeti.ru; ugmk-clinic.ru; krasotaimedicina.ru; nestlebaby.ru"
+  },
+  {
+   "query": "застой молока",
+   "group": "night",
+   "chars": 4060,
+   "treatment_terms": 1,
+   "when_to_doctor_terms": 3,
+   "sources": "emcmos.ru; fnkc-fmba.ru; doct.ru; medeste.ru; femibion.ru; smclinic.ru; nutriclub.ru; klinikabudzdorov.ru; huggies.ru"
+  },
+  {
+   "query": "календарь прививок по возрасту",
+   "group": "paid",
+   "chars": 3020,
+   "treatment_terms": 0,
+   "when_to_doctor_terms": 0,
+   "sources": "msch9fmba.ru; gbgm.mos.ru; org.gnicpm.ru; celt.ru; pediatr-russia.ru; base.garant.ru; 29gkb.ru; sp62.mos.ru; rzd-medicine.ru; fomin-clinic.ru"
+  },
+  {
+   "query": "кариес на молочных зубах",
+   "group": "paid",
+   "chars": 5264,
+   "treatment_terms": 6,
+   "when_to_doctor_terms": 0,
+   "sources": "ctoma.ru; klinikabudzdorov.ru; nutrilak.com; zub.ru; polyclin.ru; mc21.ru; duncan-medi.ru; dentalfantasy.ru; dlclinics.ru; probolezny.ru; inline-clinic.ru; dental-c.ru"
+  },
+  {
+   "query": "когда вызывать скорую ребенку",
+   "group": "night",
+   "chars": 3686,
+   "treatment_terms": 1,
+   "when_to_doctor_terms": 4,
+   "sources": "t-j.ru; cheldgp4.ru; docdeti.ru; eastclinic.ru; fdoctor.ru; tz.clinic; nikid.ru; dgkb8-chel.ru; dgp174.ru; stolichki.ru; medicinadeti.ru; smdoctor.ru; base.garant.ru; rsmu.ru; kst27.ru"
+  },
+  {
+   "query": "когда начинать прикорм",
+   "group": "paid",
+   "chars": 3882,
+   "treatment_terms": 0,
+   "when_to_doctor_terms": 0,
+   "sources": "pediatr-russia.ru; doulann.ru; medsi.ru; agulife.ru; frutonyanya.ru; nutriclub.ru; lit-baby.ru"
+  },
+  {
+   "query": "комаровский",
+   "group": "brand",
+   "chars": 3558,
+   "treatment_terms": 0,
+   "when_to_doctor_terms": 0,
+   "sources": "chitai-gorod.ru; books.yandex.ru; ru.ruwiki.ru; fedpress.ru; svpressa.ru; book24.ru; livelib.ru; dzen.ru; 24smi.org; otzovik.com; litres.ru; labirint.ru; mybook.ru"
+  },
+  {
+   "query": "курс по грудному вскармливанию",
+   "group": "intent",
+   "chars": 3324,
+   "treatment_terms": 0,
+   "when_to_doctor_terms": 0,
+   "sources": "sozvezdie.center; рагв.рф; рожаем-вместе.рф; gosgv.ru; progv.ru; nkcgv.ncagp.ru; mamadeti.ru; novokrinitskii.com; gkbyudina.ru; nczd.ru; philips.ru; library.mededtech.ru; fnmo.rudn.ru; school.ncagp.ru; vitanova-university.ru; akev.info; student.sechenov.ru; gc.new-degree.ru; smclinic.ru; uslugi.yandex.ru"
+  },
+  {
+   "query": "курсы для молодых мам",
+   "group": "intent",
+   "chars": 3528,
+   "treatment_terms": 0,
+   "when_to_doctor_terms": 0,
+   "sources": "medsi.ru; mamadeti.ru; рожаем-вместе.рф; mamapapa.ru; t-j.ru; sbydy.ru; sbersova.ru; tgu-dpo.ru; mos.ru; inozemtcev.ru; 52gkb.ru"
+  },
+  {
+   "query": "лактостаз",
+   "group": "night",
+   "chars": 5059,
+   "treatment_terms": 1,
+   "when_to_doctor_terms": 2,
+   "sources": "emcmos.ru; fnkc-fmba.ru; smclinic.ru; klinikabudzdorov.ru; doct.ru; femibion.ru; medeste.ru; nestlebaby.ru; medsi.ru; probolezny.ru"
+  },
+  {
+   "query": "мастит",
+   "group": "night",
+   "chars": 5166,
+   "treatment_terms": 9,
+   "when_to_doctor_terms": 2,
+   "sources": "smclinic.ru; gemotest.ru; alfazdrav.ru; klinikabudzdorov.ru; citilab.ru; mcmedok.ru; megapteka.ru"
+  },
+  {
+   "query": "обструктивный бронхит",
+   "group": "night",
+   "chars": 4212,
+   "treatment_terms": 7,
+   "when_to_doctor_terms": 1,
+   "sources": "gemotest.ru; rengalin.ru; doct.ru; klinikabudzdorov.ru; locmr.ru; chh.ru; probolezny.ru; polyclinika.ru; ufa.medsi.ru"
+  },
+  {
+   "query": "пропадает молоко",
+   "group": "paid",
+   "chars": 4127,
+   "treatment_terms": 1,
+   "when_to_doctor_terms": 0,
+   "sources": "huggies.ru; mamako.ru; sprosivracha.com; klinikabudzdorov.ru; c9m.ru; megapteka.ru; probolezny.ru; arimed.ru; doct.ru; nestlebaby.ru"
+  },
+  {
+   "query": "ребенок не ест прикорм",
+   "group": "paid",
+   "chars": 4149,
+   "treatment_terms": 1,
+   "when_to_doctor_terms": 1,
+   "sources": "nczd.ru; mamako.ru; здоровыедети124.рф; nestlebaby.ru; sanitas.ru; nuvita-baby.ru"
+  },
+  {
+   "query": "сцеживание грудного молока",
+   "group": "paid",
+   "chars": 2922,
+   "treatment_terms": 0,
+   "when_to_doctor_terms": 0,
+   "sources": "emcmos.ru; nkcgv.ncagp.ru; nestlebaby.ru; nutrilak.com; mamako.ru; smdoctor.ru; femibion.ru; frutonyanya.ru; medela.ru; philips.ru"
+  }
+ ],
+ "alice_source_domains": [
+  [
+   "klinikabudzdorov.ru",
+   7,
+   "clinic"
+  ],
+  [
+   "nestlebaby.ru",
+   5,
+   "brand"
+  ],
+  [
+   "doct.ru",
+   4,
+   "media"
+  ],
+  [
+   "smclinic.ru",
+   4,
+   "clinic"
+  ],
+  [
+   "probolezny.ru",
+   4,
+   "media"
+  ],
+  [
+   "gemotest.ru",
+   3,
+   "lab"
+  ],
+  [
+   "smdoctor.ru",
+   3,
+   "clinic"
+  ],
+  [
+   "emcmos.ru",
+   3,
+   "clinic"
+  ],
+  [
+   "femibion.ru",
+   3,
+   "brand"
+  ],
+  [
+   "medsi.ru",
+   3,
+   "clinic"
+  ],
+  [
+   "mamako.ru",
+   3,
+   "brand"
+  ],
+  [
+   "stolichki.ru",
+   2,
+   "shop"
+  ],
+  [
+   "citilab.ru",
+   2,
+   "lab"
+  ],
+  [
+   "fomin-clinic.ru",
+   2,
+   "clinic"
+  ],
+  [
+   "medicinadeti.ru",
+   2,
+   "clinic"
+  ],
+  [
+   "fnkc-fmba.ru",
+   2,
+   "state"
+  ],
+  [
+   "medeste.ru",
+   2,
+   "media"
+  ],
+  [
+   "nutriclub.ru",
+   2,
+   "brand"
+  ],
+  [
+   "huggies.ru",
+   2,
+   "brand"
+  ],
+  [
+   "pediatr-russia.ru",
+   2,
+   "state"
+  ],
+  [
+   "base.garant.ru",
+   2,
+   "state"
+  ],
+  [
+   "nutrilak.com",
+   2,
+   "brand"
+  ],
+  [
+   "t-j.ru",
+   2,
+   "media"
+  ],
+  [
+   "frutonyanya.ru",
+   2,
+   "brand"
+  ],
+  [
+   "рожаем-вместе.рф",
+   2,
+   "other"
+  ]
+ ],
+ "alice_source_types": {
+  "media": 19,
+  "shop": 13,
+  "other": 23,
+  "lab": 5,
+  "clinic": 55,
+  "telemed": 2,
+  "brand": 27,
+  "state": 20,
+  "course": 7,
+  "social": 1,
+  "aggregator": 2
+ },
+ "organic_framing_by_group": {
+  "boundary": {
+   "results": 60,
+   "treatment_share": 0.55,
+   "when_share": 0.033
+  },
+  "brand": {
+   "results": 30,
+   "treatment_share": 0.033,
+   "when_share": 0.0
+  },
+  "clinic": {
+   "results": 59,
+   "treatment_share": 0.034,
+   "when_share": 0.0
+  },
+  "intent": {
+   "results": 59,
+   "treatment_share": 0.102,
+   "when_share": 0.0
+  },
+  "night": {
+   "results": 300,
+   "treatment_share": 0.293,
+   "when_share": 0.087
+  },
+  "paid": {
+   "results": 200,
+   "treatment_share": 0.175,
+   "when_share": 0.03
+  }
+ },
+ "paid_by_group": {
+  "boundary": {
+   "pages": 6,
+   "promo": 17,
+   "ad_or_other": 12,
+   "promo_types": {
+    "shop": 5,
+    "other": 1,
+    "brand": 6,
+    "yandex": 1,
+    "clinic": 4
+   }
+  },
+  "brand": {
+   "pages": 3,
+   "promo": 6,
+   "ad_or_other": 8,
+   "promo_types": {
+    "yandex": 1,
+    "shop": 2,
+    "brand": 1,
+    "other": 1,
+    "course": 1
+   }
+  },
+  "clinic": {
+   "pages": 6,
+   "promo": 33,
+   "ad_or_other": 18,
+   "promo_types": {
+    "clinic": 19,
+    "lab": 1,
+    "brand": 2,
+    "yandex": 3,
+    "aggregator": 1,
+    "telemed": 3,
+    "course": 2,
+    "shop": 2
+   }
+  },
+  "intent": {
+   "pages": 6,
+   "promo": 24,
+   "ad_or_other": 16,
+   "promo_types": {
+    "telemed": 4,
+    "aggregator": 1,
+    "course": 8,
+    "other": 7,
+    "brand": 2,
+    "shop": 2
+   }
+  },
+  "night": {
+   "pages": 30,
+   "promo": 70,
+   "ad_or_other": 61,
+   "promo_types": {
+    "yandex": 25,
+    "telemed": 4,
+    "shop": 4,
+    "lab": 4,
+    "brand": 14,
+    "course": 4,
+    "other": 3,
+    "clinic": 11,
+    "social": 1
+   }
+  },
+  "paid": {
+   "pages": 20,
+   "promo": 47,
+   "ad_or_other": 43,
+   "promo_types": {
+    "brand": 13,
+    "yandex": 7,
+    "telemed": 3,
+    "shop": 5,
+    "other": 5,
+    "clinic": 8,
+    "course": 6
+   }
+  }
+ },
+ "ad_block_top_domains": [
+  [
+   "yandex.ru",
+   60,
+   "yandex"
+  ],
+  [
+   "leads.su",
+   28,
+   "other"
+  ],
+  [
+   "mrqz.me",
+   19,
+   "other"
+  ],
+  [
+   "cowork.bitrix24.ru",
+   10,
+   "other"
+  ],
+  [
+   "yes-towers.ru",
+   7,
+   "other"
+  ],
+  [
+   "meetup.bitrix24.events",
+   5,
+   "other"
+  ],
+  [
+   "sberbusiness.live",
+   5,
+   "other"
+  ],
+  [
+   "sochno-krd.ru",
+   3,
+   "other"
+  ],
+  [
+   "sosnovy-bor.eltex.ru",
+   2,
+   "other"
+  ],
+  [
+   "cnmt.ru",
+   2,
+   "clinic"
+  ],
+  [
+   "yookassa.ru",
+   2,
+   "other"
+  ],
+  [
+   "napopravku.ru",
+   1,
+   "aggregator"
+  ]
+ ],
+ "promo_examples_night": [
+  [
+   "больно кормить грудью",
+   "yandex.ru",
+   "yandex",
+   "Ответ на вопрос с помощью Алисы AI"
+  ],
+  [
+   "больно кормить грудью",
+   "doctorvika.ru",
+   "telemed",
+   "Консультант по грудному вскармливанию онлайн"
+  ],
+  [
+   "больно кормить грудью",
+   "happybaby.ru",
+   "shop",
+   "Товары для грудного вскармливания. Помощь в кормлении"
+  ],
+  [
+   "высокая температура ночью у ребенка",
+   "yandex.ru",
+   "yandex",
+   "Что-то пошло не так? Поиск с Алисой AI найдёт ответ!"
+  ],
+  [
+   "высокая температура ночью у ребенка",
+   "chromolab.ru",
+   "lab",
+   "Анализы ребенку на дому: бережно и без плача. Выезд 0 р!"
+  ],
+  [
+   "высокая температура ночью у ребенка",
+   "maslo-dishi.ru",
+   "brand",
+   "6 способов избавиться от насморка у детей!"
+  ],
+  [
+   "высокая температура ночью у ребенка",
+   "parents-web.foxford.ru",
+   "course",
+   "Узнать о здоровье ребёнка"
+  ],
+  [
+   "застой молока",
+   "мамкози.рф",
+   "shop",
+   "Momcozy: официальный сайт для современных мам"
+  ],
+  [
+   "застой молока",
+   "yandex.ru",
+   "yandex",
+   "Что-то пошло не так? Поиск с Алисой AI найдёт ответ!"
+  ],
+  [
+   "застой молока",
+   "nanny-mamemozhno.ru",
+   "course",
+   "Помощь маме с новорождённым каждый день. «Маме. Можно»"
+  ],
+  [
+   "застой молока",
+   "crazybeach.ru",
+   "other",
+   "Бюстгальтеры для кормящей мамы Elomi | Crazy Beach"
+  ],
+  [
+   "изо рта пахнет ацетоном у ребенка",
+   "yandex.ru",
+   "yandex",
+   "Что-то пошло не так? Поиск с Алисой AI найдёт ответ!"
+  ],
+  [
+   "когда вызывать скорую ребенку",
+   "yandex.ru",
+   "yandex",
+   "Найти ответ с Алисой AI"
+  ],
+  [
+   "колики у новорожденного",
+   "microlax.ru",
+   "brand",
+   "Запор и колики у малыша. Микроклизмы МИКРОЛАКС"
+  ],
+  [
+   "колики у новорожденного",
+   "bobotik.ru",
+   "brand",
+   "Животик малыша часто беспокоится из-за колик и газиков?"
+  ],
+  [
+   "колики у новорожденного",
+   "nestlebaby.ru",
+   "brand",
+   "Икота у младенца, что делать? Советы на сайте NestleBaby"
+  ],
+  [
+   "крапивница у ребенка",
+   "cetrine.ru",
+   "brand",
+   "Капли Цетрин® при первых симптомах аллергии у малышей"
+  ],
+  [
+   "крапивница у ребенка",
+   "suprastinex.ru",
+   "brand",
+   "При крапивнице у ребенка - капли Супрастинекс с 2 лет"
+  ],
+  [
+   "крапивница у ребенка",
+   "krapivnica.info",
+   "brand",
+   "Как выглядит крапивница и как ее лечить"
+  ],
+  [
+   "лактостаз",
+   "doctorvika.ru",
+   "telemed",
+   "Лактостаз: что это и чем лечить"
+  ],
+  [
+   "лактостаз",
+   "euroonco.ru",
+   "clinic",
+   "Прием врача маммолога — Дорога в Москву за наш счёт"
+  ],
+  [
+   "лактостаз",
+   "crazybeach.ru",
+   "other",
+   "Бюстгальтеры для кормящей мамы Elomi | Crazy Beach"
+  ],
+  [
+   "лактостаз",
+   "yandex.ru",
+   "yandex",
+   "Выбор Маммолога в вашем городе. Поиск Яндекса поможет"
+  ],
+  [
+   "мастит или застой",
+   "yandex.ru",
+   "yandex",
+   "Выбор Маммолога в вашем городе. Поиск Яндекса поможет"
+  ],
+  [
+   "мастит",
+   "yandex.ru",
+   "yandex",
+   "Алиса AI — это просто!"
+  ],
+  [
+   "мастит",
+   "pasman-clinic.ru",
+   "clinic",
+   "Экстренная хирургия и плановые операции в Клинике Пасман"
+  ],
+  [
+   "мастит",
+   "chromolab.ru",
+   "lab",
+   "Анализы на дому в Новосибирске. Выезд медсестры 0 р!"
+  ],
+  [
+   "мастит",
+   "euroonco.ru",
+   "clinic",
+   "Прием врача маммолога — Дорога в Москву за наш счёт"
+  ],
+  [
+   "можно ли греть ухо",
+   "yandex.ru",
+   "yandex",
+   "Алиса AI - поиск ответов на вопросы"
+  ],
+  [
+   "надо ли сбивать температуру 37,5",
+   "yandex.ru",
+   "yandex",
+   "Найти ответ на вопрос с Алисой AI"
+  ],
+  [
+   "надо ли сбивать температуру 37,5",
+   "вирусамнет.рф",
+   "brand",
+   "Болезнь и температура: что делать в первые дни болезни"
+  ],
+  [
+   "надо ли сбивать температуру 37,5",
+   "chromolab.ru",
+   "lab",
+   "Сдать анализы на дому в Новосибирске. Результаты онлайн!"
+  ],
+  [
+   "обструктивный бронхит",
+   "rc-ortos.ru",
+   "clinic",
+   "Ежедневная терапия и закреплённая команда"
+  ],
+  [
+   "обструктивный бронхит",
+   "ismigen.ru",
+   "brand",
+   "Лечение острых инфекций дыхательных путей"
+  ],
+  [
+   "обструктивный бронхит",
+   "apertosib.ru",
+   "clinic",
+   "Прием пульмолога в Новосибирске. Аперто-Клиник. Звоните!"
+  ],
+  [
+   "обструктивный бронхит",
+   "uteka.ru",
+   "shop",
+   "Бронхо-Мунал® при бронхите — способствует выздоровлению."
+  ],
+  [
+   "пищевое отравление у ребёнка",
+   "yandex.ru",
+   "yandex",
+   "Какие причины? Спросите Алису!"
+  ],
+  [
+   "плачет по вечерам, болит животик",
+   "yandex.ru",
+   "yandex",
+   "Причины и поводы: поиск с Алисой AI найдёт ответ!"
+  ],
+  [
+   "рвота и понос",
+   "yandex.ru",
+   "yandex",
+   "Что происходит? Спросите Алису!"
+  ],
+  [
+   "рвота ночью",
+   "yandex.ru",
+   "yandex",
+   "Причины и поводы: поиск с Алисой AI найдёт ответ!"
+  ]
+ ],
+ "wizards": {
+  "doctors": [
+   "онлайн консультация педиатра",
+   "атопический дерматит у ребенка",
+   "детский аллерголог новосибирск",
+   "детский дерматолог новосибирск",
+   "детский лор новосибирск",
+   "кариес на молочных зубах",
+   "лактостаз",
+   "мастит или застой",
+   "мастит",
+   "обструктивный бронхит",
+   "отит чем лечить",
+   "педиатр на дом новосибирск"
+  ],
+  "orgs": 43
+ }
+}
