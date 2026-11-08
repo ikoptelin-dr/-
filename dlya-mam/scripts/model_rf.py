@@ -29,12 +29,18 @@ N, SEED, TARGET = 10_000, 20261108, 10_000_000
 CAUTIOUS = {"clips_month", "views_per_clip", "view_to_save", "blogger_integrations_month", "saves_per_integration",
             "seo_visits_m18", "seo_save_rate", "b2b2c_clinics_m18", "card_hand_rate", "save_rate_qr", "retention_months",
             "course_conv_6m", "insurers_contracts", "employers", "pro_course_sales_month", "brand_partners",
-            "gov_contracts_year", "leadgen_rate", "book_copies_month"}
+            "gov_contracts_year", "leadgen_rate", "book_copies_month", "webinar_rate"}
 CAUTIOUS_UP = {"cost_per_saved_paid"}  # для цены сохранившей мамы «осторожно» — это верхняя половина
 
 
+import sys
+
+CSV = sys.argv[1] if len(sys.argv) > 1 else "11-model-rf.csv"   # можно передать другой набор параметров
+PREFIX = sys.argv[2] if len(sys.argv) > 2 else "z11"             # префикс выходных файлов в zamery/
+
+
 def load():
-    rows = list(csv.DictReader(open(ROOT / "11-model-rf.csv", encoding="utf-8")))
+    rows = list(csv.DictReader(open(ROOT / CSV, encoding="utf-8")))
     return {r["param"]: (float(r["low"]), float(r["base"]), float(r["high"])) for r in rows}
 
 
@@ -67,6 +73,7 @@ def model(p):
         "реклама": active * p["ad_pv_per_active"] * p["ad_cpm"] / 1000,
         "заявки_в_клиники": active * p["leadgen_rate"] * p["lead_price"],
         "книга": p["book_copies_month"] * p["book_royalty"],
+        "платные_эфиры": active * p.get("webinar_rate", 0) * p.get("webinar_price", 0),
     }
     for k, v in r.items():
         o[f"rev_{k}"] = v
@@ -156,7 +163,7 @@ def main():
         b = float(model({**{x: np.array(v) for x, v in base.items()}, k: np.array(hi)})["revenue_m18"])
         tor.append({"param": k, "at_low": round(a), "at_high": round(b), "swing": round(abs(b - a))})
     tor.sort(key=lambda r: -r["swing"])
-    with open(ROOT / "zamery" / "z11-tornado-rf.csv", "w", newline="", encoding="utf-8") as fh:
+    with open(ROOT / "zamery" / f"{PREFIX}-tornado-rf.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(tor[0]))
         w.writeheader()
         w.writerows(tor)
@@ -179,7 +186,7 @@ def main():
                       "median_revenue_m18": round(float(np.median(revp[m]))),
                       "median_clinics_when_10m": round(float(np.median(clin[m][hit]))) if hit.sum() >= 20 else None})
     out["what_must_be_true_by_penetration"] = table
-    with open(ROOT / "zamery" / "z11-what-must-be-true.csv", "w", newline="", encoding="utf-8") as fh:
+    with open(ROOT / "zamery" / f"{PREFIX}-what-must-be-true.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(table[0]))
         w.writeheader()
         w.writerows(table)
@@ -196,7 +203,7 @@ def main():
                         "position_in_range_when_10m": round(pos, 2),
                         "shift": round((m_hit - m_all) / (hi - lo), 3)})
         mbt.sort(key=lambda r: -abs(r["shift"]))
-        with open(ROOT / "zamery" / "z11-what-must-be-true.csv", "w", newline="", encoding="utf-8") as fh:
+        with open(ROOT / "zamery" / f"{PREFIX}-what-must-be-true.csv", "w", newline="", encoding="utf-8") as fh:
             w = csv.DictWriter(fh, fieldnames=list(mbt[0]))
             w.writeheader()
             w.writerows(mbt)
@@ -204,7 +211,7 @@ def main():
         out["share_of_rf_births_when_10m_cautious"] = q(om["share_of_rf_births"][hit])
         out["saved_month_when_10m_cautious"] = q(om["saved_month"][hit])
         out["clinics_when_10m_cautious"] = q(S["b2b2c_clinics_m18"][hit])
-    json.dump(out, open(ROOT / "zamery" / "z11-rf-summary.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(out, open(ROOT / "zamery" / f"{PREFIX}-rf-summary.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     try:
         import matplotlib
@@ -225,7 +232,7 @@ def main():
         axes[1].set_title("Выручка месяца 18, млн ₽: 10 000 прогонов (синтетика)", fontsize=10)
         axes[1].legend()
         fig.tight_layout()
-        fig.savefig(ROOT / "11-model-rf.png", dpi=150)
+        fig.savefig(ROOT / ("11-model-rf.png" if PREFIX == "z11" else f"{PREFIX[1:]}-model.png"), dpi=150)
     except ImportError:
         pass
     print(json.dumps(out, ensure_ascii=False, indent=1))
