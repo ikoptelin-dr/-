@@ -1,0 +1,255 @@
+{
+ "runs": 10000,
+ "seed": 20261108,
+ "base_point": {
+  "pilot_saved_total": 977.8,
+  "pilot_saved_qr": 168.0,
+  "pilot_saved_inst": 29.6,
+  "pilot_saved_clips": 360.0,
+  "pilot_saved_publics": 384.0,
+  "pilot_saved_direct": 36.2,
+  "pilot_cost_total": 859231.2,
+  "pilot_prepayments": 19.6,
+  "pilot_presale_revenue": 68643.0,
+  "pilot_b2b_signed": 1.0,
+  "pilot_cac_saved_qr": 140.5,
+  "pilot_cac_saved_inst": 2554.2,
+  "pilot_cac_saved_clips": 388.9,
+  "pilot_cac_saved_publics": 62.5,
+  "pilot_cac_saved_direct": 165.0,
+  "m6_saved_total": 803.3,
+  "m6_saved_qr": 336.0,
+  "m6_saved_inst": 59.2,
+  "m6_saved_clips": 180.0,
+  "m6_saved_publics": 192.0,
+  "m6_saved_direct": 18.1,
+  "m6_saved_seo": 18.0,
+  "m6_buyers": 24.1,
+  "m6_rev_courses": 84591.9,
+  "m6_rev_b2b": 50000.0,
+  "m6_rev_ads": 9399.1,
+  "m6_revenue": 143991.0,
+  "m6_cost": 344169.6,
+  "m6_margin": -200178.7,
+  "m6_cac_buyer_paid_channels": 7261.9
+ },
+ "monte_carlo": {
+  "pilot_saved_total": {
+   "p10": 1141.9,
+   "p50": 1950.5,
+   "p90": 3243.7
+  },
+  "pilot_saved_qr": {
+   "p10": 91.6,
+   "p50": 203.4,
+   "p90": 403.7
+  },
+  "pilot_saved_inst": {
+   "p10": 16.5,
+   "p50": 35.9,
+   "p90": 71.5
+  },
+  "pilot_saved_clips": {
+   "p10": 316.1,
+   "p50": 865.9,
+   "p90": 2025.4
+  },
+  "pilot_saved_publics": {
+   "p10": 287.4,
+   "p50": 649.5,
+   "p90": 1329.6
+  },
+  "pilot_saved_direct": {
+   "p10": 22.1,
+   "p50": 33.9,
+   "p90": 50.1
+  },
+  "pilot_cost_total": {
+   "p10": 824678.5,
+   "p50": 1031473.3,
+   "p90": 1303890.2
+  },
+  "pilot_prepayments": {
+   "p10": 21.0,
+   "p50": 46.1,
+   "p90": 91.8
+  },
+  "pilot_presale_revenue": {
+   "p10": 71958.0,
+   "p50": 170410.7,
+   "p90": 366537.7
+  },
+  "pilot_b2b_signed": {
+   "p10": 0.6,
+   "p50": 1.1,
+   "p90": 1.8
+  },
+  "pilot_cac_saved_qr": {
+   "p10": 77.6,
+   "p50": 144.1,
+   "p90": 304.0
+  },
+  "pilot_cac_saved_inst": {
+   "p10": 1185.1,
+   "p50": 2782.4,
+   "p90": 6842.6
+  },
+  "pilot_cac_saved_clips": {
+   "p10": 73.4,
+   "p50": 182.3,
+   "p90": 508.8
+  },
+  "pilot_cac_saved_publics": {
+   "p10": 22.9,
+   "p50": 53.2,
+   "p90": 123.7
+  },
+  "pilot_cac_saved_direct": {
+   "p10": 103.3,
+   "p50": 148.0,
+   "p90": 218.3
+  },
+  "m6_saved_total": {
+   "p10": 932.2,
+   "p50": 1464.3,
+   "p90": 2224.2
+  },
+  "m6_saved_qr": {
+   "p10": 185.5,
+   "p50": 425.6,
+   "p90": 907.8
+  },
+  "m6_saved_inst": {
+   "p10": 34.6,
+   "p50": 70.2,
+   "p90": 132.5
+  },
+  "m6_saved_clips": {
+   "p10": 158.1,
+   "p50": 433.0,
+   "p90": 1012.7
+  },
+  "m6_saved_publics": {
+   "p10": 143.7,
+   "p50": 324.8,
+   "p90": 664.8
+  },
+  "m6_saved_direct": {
+   "p10": 11.0,
+   "p50": 16.9,
+   "p90": 25.1
+  },
+  "m6_saved_seo": {
+   "p10": 14.2,
+   "p50": 41.9,
+   "p90": 91.5
+  },
+  "m6_buyers": {
+   "p10": 25.9,
+   "p50": 51.0,
+   "p90": 92.5
+  },
+  "m6_rev_courses": {
+   "p10": 87607.4,
+   "p50": 187806.1,
+   "p90": 369909.4
+  },
+  "m6_rev_b2b": {
+   "p10": 26070.3,
+   "p50": 65711.3,
+   "p90": 131840.6
+  },
+  "m6_rev_ads": {
+   "p10": 8212.4,
+   "p50": 19943.3,
+   "p90": 45442.4
+  },
+  "m6_revenue": {
+   "p10": 164004.9,
+   "p50": 287660.6,
+   "p90": 484591.1
+  },
+  "m6_cost": {
+   "p10": 309984.4,
+   "p50": 405913.4,
+   "p90": 538196.9
+  },
+  "m6_margin": {
+   "p10": -291778.4,
+   "p50": -116006.8,
+   "p90": 92190.4
+  },
+  "m6_cac_buyer_paid_channels": {
+   "p10": 1617.3,
+   "p50": 3478.7,
+   "p90": 7955.9
+  }
+ },
+ "p_m6_margin_positive": 0.218,
+ "p_pilot_prepayments_ge_30": 0.765,
+ "share_m6_revenue": {
+  "m6_rev_courses": 0.679,
+  "m6_rev_b2b": 0.234,
+  "m6_rev_ads": 0.07
+ },
+ "scenario_lean": {
+  "overrides": {
+   "prof_rate": 0,
+   "editor_month": 60000,
+   "tech_one_off": 40000,
+   "legal_one_off": 0
+  },
+  "pilot_cost_total": 449231.2,
+  "m6_cost": 184169.6,
+  "m6_revenue": 143991.0,
+  "m6_margin": -40178.7,
+  "breakeven_course_price": 5752.0
+ },
+ "breakeven_course_price_base": 13129.0,
+ "tornado_top5": {
+  "m6_margin": [
+   [
+    "prof_rate",
+    280000
+   ],
+   [
+    "prof_hours_month",
+    180000
+   ],
+   [
+    "buyer_conv_6m",
+    169184
+   ],
+   [
+    "b2b_clients_m6",
+    125000
+   ],
+   [
+    "cost_per_clip",
+    110000
+   ]
+  ],
+  "pilot_saved_total": [
+   [
+    "views_per_clip",
+    1848
+   ],
+   [
+    "publics_reach_post",
+    832
+   ],
+   [
+    "publics_save_rate",
+    816
+   ],
+   [
+    "view_to_save",
+    780
+   ],
+   [
+    "publics_posts_month",
+    576
+   ]
+  ]
+ }
+}
