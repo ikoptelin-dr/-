@@ -15,7 +15,15 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from ledger_counts import NIGHT_SCREENS  # noqa: E402
 
-FILES = {"2026-11-08-nsk-aglomeraciya.xls": "aglo", "2026-11-08-nso.xls": "nso", "2026-11-08-rossiya.xls": "rf"}
+def region_of(regions):
+    """Регион выгрузки по строке «Регионы показа». Пробная выгрузка по Сибири не используется."""
+    if regions == "Новосибирская область":
+        return "nso"
+    if regions == "Россия":
+        return "rf"
+    if regions.startswith("Бердск") and "Новосибирск" in regions and "область" not in regions:
+        return "aglo"
+    return None
 # Фразы, в которых широкое соответствие ловит взрослых, животных или не-лактацию.
 AMBIGUOUS = {
     "мастит", "рвота и понос", "обструктивный бронхит", "уплотнение в груди", "длительный кашель",
@@ -52,13 +60,19 @@ def spearman(x, y):
 def main():
     keys = {norm(k["paste_phrase"]): k for k in csv.DictReader(open(ROOT / "zamery" / "z02-wordstat-keys.csv", encoding="utf-8"))}
     data = collections.defaultdict(dict)
+    exact = collections.defaultdict(dict)  # фразы в кавычках: точное число слов, нижняя граница
     raw_phrase = {}
     for r in csv.DictReader(open(ROOT / "zamery" / "z03-direct-forecast.csv", encoding="utf-8")):
-        if r["file"] not in FILES:
+        reg = region_of(r["regions"])
+        if not reg:
+            continue
+        vals = {k: float(r[k] or 0) for k in NUM}
+        if r["phrase"].startswith('"'):
+            exact[r["phrase"].strip('"')][reg] = vals
             continue
         p = norm(r["phrase"])
         raw_phrase[p] = r["phrase"]
-        data[p][FILES[r["file"]]] = {k: float(r[k] or 0) for k in NUM}
+        data[p][reg] = vals
 
     cl = json.load(open(ROOT / "inputs" / "job_clusters.json", encoding="utf-8"))
     forum_n = {c["job_id"]: c["n"] for c in cl["clusters"]}
@@ -77,12 +91,12 @@ def main():
                "forum_cluster_n": forum_n.get(k["job_id"], ""), "card_evidence": card_ev.get(k["job_id"], "")}
         for reg in ("aglo", "nso", "rf"):
             for m in ("requests", "clk100", "cpc100", "bud100"):
-                row[f"{reg}_{m}"] = d[reg][m] if d else ""
-        if d and d["rf"]["requests"]:
+                row[f"{reg}_{m}"] = d[reg][m] if d and reg in d else ""
+        if d and "nso" in d and d.get("rf", {}).get("requests"):
             row["nso_share_of_rf"] = round(d["nso"]["requests"] / d["rf"]["requests"], 4)
         else:
             row["nso_share_of_rf"] = ""
-        if d and d["nso"]["requests"]:
+        if d and "aglo" in d and d.get("nso", {}).get("requests"):
             row["aglo_share_of_nso"] = round(d["aglo"]["requests"] / d["nso"]["requests"], 3)
         else:
             row["aglo_share_of_nso"] = ""
@@ -94,12 +108,14 @@ def main():
         w.writerows(rows)
 
     ret = [r for r in rows if r["returned"]]
-    S = {"missing_phrases": [r["phrase"] for r in rows if not r["returned"]]}
+    S = {"missing_phrases": [r["phrase"] for r in rows if not r["returned"]],
+         "zero_in_rf": [r["phrase"] for r in ret if r["rf_requests"] == 0]}
+    S["exact_match"] = {p: {reg: v["requests"] for reg, v in d.items()} for p, d in sorted(exact.items())}
 
     def agg(rs, reg):
-        req = sum(r[f"{reg}_requests"] for r in rs)
-        clk = sum(r[f"{reg}_clk100"] for r in rs)
-        bud = sum(r[f"{reg}_bud100"] for r in rs)
+        req = sum(r[f"{reg}_requests"] or 0 for r in rs)
+        clk = sum(r[f"{reg}_clk100"] or 0 for r in rs)
+        bud = sum(r[f"{reg}_bud100"] or 0 for r in rs)
         return {"phrases": len(rs), "requests": round(req), "clicks100": round(clk), "budget100": round(bud),
                 "avg_cpc100": round(bud / clk, 1) if clk else None}
 
@@ -122,10 +138,10 @@ def main():
     when_doc = [r for r in ret if r["job_id"] == "nav-when-doctor"]
     S["when_to_doctor_phrases"] = {r["phrase"]: {"nso": r["nso_requests"], "rf": r["rf_requests"]} for r in when_doc}
 
-    shares = [r["nso_share_of_rf"] for r in ret if r["nso_share_of_rf"] != "" and r["rf_requests"] >= 1000]
+    shares = [r["nso_share_of_rf"] for r in ret if r["nso_share_of_rf"] != "" and (r["rf_requests"] or 0) >= 1000]
     S["nso_share_of_rf_median_rf_ge_1000"] = round(statistics.median(shares), 4)
     S["nso_share_of_rf_clinic"] = {r["phrase"]: r["nso_share_of_rf"] for r in ret if r["group"] == "clinic"}
-    ag = [r["aglo_share_of_nso"] for r in ret if r["aglo_share_of_nso"] != "" and r["nso_requests"] >= 100]
+    ag = [r["aglo_share_of_nso"] for r in ret if r["aglo_share_of_nso"] != "" and (r["nso_requests"] or 0) >= 100]
     S["aglo_share_of_nso_median_nso_ge_100"] = round(statistics.median(ag), 3)
 
     # Форум против сегодняшнего спроса: по работам (только night/paid/boundary).
