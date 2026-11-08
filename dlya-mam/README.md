@@ -15,6 +15,10 @@
 | `zamery/z02-wordstat-keys.csv` | 71 фраза для Wordstat и Директа, колонки для частотности пустые |
 | `zamery/z03-direct-paste.txt` | те же 71 фраза без запятых — вставлять в «Прогноз бюджета» Директа |
 | `inputs/direct/*.xls` | выгрузки прогноза Директа как есть |
+| `scripts/analyze_direct.py` | анализ выгрузок Директа → `zamery/z04-direct-analysis.csv` |
+| `research/R01-direct-prompt.md` | протокол исследования выгрузок Директа (вопросы и пороги) |
+| `research/R01-direct-results.md` | результаты: спрос, цена клика, курсы, клиники, форум против поиска, паблик |
+| `inputs/external-sources.md` | Росстат: население и рождаемость НСО |
 | `scripts/parse_direct_forecast.py` | собирает все выгрузки в `zamery/z03-direct-forecast.csv` (нужен `pip install xlrd`) |
 
 Проверка:
