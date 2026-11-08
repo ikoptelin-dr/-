@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JTBD card for Claude (Sibmama research, not republication)",
+  "type": "object",
+  "required": [
+    "job_id",
+    "job",
+    "age_band",
+    "acuity",
+    "era",
+    "query_mom",
+    "h1",
+    "content_type",
+    "see_doctor_if",
+    "out_of_scope",
+    "evidence"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "job": {
+      "type": "string"
+    },
+    "age_band": {
+      "type": "string"
+    },
+    "acuity": {
+      "enum": [
+        "night",
+        "planned",
+        "navigate"
+      ]
+    },
+    "era": {
+      "enum": [
+        "evergreen",
+        "dated",
+        "local_nsk"
+      ]
+    },
+    "query_mom": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "h1": {
+      "type": "string"
+    },
+    "content_type": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "see_doctor_if": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "out_of_scope": {
+      "type": "boolean"
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "required": [
+          "t",
+          "year",
+          "weight",
+          "query_mom"
+        ],
+        "properties": {
+          "t": {
+            "type": "integer"
+          },
+          "year": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "weight": {
+            "const": 1
+          },
+          "query_mom": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

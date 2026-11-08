@@ -1,0 +1,2912 @@
+{
+  "created_at": "2026-09-02T05:57:31+00:00",
+  "note": "Мегареды (≥400) и отсутствие «?» не являются причиной drop. Гомеопатия и онкология — только заголовок/крошки, не OP. Вес каждой оставшейся темы = 1.",
+  "sources": [
+    {
+      "path": "packs/medicina/topics.jsonl",
+      "cluster": "medicina"
+    },
+    {
+      "path": "packs/eda/topics.jsonl",
+      "cluster": "eda"
+    }
+  ],
+  "stats": {
+    "input": {
+      "medicina": 2128,
+      "eda": 1470
+    },
+    "input_total": 3598,
+    "kept": 3281,
+    "dropped": 317,
+    "by_reason": {
+      "wiki_op": 92,
+      "clinic_rating": 54,
+      "homeopathy": 6,
+      "oncology": 6,
+      "laser_eye": 3,
+      "gallstones": 1,
+      "kitchen_flashmob": 180
+    }
+  },
+  "dropped": [
+    {
+      "topic_id": 600,
+      "title": "Детская прививка от клещевого энцефалита",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 733
+    },
+    {
+      "topic_id": 781,
+      "title": "Кривошея",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 388
+    },
+    {
+      "topic_id": 1241,
+      "title": "Разбитый градусник",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 44
+    },
+    {
+      "topic_id": 2045,
+      "title": "Коньюнктивит",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 185
+    },
+    {
+      "topic_id": 2320,
+      "title": "УЗИ для ребенка: где? Общая тема",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 273
+    },
+    {
+      "topic_id": 2506,
+      "title": "Отит - кто как лечил отит у ребенка",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 225
+    },
+    {
+      "topic_id": 3125,
+      "title": "Низкий гемоглобин у ребёнка",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 229
+    },
+    {
+      "topic_id": 3135,
+      "title": "Патронаж новорожденного",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 164
+    },
+    {
+      "topic_id": 3295,
+      "title": "Лямблиоз",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 578
+    },
+    {
+      "topic_id": 3512,
+      "title": "Чем мажем ссадины?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 45
+    },
+    {
+      "topic_id": 3676,
+      "title": "Ортопедические стельки: где приобрести, какими пользовались?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 377
+    },
+    {
+      "topic_id": 3779,
+      "title": "МЦ \"Центр Семейной реабилитации\"",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 41
+    },
+    {
+      "topic_id": 3848,
+      "title": "Гомеопатия и наши дети",
+      "source_cluster": "medicina",
+      "reasons": [
+        "homeopathy"
+      ],
+      "n_posts": 1497
+    },
+    {
+      "topic_id": 4101,
+      "title": "Онкология",
+      "source_cluster": "medicina",
+      "reasons": [
+        "oncology"
+      ],
+      "n_posts": 232
+    },
+    {
+      "topic_id": 4231,
+      "title": "Дизартрия",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 103
+    },
+    {
+      "topic_id": 4427,
+      "title": "Гемангиома",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 804
+    },
+    {
+      "topic_id": 4716,
+      "title": "Детская поликлиника ДГКБ №3 (бывш.Синеглазка)",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 918
+    },
+    {
+      "topic_id": 5306,
+      "title": "Наши претензии к врачам",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 202
+    },
+    {
+      "topic_id": 5567,
+      "title": "Гомеопатия",
+      "source_cluster": "medicina",
+      "reasons": [
+        "homeopathy"
+      ],
+      "n_posts": 741
+    },
+    {
+      "topic_id": 6470,
+      "title": "Прививка от гриппа",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 539
+    },
+    {
+      "topic_id": 6680,
+      "title": "Косоглазие",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 387
+    },
+    {
+      "topic_id": 6785,
+      "title": "Ветрянка: как лечимся?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 828
+    },
+    {
+      "topic_id": 7294,
+      "title": "Врожденная косолапость",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 264
+    },
+    {
+      "topic_id": 7695,
+      "title": "МЦ \"Детка\"",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 166
+    },
+    {
+      "topic_id": 8633,
+      "title": "Анализы на дому: куда обратиться?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 24
+    },
+    {
+      "topic_id": 8825,
+      "title": "Исправление осанки. Кто что пробовал?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 134
+    },
+    {
+      "topic_id": 8861,
+      "title": "Обструктивный бронхит",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 145
+    },
+    {
+      "topic_id": 8998,
+      "title": "Борьба с онкологическими заболеваниями. Поделитесь опытом",
+      "source_cluster": "medicina",
+      "reasons": [
+        "oncology"
+      ],
+      "n_posts": 2088
+    },
+    {
+      "topic_id": 10456,
+      "title": "Лечение у Хачатряна",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 39
+    },
+    {
+      "topic_id": 10712,
+      "title": "Коррекция зрения без очков и операции. Все методы",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 26
+    },
+    {
+      "topic_id": 11143,
+      "title": "Посоветуйте хорошего гинеколога",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 250
+    },
+    {
+      "topic_id": 11740,
+      "title": "Детская городская клиническая больница №1",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 1655
+    },
+    {
+      "topic_id": 11946,
+      "title": "НИИ патологии кровообращения им.Е.Н. Мешалкина",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 72
+    },
+    {
+      "topic_id": 11947,
+      "title": "Вальгус стоп",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 514
+    },
+    {
+      "topic_id": 12638,
+      "title": "Гипоспадия. Аномальное развитие полового члена",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 514
+    },
+    {
+      "topic_id": 13051,
+      "title": "Энурез",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 262
+    },
+    {
+      "topic_id": 15092,
+      "title": "Стеноз гортани",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 359
+    },
+    {
+      "topic_id": 15843,
+      "title": "Полный медосмотр ребенка платно: где и как?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 73
+    },
+    {
+      "topic_id": 15974,
+      "title": "Лазерная коррекция зрения",
+      "source_cluster": "medicina",
+      "reasons": [
+        "laser_eye"
+      ],
+      "n_posts": 2959
+    },
+    {
+      "topic_id": 17315,
+      "title": "Корь, краснуха, паротит",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 479
+    },
+    {
+      "topic_id": 17390,
+      "title": "Прививки для аллергиков",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 78
+    },
+    {
+      "topic_id": 18601,
+      "title": "Антивирусные средства",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 166
+    },
+    {
+      "topic_id": 18857,
+      "title": "Посоветуйте хорошего УЗИста?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 58
+    },
+    {
+      "topic_id": 18957,
+      "title": "Камни в желчном пузыре",
+      "source_cluster": "medicina",
+      "reasons": [
+        "gallstones"
+      ],
+      "n_posts": 648
+    },
+    {
+      "topic_id": 19319,
+      "title": "Прививки против ветрянки",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 661
+    },
+    {
+      "topic_id": 19427,
+      "title": "Шипица",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 196
+    },
+    {
+      "topic_id": 19851,
+      "title": "Смена молочных зубов на постоянные",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 76
+    },
+    {
+      "topic_id": 19873,
+      "title": "Массажисты и физиотерапевты (Новосибирск)",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 661
+    },
+    {
+      "topic_id": 19906,
+      "title": "Пупочная грыжа",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 205
+    },
+    {
+      "topic_id": 20348,
+      "title": "Стоматологи и стоматологии: ищем, советуем",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 2300
+    },
+    {
+      "topic_id": 21274,
+      "title": "МРТ (томография) для ребенка",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 59
+    },
+    {
+      "topic_id": 21489,
+      "title": "Выбор медицинского центра для ребенка",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 121
+    },
+    {
+      "topic_id": 21819,
+      "title": "Электрофорез на дому",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 222
+    },
+    {
+      "topic_id": 21876,
+      "title": "Что вас не устраивает в наших детских поликлиниках?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 170
+    },
+    {
+      "topic_id": 22096,
+      "title": "Детское отделение городской поликлиники №1",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 414
+    },
+    {
+      "topic_id": 22968,
+      "title": "Детское отделение городской поликлиники №18",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 334
+    },
+    {
+      "topic_id": 23149,
+      "title": "Подушка Фрейка",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 84
+    },
+    {
+      "topic_id": 23369,
+      "title": "Педиатрическое психосоматическое отделение ЛАСКА",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 115
+    },
+    {
+      "topic_id": 23471,
+      "title": "Переломы руки, ключицы",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 48
+    },
+    {
+      "topic_id": 23587,
+      "title": "Детское отделение поликлиники №24",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 130
+    },
+    {
+      "topic_id": 23622,
+      "title": "Детские отделения городской поликлиники №14",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 150
+    },
+    {
+      "topic_id": 24008,
+      "title": "Бородавки - происхождение, удаление и онкология",
+      "source_cluster": "medicina",
+      "reasons": [
+        "oncology"
+      ],
+      "n_posts": 49
+    },
+    {
+      "topic_id": 24659,
+      "title": "Где сделать нейросонографию (НСГ)? Ограничения по возрасту?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 175
+    },
+    {
+      "topic_id": 24704,
+      "title": "Инфекционное отделение ДГКБ №3 (Мочище)",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 898
+    },
+    {
+      "topic_id": 25570,
+      "title": "Как можно повысить иммунитет?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 243
+    },
+    {
+      "topic_id": 28619,
+      "title": "Укачивает в транспорте",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 162
+    },
+    {
+      "topic_id": 31479,
+      "title": "Посоветуйте хорошего пульмонолога",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 34
+    },
+    {
+      "topic_id": 31807,
+      "title": "Соляная пещера. Где?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 312
+    },
+    {
+      "topic_id": 33941,
+      "title": "Посоветуйте хорошего иммунолога",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 127
+    },
+    {
+      "topic_id": 35967,
+      "title": "Анализ слюны и мочи методом ПЦР. Где сделать?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 4
+    },
+    {
+      "topic_id": 36333,
+      "title": "Посоветуйте хорошего лора",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 56
+    },
+    {
+      "topic_id": 36527,
+      "title": "Ребенок в очках (линзах). Родители обсуждают",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 1805
+    },
+    {
+      "topic_id": 37876,
+      "title": "Больничный по уходу за ребенком",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 46
+    },
+    {
+      "topic_id": 40272,
+      "title": "Лазерная коррекция зрения",
+      "source_cluster": "medicina",
+      "reasons": [
+        "laser_eye"
+      ],
+      "n_posts": 77
+    },
+    {
+      "topic_id": 41213,
+      "title": "Доверяете ли вы муниципальному педиатру?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 121
+    },
+    {
+      "topic_id": 41662,
+      "title": "Работа скорой помощи",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 312
+    },
+    {
+      "topic_id": 43755,
+      "title": "Детская поликлиника №3",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 271
+    },
+    {
+      "topic_id": 43747,
+      "title": "Прививка от полиомиелита: как ставить, ревакцинация и т.д.",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 592
+    },
+    {
+      "topic_id": 43882,
+      "title": "Аптеки с ассортиментом гомеопатических средств",
+      "source_cluster": "medicina",
+      "reasons": [
+        "homeopathy"
+      ],
+      "n_posts": 7
+    },
+    {
+      "topic_id": 44577,
+      "title": "Гастроэнтерологи",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 392
+    },
+    {
+      "topic_id": 45771,
+      "title": "Гомеопатические таблетки \"Авиаморе\"",
+      "source_cluster": "medicina",
+      "reasons": [
+        "homeopathy"
+      ],
+      "n_posts": 5
+    },
+    {
+      "topic_id": 49119,
+      "title": "Бесплатные лекарства детям до 3 лет",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 358
+    },
+    {
+      "topic_id": 49840,
+      "title": "!РАЗЫСКИВАЮТСЯ врачи, массажисты и другие специалисты",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 555
+    },
+    {
+      "topic_id": 51331,
+      "title": "ЛОРы в Новосибирске. Контакты и отзывы",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 924
+    },
+    {
+      "topic_id": 53742,
+      "title": "Лактазная недостаточность",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 289
+    },
+    {
+      "topic_id": 56179,
+      "title": "Платное наблюдение у педиатра. Отзывы и рекомендации",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 495
+    },
+    {
+      "topic_id": 56659,
+      "title": "Нужно ли вытягивать сопли аспиратором?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 102
+    },
+    {
+      "topic_id": 61417,
+      "title": "МЦ \"ЛОРиЯ\"",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 144
+    },
+    {
+      "topic_id": 61811,
+      "title": "Посоветуйте хорошего ортодонта в городе",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 365
+    },
+    {
+      "topic_id": 62128,
+      "title": "Полис обязательного медицинского страхования",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 44
+    },
+    {
+      "topic_id": 63153,
+      "title": "Что такое ЛАСИК «Медилекс»?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "laser_eye"
+      ],
+      "n_posts": 2
+    },
+    {
+      "topic_id": 63768,
+      "title": "У близких родственников онкология",
+      "source_cluster": "medicina",
+      "reasons": [
+        "oncology"
+      ],
+      "n_posts": 35
+    },
+    {
+      "topic_id": 63863,
+      "title": "Посоветуйте пожалуйста онколога и гастроэнтеролога",
+      "source_cluster": "medicina",
+      "reasons": [
+        "oncology"
+      ],
+      "n_posts": 6
+    },
+    {
+      "topic_id": 63971,
+      "title": "Государственная Новосибирская областная клиническая больница",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 157
+    },
+    {
+      "topic_id": 65111,
+      "title": "Педиатры г.Бердск",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 183
+    },
+    {
+      "topic_id": 66217,
+      "title": "Посоветуйте невролога, невропатолога",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 9
+    },
+    {
+      "topic_id": 66725,
+      "title": "Городской врачебно-физкультурный диспансер",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 39
+    },
+    {
+      "topic_id": 66963,
+      "title": "Стоматология \"Блеск\". Посоветуйте хорошего стомато",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 11
+    },
+    {
+      "topic_id": 68093,
+      "title": "Засунул в нос гомеопатический шарик",
+      "source_cluster": "medicina",
+      "reasons": [
+        "homeopathy"
+      ],
+      "n_posts": 2
+    },
+    {
+      "topic_id": 68748,
+      "title": "Неврологи",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 1462
+    },
+    {
+      "topic_id": 69102,
+      "title": "Как вы относитесь к назначениям узких специалистов?",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 61
+    },
+    {
+      "topic_id": 70453,
+      "title": "Генетики",
+      "source_cluster": "medicina",
+      "reasons": [
+        "wiki_op",
+        "clinic_rating"
+      ],
+      "n_posts": 61
+    },
+    {
+      "topic_id": 1805016,
+      "title": "Логопед дефектолог Новосибирск Советский район Шлюз",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 1
+    },
+    {
+      "topic_id": 1810848,
+      "title": "Нужен специалист по поведению",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 3
+    },
+    {
+      "topic_id": 1816956,
+      "title": "Фонд ОНКОЛОГИКА - бесплатная помощь онкопациентам и их родным",
+      "source_cluster": "medicina",
+      "reasons": [
+        "oncology"
+      ],
+      "n_posts": 1
+    },
+    {
+      "topic_id": 1822184,
+      "title": "НМИЦ Мешалкина",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 1
+    },
+    {
+      "topic_id": 1824812,
+      "title": "Врожденная катаракта",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 1
+    },
+    {
+      "topic_id": 1825510,
+      "title": "Тики у ребенка 10 лет.",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 3
+    },
+    {
+      "topic_id": 1831857,
+      "title": "Стеноз носослезного канала обоих глаз",
+      "source_cluster": "medicina",
+      "reasons": [
+        "clinic_rating"
+      ],
+      "n_posts": 1
+    },
+    {
+      "topic_id": 3049,
+      "title": "Когда мясо давать? Какое? И как часто?",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 230
+    },
+    {
+      "topic_id": 4010,
+      "title": "Сосиски и колбаски",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 298
+    },
+    {
+      "topic_id": 5878,
+      "title": "Питание кормящей мамы",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 128
+    },
+    {
+      "topic_id": 7035,
+      "title": "Сладкое детям: когда и какое",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 317
+    },
+    {
+      "topic_id": 7299,
+      "title": "Какой творожок давать ребенку?",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 214
+    },
+    {
+      "topic_id": 7367,
+      "title": "Лактостаз",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 294
+    },
+    {
+      "topic_id": 8769,
+      "title": "Печенье",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 257
+    },
+    {
+      "topic_id": 9103,
+      "title": "Куриные яйца малышам",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 213
+    },
+    {
+      "topic_id": 9965,
+      "title": "Какую воду пьют ваши дети до года?",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 511
+    },
+    {
+      "topic_id": 11633,
+      "title": "Рыба для малыша",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 212
+    },
+    {
+      "topic_id": 12443,
+      "title": "*Ягоды малышам: когда и какие?",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 178
+    },
+    {
+      "topic_id": 13850,
+      "title": "Сахар, фруктоза, подсластители детям",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 43
+    },
+    {
+      "topic_id": 13830,
+      "title": "Соль детям: когда, сколько или категорически нельзя?",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 249
+    },
+    {
+      "topic_id": 15931,
+      "title": "Бананы",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 515
+    },
+    {
+      "topic_id": 18814,
+      "title": "Кулинарные хвастушки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 24
+    },
+    {
+      "topic_id": 20294,
+      "title": "Вопросы про тыкву",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 194
+    },
+    {
+      "topic_id": 22861,
+      "title": "как повысить калорийность молока?",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 146
+    },
+    {
+      "topic_id": 24498,
+      "title": "Масло: растительное и сливочное",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 125
+    },
+    {
+      "topic_id": 26509,
+      "title": "Рыбные консервы",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 36
+    },
+    {
+      "topic_id": 28613,
+      "title": "Йогурты",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 53
+    },
+    {
+      "topic_id": 28868,
+      "title": "прокладки для груди для кормящих мам",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 128
+    },
+    {
+      "topic_id": 31480,
+      "title": "Сухие завтраки.",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 62
+    },
+    {
+      "topic_id": 33622,
+      "title": "Мед. Когда можно давать ребенку?",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 242
+    },
+    {
+      "topic_id": 41505,
+      "title": "Морсы и компоты",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 297
+    },
+    {
+      "topic_id": 41675,
+      "title": "Наши обеды и ужины - 1 Фотовыставка",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 890
+    },
+    {
+      "topic_id": 47493,
+      "title": "Кофе для ребенка в возрасте до 3-х лет",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 87
+    },
+    {
+      "topic_id": 48789,
+      "title": "Наши обеды и ужины - 2",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 435
+    },
+    {
+      "topic_id": 50727,
+      "title": "Фрукты для малыша",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 151
+    },
+    {
+      "topic_id": 52247,
+      "title": "ГВ и гомеопатия",
+      "source_cluster": "eda",
+      "reasons": [
+        "homeopathy"
+      ],
+      "n_posts": 7
+    },
+    {
+      "topic_id": 52806,
+      "title": "Интернет-магазины с детским питанием в Новосибирске",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 37
+    },
+    {
+      "topic_id": 53421,
+      "title": "Наши обеды и ужины-3",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 442
+    },
+    {
+      "topic_id": 61625,
+      "title": "Наши обеды и ужины-4",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 432
+    },
+    {
+      "topic_id": 67181,
+      "title": "Кому, сколько и чего должны давать на молочной кухне?",
+      "source_cluster": "eda",
+      "reasons": [
+        "wiki_op"
+      ],
+      "n_posts": 631
+    },
+    {
+      "topic_id": 73015,
+      "title": "Наши обеды и ужины-5. Фото обязательно!",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 594
+    },
+    {
+      "topic_id": 1794048,
+      "title": "Куличи и пасхи - 2022",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 66
+    },
+    {
+      "topic_id": 1794252,
+      "title": "Салат с корейской морковкой",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 21
+    },
+    {
+      "topic_id": 1794656,
+      "title": "Блюда с черемшой - 2022",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 15
+    },
+    {
+      "topic_id": 1795354,
+      "title": "Холодные супы - 2022",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 26
+    },
+    {
+      "topic_id": 1795650,
+      "title": "Мясные котлеты",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 31
+    },
+    {
+      "topic_id": 1795956,
+      "title": "Выпечка с зеленью",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 37
+    },
+    {
+      "topic_id": 1796260,
+      "title": "Намазка на хлеб",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 37
+    },
+    {
+      "topic_id": 1796580,
+      "title": "Всё из жимолости - 2022",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 26
+    },
+    {
+      "topic_id": 1796902,
+      "title": "Шаурма",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 21
+    },
+    {
+      "topic_id": 1797200,
+      "title": "Картошка вместо мяса",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 27
+    },
+    {
+      "topic_id": 1797510,
+      "title": "Люблю я макароны...",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 21
+    },
+    {
+      "topic_id": 1797806,
+      "title": "Ягода малина...",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 22
+    },
+    {
+      "topic_id": 1798084,
+      "title": "Смородина",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 39
+    },
+    {
+      "topic_id": 1798732,
+      "title": "Лодочки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 33
+    },
+    {
+      "topic_id": 1798948,
+      "title": "Мафрум",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 17
+    },
+    {
+      "topic_id": 1799280,
+      "title": "Судзукакья",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 23
+    },
+    {
+      "topic_id": 1799744,
+      "title": "Соусы домашние - 2022",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 53
+    },
+    {
+      "topic_id": 1800190,
+      "title": "Неделя армянской кухни",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 69
+    },
+    {
+      "topic_id": 1800494,
+      "title": "Блюда из кабачка",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 118
+    },
+    {
+      "topic_id": 1801272,
+      "title": "Блюда из свёклы",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 24
+    },
+    {
+      "topic_id": 1801560,
+      "title": "Осенние супы",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 31
+    },
+    {
+      "topic_id": 1801982,
+      "title": "Овощная икра - 2022",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 15
+    },
+    {
+      "topic_id": 1802290,
+      "title": "Ёка",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 27
+    },
+    {
+      "topic_id": 1802578,
+      "title": "Меренговый рулет",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 25
+    },
+    {
+      "topic_id": 1802592,
+      "title": "Квасим, солим, маринуем капусту - 2022",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 70
+    },
+    {
+      "topic_id": 1802878,
+      "title": "Лаваш",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 6
+    },
+    {
+      "topic_id": 1803242,
+      "title": "Горе луковое. Блюда из лука",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 106
+    },
+    {
+      "topic_id": 1803856,
+      "title": "Салат \"Министерский\"",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 46
+    },
+    {
+      "topic_id": 1804192,
+      "title": "Домашний майонез",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 8
+    },
+    {
+      "topic_id": 1804508,
+      "title": "Вертута",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 44
+    },
+    {
+      "topic_id": 1804640,
+      "title": "Штоллен - 2022",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 119
+    },
+    {
+      "topic_id": 1804920,
+      "title": "Закуски",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 88
+    },
+    {
+      "topic_id": 1805458,
+      "title": "Праздничное печенье",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 50
+    },
+    {
+      "topic_id": 1805812,
+      "title": "Меню новогодних каникул",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 79
+    },
+    {
+      "topic_id": 1805988,
+      "title": "Бандуряники",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 18
+    },
+    {
+      "topic_id": 1806224,
+      "title": "Слойки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 67
+    },
+    {
+      "topic_id": 1806424,
+      "title": "Колбаски без оболочки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 24
+    },
+    {
+      "topic_id": 1806646,
+      "title": "Пряники паровые",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 60
+    },
+    {
+      "topic_id": 1806922,
+      "title": "Пицца - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 45
+    },
+    {
+      "topic_id": 1807184,
+      "title": "Школьная выпечка",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 98
+    },
+    {
+      "topic_id": 1807410,
+      "title": "Блины и блинчики - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 92
+    },
+    {
+      "topic_id": 1807648,
+      "title": "Постные салаты - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 55
+    },
+    {
+      "topic_id": 1807880,
+      "title": "Любимый торт",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 36
+    },
+    {
+      "topic_id": 1808128,
+      "title": "Соус для макарон",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 11
+    },
+    {
+      "topic_id": 1808408,
+      "title": "Гуляш - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 11
+    },
+    {
+      "topic_id": 1808652,
+      "title": "Солянка - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 23
+    },
+    {
+      "topic_id": 1808738,
+      "title": "Наши обеды и ужины-25. Фото обязательно, рецепт желательно",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 1488
+    },
+    {
+      "topic_id": 1808960,
+      "title": "Картофельная бабка",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 13
+    },
+    {
+      "topic_id": 1809242,
+      "title": "Куличи и пасхи - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 126
+    },
+    {
+      "topic_id": 1809456,
+      "title": "Салаты и закуски с яйцами",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 21
+    },
+    {
+      "topic_id": 1809680,
+      "title": "Блюда с черемшой - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 31
+    },
+    {
+      "topic_id": 1809890,
+      "title": "Блюда с сыром",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 89
+    },
+    {
+      "topic_id": 1810388,
+      "title": "Булочки Крем-де-Паризьен",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 13
+    },
+    {
+      "topic_id": 1810610,
+      "title": "Окрошка - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 30
+    },
+    {
+      "topic_id": 1810858,
+      "title": "Готовим со сгущенкой",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 30
+    },
+    {
+      "topic_id": 1811268,
+      "title": "Ароматное сливочное масло",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 24
+    },
+    {
+      "topic_id": 1811456,
+      "title": "Готовим со щавелем",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 13
+    },
+    {
+      "topic_id": 1811666,
+      "title": "Всё из клубники - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 42
+    },
+    {
+      "topic_id": 1812070,
+      "title": "Жара... 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 74
+    },
+    {
+      "topic_id": 1812266,
+      "title": "Клафути",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 17
+    },
+    {
+      "topic_id": 1812454,
+      "title": "Рагу",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 13
+    },
+    {
+      "topic_id": 1812656,
+      "title": "Гриль-салат",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 23
+    },
+    {
+      "topic_id": 1813076,
+      "title": "Фахитос",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 10
+    },
+    {
+      "topic_id": 1813342,
+      "title": "Выпечка с вареньем",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 21
+    },
+    {
+      "topic_id": 1813628,
+      "title": "Готовим с баклажанами - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 24
+    },
+    {
+      "topic_id": 1813856,
+      "title": "Готовим с грибами",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 28
+    },
+    {
+      "topic_id": 1813858,
+      "title": "Заготовки на зиму",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 39
+    },
+    {
+      "topic_id": 1814358,
+      "title": "Готовим блюда с печенью",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 12
+    },
+    {
+      "topic_id": 1814524,
+      "title": "Болтушка кулинарок «За чашкой чая-20»",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 2085
+    },
+    {
+      "topic_id": 1814558,
+      "title": "Фунчоза, соба, удон",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 9
+    },
+    {
+      "topic_id": 1814764,
+      "title": "Куриный шницель",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 19
+    },
+    {
+      "topic_id": 1814962,
+      "title": "Цыбуляники",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 19
+    },
+    {
+      "topic_id": 1815194,
+      "title": "Морковная выпечка",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 36
+    },
+    {
+      "topic_id": 1815196,
+      "title": "Квасим, солим, маринуем капусту - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 47
+    },
+    {
+      "topic_id": 1815610,
+      "title": "Мак энд чиз",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 18
+    },
+    {
+      "topic_id": 1815826,
+      "title": "Корейские закуски и салаты-2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 25
+    },
+    {
+      "topic_id": 1815828,
+      "title": "Штоллен - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 58
+    },
+    {
+      "topic_id": 1816046,
+      "title": "Венгерский гуляш",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 22
+    },
+    {
+      "topic_id": 1816310,
+      "title": "Блюда киногероев",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 159
+    },
+    {
+      "topic_id": 1816690,
+      "title": "Горчица домашняя",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 17
+    },
+    {
+      "topic_id": 1816854,
+      "title": "Запеканка с рисом",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 8
+    },
+    {
+      "topic_id": 1817036,
+      "title": "Салат с яичными блинчиками",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 10
+    },
+    {
+      "topic_id": 1817156,
+      "title": "Вареники - 2023",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 29
+    },
+    {
+      "topic_id": 1817218,
+      "title": "Новый год и Рождество. Готовим с удовольствием",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 52
+    },
+    {
+      "topic_id": 1817396,
+      "title": "Ленивые голубцы",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 26
+    },
+    {
+      "topic_id": 1817956,
+      "title": "Выпечка из пресного теста",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 30
+    },
+    {
+      "topic_id": 1818280,
+      "title": "Капустняк",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 9
+    },
+    {
+      "topic_id": 1818606,
+      "title": "Куриные шашлычки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 20
+    },
+    {
+      "topic_id": 1818880,
+      "title": "Блины и блинчики - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 74
+    },
+    {
+      "topic_id": 1819038,
+      "title": "Том ям",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 57
+    },
+    {
+      "topic_id": 1819388,
+      "title": "Постные блюда",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 32
+    },
+    {
+      "topic_id": 1819764,
+      "title": "Паштет куриный",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 13
+    },
+    {
+      "topic_id": 1820000,
+      "title": "Омлетные блинчики с начинкой",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 15
+    },
+    {
+      "topic_id": 1820154,
+      "title": "Куличи и пасхи - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 62
+    },
+    {
+      "topic_id": 1820324,
+      "title": "Блюда из вареных яиц - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 10
+    },
+    {
+      "topic_id": 1820514,
+      "title": "Блюда с черемшой - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 5
+    },
+    {
+      "topic_id": 1820880,
+      "title": "Суп с зеленью-2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 12
+    },
+    {
+      "topic_id": 1821112,
+      "title": "Творожное печенье",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 36
+    },
+    {
+      "topic_id": 1821406,
+      "title": "Выпечка без сливочного масла и маргарина",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 24
+    },
+    {
+      "topic_id": 1821556,
+      "title": "Домашнее мороженое - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 16
+    },
+    {
+      "topic_id": 1821680,
+      "title": "Блюда из картофеля в духовке",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 11
+    },
+    {
+      "topic_id": 1821812,
+      "title": "Яичница с добавками",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 11
+    },
+    {
+      "topic_id": 1821974,
+      "title": "Холодные супы - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 15
+    },
+    {
+      "topic_id": 1822128,
+      "title": "Ягодная феерия",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 62
+    },
+    {
+      "topic_id": 1822418,
+      "title": "Овощная икра - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 22
+    },
+    {
+      "topic_id": 1822768,
+      "title": "Яблочный пирог",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 30
+    },
+    {
+      "topic_id": 1823050,
+      "title": "Сладкие заготовки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 25
+    },
+    {
+      "topic_id": 1823052,
+      "title": "Несладкие заготовки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 63
+    },
+    {
+      "topic_id": 1823446,
+      "title": "\"Битый\" картофель",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 8
+    },
+    {
+      "topic_id": 1823564,
+      "title": "Готовим с яблоками",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 64
+    },
+    {
+      "topic_id": 1823648,
+      "title": "Наши обеды и ужины-26. Фото обязательно, рецепт желательно",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 1471
+    },
+    {
+      "topic_id": 1823952,
+      "title": "Плацинды",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 28
+    },
+    {
+      "topic_id": 1824282,
+      "title": "Колдуны и драники",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 33
+    },
+    {
+      "topic_id": 1824582,
+      "title": "Кундюмы",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 13
+    },
+    {
+      "topic_id": 1824716,
+      "title": "Готовим из грудки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 38
+    },
+    {
+      "topic_id": 1824988,
+      "title": "Лобио - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 18
+    },
+    {
+      "topic_id": 1825126,
+      "title": "Плетёнка",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 18
+    },
+    {
+      "topic_id": 1825240,
+      "title": "Штоллен - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 41
+    },
+    {
+      "topic_id": 1825288,
+      "title": "Борщ - 2024",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 40
+    },
+    {
+      "topic_id": 1825386,
+      "title": "Салат с редькой",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 15
+    },
+    {
+      "topic_id": 1825478,
+      "title": "Быстрый завтрак",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 32
+    },
+    {
+      "topic_id": 1825598,
+      "title": "Новый год и Рождество. Готовим с удовольствием",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 78
+    },
+    {
+      "topic_id": 1825766,
+      "title": "Карри - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 24
+    },
+    {
+      "topic_id": 1825878,
+      "title": "Готовим в микроволновке",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 27
+    },
+    {
+      "topic_id": 1825988,
+      "title": "Жаба в норке",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 16
+    },
+    {
+      "topic_id": 1826116,
+      "title": "Пироги с капустой",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 41
+    },
+    {
+      "topic_id": 1826216,
+      "title": "Десерты",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 39
+    },
+    {
+      "topic_id": 1826366,
+      "title": "Рыбные пироги",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 22
+    },
+    {
+      "topic_id": 1826508,
+      "title": "Блины и блинчики - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 84
+    },
+    {
+      "topic_id": 1826612,
+      "title": "Картошка по-деревенски",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 19
+    },
+    {
+      "topic_id": 1826698,
+      "title": "Поповеры",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 19
+    },
+    {
+      "topic_id": 1826790,
+      "title": "Блюда с овсянкой",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 57
+    },
+    {
+      "topic_id": 1827156,
+      "title": "Салат \"Щётка\"",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 25
+    },
+    {
+      "topic_id": 1827282,
+      "title": "Пирожки из лаваша",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 18
+    },
+    {
+      "topic_id": 1827388,
+      "title": "Суфле картофельное",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 6
+    },
+    {
+      "topic_id": 1827390,
+      "title": "Куличи и пасхи - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 64
+    },
+    {
+      "topic_id": 1827716,
+      "title": "Гарниры - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 16
+    },
+    {
+      "topic_id": 1827834,
+      "title": "Салаты с зеленью",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 19
+    },
+    {
+      "topic_id": 1827948,
+      "title": "Салат с печенью - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 9
+    },
+    {
+      "topic_id": 1828066,
+      "title": "Зразы",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 7
+    },
+    {
+      "topic_id": 1828386,
+      "title": "Блюда из ревеня",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 11
+    },
+    {
+      "topic_id": 1828576,
+      "title": "Квас - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 23
+    },
+    {
+      "topic_id": 1828670,
+      "title": "Всё из клубники",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 57
+    },
+    {
+      "topic_id": 1828884,
+      "title": "Летние напитки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 14
+    },
+    {
+      "topic_id": 1828984,
+      "title": "Варенье",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 16
+    },
+    {
+      "topic_id": 1829148,
+      "title": "Скоблянка",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 11
+    },
+    {
+      "topic_id": 1829328,
+      "title": "Всё из кабачка - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 50
+    },
+    {
+      "topic_id": 1829586,
+      "title": "Готовим с яблоками - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 21
+    },
+    {
+      "topic_id": 1829588,
+      "title": "Несладкие заготовки - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 27
+    },
+    {
+      "topic_id": 1829910,
+      "title": "Заливные пироги - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 5
+    },
+    {
+      "topic_id": 1830010,
+      "title": "Плюшки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 14
+    },
+    {
+      "topic_id": 1830204,
+      "title": "Квасим, солим, маринуем капусту - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 18
+    },
+    {
+      "topic_id": 1830202,
+      "title": "Согревающий суп",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 33
+    },
+    {
+      "topic_id": 1830353,
+      "title": "Кайзершмаррн",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 23
+    },
+    {
+      "topic_id": 1830476,
+      "title": "Закуски из фасоли",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 14
+    },
+    {
+      "topic_id": 1830539,
+      "title": "Готовим с чечевицей",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 14
+    },
+    {
+      "topic_id": 1830644,
+      "title": "Выпечка с луком",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 12
+    },
+    {
+      "topic_id": 1830683,
+      "title": "Штоллен - 2025",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 42
+    },
+    {
+      "topic_id": 1830738,
+      "title": "Сливочный рыбный суп",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 8
+    },
+    {
+      "topic_id": 1830844,
+      "title": "Маффины - 2026",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 19
+    },
+    {
+      "topic_id": 1830916,
+      "title": "Ньокки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 14
+    },
+    {
+      "topic_id": 1830990,
+      "title": "Овощные оладьи",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 15
+    },
+    {
+      "topic_id": 1831037,
+      "title": "Блины и блинчики - 2026",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 40
+    },
+    {
+      "topic_id": 1831072,
+      "title": "Песочное печенье",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 28
+    },
+    {
+      "topic_id": 1831153,
+      "title": "Шницель капустый",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 24
+    },
+    {
+      "topic_id": 1831222,
+      "title": "Запеканка гречневая",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 14
+    },
+    {
+      "topic_id": 1831320,
+      "title": "Куличи и другая пасхальная выпечка, пасхи - 2026",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 53
+    },
+    {
+      "topic_id": 1831354,
+      "title": "Блюда из вареных яиц - 2026",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 18
+    },
+    {
+      "topic_id": 1831397,
+      "title": "Смаженки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 26
+    },
+    {
+      "topic_id": 1831502,
+      "title": "Готовим на мангале",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 52
+    },
+    {
+      "topic_id": 1831556,
+      "title": "Булочки",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 29
+    },
+    {
+      "topic_id": 1831625,
+      "title": "Картошка тушеная",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 6
+    },
+    {
+      "topic_id": 1831710,
+      "title": "Жара... 2026",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 54
+    },
+    {
+      "topic_id": 1831864,
+      "title": "Медальоны",
+      "source_cluster": "eda",
+      "reasons": [
+        "kitchen_flashmob"
+      ],
+      "n_posts": 23
+    }
+  ]
+}

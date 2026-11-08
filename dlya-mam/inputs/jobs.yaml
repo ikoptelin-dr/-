@@ -1,0 +1,437 @@
+# Кодовая книга JTBD. Утверждена в чате P2 («ок»). Кластеры P4+ можно строить.
+# Возраст: 0-1m | 1-3m | 3-6m | 6-12m | 1-3y | 3-7y | mom | any
+# Острота: night | planned | navigate
+# content_type: checklist | article | lecture | video | ux-scenario
+#
+# Основание: формулировки из gold/pool.jsonl (медицина+еда после карантина).
+# Кухня-клуб (торты, суши, флешмобы) в работы не входит.
+# Беременность/роды — отдельный P7, здесь нет.
+
+version: 1
+status: approved
+n_jobs: 80
+
+jobs:
+  # --- ГВ (16) ---
+  - id: gv-low-supply
+    job: Понять, хватает ли молока, и что делать до консультанта
+    age_band: 0-3m
+    acuity: planned
+    content_type: [article, checklist, video]
+  - id: gv-oversupply
+    job: Справиться с избытком молока и подтеканием
+    age_band: 0-3m
+    acuity: planned
+    content_type: [article, checklist]
+  - id: gv-latch-pain
+    job: Перестать кормить через боль (прикладывание, трещины)
+    age_band: 0-1m
+    acuity: night
+    content_type: [article, video, ux-scenario]
+  - id: gv-lactostasis
+    job: Разобрать лактостаз и не довести до мастита
+    age_band: 0-6m
+    acuity: night
+    content_type: [checklist, article, ux-scenario]
+  - id: gv-mastitis
+    job: Отличить мастит от застоя и понять, когда к врачу
+    age_band: 0-6m
+    acuity: night
+    content_type: [checklist, article]
+  - id: gv-refusal
+    job: Разобрать отказ от груди
+    age_band: 1-6m
+    acuity: planned
+    content_type: [article, video]
+  - id: gv-night-feeds
+    job: Понять, нормальны ли ночные кормления и как не выгореть
+    age_band: 0-12m
+    acuity: planned
+    content_type: [article, lecture]
+  - id: gv-weaning
+    job: Завершить ГВ без войны и без опасных советов «перевязать»
+    age_band: 6-12m
+    acuity: planned
+    content_type: [article, lecture]
+  - id: gv-mixed
+    job: Совместить грудь и смесь, не потеряв лактацию
+    age_band: 0-6m
+    acuity: planned
+    content_type: [article, checklist]
+  - id: gv-one-breast
+    job: Разобраться с разным количеством молока в грудях
+    age_band: 0-3m
+    acuity: planned
+    content_type: [article]
+  - id: gv-pumping
+    job: Сцеживаться (работа, запас) без гонки за объёмом
+    age_band: 1-12m
+    acuity: planned
+    content_type: [article, video]
+  - id: gv-pacifier
+    job: Решить, совместимы ли грудь и пустышка
+    age_band: 0-6m
+    acuity: planned
+    content_type: [article]
+  - id: gv-diet
+    job: Понять, что можно есть маме при ГВ (острое, аллергены)
+    age_band: 0-6m
+    acuity: planned
+    content_type: [article, lecture]
+  - id: gv-meds
+    job: Проверить лекарство/прививку мамы на совместимость с ГВ
+    age_band: any
+    acuity: navigate
+    content_type: [checklist, article]
+  - id: gv-sleep-nursing
+    job: Разобрать засыпание на груди и совместный сон при кормлении
+    age_band: 0-12m
+    acuity: planned
+    content_type: [article, lecture]
+  - id: gv-biting
+    job: Отучить кусать грудь, когда лезут зубы
+    age_band: 4-12m
+    acuity: planned
+    content_type: [article]
+
+  # --- Прикорм и детское питание (12) ---
+  - id: feed-first
+    job: Начать первый прикорм в срок и не бояться «упустить окно»
+    age_band: 4-6m
+    acuity: planned
+    content_type: [lecture, checklist, ux-scenario]
+  - id: feed-puree-vs-table
+    job: Выбрать банки, домашнее пюре или педагогический прикорм
+    age_band: 6-12m
+    acuity: planned
+    content_type: [article, lecture]
+  - id: feed-formula
+    job: Подобрать смесь и не путать её с коровьим молоком
+    age_band: 0-12m
+    acuity: planned
+    content_type: [article, checklist]
+  - id: feed-water
+    job: Понять, какую воду давать и нужна ли она на ГВ
+    age_band: 0-12m
+    acuity: planned
+    content_type: [article]
+  - id: feed-picky
+    job: Справиться с «не ест» / малоежкой без насилия за столом
+    age_band: 1-3y
+    acuity: planned
+    content_type: [article, lecture, ux-scenario]
+  - id: feed-chew
+    job: Научить жевать и не паниковать, когда давится
+    age_band: 8-18m
+    acuity: planned
+    content_type: [article, video]
+  - id: feed-allergy
+    job: Вводить продукты при риске аллергии в семье
+    age_band: 6-12m
+    acuity: planned
+    content_type: [lecture, checklist]
+  - id: feed-after-one
+    job: Собрать стол после года (не «меню ресторана»)
+    age_band: 1-3y
+    acuity: planned
+    content_type: [article, lecture]
+  - id: feed-constipation
+    job: Связать запор с прикормом и поправить меню
+    age_band: 6-12m
+    acuity: planned
+    content_type: [article, checklist]
+  - id: feed-sweets
+    job: Решить, когда соки, сладкое и «растишки»
+    age_band: 1-3y
+    acuity: planned
+    content_type: [article]
+  - id: feed-cup
+    job: Перейти с бутылочки на чашку/поильник
+    age_band: 6-12m
+    acuity: planned
+    content_type: [article]
+  - id: feed-dairy-kitchen
+    job: Понять молочную кухню как dated-слой (не ядро 2026)
+    age_band: 0-12m
+    acuity: navigate
+    content_type: [article]
+
+  # --- Стол семьи, не клуб рецептов (4) ---
+  - id: table-family-menu
+    job: Накормить семью с маленьким ребёнком одним столом
+    age_band: 1-3y
+    acuity: planned
+    content_type: [article, video]
+  - id: table-mom-recovery
+    job: Есть самой в первые месяцы, не только «для лактации»
+    age_band: mom
+    acuity: planned
+    content_type: [article]
+  - id: table-poisoning
+    job: Действовать при пищевом отравлении ребёнка
+    age_band: any
+    acuity: night
+    content_type: [checklist, ux-scenario]
+  - id: table-out
+    job: Кормить вне дома (сад, день рождения) без срыва
+    age_band: 1-3y
+    acuity: planned
+    content_type: [article]
+
+  # --- Ночь / ОРВИ (8) ---
+  - id: ped-fever-night
+    job: Сбить температуру ночью и понять красные флаги
+    age_band: any
+    acuity: night
+    content_type: [checklist, ux-scenario, video]
+  - id: ped-fever-when
+    job: Решить, надо ли сбивать 37–38 и когда ехать
+    age_band: any
+    acuity: planned
+    content_type: [article, checklist]
+  - id: ped-cough
+    job: Разобрать затяжной кашель (не подбор сиропа с форума)
+    age_band: any
+    acuity: planned
+    content_type: [article, lecture]
+  - id: ped-cold
+    job: Лечить насморк без «промыть всё»
+    age_band: any
+    acuity: planned
+    content_type: [article]
+  - id: ped-otitis
+    job: Узнать отит и не греть ухо по совету треда
+    age_band: 6-36m
+    acuity: night
+    content_type: [checklist, article]
+  - id: ped-wheeze
+    job: Отличить обструкцию/бронхоспазм и вызвать помощь
+    age_band: 0-3y
+    acuity: night
+    content_type: [checklist, ux-scenario]
+  - id: ped-vomit
+    job: Действовать при рвоте и подозрении на отравление
+    age_band: any
+    acuity: night
+    content_type: [checklist, ux-scenario]
+  - id: ped-acetone
+    job: Понять «пахнет ацетоном» и когда это срочно
+    age_band: 1-7y
+    acuity: night
+    content_type: [article, checklist]
+
+  # --- Грудничок, планово (12) ---
+  - id: ped-jaundice
+    job: Наблюдать желтушку новорождённого и не пропустить опасное
+    age_band: 0-1m
+    acuity: planned
+    content_type: [lecture, checklist]
+  - id: ped-spit-up
+    job: Отличить срыгивание от фонтана и рефлюкса
+    age_band: 0-6m
+    acuity: planned
+    content_type: [article, lecture]
+  - id: ped-gas
+    job: Помочь с газами и «выпустить воздух» после еды
+    age_band: 0-3m
+    acuity: night
+    content_type: [article, video]
+  - id: ped-constipation-infant
+    job: Разобрать запор у грудничка на ГВ/смеси
+    age_band: 0-6m
+    acuity: planned
+    content_type: [article, checklist]
+  - id: ped-sleep-cry
+    job: Понять крик и бессонницу малыша без «дать успокоительное с форума»
+    age_band: 0-6m
+    acuity: night
+    content_type: [lecture, article]
+  - id: ped-thrush
+    job: Разобрать молочницу во рту и на груди
+    age_band: 0-6m
+    acuity: planned
+    content_type: [article]
+  - id: ped-umbilical
+    job: Ухаживать за пупком / пупочной грыжей
+    age_band: 0-3m
+    acuity: planned
+    content_type: [article]
+  - id: ped-skin-care
+    job: Ухаживать за сухой кожей и опрелостями
+    age_band: 0-12m
+    acuity: planned
+    content_type: [article]
+  - id: ped-vitamins
+    job: Решить, какие витамины нужны (D, не «эпам»)
+    age_band: 0-12m
+    acuity: planned
+    content_type: [lecture, article]
+  - id: ped-weight
+    job: Оценить прибавку и «мало ест / много ест»
+    age_band: 0-12m
+    acuity: planned
+    content_type: [article, checklist]
+  - id: ped-tests
+    job: Понять, зачем анализы крови/мочи/кала, не ставить диагноз по форуму
+    age_band: any
+    acuity: navigate
+    content_type: [article, lecture]
+  - id: ped-fear-clinic
+    job: Снизить страх ребёнка перед врачами
+    age_band: 1-7y
+    acuity: planned
+    content_type: [article, video]
+
+  # --- Кожа и аллергия (5) ---
+  - id: all-atopy
+    job: Жить с атопическим дерматитом без мазей «с треда»
+    age_band: 0-3y
+    acuity: planned
+    content_type: [lecture, article]
+  - id: all-rash
+    job: Отличить бытовую сыпь от срочной
+    age_band: any
+    acuity: night
+    content_type: [checklist, ux-scenario]
+  - id: all-asthma
+    job: Понять астму/обструкцию как хронический трек, не разовый совет
+    age_band: 1-7y
+    acuity: planned
+    content_type: [lecture, article]
+  - id: all-pets
+    job: Решить вопрос животных в доме при аллергии
+    age_band: any
+    acuity: planned
+    content_type: [article]
+  - id: all-tests
+    job: Понять, когда нужны аллергопробы
+    age_band: 1-7y
+    acuity: navigate
+    content_type: [article]
+
+  # --- Прививки (6) ---
+  - id: vax-schedule
+    job: Прочитать календарь прививок спокойным языком
+    age_band: 0-7y
+    acuity: planned
+    content_type: [lecture, article]
+  - id: vax-yes-no
+    job: Принять решение «ставить / отложить», не холивар
+    age_band: 0-7y
+    acuity: planned
+    content_type: [lecture, article]
+  - id: vax-reaction
+    job: Пережить дни после прививки и знать, когда звонить
+    age_band: 0-3y
+    acuity: night
+    content_type: [checklist, article]
+  - id: vax-mantoux
+    job: Понять пробу Манту и «покраснела»
+    age_band: 1-7y
+    acuity: planned
+    content_type: [article, checklist]
+  - id: vax-tick
+    job: Решить про клещевой энцефалит (Сибирь)
+    age_band: any
+    acuity: planned
+    content_type: [article, lecture]
+  - id: vax-flu
+    job: Решить про прививку от гриппа ребёнку
+    age_band: 6-36m
+    acuity: planned
+    content_type: [article]
+
+  # --- Зубы (5) ---
+  - id: dent-teething
+    job: Помочь при прорезывании без опасных гелей наугад
+    age_band: 4-24m
+    acuity: night
+    content_type: [article, checklist]
+  - id: dent-hygiene
+    job: Начать чистить зубы и выбрать пасту
+    age_band: 6-36m
+    acuity: planned
+    content_type: [article, video]
+  - id: dent-caries
+    job: Лечить кариес молочных, включая наркоз как отдельный страх
+    age_band: 1-7y
+    acuity: planned
+    content_type: [article, lecture]
+  - id: dent-frenulum
+    job: Разобрать короткую уздечку
+    age_band: 0-12m
+    acuity: planned
+    content_type: [article]
+  - id: dent-orthodontics
+    job: Понять прикус и когда к ортодонту (не рейтинг клиник)
+    age_band: 3-7y
+    acuity: navigate
+    content_type: [article]
+
+  # --- Глаза (3) ---
+  - id: eye-conjunctivitis
+    job: Отличить конъюнктивит от дакриоцистита
+    age_band: 0-3y
+    acuity: planned
+    content_type: [article, checklist]
+  - id: eye-glasses
+    job: Принять очки/астигматизм/косоглазие без паники
+    age_band: 1-7y
+    acuity: planned
+    content_type: [article, lecture]
+  - id: eye-red-flags
+    job: Понять красные флаги по зрению (не лазер взрослому)
+    age_band: any
+    acuity: navigate
+    content_type: [checklist]
+
+  # --- Неврология развития (3) ---
+  - id: neuro-tone
+    job: Понять гипо-/гипертонус и кривошею без «хвойного концентрата»
+    age_band: 0-6m
+    acuity: planned
+    content_type: [lecture, article]
+  - id: neuro-nsg
+    job: Понять НСГ и «внутричерепное давление» как мем vs показание
+    age_band: 0-6m
+    acuity: planned
+    content_type: [lecture, article]
+  - id: neuro-when
+    job: Решить, когда к неврологу, а когда это норма возрастного движения
+    age_band: 0-12m
+    acuity: navigate
+    content_type: [article, checklist]
+
+  # --- Здоровье мамы, связанное с младенцем (4) ---
+  - id: mom-back
+    job: Сберечь спину (ношение, остеохондроз после родов)
+    age_band: mom
+    acuity: planned
+    content_type: [article, lecture]
+  - id: mom-veins
+    job: Разобрать варикоз после беременности
+    age_band: mom
+    acuity: planned
+    content_type: [article]
+  - id: mom-teeth-bf
+    job: Лечить зубы мамы при ГВ
+    age_band: mom
+    acuity: navigate
+    content_type: [article]
+  - id: mom-hair
+    job: Пережить выпадение волос после родов
+    age_band: mom
+    acuity: planned
+    content_type: [article]
+
+  # --- Навигация (2) ---
+  - id: nav-when-doctor
+    job: Иметь одно правило «когда к врачу / скорой» на все тревоги
+    age_band: any
+    acuity: night
+    content_type: [checklist, ux-scenario]
+  - id: nav-nsk-method
+    job: Выбирать врача в НСК по методике, не по треду 2006
+    age_band: any
+    acuity: navigate
+    content_type: [article, ux-scenario]
