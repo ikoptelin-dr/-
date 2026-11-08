@@ -18,6 +18,9 @@
 | `scripts/analyze_direct.py` | анализ выгрузок Директа → `zamery/z04-direct-analysis.csv` |
 | `research/R01-direct-prompt.md` | протокол исследования выгрузок Директа (вопросы и пороги) |
 | `research/R01-direct-results.md` | результаты: спрос, цена клика, курсы, клиники, форум против поиска, паблик |
+| `research/R02-publics-method.md` | методика поиска и выгрузки мамских пабликов ВК и Telegram, пороги П1–П4 |
+| `scripts/publics/` | сборщики ВК и Telegram (не проверены на живом API), классификатор тем постов (`--selftest`) |
+| `zamery/z20-publics-template.csv` | шаблон для ручного прохода по пабликам |
 | `inputs/external-sources.md` | Росстат: население и рождаемость НСО |
 | `scripts/parse_direct_forecast.py` | собирает все выгрузки в `zamery/z03-direct-forecast.csv` (нужен `pip install xlrd`) |
 

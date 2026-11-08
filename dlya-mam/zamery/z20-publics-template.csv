@@ -1,0 +1,1 @@
+platform,sample (А/Б),type (сообщество/экспертный блог/медиа/клиника/магазин/барахолка/агрегатор/другое),url,name,city,members,posts_30d,median_views_30d (медиана по последним 10 постам),reach_rate (median_views/members),ad_posts_of_last_20,has_doctor_author (да/нет),found_by (ключевое слово),collected_at (ГГГГ-ММ-ДД),who_checked
