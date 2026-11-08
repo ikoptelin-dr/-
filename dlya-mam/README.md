@@ -13,6 +13,9 @@
 | `scripts/make_wordstat_keys.py` | собирает список фраз для Wordstat и Директа, сверяя их с `all.jsonl` |
 | `zamery/z01-night-title-precision.csv` | разметка тем под ночными экранами по заголовкам |
 | `zamery/z02-wordstat-keys.csv` | 71 фраза для Wordstat и Директа, колонки для частотности пустые |
+| `zamery/z03-direct-paste.txt` | те же 71 фраза без запятых — вставлять в «Прогноз бюджета» Директа |
+| `inputs/direct/*.xls` | выгрузки прогноза Директа как есть |
+| `scripts/parse_direct_forecast.py` | собирает все выгрузки в `zamery/z03-direct-forecast.csv` (нужен `pip install xlrd`) |
 
 Проверка:
 

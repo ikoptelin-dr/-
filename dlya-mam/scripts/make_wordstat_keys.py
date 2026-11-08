@@ -112,15 +112,21 @@ def main():
         seen.add(ph)
         if job != "control":
             assert ph in qm.get(job, set()), f"нет в all.jsonl: {job} / {ph}"
-        rows.append([i, ph, g, job, "all.jsonl" if job != "control" else "контроль, не из карты",
+        # Директ режет фразы по запятой («37,5» превращается в «37» и «5»),
+        # а длиннее 7 слов фразу не принимает.
+        paste = " ".join(ph.replace(",", " ").split())
+        assert len(paste.split()) <= 7, paste
+        rows.append([i, ph, paste, g, job, "all.jsonl" if job != "control" else "контроль, не из карты",
                      WHY[g], "", "", "", "", ""])
     out = ROOT / "zamery" / "z02-wordstat-keys.csv"
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["n", "phrase", "group", "job_id", "source", "why",
+        w.writerow(["n", "phrase", "paste_phrase", "group", "job_id", "source", "why",
                     "ws_nso_12m", "ws_rf_12m", "direct_cpc_nso_rub", "direct_clicks_month_nso", "direct_budget_month_nso_rub"])
         w.writerows(rows)
-    print(len(rows), "фраз записано в", out)
+    paste_file = ROOT / "zamery" / "z03-direct-paste.txt"
+    paste_file.write_text("\n".join(r[2] for r in rows) + "\n", encoding="utf-8")
+    print(len(rows), "фраз записано в", out, "и", paste_file)
 
 
 if __name__ == "__main__":
