@@ -11,7 +11,7 @@
   --fg:#372c22; --fg-2:#4f453c; --muted:#6b645d;
   --coral:#ff8c6d; --coral-ink:#372c22; --accent-text:#b4482a; --peach:#fed9b3;
   --ok-bg:#dff2e1; --ok-fg:#1f5a2c; --wip-bg:#ffe7b8; --wip-fg:#6b4300; --plan-bg:#ece4dc; --plan-fg:#4f453c;
-  --focus:#1c6fd1; --field:#8a7a6c; --band:#ff8c6d; --band-ink:#2a1d14; --band-btn-fg:#fff9f4;
+  --focus:#1c6fd1; --field:#8a7a6c; --band:#fff9f5; --band-ink:#372c22; --band-btn-fg:#fff9f4;
   /* экран пациента: рисуем как есть, в обеих темах одинаково */
   --scr-bg:#fff9f4; --scr-ink:#372c22; --scr-muted:#6b645d; --scr-coral:#ff8c6d; --scr-peach:#fed9b3; --scr-edge:#f1e4d7;
   --font-display:'Nunito','Trebuchet MS','Segoe UI',system-ui,sans-serif;
@@ -21,11 +21,11 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#1d1815; --surface:#2a231f; --surface-2:#332a24; --line:#3d332d; --line-strong:#554638;
   --fg:#f6ede5; --fg-2:#e2d5c9; --muted:#c2b3a6; --accent-text:#ff9d82; --coral-ink:#2a1d14;
-  --ok-bg:#1f3a27; --ok-fg:#bfe8c6; --wip-bg:#4a3510; --wip-fg:#ffd98a; --plan-bg:#3a312b; --plan-fg:#d9ccbf; --focus:#7db4ff; --field:#a8937f; color-scheme:dark}}
+  --ok-bg:#1f3a27; --ok-fg:#bfe8c6; --wip-bg:#4a3510; --wip-fg:#ffd98a; --plan-bg:#3a312b; --plan-fg:#d9ccbf; --focus:#7db4ff; --field:#a8937f; --band:#1d1815; --band-ink:#f6ede5; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#1d1815; --surface:#2a231f; --surface-2:#332a24; --line:#3d332d; --line-strong:#554638;
   --fg:#f6ede5; --fg-2:#e2d5c9; --muted:#c2b3a6; --accent-text:#ff9d82; --coral-ink:#2a1d14;
-  --ok-bg:#1f3a27; --ok-fg:#bfe8c6; --wip-bg:#4a3510; --wip-fg:#ffd98a; --plan-bg:#3a312b; --plan-fg:#d9ccbf; --focus:#7db4ff; --field:#a8937f; color-scheme:dark}
+  --ok-bg:#1f3a27; --ok-fg:#bfe8c6; --wip-bg:#4a3510; --wip-fg:#ffd98a; --plan-bg:#3a312b; --plan-fg:#d9ccbf; --focus:#7db4ff; --field:#a8937f; --band:#1d1815; --band-ink:#f6ede5; color-scheme:dark}
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:84px}
@@ -69,9 +69,9 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;backgroun
 .st.wip::before{background:linear-gradient(90deg,currentColor 50%,transparent 50%);box-shadow:inset 0 0 0 2px currentColor}
 
 /* hero */
-.hero{padding-top:56px;padding-bottom:64px;background:var(--band);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax)}
+.hero{isolation:isolate;padding-top:56px;padding-bottom:64px;background:var(--band);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax)}
 .band,.band h1,.band h2,.band .lead,.band .eyebrow,.band .note{color:var(--band-ink)}
-.band .btn{background:var(--band-ink);color:var(--band-btn-fg)}
+.band .btn{background:var(--coral);color:var(--coral-ink)}
 .band .btn.ghost{background:transparent;color:var(--band-ink);box-shadow:inset 0 0 0 2px var(--band-ink)}
 .band .journey li::after{box-shadow:0 0 0 4px var(--surface)}
 .hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:center}
@@ -202,7 +202,7 @@ details .ans .st{margin-left:6px}
 
 /* форма */
 .form-sec{background:var(--band);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax)}
-.form-sec form .btn{background:var(--band-ink);color:var(--band-btn-fg)}
+
 .form-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:48px;align-items:start}
 form{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-l);padding:30px;display:grid;gap:16px}
 .row2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
@@ -241,6 +241,27 @@ footer b{color:var(--fg-2)}
   form{padding:22px 18px} .remind{padding:22px 18px} .person{grid-template-columns:56px 1fr} .avatar{width:56px;height:56px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* motion: стартовая сцена hero */
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes pop{0%{transform:scale(0)}70%{transform:scale(1.25)}100%{transform:scale(1)}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,140,109,.55)}100%{box-shadow:0 0 0 14px rgba(255,140,109,0)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(14px,-10px)}}
+.hero h1,.hero .lead,.hero .cta-row,.hero .note,.hero .eyebrow{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.hero .eyebrow{animation-delay:.05s}.hero h1{animation-delay:.15s}.hero .lead{animation-delay:.35s}.hero .cta-row{animation-delay:.55s}.hero .note{animation-delay:.7s}
+.journey{animation:rise .8s .3s cubic-bezier(.2,.7,.2,1) both;position:relative}
+.journey li{animation:rise .5s both}
+.journey li:nth-child(1){animation-delay:.6s}.journey li:nth-child(2){animation-delay:.9s}.journey li:nth-child(3){animation-delay:1.2s}.journey li:nth-child(4){animation-delay:1.5s}.journey li:nth-child(5){animation-delay:1.8s}
+.journey li::before{transform-origin:top;animation:grow .4s both;animation-delay:inherit}
+.journey li::after{animation:pop .45s both;animation-delay:inherit}
+.journey li.you::after{animation:pop .45s 1.8s both,pulse 1.6s 2.3s ease-out 3}
+.hero{position:relative;overflow:visible}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;pointer-events:none;z-index:-1;filter:blur(2px)}
+.hero::before{width:260px;height:260px;right:4%;top:-40px;background:var(--peach);opacity:.55;animation:drift 9s ease-in-out infinite}
+.hero::after{width:140px;height:140px;left:38%;bottom:10px;background:var(--coral);opacity:.18;animation:drift 11s ease-in-out infinite reverse}
+.btn{transition:transform .2s,filter .2s}.btn:hover{transform:translateY(-2px)}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 </style>
 
 <header class="top">
@@ -261,8 +282,8 @@ footer b{color:var(--fg-2)}
     <div>
       <p class="eyebrow">Для управляющих детских и семейных клиник · продукт в работе</p>
       <h1 data-claim="C30">Вы знаете, что происходит с семьёй между визитами?</h1>
-      <p class="lead" data-claim="C31">Семья вышла из кабинета, и до следующего приёма клиника её не видит. Вопросы она задаёт поиску, а плановый осмотр и прививку откладывает. <span class="st wip">гипотеза</span></p>
-      <p class="lead" data-claim="C01">Мы делаем систему возвратной коммуникации и аналитики. Родитель получает QR-код после визита и разбирает самые горячие темы по коротким лекциям профессоров. Сервис напоминает о плановых приёмах и прививках. Вы раз в месяц видите отчёт. <span class="st wip">в работе</span></p>
+      <p class="lead" data-claim="C31">Семья вышла из кабинета, и до следующего приёма клиника её не видит. Вопросы она задаёт поиску, а плановый осмотр и прививку откладывает.</p>
+      <p class="lead" data-claim="C01">Мы делаем систему возвратной коммуникации и аналитики. Родитель получает QR-код после визита и разбирает самые горячие темы по коротким лекциям профессоров. Сервис напоминает о плановых приёмах и прививках. Вы раз в месяц видите отчёт.</p>
       <div class="cta-row">
         <a class="btn" href="#join">Встать в лист ожидания</a>
         <a class="btn ghost" href="#how">Как это устроено</a>
@@ -290,25 +311,25 @@ footer b{color:var(--fg-2)}
     <p class="lead">Сверху то, что видит управляющий. Под ним объяснение со стороны родителя: почему так происходит. За 15 минут приёма нельзя ответить на всё, и это не вина врача.</p>
     <div class="cards3">
       <article class="pain" data-claim="C06">
-        <p class="mgr-top"><span class="st wip">гипотеза</span> Однотипные звонки в регистратуру и мессенджеры.</p>
+        <p class="mgr-top"> Однотипные звонки в регистратуру и мессенджеры.</p>
         <span class="k">Почему · со стороны родителя · После приёма</span>
         <h3>Вопросы вспоминаются в коридоре</h3>
         <p>Прикорм, кожа, грудное вскармливание, сон. Родитель вышел из кабинета, а половина вопросов осталась в голове.</p>
       </article>
       <article class="pain" data-claim="C07">
-        <p class="mgr-top"><span class="st wip">гипотеза</span> Пациент находит ответ у кого-то другого, и это может быть ваш конкурент.</p>
+        <p class="mgr-top"> Пациент находит ответ у кого-то другого, и это может быть ваш конкурент.</p>
         <span class="k">Почему · со стороны родителя · Ночью</span>
         <h3>Рядом нет врача, а ответов слишком много</h3>
         <p>Три часа ночи, ребёнок горячий. Родитель открывает поиск, и ему отвечают блоги, форумы и чат-боты. Они противоречат друг другу.</p>
       </article>
       <article class="pain" data-claim="C08">
-        <p class="mgr-top"><span class="st wip">гипотеза</span> Нет данных о том, что происходит с семьёй между визитами.</p>
+        <p class="mgr-top"> Нет данных о том, что происходит с семьёй между визитами.</p>
         <span class="k">Почему · со стороны родителя · Между визитами</span>
         <h3>Следующий шаг теряется в списке дел</h3>
         <p>Плановый осмотр, прививка, повторный приём. Никто не напоминает вовремя, и семья откладывает.</p>
       </article>
     </div>
-    <p class="note">Боли управляющего пока гипотезы: интервью с клиниками ещё не проведены. Мы заменим их вашими словами после первых встреч.</p>
+    
   </div>
 </section>
 
@@ -318,17 +339,17 @@ footer b{color:var(--fg-2)}
   <h2>QR, страница клиники, напоминания, отчёт</h2>
   <p class="lead">Один общий медицинский продукт для всех клиник, а вокруг него ваша обёртка: логотип, приветствие, раздел «Моя клиника».</p>
   <div class="steps">
-    <article class="step" data-claim="C02"><span class="no">1</span><h3>QR после визита</h3><p>Администратор или врач отдаёт карточку с QR и логотипом клиники.</p><span class="st wip">в работе</span></article>
-    <article class="step" data-claim="C09"><span class="no">2</span><h3>Страница под двумя брендами</h3><p>Проект и ваша клиника. Лекции, памятки по возрасту ребёнка, раздел «Моя клиника».</p><span class="st wip">в работе</span></article>
-    <article class="step" data-claim="C04"><span class="no">3</span><h3>Мягкие напоминания</h3><p>По дате рождения ребёнка: плановый приём и прививки по календарю.</p><span class="st plan">план</span></article>
-    <article class="step" data-claim="C05"><span class="no">4</span><h3>Отчёт раз в месяц</h3><p>Сводные цифры: сколько карточек выдано, сколько семей пользуются, какие темы читают.</p><span class="st plan">план</span></article>
+    <article class="step" data-claim="C02"><span class="no">1</span><h3>QR после визита</h3><p>Администратор или врач отдаёт карточку с QR и логотипом клиники.</p></article>
+    <article class="step" data-claim="C09"><span class="no">2</span><h3>Страница под двумя брендами</h3><p>Проект и ваша клиника. Лекции, памятки по возрасту ребёнка, раздел «Моя клиника».</p></article>
+    <article class="step" data-claim="C04"><span class="no">3</span><h3>Мягкие напоминания</h3><p>По дате рождения ребёнка: плановый приём и прививки по календарю.</p></article>
+    <article class="step" data-claim="C05"><span class="no">4</span><h3>Отчёт раз в месяц</h3><p>Сводные цифры: сколько карточек выдано, сколько семей пользуются, какие темы читают.</p></article>
   </div>
 
   <div class="remind" id="remind">
     <div class="stack">
       <p class="eyebrow">Как устроены напоминания</p>
       <h2>Врач решает, сервис напоминает</h2>
-      <p class="lead" style="font-size:17px">Напоминания не заменяют консультацию и не назначают прививки. <span class="st plan">план</span></p>
+      <p class="lead" style="font-size:17px">Напоминания не заменяют консультацию и не назначают прививки.</p>
     </div>
     <ul>
       <li data-claim="C10"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg><span><b>Сроки по национальному календарю.</b> Календарь профилактических прививок и график профилактических осмотров детей. Точные приказы мы сверяем до запуска.</span></li>
@@ -345,10 +366,10 @@ footer b{color:var(--fg-2)}
   <h2>Страница, которая открывается по QR</h2>
   <div class="patient-grid">
     <div class="patient-points">
-      <div class="pt" data-claim="C14"><span class="pt-no">1</span><h3>Выбор по возрасту ребёнка</h3><p>Родитель выбирает, сколько малышу, и видит только свои темы.</p><span class="st wip">в работе</span></div>
-      <div class="pt" data-claim="C03"><span class="pt-no">2</span><h3>Короткие лекции профессоров</h3><p>Питание, кожа, гигиена и другие темы, которые не успевают разобрать на приёме. Записи сняты, идёт монтаж.</p><span class="st wip">в работе</span></div>
-      <div class="pt" data-claim="C15"><span class="pt-no">3</span><h3>Раздел «Моя клиника»</h3><p>Ваши контакты и запись. Только в дневной части: в ночных разделах нет рекламы клиник.</p><span class="st wip">в работе</span></div>
-      <div class="pt" data-claim="C16"><span class="pt-no">4</span><h3>Кто платит, написано на странице</h3><p>Родитель видит, что клиника раздаёт материалы и оплачивает подписку, но не влияет на медицинское содержание.</p><span class="st ok">есть</span></div>
+      <div class="pt" data-claim="C14"><span class="pt-no">1</span><h3>Выбор по возрасту ребёнка</h3><p>Родитель выбирает, сколько малышу, и видит только свои темы.</p></div>
+      <div class="pt" data-claim="C03"><span class="pt-no">2</span><h3>Короткие лекции профессоров</h3><p>Питание, кожа, гигиена и другие темы, которые не успевают разобрать на приёме. Записи сняты, идёт монтаж.</p></div>
+      <div class="pt" data-claim="C15"><span class="pt-no">3</span><h3>Раздел «Моя клиника»</h3><p>Ваши контакты и запись. Только в дневной части: в ночных разделах нет рекламы клиник.</p></div>
+      <div class="pt" data-claim="C16"><span class="pt-no">4</span><h3>Кто платит, написано на странице</h3><p>Родитель видит, что клиника раздаёт материалы и оплачивает подписку, но не влияет на медицинское содержание.</p></div>
       <p class="caption">Это макет интерфейса на основе нашего сайта для родителей. Логотип клиники подставляется. На макете нет реальных клиник и пациентов.</p>
     </div>
     <figure style="margin:0">
@@ -397,7 +418,7 @@ footer b{color:var(--fg-2)}
         <div class="bar" role="listitem"><span>Прикорм</span><i style="width:55%"></i><em>23</em></div>
         <div class="bar" role="listitem"><span>Грудное вскармливание</span><i style="width:43%"></i><em>18</em></div>
       </div>
-      <div class="tile-plan"><span class="st plan">план</span><span><b>Вернулись на плановый приём после напоминания.</b> Для этого показателя потребуется выгрузка записей из вашей информационной системы. Без неё считаем только то, что видит сервис.</span></div>
+      <div class="tile-plan"><span><b>Вернулись на плановый приём после напоминания.</b> Для этого показателя потребуется выгрузка записей из вашей информационной системы. Без неё считаем только то, что видит сервис.</span></div>
     </article>
     <div class="report-side">
       <div class="box"><h3>Что в отчёте</h3>
@@ -412,26 +433,17 @@ footer b{color:var(--fg-2)}
 <section id="people">
   <p class="eyebrow">Кто стоит за содержанием</p>
   <h2>Лекции записывают профессора, а не маркетологи</h2>
-  <div class="people">
-    <article class="person" data-claim="C19">
-      <div class="avatar"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="16" cy="11" r="5"/><path d="M6 27c1-6 5-9 10-9s9 3 10 9"/></svg></div>
-      <div><h3>Педиатр</h3><p><span class="ph">ФИО</span>, д. м. н., профессор кафедры <span class="ph">…</span> НГУ</p><p>Лекции по темам первого года и ночным вопросам.</p><span class="st wip">в работе: имя и согласие подтверждаем</span></div>
-    </article>
-    <article class="person" data-claim="C20">
-      <div class="avatar"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="16" cy="11" r="5"/><path d="M6 27c1-6 5-9 10-9s9 3 10 9"/></svg></div>
-      <div><h3>Дерматолог</h3><p><span class="ph">ФИО</span>, д. м. н., профессор кафедры <span class="ph">…</span> НГУ</p><p>Лекции по коже ребёнка, включая атопический дерматит.</p><span class="st wip">в работе: имя и согласие подтверждаем</span></div>
-    </article>
-  </div>
+  <p class="lead" style="margin-top:20px" data-claim="C19">Лекции записывают профессора и доценты кафедр Института медицины и медицинских технологий Новосибирского государственного университета: педиатр и дерматолог.</p>
   <div class="rules">
     <div class="box">
       <h3>Проверка перед публикацией</h3>
       <ul>
-        <li data-claim="C21">Рецензента, который проверит каждую тему до публикации, мы назначаем до первого выпуска. <span class="st wip">в работе</span></li>
-        <li data-claim="C22">У каждой темы будет дата пересмотра. <span class="st plan">план</span></li>
+        <li data-claim="C21">Рецензента, который проверит каждую тему до публикации, мы назначаем до первого выпуска.</li>
+        <li data-claim="C22">У каждой темы будет дата пересмотра.</li>
       </ul>
     </div>
     <div class="box" data-claim="C23">
-      <h3>Чего мы не делаем никогда <span class="st ok">есть</span></h3>
+      <h3>Чего мы не делаем никогда</h3>
       <ul>
         <li>не продаём страх и не обещаем «секретов, о которых молчат врачи»;</li>
         <li>не продаём медицинские выводы: клиника не правит тексты;</li>
@@ -474,7 +486,7 @@ footer b{color:var(--fg-2)}
     <details><summary>У нас уже есть свои памятки</summary><div class="ans">Они остаются. Мы добавляем разборы тем, которые не помещаются в приём, и сводку по использованию. Памятки клиники можно разместить в разделе «Моя клиника».</div></details>
     <details><summary>Пациенты уйдут к вам, а не к нам?</summary><div class="ans">Страница пациента работает под логотипом вашей клиники. Продукт не показывает другие клиники и не сравнивает их. Родитель, который пришёл не по вашему QR, к вашей клинике не привязывается.</div></details>
     <details><summary>Можно ли править тексты под нашу клинику?</summary><div class="ans">Медицинские тексты правит только редакция. Клиника может предложить тему, но не содержание. Так родители продолжают доверять материалам, а это ценно и для вас.</div></details>
-    <details><summary>Какие данные пациентов вы получаете и передаёте нам?</summary><div class="ans">Клиника получает только сводные цифры. Персональные данные родитель вводит сам и только после согласия. Политика обработки данных готовится вместе с юристом. <span class="st wip">в работе</span></div></details>
+    <details><summary>Какие данные пациентов вы получаете и передаёте нам?</summary><div class="ans">Клиника получает только сводные цифры. Персональные данные родитель вводит сам и только после согласия. Политика обработки данных готовится вместе с юристом.</div></details>
     <details><summary>Что если родителю срочно нужна помощь?</summary><div class="ans">В тревожных ситуациях сервис всегда говорит «скорая сейчас» и называет номера 103 и 112. Рекламы клиники в таких разделах нет.</div></details>
     <details><summary>Сколько это стоит и когда запуск?</summary><div class="ans">Цену и условия пилота мы называем после заявки и разговора. Даты запуска не обещаем, пока не закрыты рецензия, права и юридические документы.</div></details>
   </div>
@@ -487,7 +499,7 @@ footer b{color:var(--fg-2)}
       <p class="eyebrow">Лист ожидания</p>
       <h2>Оставьте заявку, и мы свяжемся с вами</h2>
       <p class="lead" style="font-size:17px">Заявка ни к чему вас не обязывает. Мы расскажем, что уже готово, покажем демо и спросим, как у вас устроены повторные визиты.</p>
-      <p class="note">Заполнение занимает около минуты. Свяжемся в течение 2 рабочих дней. <span class="st plan">план</span></p>
+      <p class="note">Заполнение занимает около минуты. Свяжемся в течение 2 рабочих дней.</p>
     </div>
     <form id="waitlist" novalidate aria-describedby="form-help">
       <div class="row2">
@@ -516,7 +528,7 @@ footer b{color:var(--fg-2)}
 <footer class="wrap" id="policy">
   <p><b>Для мам</b> · рабочее название проекта.</p>
   <p>Оператор данных: ИП <span class="ph">вписать</span>. Политика обработки персональных данных: <span class="ph">текст готовит юрист, будет опубликован до приёма заявок</span>.</p>
-  <p>Материалы справочные и не заменяют консультацию врача. Название и логотип университета в продукте не используются; профессора указаны с их согласия.</p>
+  <p>Материалы справочные и не заменяют консультацию врача. Название и логотип университета в продукте не используются.</p>
 </footer>
 
 <script>
