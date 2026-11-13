@@ -11,7 +11,7 @@
   --fg:#372c22; --fg-2:#4f453c; --muted:#6b645d;
   --coral:#ff8c6d; --coral-ink:#372c22; --accent-text:#b4482a; --peach:#fed9b3;
   --ok-bg:#dff2e1; --ok-fg:#1f5a2c; --wip-bg:#ffe7b8; --wip-fg:#6b4300; --plan-bg:#ece4dc; --plan-fg:#4f453c;
-  --focus:#1c6fd1; --field:#8a7a6c;
+  --focus:#1c6fd1; --field:#8a7a6c; --band:#ff8c6d; --band-ink:#2a1d14; --band-btn-fg:#fff9f4;
   /* экран пациента: рисуем как есть, в обеих темах одинаково */
   --scr-bg:#fff9f4; --scr-ink:#372c22; --scr-muted:#6b645d; --scr-coral:#ff8c6d; --scr-peach:#fed9b3; --scr-edge:#f1e4d7;
   --font-display:'Nunito','Trebuchet MS','Segoe UI',system-ui,sans-serif;
@@ -69,7 +69,11 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;backgroun
 .st.wip::before{background:linear-gradient(90deg,currentColor 50%,transparent 50%);box-shadow:inset 0 0 0 2px currentColor}
 
 /* hero */
-.hero{padding-top:56px;padding-bottom:64px}
+.hero{padding-top:56px;padding-bottom:64px;background:var(--band);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax)}
+.band,.band h1,.band h2,.band .lead,.band .eyebrow,.band .note{color:var(--band-ink)}
+.band .btn{background:var(--band-ink);color:var(--band-btn-fg)}
+.band .btn.ghost{background:transparent;color:var(--band-ink);box-shadow:inset 0 0 0 2px var(--band-ink)}
+.band .journey li::after{box-shadow:0 0 0 4px var(--surface)}
 .hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:center}
 .hero .lead{margin-top:22px}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
@@ -90,6 +94,9 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;backgroun
 .pains .wrap>.lead{margin-top:16px}
 .cards3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:36px}
 .pain{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-m);padding:26px;display:flex;flex-direction:column;gap:12px}
+.pain .mgr-top{font-family:var(--font-display);font-weight:800;font-size:20px;line-height:1.25;color:var(--fg)}
+.pain .mgr-top .st{display:flex;width:max-content;margin-bottom:8px;font-family:var(--font-body)}
+.pain h3{font-size:17px}
 .pain .k{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .pain p{color:var(--fg-2);font-size:16.5px}
 .pain .mgr{margin-top:auto;padding-top:14px;border-top:1px dashed var(--line-strong);font-size:15px;color:var(--fg)}
@@ -194,7 +201,8 @@ details .ans{padding:0 20px 18px;color:var(--fg-2);font-size:16px}
 details .ans .st{margin-left:6px}
 
 /* форма */
-.form-sec{background:var(--surface-2);box-shadow:0 0 0 100vmax var(--surface-2);clip-path:inset(0 -100vmax)}
+.form-sec{background:var(--band);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(0 -100vmax)}
+.form-sec form .btn{background:var(--band-ink);color:var(--band-btn-fg)}
 .form-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:48px;align-items:start}
 form{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-l);padding:30px;display:grid;gap:16px}
 .row2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
@@ -248,12 +256,13 @@ footer b{color:var(--fg-2)}
 <main id="top" class="wrap">
 
 <!-- 1. HERO -->
-<section class="hero">
+<section class="hero band">
   <div class="hero-grid">
     <div>
       <p class="eyebrow">Для управляющих детских и семейных клиник · продукт в работе</p>
-      <h1>После приёма пациент не остаётся один и возвращается к вам</h1>
-      <p class="lead" data-claim="C01">Система возвратной коммуникации и аналитики. Родитель получает QR-код после визита и разбирает самые горячие темы по коротким лекциям профессоров. Сервис напоминает о плановых приёмах и прививках. Вы раз в месяц видите отчёт. <span class="st wip">в работе</span></p>
+      <h1 data-claim="C30">Вы знаете, что происходит с семьёй между визитами?</h1>
+      <p class="lead" data-claim="C31">Семья вышла из кабинета, и до следующего приёма клиника её не видит. Вопросы она задаёт поиску, а плановый осмотр и прививку откладывает. <span class="st wip">гипотеза</span></p>
+      <p class="lead" data-claim="C01">Мы делаем систему возвратной коммуникации и аналитики. Родитель получает QR-код после визита и разбирает самые горячие темы по коротким лекциям профессоров. Сервис напоминает о плановых приёмах и прививках. Вы раз в месяц видите отчёт. <span class="st wip">в работе</span></p>
       <div class="cta-row">
         <a class="btn" href="#join">Встать в лист ожидания</a>
         <a class="btn ghost" href="#how">Как это устроено</a>
@@ -277,29 +286,29 @@ footer b{color:var(--fg-2)}
 <section class="pains" id="pains">
   <div class="wrap">
     <p class="eyebrow">Почему пациент уходит в никуда</p>
-    <h2>Три момента, где семья остаётся без вас</h2>
-    <p class="lead">Мы выбрали их из разговоров с врачами и из того, что родители ищут ночью. Это не обвинение приёма: за 15 минут нельзя ответить на всё.</p>
+    <h2>Три места, где клиника теряет семью</h2>
+    <p class="lead">Сверху то, что видит управляющий. Под ним объяснение со стороны родителя: почему так происходит. За 15 минут приёма нельзя ответить на всё, и это не вина врача.</p>
     <div class="cards3">
       <article class="pain" data-claim="C06">
-        <span class="k">После приёма</span>
+        <p class="mgr-top"><span class="st wip">гипотеза</span> Однотипные звонки в регистратуру и мессенджеры.</p>
+        <span class="k">Почему · со стороны родителя · После приёма</span>
         <h3>Вопросы вспоминаются в коридоре</h3>
         <p>Прикорм, кожа, грудное вскармливание, сон. Родитель вышел из кабинета, а половина вопросов осталась в голове.</p>
-        <div class="mgr"><span>Что это для управляющего · гипотеза</span>Однотипные звонки в регистратуру и мессенджеры.</div>
       </article>
       <article class="pain" data-claim="C07">
-        <span class="k">Ночью</span>
+        <p class="mgr-top"><span class="st wip">гипотеза</span> Пациент находит ответ у кого-то другого, и это может быть ваш конкурент.</p>
+        <span class="k">Почему · со стороны родителя · Ночью</span>
         <h3>Рядом нет врача, а ответов слишком много</h3>
         <p>Три часа ночи, ребёнок горячий. Родитель открывает поиск, и ему отвечают блоги, форумы и чат-боты. Они противоречат друг другу.</p>
-        <div class="mgr"><span>Что это для управляющего · гипотеза</span>Пациент находит ответ у кого-то другого, и это может быть ваш конкурент.</div>
       </article>
       <article class="pain" data-claim="C08">
-        <span class="k">Между визитами</span>
+        <p class="mgr-top"><span class="st wip">гипотеза</span> Нет данных о том, что происходит с семьёй между визитами.</p>
+        <span class="k">Почему · со стороны родителя · Между визитами</span>
         <h3>Следующий шаг теряется в списке дел</h3>
         <p>Плановый осмотр, прививка, повторный приём. Никто не напоминает вовремя, и семья откладывает.</p>
-        <div class="mgr"><span>Что это для управляющего · гипотеза</span>Нет данных о том, что происходит с семьёй между визитами.</div>
       </article>
     </div>
-    <p class="note">Формулировки «для управляющего» пока гипотезы. Мы заменим их вашими словами после первых разговоров с клиниками.</p>
+    <p class="note">Боли управляющего пока гипотезы: интервью с клиниками ещё не проведены. Мы заменим их вашими словами после первых встреч.</p>
   </div>
 </section>
 
@@ -472,7 +481,7 @@ footer b{color:var(--fg-2)}
 </section>
 
 <!-- 9. ФОРМА -->
-<section class="form-sec" id="join">
+<section class="form-sec band" id="join">
   <div class="wrap form-grid">
     <div class="stack">
       <p class="eyebrow">Лист ожидания</p>

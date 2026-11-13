@@ -1,0 +1,7 @@
+segment,role,acquaintance,basis_for_message,send,utm_source,utm_medium,utm_campaign,utm_content_A,utm_content_B
+S1,владелец,встреча была,личная встреча,да,visit,email_or_tg,waitlist_2026_11,s1_hookA,s1_hookB
+S2,управляющий,встреча была,личная встреча,да,visit,email_or_tg,waitlist_2026_11,s2_hookA,s2_hookB
+S3,главный врач,встреча была,личная встреча,да,visit,email_or_tg,waitlist_2026_11,s3_hookA,s3_hookB
+S4,маркетолог,встреча была,личная встреча,да,visit,email_or_tg,waitlist_2026_11,s4_hookA,s4_hookB
+S5,любая,сам дал контакт (визитка/чат),сам дал контакт,да,referral,email_or_tg,waitlist_2026_11,s5_hookA,s5_hookB
+S6,любая,нет знакомства и нет согласия,нет,НЕТ — не писать,,,,,
