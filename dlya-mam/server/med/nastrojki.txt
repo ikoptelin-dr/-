@@ -1,0 +1,18 @@
+# Настройки сайта for-mom.ru. После правки сохраните (Ctrl+S) и перезапустите: OSTANOVIT-SAJT.bat, затем ZAPUSTIT-SAJT.bat
+# Не меняйте домен и порт: у proba-lab.ru порт 8080, у этого сайта 8081.
+SITE_DOMAIN=for-mom.ru
+SITE_PORT=8081
+
+# Почта для заявок. Скопируйте строки SMTP_... и MAIL_TO из D:\proba\nastrojki.txt (или укажите другую почту).
+# Для Яндекса нужен пароль приложения, а не обычный пароль. Поддерживается порт 465 (SSL).
+SMTP_HOST=smtp.yandex.ru
+SMTP_PORT=465
+SMTP_USER=
+SMTP_PASS=
+MAIL_TO=
+
+# Битрикс24: входящий вебхук с правом crm, вида https://ваш.bitrix24.ru/rest/1/xxxxxxxx/
+B24_WEBHOOK=
+
+# Копии заявок на этом компьютере (D:\med\leads\leads.jsonl): on или off
+LEAD_LOG=on

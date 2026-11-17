@@ -1,0 +1,11 @@
+# Блоки для Caddyfile друга. Вставить В САМЫЙ КОНЕЦ файла, после последней }.
+# Наличие этого файла в D:\med включает режим «общий Caddy»: свой Caddy сайт не запускает.
+
+for-mom.ru {
+	encode gzip
+	reverse_proxy 127.0.0.1:8081
+}
+
+www.for-mom.ru {
+	redir https://for-mom.ru{uri} permanent
+}
