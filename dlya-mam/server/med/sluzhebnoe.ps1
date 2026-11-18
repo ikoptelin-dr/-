@@ -1,4 +1,4 @@
-# Служебный скрипт сайта for-mom.ru: start | stop | check
+﻿# Служебный скрипт сайта for-mom.ru: start | stop | check
 param([string]$cmd = 'check')
 $ErrorActionPreference = 'SilentlyContinue'
 [Console]::OutputEncoding = [Text.Encoding]::UTF8
