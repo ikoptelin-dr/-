@@ -1,4 +1,5 @@
-"""Сезонность: помесячная динамика Wordstat (24 мес., РФ) по главной фразе каждой статьи из seo/03-karta-statej.csv.
+"""Лимит API: 100 запросов Wordstat в час. OFFLINE=1 — только по уже собранным файлам.
+Сезонность: помесячная динамика Wordstat (24 мес., РФ) по главной фразе каждой статьи из seo/03-karta-statej.csv.
 Сырые ответы: inputs/wordstat/<дата>/dynamics/. Дописывает колонки в seo/03-karta-statej.csv.
 Пиковые месяцы — по последним 12 полным месяцам; коэффициент = max/min за эти 12 месяцев."""
 import csv, json, os, time, glob, urllib.request
@@ -6,11 +7,12 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 day = sorted(glob.glob(os.path.join(ROOT, 'inputs', 'wordstat', '20*')))[-1]
 dd = os.path.join(day, 'dynamics'); os.makedirs(dd, exist_ok=True)
 MON = 'янв фев мар апр май июн июл авг сен окт ноя дек'.split()
-path = os.path.join(ROOT, 'seo', '03-karta-statej.csv')
+import sys
+path = os.path.join(ROOT, 'seo', sys.argv[1] if len(sys.argv) > 1 else '03-karta-statej.csv')
 rows = list(csv.DictReader(open(path, encoding='utf-8')))
 for r in rows:
-    head = r['heads'].split(' | ')[0]; f = os.path.join(dd, head.replace(' ', '_') + '.json')
-    if not os.path.exists(f):
+    head = (r.get('heads') or r['article_head']).split(' | ')[0]; f = os.path.join(dd, head.replace(' ', '_') + '.json')
+    if not os.path.exists(f) and os.environ.get('OFFLINE') != '1':
         body = json.dumps({"phrase": head, "period": "PERIOD_MONTHLY", "fromDate": "2024-11-01T00:00:00Z", "toDate": "2026-10-31T23:59:59Z", "regions": ["225"], "devices": ["DEVICE_ALL"]}).encode()
         for a in range(4):
             try:
