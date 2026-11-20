@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Температура у ребёнка без других симптомов: что это может быть и когда к врачу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/temperatura/temperatura-u-rebenka-bez-simptomov",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[ФИО], д. м. н., профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему у ребёнка температура без симптомов?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего это начало вирусной инфекции. Бывает после прививки. Иногда причину находит только врач — например, по анализу мочи."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Опасна ли температура без симптомов у грудничка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сама по себе — не всегда. Но у малыша до 6 месяцев её лучше показать врачу, а до 3 месяцев при 38 °C и выше — сразу вызывать скорую."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Может ли температура быть из-за зубов?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Небольшая — возможно. Высокую не стоит списывать на зубы без осмотра."
+     }
+    }
+   ]
+  }
+ ]
+}

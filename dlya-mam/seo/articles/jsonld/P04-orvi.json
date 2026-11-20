@@ -1,0 +1,65 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "ОРВИ у ребёнка до года: как проходит простуда и когда нужен врач",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/nos-gorlo-ushi-glaza/orvi-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[ФИО], д. м. н., профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько длится ОРВИ у ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего около недели. Кашель может держаться дольше — иногда несколько недель."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько дней может держаться температура при ОРВИ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно несколько дней. Если 5 дней и дольше — покажите ребёнка врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужны ли антибиотики при ОРВИ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, антибиотики на вирусы не действуют. Решение о любом лечении — за врачом."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как часто малыш может болеть ОРВИ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Несколько простуд в год у детей раннего возраста — обычное дело, особенно в холодный сезон."
+     }
+    }
+   ]
+  }
+ ]
+}

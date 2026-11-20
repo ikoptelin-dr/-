@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ложный круп у ребёнка: лающий кашель ночью — что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kashel-i-dyhanie/lozhnyy-krup",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[ФИО], д. м. н., профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать при лающем кашле ночью?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Успокойте ребёнка, держите вертикально, предложите попить. Если шумный вдох слышен в покое или втягивается кожа на шее и между рёбрами — звоните 103 или 112."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Чем ложный круп отличается от обычного кашля?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Лающим кашлем, осиплостью и шумным вдохом из-за отёка гортани."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "В каком возрасте бывает круп?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего от 6 месяцев до 6 лет, пик — от полугода до 2–3 лет."
+     }
+    }
+   ]
+  }
+ ]
+}

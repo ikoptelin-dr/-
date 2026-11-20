@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Насморк у малыша до года: как помочь дышать и есть",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/nos-gorlo-ushi-glaza/nasmork-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[ФИО], д. м. н., профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что малышу хватает еды при насморке?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Считайте мокрые подгузники. Если их заметно меньше обычного или ребёнок ест примерно вдвое меньше — покажите его врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли поднимать изголовье кроватки?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Подушку под голову малышу до года класть нельзя. Как облегчить сон, обсудите с врачом."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда насморк у грудничка должен пройти?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При обычной простуде — обычно за неделю-полторы. Если дольше или хуже — к врачу."
+     }
+    }
+   ]
+  }
+ ]
+}
