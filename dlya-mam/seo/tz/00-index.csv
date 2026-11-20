@@ -149,56 +149,56 @@ tier,rank,hub,article,reviewer,demand_rf_30d,tz_file,status
 3,253,Неврология и ортопедия,кривошея у новорожденных,педиатр,6025,seo/tz/T3/253-krivosheya-u-novorozhdennyh.md,черновик написан: seo/articles/t3/T3-17
 3,296,Неврология и ортопедия,тремор у новорожденных,педиатр,2295,seo/tz/T3/296-tremor-u-novorozhdennyh.md,вписан разделом в seo/articles/t3/T3-16
 3,300,Неврология и ортопедия,судороги у новорожденных,педиатр,1765,seo/tz/T3/300-sudorogi-u-novorozhdennyh.md,вписан разделом в seo/articles/t2/T2-16
-4,2,Вес и рост,рост ребенка,педиатр,712093,seo/tz/T4/002-rost-rebenka.md,ТЗ готово
-4,4,Вес и рост,вес ребенка,педиатр,680126,seo/tz/T4/004-ves-rebenka.md,ТЗ готово
-4,8,Развитие по месяцам,ребенок ходит,педиатр,396804,seo/tz/T4/008-rebenok-hodit.md,ТЗ готово
-4,10,Развитие по месяцам,ребенок 1 месяц,педиатр,355666,seo/tz/T4/010-rebenok-1-mesyac.md,ТЗ готово
-4,11,Развитие по месяцам,ребенок 3 месяца,педиатр,318676,seo/tz/T4/011-rebenok-3-mesyaca.md,ТЗ готово
-4,12,Развитие по месяцам,ребенок 5 месяцев,педиатр,316380,seo/tz/T4/012-rebenok-5-mesyacev.md,ТЗ готово
-4,16,Зубы и рот,прорезывание зубов,педиатр,286353,seo/tz/T4/016-prorezyvanie-zubov.md,ТЗ готово
-4,138,Прикорм,во сколько вводить прикорм,педиатр,18088,seo/tz/T4/138-vo-skolko-vvodit-prikorm.md,ТЗ готово
-4,148,Грудное вскармливание,грудь при грудном вскармливании,педиатр,16091,seo/tz/T4/148-grud-pri-grudnom-vskarmlivanii.md,ТЗ готово
-4,158,Грудное вскармливание,можно ли пить при грудном вскармливании,педиатр,13805,seo/tz/T4/158-mozhno-li-pit-pri-grudnom-vskarmlivanii.md,ТЗ готово
-4,167,Грудное вскармливание,во время грудного вскармливания,педиатр,12797,seo/tz/T4/167-vo-vremya-grudnogo-vskarmlivaniya.md,ТЗ готово
-4,188,Искусственное вскармливание,прикорм на искусственном вскармливании,педиатр,10338,seo/tz/T4/188-prikorm-na-iskusstvennom-vskarmlivanii.md,ТЗ готово
-4,200,Грудное вскармливание,месячные при грудном вскармливании,педиатр,9843,seo/tz/T4/200-mesyachnye-pri-grudnom-vskarmlivanii.md,ТЗ готово
-4,202,Грудное вскармливание,трещины на сосках,педиатр,9832,seo/tz/T4/202-treschiny-na-soskah.md,ТЗ готово
-4,213,Прикорм,трекер прикорма,педиатр,9080,seo/tz/T4/213-treker-prikorma.md,ТЗ готово
-4,222,Грудное вскармливание,что кушать при грудном вскармливании,педиатр,8367,seo/tz/T4/222-chto-kushat-pri-grudnom-vskarmlivanii.md,ТЗ готово
-4,228,Прикорм,яйцо в прикорм,педиатр,7988,seo/tz/T4/228-yayco-v-prikorm.md,ТЗ готово
-4,229,Искусственное вскармливание,вода новорожденным при искусственном вскармливании,педиатр,7704,seo/tz/T4/229-voda-novorozhdennym-pri-iskusstvennom-vskarmlivanii.md,ТЗ готово
-4,235,Прикорм,прикорм безмолочной кашей,педиатр,7121,seo/tz/T4/235-prikorm-bezmolochnoy-kashey.md,ТЗ готово
-4,242,Искусственное вскармливание,сколько смеси давать новорожденному,педиатр,6796,seo/tz/T4/242-skolko-smesi-davat-novorozhdennomu.md,ТЗ готово
-4,250,Грудное вскармливание,бассейн для грудничков,педиатр,6356,seo/tz/T4/250-basseyn-dlya-grudnichkov.md,ТЗ готово
-4,255,Прикорм,как приготовить пюре для прикорма,педиатр,5956,seo/tz/T4/255-kak-prigotovit-pyure-dlya-prikorma.md,ТЗ готово
-4,257,Искусственное вскармливание,сколько смеси съедает новорожденный,педиатр,5588,seo/tz/T4/257-skolko-smesi-sedaet-novorozhdennyy.md,ТЗ готово
-4,260,Грудное вскармливание,боль при грудном вскармливании,педиатр,5474,seo/tz/T4/260-bol-pri-grudnom-vskarmlivanii.md,ТЗ готово
-4,262,Грудное вскармливание,сколько хранить грудное молоко после сцеживания,педиатр,5329,seo/tz/T4/262-skolko-hranit-grudnoe-moloko-posle-scezhivaniya.md,ТЗ готово
-4,263,Искусственное вскармливание,как кормить новорожденного смесью,педиатр,5320,seo/tz/T4/263-kak-kormit-novorozhdennogo-smesyu.md,ТЗ готово
-4,266,Грудное вскармливание,витамины при грудном вскармливании,педиатр,5121,seo/tz/T4/266-vitaminy-pri-grudnom-vskarmlivanii.md,ТЗ готово
-4,270,Грудное вскармливание,давать ли воду новорожденным при грудном вскармливании,педиатр,4977,seo/tz/T4/270-davat-li-vodu-novorozhdennym-pri-grudnom-vskarmlivanii.md,ТЗ готово
-4,271,Грудное вскармливание,упражнения для грудничков,педиатр,4902,seo/tz/T4/271-uprazhneniya-dlya-grudnichkov.md,ТЗ готово
-4,272,Прикорм,прикорм кусочками,педиатр,4830,seo/tz/T4/272-prikorm-kusochkami.md,ТЗ готово
-4,273,Грудное вскармливание,начало прикорма при грудном вскармливании,педиатр,4777,seo/tz/T4/273-nachalo-prikorma-pri-grudnom-vskarmlivanii.md,ТЗ готово
-4,274,Грудное вскармливание,гнойный мастит,педиатр,4736,seo/tz/T4/274-gnoynyy-mastit.md,ТЗ готово
-4,276,Искусственное вскармливание,как разводить смесь для новорожденных,педиатр,4666,seo/tz/T4/276-kak-razvodit-smes-dlya-novorozhdennyh.md,ТЗ готово
-4,277,Грудное вскармливание,мастит груди,педиатр,4606,seo/tz/T4/277-mastit-grudi.md,ТЗ готово
-4,279,Грудное вскармливание,грудное вскармливание болит,педиатр,4584,seo/tz/T4/279-grudnoe-vskarmlivanie-bolit.md,ТЗ готово
-4,281,Прикорм,меню прикорма,педиатр,4538,seo/tz/T4/281-menyu-prikorma.md,ТЗ готово
-4,282,Грудное вскармливание,массаж при лактостазе,педиатр,4525,seo/tz/T4/282-massazh-pri-laktostaze.md,ТЗ готово
-4,284,Прикорм,прикорм мясо,педиатр,4345,seo/tz/T4/284-prikorm-myaso.md,ТЗ готово
-4,286,Прикорм,тыква для прикорма,педиатр,3764,seo/tz/T4/286-tykva-dlya-prikorma.md,ТЗ готово
-4,287,Прикорм,яблоко прикорм,педиатр,3753,seo/tz/T4/287-yabloko-prikorm.md,ТЗ готово
-4,288,Прикорм,гречневая каша прикорм,педиатр,3550,seo/tz/T4/288-grechnevaya-kasha-prikorm.md,ТЗ готово
-4,289,Прикорм,цветная капуста прикорм,педиатр,3476,seo/tz/T4/289-cvetnaya-kapusta-prikorm.md,ТЗ готово
-4,290,Прикорм,рецепты для прикорма,педиатр,3249,seo/tz/T4/290-recepty-dlya-prikorma.md,ТЗ готово
-4,291,Прикорм,аллергены в прикорме,педиатр,3213,seo/tz/T4/291-allergeny-v-prikorme.md,ТЗ готово
-4,292,Прикорм,брокколи для прикорма,педиатр,2961,seo/tz/T4/292-brokkoli-dlya-prikorma.md,ТЗ готово
-4,293,Прикорм,прикорм морковь,педиатр,2619,seo/tz/T4/293-prikorm-morkov.md,ТЗ готово
-4,294,Прикорм,прикорм на пару,педиатр,2367,seo/tz/T4/294-prikorm-na-paru.md,ТЗ готово
-4,295,Прикорм,ребенок отказывается от прикорма,педиатр,2338,seo/tz/T4/295-rebenok-otkazyvaetsya-ot-prikorma.md,ТЗ готово
-4,297,Прикорм,пюре из кабачков для прикорма,педиатр,2003,seo/tz/T4/297-pyure-iz-kabachkov-dlya-prikorma.md,ТЗ готово
-4,299,Прикорм,как сделать пюре для прикорма,педиатр,1951,seo/tz/T4/299-kak-sdelat-pyure-dlya-prikorma.md,ТЗ готово
+4,2,Вес и рост,рост ребенка,педиатр,712093,seo/tz/T4/002-rost-rebenka.md,черновик написан: seo/articles/t4/T4-01
+4,4,Вес и рост,вес ребенка,педиатр,680126,seo/tz/T4/004-ves-rebenka.md,черновик написан: seo/articles/t4/T4-02
+4,8,Развитие по месяцам,ребенок ходит,педиатр,396804,seo/tz/T4/008-rebenok-hodit.md,черновик написан: seo/articles/t4/T4-03
+4,10,Развитие по месяцам,ребенок 1 месяц,педиатр,355666,seo/tz/T4/010-rebenok-1-mesyac.md,черновик написан: seo/articles/t4/T4-04
+4,11,Развитие по месяцам,ребенок 3 месяца,педиатр,318676,seo/tz/T4/011-rebenok-3-mesyaca.md,черновик написан: seo/articles/t4/T4-05
+4,12,Развитие по месяцам,ребенок 5 месяцев,педиатр,316380,seo/tz/T4/012-rebenok-5-mesyacev.md,черновик написан: seo/articles/t4/T4-06
+4,16,Зубы и рот,прорезывание зубов,педиатр,286353,seo/tz/T4/016-prorezyvanie-zubov.md,черновик написан: seo/articles/t4/T4-07
+4,138,Прикорм,во сколько вводить прикорм,педиатр,18088,seo/tz/T4/138-vo-skolko-vvodit-prikorm.md,вписан разделом в seo/articles/t4/T4-14
+4,148,Грудное вскармливание,грудь при грудном вскармливании,педиатр,16091,seo/tz/T4/148-grud-pri-grudnom-vskarmlivanii.md,вписан разделом в seo/articles/t4/T4-10
+4,158,Грудное вскармливание,можно ли пить при грудном вскармливании,педиатр,13805,seo/tz/T4/158-mozhno-li-pit-pri-grudnom-vskarmlivanii.md,вписан разделом в seo/articles/t4/T4-08
+4,167,Грудное вскармливание,во время грудного вскармливания,педиатр,12797,seo/tz/T4/167-vo-vremya-grudnogo-vskarmlivaniya.md,вписан разделом в seo/articles/t4/T4-08
+4,188,Искусственное вскармливание,прикорм на искусственном вскармливании,педиатр,10338,seo/tz/T4/188-prikorm-na-iskusstvennom-vskarmlivanii.md,вписан разделом в seo/articles/t3/T3-06
+4,200,Грудное вскармливание,месячные при грудном вскармливании,педиатр,9843,seo/tz/T4/200-mesyachnye-pri-grudnom-vskarmlivanii.md,черновик написан: seo/articles/t4/T4-09
+4,202,Грудное вскармливание,трещины на сосках,педиатр,9832,seo/tz/T4/202-treschiny-na-soskah.md,черновик написан: seo/articles/t4/T4-10
+4,213,Прикорм,трекер прикорма,педиатр,9080,seo/tz/T4/213-treker-prikorma.md,вписан разделом в seo/articles/t4/T4-14
+4,222,Грудное вскармливание,что кушать при грудном вскармливании,педиатр,8367,seo/tz/T4/222-chto-kushat-pri-grudnom-vskarmlivanii.md,черновик написан: seo/articles/t4/T4-08
+4,228,Прикорм,яйцо в прикорм,педиатр,7988,seo/tz/T4/228-yayco-v-prikorm.md,вписан разделом в seo/articles/t4/T4-11
+4,229,Искусственное вскармливание,вода новорожденным при искусственном вскармливании,педиатр,7704,seo/tz/T4/229-voda-novorozhdennym-pri-iskusstvennom-vskarmlivanii.md,вписан разделом в seo/articles/t3/T3-09
+4,235,Прикорм,прикорм безмолочной кашей,педиатр,7121,seo/tz/T4/235-prikorm-bezmolochnoy-kashey.md,вписан разделом в seo/articles/t3/T3-07
+4,242,Искусственное вскармливание,сколько смеси давать новорожденному,педиатр,6796,seo/tz/T4/242-skolko-smesi-davat-novorozhdennomu.md,вписан разделом в seo/articles/t3/T3-08
+4,250,Грудное вскармливание,бассейн для грудничков,педиатр,6356,seo/tz/T4/250-basseyn-dlya-grudnichkov.md,черновик написан: seo/articles/t4/T4-15
+4,255,Прикорм,как приготовить пюре для прикорма,педиатр,5956,seo/tz/T4/255-kak-prigotovit-pyure-dlya-prikorma.md,вписан разделом в seo/articles/t3/T3-07
+4,257,Искусственное вскармливание,сколько смеси съедает новорожденный,педиатр,5588,seo/tz/T4/257-skolko-smesi-sedaet-novorozhdennyy.md,вписан разделом в seo/articles/t3/T3-08
+4,260,Грудное вскармливание,боль при грудном вскармливании,педиатр,5474,seo/tz/T4/260-bol-pri-grudnom-vskarmlivanii.md,вписан разделом в seo/articles/t4/T4-10
+4,262,Грудное вскармливание,сколько хранить грудное молоко после сцеживания,педиатр,5329,seo/tz/T4/262-skolko-hranit-grudnoe-moloko-posle-scezhivaniya.md,вписан разделом в seo/articles/t3/T3-05
+4,263,Искусственное вскармливание,как кормить новорожденного смесью,педиатр,5320,seo/tz/T4/263-kak-kormit-novorozhdennogo-smesyu.md,вписан разделом в seo/articles/t3/T3-08
+4,266,Грудное вскармливание,витамины при грудном вскармливании,педиатр,5121,seo/tz/T4/266-vitaminy-pri-grudnom-vskarmlivanii.md,вписан разделом в seo/articles/t4/T4-08
+4,270,Грудное вскармливание,давать ли воду новорожденным при грудном вскармливании,педиатр,4977,seo/tz/T4/270-davat-li-vodu-novorozhdennym-pri-grudnom-vskarmlivanii.md,вписан разделом в seo/articles/t3/T3-09
+4,271,Грудное вскармливание,упражнения для грудничков,педиатр,4902,seo/tz/T4/271-uprazhneniya-dlya-grudnichkov.md,вписан разделом в seo/articles/t4/T4-15
+4,272,Прикорм,прикорм кусочками,педиатр,4830,seo/tz/T4/272-prikorm-kusochkami.md,черновик написан: seo/articles/t4/T4-12
+4,273,Грудное вскармливание,начало прикорма при грудном вскармливании,педиатр,4777,seo/tz/T4/273-nachalo-prikorma-pri-grudnom-vskarmlivanii.md,вписан разделом в seo/articles/t3/T3-06
+4,274,Грудное вскармливание,гнойный мастит,педиатр,4736,seo/tz/T4/274-gnoynyy-mastit.md,вписан разделом в seo/articles/t3/T3-02
+4,276,Искусственное вскармливание,как разводить смесь для новорожденных,педиатр,4666,seo/tz/T4/276-kak-razvodit-smes-dlya-novorozhdennyh.md,вписан разделом в seo/articles/t3/T3-08
+4,277,Грудное вскармливание,мастит груди,педиатр,4606,seo/tz/T4/277-mastit-grudi.md,вписан разделом в seo/articles/t3/T3-02
+4,279,Грудное вскармливание,грудное вскармливание болит,педиатр,4584,seo/tz/T4/279-grudnoe-vskarmlivanie-bolit.md,вписан разделом в seo/articles/t4/T4-10
+4,281,Прикорм,меню прикорма,педиатр,4538,seo/tz/T4/281-menyu-prikorma.md,черновик написан: seo/articles/t4/T4-14
+4,282,Грудное вскармливание,массаж при лактостазе,педиатр,4525,seo/tz/T4/282-massazh-pri-laktostaze.md,вписан разделом в seo/articles/t3/T3-03
+4,284,Прикорм,прикорм мясо,педиатр,4345,seo/tz/T4/284-prikorm-myaso.md,вписан разделом в seo/articles/t4/T4-11
+4,286,Прикорм,тыква для прикорма,педиатр,3764,seo/tz/T4/286-tykva-dlya-prikorma.md,вписан разделом в seo/articles/t3/T3-07
+4,287,Прикорм,яблоко прикорм,педиатр,3753,seo/tz/T4/287-yabloko-prikorm.md,вписан разделом в seo/articles/t3/T3-07
+4,288,Прикорм,гречневая каша прикорм,педиатр,3550,seo/tz/T4/288-grechnevaya-kasha-prikorm.md,вписан разделом в seo/articles/t3/T3-07
+4,289,Прикорм,цветная капуста прикорм,педиатр,3476,seo/tz/T4/289-cvetnaya-kapusta-prikorm.md,вписан разделом в seo/articles/t3/T3-07
+4,290,Прикорм,рецепты для прикорма,педиатр,3249,seo/tz/T4/290-recepty-dlya-prikorma.md,вписан разделом в seo/articles/t3/T3-07
+4,291,Прикорм,аллергены в прикорме,педиатр,3213,seo/tz/T4/291-allergeny-v-prikorme.md,черновик написан: seo/articles/t4/T4-11
+4,292,Прикорм,брокколи для прикорма,педиатр,2961,seo/tz/T4/292-brokkoli-dlya-prikorma.md,вписан разделом в seo/articles/t3/T3-07
+4,293,Прикорм,прикорм морковь,педиатр,2619,seo/tz/T4/293-prikorm-morkov.md,вписан разделом в seo/articles/t3/T3-07
+4,294,Прикорм,прикорм на пару,педиатр,2367,seo/tz/T4/294-prikorm-na-paru.md,вписан разделом в seo/articles/t3/T3-07
+4,295,Прикорм,ребенок отказывается от прикорма,педиатр,2338,seo/tz/T4/295-rebenok-otkazyvaetsya-ot-prikorma.md,черновик написан: seo/articles/t4/T4-13
+4,297,Прикорм,пюре из кабачков для прикорма,педиатр,2003,seo/tz/T4/297-pyure-iz-kabachkov-dlya-prikorma.md,вписан разделом в seo/articles/t3/T3-07
+4,299,Прикорм,как сделать пюре для прикорма,педиатр,1951,seo/tz/T4/299-kak-sdelat-pyure-dlya-prikorma.md,вписан разделом в seo/articles/t3/T3-07
 5,17,Развитие по месяцам,ребенок 2 месяца,педиатр,285096,seo/tz/T5/017-rebenok-2-mesyaca.md,ТЗ готово
 5,18,Развитие по месяцам,ребенок 4 месяца,педиатр,224377,seo/tz/T5/018-rebenok-4-mesyaca.md,ТЗ готово
 5,19,Развитие по месяцам,ребенок 6 месяцев,педиатр,217966,seo/tz/T5/019-rebenok-6-mesyacev.md,ТЗ готово

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Прикорм кусочками: как начать безопасно",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/prikorm/prikorm-kusochkami",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "С какого возраста можно прикорм кусочками?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Когда малыш уверенно сидит и тянет еду в рот — обсудите с педиатром."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Какие продукты давать кусочками?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Мягкие, легко раздавливаемые пальцами: варёные овощи, мягкие фрукты."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как отличить рвотный рефлекс от удушья?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При рвотном рефлексе малыш кашляет и справляется сам. При удушье — молчит, не может дышать."
+     }
+    }
+   ]
+  }
+ ]
+}

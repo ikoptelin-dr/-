@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок в 1 месяц: что умеет и что должно насторожить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/razvitie/rebenok-1-mesyac",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что должен уметь ребёнок в 1 месяц?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ненадолго поднимать голову на животике, смотреть на лицо, реагировать на звуки."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько спит ребёнок в 1 месяц?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Большую часть суток, короткими отрезками."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Каких врачей нужно пройти в 1 месяц?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По графику педиатра — обычно педиатр, невролог, хирург, офтальмолог и обследования."
+     }
+    }
+   ]
+  }
+ ]
+}

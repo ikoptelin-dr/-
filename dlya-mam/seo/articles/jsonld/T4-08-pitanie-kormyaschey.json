@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Что можно есть и пить кормящей маме",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/grudnoe-vskarmlivanie/chto-kushat-pri-grudnom-vskarmlivanii",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что можно есть кормящей маме?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Разнообразную обычную еду. Строгая диета без показаний не нужна."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли пить алкоголь при грудном вскармливании?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Лучше не употреблять."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужны ли витамины кормящей маме?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Решает врач."
+     }
+    }
+   ]
+  }
+ ]
+}

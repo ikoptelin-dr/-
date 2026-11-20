@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Бассейн и упражнения для грудничков: польза и безопасность",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/bassein-dlya-grudnichkov",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "С какого возраста можно в бассейн с малышом?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Уточните у педиатра. Важно, чтобы малыш был здоров и занятия вёл инструктор."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Какие упражнения делать грудничку дома?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Выкладывание на живот, игры с движениями ручек и ножек, лёгкие поглаживания."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли нырять малышу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет."
+     }
+    }
+   ]
+  }
+ ]
+}

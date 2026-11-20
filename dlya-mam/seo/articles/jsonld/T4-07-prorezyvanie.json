@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Прорезывание зубов: сроки, признаки и как помочь малышу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zuby-i-rot/prorezyvanie-zubov",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Когда режутся первые зубы?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще около 6 месяцев, норма — примерно от 4 до 12 месяцев."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Какие зубы режутся первыми?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно нижние центральные."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда начинать чистить зубы?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "С первого зуба — мягкой щёткой."
+     }
+    }
+   ]
+  }
+ ]
+}

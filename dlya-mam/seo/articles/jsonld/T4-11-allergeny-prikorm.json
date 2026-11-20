@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Яйцо, мясо и аллергенные продукты в прикорме",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/prikorm/allergeny-v-prikorme",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Когда давать яйцо в прикорм?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сроки уточните у педиатра. Яйцо — только хорошо проваренное, начиная с малого количества."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда вводить мясо в прикорм?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно во втором полугодии, по рекомендации педиатра."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как понять, что у малыша аллергия на продукт?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сыпь, рвота, кровь в стуле, отёк — после нового продукта. Отёк и затруднённое дыхание — скорая."
+     }
+    }
+   ]
+  }
+ ]
+}

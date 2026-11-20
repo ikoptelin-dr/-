@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок в 3 месяца: что умеет и что должно насторожить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/razvitie/rebenok-3-mesyaca",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что должен уметь ребёнок в 3 месяца?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Держать голову, улыбаться, следить глазами, гулить."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок в 3 месяца не держит голову?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Показать педиатру — он оценит и при необходимости направит к неврологу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как развивать ребёнка в 3 месяца?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Выкладывать на живот, разговаривать, играть с яркими игрушками."
+     }
+    }
+   ]
+  }
+ ]
+}

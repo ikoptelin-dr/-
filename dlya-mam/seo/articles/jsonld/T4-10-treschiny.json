@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Трещины на сосках и боль при кормлении: что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/grudnoe-vskarmlivanie/treschiny-na-soskah",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему больно кормить грудью?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего из-за неправильного захвата."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как лечить трещины на сосках?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Исправить захват, давать соску подсохнуть на воздухе. Средства — по совету врача."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли прекращать кормление при трещинах?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно нет. Обсудите с врачом."
+     }
+    }
+   ]
+  }
+ ]
+}

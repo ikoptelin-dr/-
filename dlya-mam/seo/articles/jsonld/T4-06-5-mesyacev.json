@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок в 5 месяцев: что умеет и что должно насторожить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/razvitie/rebenok-5-mesyacev",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что должен уметь ребёнок в 5 месяцев?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Тянуться и хватать игрушки, смеяться, лепетать, многие переворачиваются."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли сажать ребёнка в 5 месяцев?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сидеть с поддержкой — да ненадолго; сажать в подушки надолго не нужно."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда вводить прикорм — в 5 месяцев?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно около 6 месяцев. Сроки уточните у педиатра."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Месячные при грудном вскармливании: когда вернутся и можно ли кормить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/grudnoe-vskarmlivanie/mesyachnye-pri-grudnom-vskarmlivanii",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Когда приходят месячные при грудном вскармливании?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Индивидуально — от нескольких недель до года и позже."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли кормить грудью во время месячных?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли забеременеть до первых месячных?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, поэтому контрацепцию обсудите с врачом."
+     }
+    }
+   ]
+  }
+ ]
+}

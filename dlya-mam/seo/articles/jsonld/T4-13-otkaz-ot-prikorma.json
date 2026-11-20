@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок отказывается от прикорма: что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/prikorm/rebenok-otkazyvaetsya-ot-prikorma",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок не ест прикорм?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Предлагать снова через несколько дней, понемногу, без принуждения."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько раз нужно предложить новый продукт?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Иногда до 10–15 раз, прежде чем малыш его примет."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда отказ от еды — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если малыш отказывается от всего и плохо прибавляет."
+     }
+    }
+   ]
+  }
+ ]
+}

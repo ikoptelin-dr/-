@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Схема прикорма по месяцам: что и когда вводить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/prikorm/tablica-prikorma",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Во сколько вводить прикорм?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно около 6 месяцев — по рекомендации педиатра."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "В каком порядке вводить продукты?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно овощи или каши, затем мясо, фрукты, позже кисломолочные, яйцо, рыба. Уточните у педиатра."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Зачем вести трекер прикорма?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чтобы видеть, что ввели и была ли реакция."
+     }
+    }
+   ]
+  }
+ ]
+}
