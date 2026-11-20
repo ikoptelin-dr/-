@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Судороги при температуре у ребёнка: что делать в первые минуты",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/temperatura/sudorogi-pri-temperature-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если у ребёнка судороги при температуре?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Уложить на бок, ничего не класть в рот, засечь время и вызывать скорую."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли вызывать скорую, если судороги уже прошли?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, вне всякого сомнения, — даже если они длились 1–2 минуты."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли предотвратить судороги жаропонижающими?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет. Жаропонижающие не предупреждают судороги при температуре. Их назначает врач по самочувствию ребёнка."
+     }
+    }
+   ]
+  }
+ ]
+}

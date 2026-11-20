@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Понос у ребёнка: как выпаивать и когда вызывать скорую",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zhivot-i-stul/ponos-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если у ребёнка понос?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Выпаивать маленькими порциями, продолжать кормить грудью, следить за мокрыми подгузниками."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Опасен ли понос с температурой?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Это повод показать ребёнка врачу. Если малыш вялый и мало писает — скорая."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как понять, что у ребёнка обезвоживание?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Мало мокрых подгузников, сухие губы, запавший родничок, плачет без слёз, вялость."
+     }
+    }
+   ]
+  }
+ ]
+}

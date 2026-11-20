@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Дисплазия тазобедренных суставов у малыша: как заметить и что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/nevrologiya-i-ortopediya/displaziya-tazobedrennyh-sustavov",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что у малыша дисплазия?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Насторожить должны разная длина ножек, несимметричные складки, плохое разведение ножек. Диагноз ставит врач по осмотру и УЗИ."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда делают УЗИ тазобедренных суставов?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "В первые месяцы жизни, в сроки, которые назначит педиатр."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли туго пеленать малыша?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет: ножкам нужно оставаться согнутыми и разведёнными."
+     }
+    }
+   ]
+  }
+ ]
+}

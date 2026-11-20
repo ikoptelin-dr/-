@@ -50,55 +50,55 @@ tier,rank,hub,article,reviewer,demand_rf_30d,tz_file,status
 1,241,Температура,почему у ребенка поднимается температура,педиатр,6805,seo/tz/T1/241-pochemu-u-rebenka-podnimaetsya-temperatura.md,вписан разделом в seo/articles/t1/T1-01
 1,298,Ночью и скорая,при какой температуре вызывать скорую ребенку,педиатр,1990,seo/tz/T1/298-pri-kakoy-temperature-vyzyvat-skoruyu-rebenku.md,вписан разделом в seo/articles/E2
 2,7,Живот и стул,колики,педиатр,502281,seo/tz/T2/007-koliki.md,черновик написан: seo/articles/denisov/D05
-2,13,Новорождённый и уход,кормление новорожденного,педиатр,315465,seo/tz/T2/013-kormlenie-novorozhdennogo.md,ТЗ готово
-2,14,Новорождённый и уход,родничок,педиатр,297570,seo/tz/T2/014-rodnichok.md,ТЗ готово
-2,28,Кожа,ветрянка у детей,дерматолог,154550,seo/tz/T2/028-vetryanka-u-detey.md,ТЗ готово
-2,33,Живот и стул,стул новорожденного,педиатр,125398,seo/tz/T2/033-stul-novorozhdennogo.md,ТЗ готово
-2,35,Живот и стул,понос у ребенка,педиатр,123057,seo/tz/T2/035-ponos-u-rebenka.md,ТЗ готово
-2,42,Живот и стул,срыгивание,педиатр,99125,seo/tz/T2/042-srygivanie.md,ТЗ готово
-2,49,Новорождённый и уход,голова новорожденного,педиатр,81183,seo/tz/T2/049-golova-novorozhdennogo.md,ТЗ готово
+2,13,Новорождённый и уход,кормление новорожденного,педиатр,315465,seo/tz/T2/013-kormlenie-novorozhdennogo.md,черновик написан: seo/articles/t2/T2-01
+2,14,Новорождённый и уход,родничок,педиатр,297570,seo/tz/T2/014-rodnichok.md,черновик написан: seo/articles/t2/T2-02
+2,28,Кожа,ветрянка у детей,дерматолог,154550,seo/tz/T2/028-vetryanka-u-detey.md,черновик написан: seo/articles/t2/T2-03
+2,33,Живот и стул,стул новорожденного,педиатр,125398,seo/tz/T2/033-stul-novorozhdennogo.md,черновик написан: seo/articles/t2/T2-04
+2,35,Живот и стул,понос у ребенка,педиатр,123057,seo/tz/T2/035-ponos-u-rebenka.md,черновик написан: seo/articles/t2/T2-05
+2,42,Живот и стул,срыгивание,педиатр,99125,seo/tz/T2/042-srygivanie.md,черновик написан: seo/articles/t2/T2-07
+2,49,Новорождённый и уход,голова новорожденного,педиатр,81183,seo/tz/T2/049-golova-novorozhdennogo.md,вписан разделом в seo/articles/t2/T2-02
 2,52,Новорождённый и уход,желтушка у новорожденных,педиатр,70960,seo/tz/T2/052-zheltushka-u-novorozhdennyh.md,черновик написан: seo/articles/denisov/D07
-2,57,Новорождённый и уход,купание новорожденного,педиатр,61011,seo/tz/T2/057-kupanie-novorozhdennogo.md,ТЗ готово
+2,57,Новорождённый и уход,купание новорожденного,педиатр,61011,seo/tz/T2/057-kupanie-novorozhdennogo.md,вписан разделом в seo/articles/t1/T1-11
 2,58,Новорождённый и уход,пупок новорожденного,педиатр,59382,seo/tz/T2/058-pupok-novorozhdennogo.md,черновик написан: seo/articles/denisov/D08
-2,68,Живот и стул,лактазная недостаточность,педиатр,51824,seo/tz/T2/068-laktaznaya-nedostatochnost.md,ТЗ готово
-2,70,Живот и стул,запор у новорожденного,педиатр,50256,seo/tz/T2/070-zapor-u-novorozhdennogo.md,ТЗ готово
-2,73,Новорождённый и уход,массаж новорожденному,педиатр,49342,seo/tz/T2/073-massazh-novorozhdennomu.md,ТЗ готово
-2,74,Неврология и ортопедия,дисплазия тазобедренных суставов,педиатр,48533,seo/tz/T2/074-displaziya-tazobedrennyh-sustavov.md,ТЗ готово
-2,78,Живот и стул,рвота и понос у ребенка,педиатр,45239,seo/tz/T2/078-rvota-i-ponos-u-rebenka.md,ТЗ готово
-2,79,Живот и стул,рвота и температура у ребенка,педиатр,45075,seo/tz/T2/079-rvota-i-temperatura-u-rebenka.md,ТЗ готово
+2,68,Живот и стул,лактазная недостаточность,педиатр,51824,seo/tz/T2/068-laktaznaya-nedostatochnost.md,черновик написан: seo/articles/t2/T2-08
+2,70,Живот и стул,запор у новорожденного,педиатр,50256,seo/tz/T2/070-zapor-u-novorozhdennogo.md,черновик написан: seo/articles/t2/T2-09
+2,73,Новорождённый и уход,массаж новорожденному,педиатр,49342,seo/tz/T2/073-massazh-novorozhdennomu.md,черновик написан: seo/articles/t2/T2-10
+2,74,Неврология и ортопедия,дисплазия тазобедренных суставов,педиатр,48533,seo/tz/T2/074-displaziya-tazobedrennyh-sustavov.md,черновик написан: seo/articles/t2/T2-11
+2,78,Живот и стул,рвота и понос у ребенка,педиатр,45239,seo/tz/T2/078-rvota-i-ponos-u-rebenka.md,вписан разделом в seo/articles/t2/T2-06
+2,79,Живот и стул,рвота и температура у ребенка,педиатр,45075,seo/tz/T2/079-rvota-i-temperatura-u-rebenka.md,вписан разделом в seo/articles/denisov/D03
 2,81,Живот и стул,рвота у ребенка что делать,педиатр,44764,seo/tz/T2/081-rvota-u-rebenka-chto-delat.md,черновик написан: seo/articles/denisov/D03
-2,82,Живот и стул,понос и температура у ребенка,педиатр,42581,seo/tz/T2/082-ponos-i-temperatura-u-rebenka.md,ТЗ готово
-2,83,Новорождённый и уход,кровь новорожденного,педиатр,42087,seo/tz/T2/083-krov-novorozhdennogo.md,ТЗ готово
-2,86,Новорождённый и уход,новорожденный икает,педиатр,41467,seo/tz/T2/086-novorozhdennyy-ikaet.md,ТЗ готово
-2,90,Кожа,атопический дерматит у детей,дерматолог,39627,seo/tz/T2/090-atopicheskiy-dermatit-u-detey.md,ТЗ готово
-2,108,Живот и стул,газики у новорожденного,педиатр,28842,seo/tz/T2/108-gaziki-u-novorozhdennogo.md,ТЗ готово
-2,116,Живот и стул,ротавирус у детей,педиатр,26605,seo/tz/T2/116-rotavirus-u-detey.md,ТЗ готово
-2,121,Живот и стул,кишечная инфекция у ребенка,педиатр,24653,seo/tz/T2/121-kishechnaya-infekciya-u-rebenka.md,ТЗ готово
-2,124,Кожа,аллергия у новорожденного,дерматолог,24304,seo/tz/T2/124-allergiya-u-novorozhdennogo.md,ТЗ готово
-2,134,Кожа,аллергия на смесь,дерматолог,18833,seo/tz/T2/134-allergiya-na-smes.md,ТЗ готово
-2,155,Кожа,красная сыпь у ребенка,дерматолог,14037,seo/tz/T2/155-krasnaya-syp-u-rebenka.md,ТЗ готово
-2,156,Живот и стул,живот новорожденного ребенка,педиатр,14035,seo/tz/T2/156-zhivot-novorozhdennogo-rebenka.md,ТЗ готово
-2,173,Кожа,пятна у новорожденных,дерматолог,11571,seo/tz/T2/173-pyatna-u-novorozhdennyh.md,ТЗ готово
-2,176,Живот и стул,срыгивает фонтаном,педиатр,11085,seo/tz/T2/176-srygivaet-fontanom.md,ТЗ готово
-2,183,Живот и стул,когда начинаются колики,педиатр,10430,seo/tz/T2/183-kogda-nachinayutsya-koliki.md,ТЗ готово
-2,199,Живот и стул,колики при грудном вскармливании,педиатр,9852,seo/tz/T2/199-koliki-pri-grudnom-vskarmlivanii.md,ТЗ готово
-2,216,Живот и стул,ребенка рвет без температуры,педиатр,8818,seo/tz/T2/216-rebenka-rvet-bez-temperatury.md,ТЗ готово
-2,218,Живот и стул,у ребенка болит живот и температура,педиатр,8670,seo/tz/T2/218-u-rebenka-bolit-zhivot-i-temperatura.md,ТЗ готово
-2,230,Живот и стул,сколько раз какает новорожденный,педиатр,7463,seo/tz/T2/230-skolko-raz-kakaet-novorozhdennyy.md,ТЗ готово
-2,231,Живот и стул,зеленый стул у новорожденного,педиатр,7422,seo/tz/T2/231-zelenyy-stul-u-novorozhdennogo.md,ТЗ готово
-2,234,Живот и стул,как понять что колики,педиатр,7173,seo/tz/T2/234-kak-ponyat-chto-koliki.md,ТЗ готово
-2,243,"Нос, горло, уши, глаза",не проходит насморк у ребенка,педиатр,6751,seo/tz/T2/243-ne-prohodit-nasmork-u-rebenka.md,ТЗ готово
-2,245,"Нос, горло, уши, глаза",красное горло и температура у ребенка,педиатр,6614,seo/tz/T2/245-krasnoe-gorlo-i-temperatura-u-rebenka.md,ТЗ готово
-2,247,"Нос, горло, уши, глаза",сопли у месячного ребенка,педиатр,6442,seo/tz/T2/247-sopli-u-mesyachnogo-rebenka.md,ТЗ готово
-2,248,Температура,судороги при температуре у ребенка,педиатр,6393,seo/tz/T2/248-sudorogi-pri-temperature-u-rebenka.md,ТЗ готово
-2,249,"Нос, горло, уши, глаза",заложен нос у новорожденного,педиатр,6359,seo/tz/T2/249-zalozhen-nos-u-novorozhdennogo.md,ТЗ готово
-2,254,Температура,температура в комнате для новорожденного,педиатр,5997,seo/tz/T2/254-temperatura-v-komnate-dlya-novorozhdennogo.md,ТЗ готово
-2,261,Температура,белая температура у ребенка,педиатр,5423,seo/tz/T2/261-belaya-temperatura-u-rebenka.md,ТЗ готово
-2,264,Температура,можно купать ребенка при температуре,педиатр,5151,seo/tz/T2/264-mozhno-kupat-rebenka-pri-temperature.md,ТЗ готово
-2,267,Температура,ребенка тошнит и температура,педиатр,5106,seo/tz/T2/267-rebenka-toshnit-i-temperatura.md,ТЗ готово
-2,268,Температура,низкая температура у ребенка,педиатр,5087,seo/tz/T2/268-nizkaya-temperatura-u-rebenka.md,ТЗ готово
-2,278,Температура,температура у годовалого ребенка,педиатр,4605,seo/tz/T2/278-temperatura-u-godovalogo-rebenka.md,ТЗ готово
-2,280,Температура,температура смеси для новорожденного,педиатр,4573,seo/tz/T2/280-temperatura-smesi-dlya-novorozhdennogo.md,ТЗ готово
+2,82,Живот и стул,понос и температура у ребенка,педиатр,42581,seo/tz/T2/082-ponos-i-temperatura-u-rebenka.md,вписан разделом в seo/articles/t2/T2-05
+2,83,Новорождённый и уход,кровь новорожденного,педиатр,42087,seo/tz/T2/083-krov-novorozhdennogo.md,черновик написан: seo/articles/t2/T2-18
+2,86,Новорождённый и уход,новорожденный икает,педиатр,41467,seo/tz/T2/086-novorozhdennyy-ikaet.md,черновик написан: seo/articles/t2/T2-12
+2,90,Кожа,атопический дерматит у детей,дерматолог,39627,seo/tz/T2/090-atopicheskiy-dermatit-u-detey.md,черновик написан: seo/articles/t2/T2-13
+2,108,Живот и стул,газики у новорожденного,педиатр,28842,seo/tz/T2/108-gaziki-u-novorozhdennogo.md,вписан разделом в seo/articles/denisov/D05
+2,116,Живот и стул,ротавирус у детей,педиатр,26605,seo/tz/T2/116-rotavirus-u-detey.md,вписан разделом в seo/articles/t2/T2-06
+2,121,Живот и стул,кишечная инфекция у ребенка,педиатр,24653,seo/tz/T2/121-kishechnaya-infekciya-u-rebenka.md,черновик написан: seo/articles/t2/T2-06
+2,124,Кожа,аллергия у новорожденного,дерматолог,24304,seo/tz/T2/124-allergiya-u-novorozhdennogo.md,черновик написан: seo/articles/t2/T2-14
+2,134,Кожа,аллергия на смесь,дерматолог,18833,seo/tz/T2/134-allergiya-na-smes.md,вписан разделом в seo/articles/t2/T2-14
+2,155,Кожа,красная сыпь у ребенка,дерматолог,14037,seo/tz/T2/155-krasnaya-syp-u-rebenka.md,вписан разделом в seo/articles/../pilot/A3
+2,156,Живот и стул,живот новорожденного ребенка,педиатр,14035,seo/tz/T2/156-zhivot-novorozhdennogo-rebenka.md,вписан разделом в seo/articles/denisov/D05
+2,173,Кожа,пятна у новорожденных,дерматолог,11571,seo/tz/T2/173-pyatna-u-novorozhdennyh.md,черновик написан: seo/articles/t2/T2-15
+2,176,Живот и стул,срыгивает фонтаном,педиатр,11085,seo/tz/T2/176-srygivaet-fontanom.md,вписан разделом в seo/articles/t2/T2-07
+2,183,Живот и стул,когда начинаются колики,педиатр,10430,seo/tz/T2/183-kogda-nachinayutsya-koliki.md,вписан разделом в seo/articles/denisov/D05
+2,199,Живот и стул,колики при грудном вскармливании,педиатр,9852,seo/tz/T2/199-koliki-pri-grudnom-vskarmlivanii.md,вписан разделом в seo/articles/denisov/D05
+2,216,Живот и стул,ребенка рвет без температуры,педиатр,8818,seo/tz/T2/216-rebenka-rvet-bez-temperatury.md,вписан разделом в seo/articles/denisov/D03
+2,218,Живот и стул,у ребенка болит живот и температура,педиатр,8670,seo/tz/T2/218-u-rebenka-bolit-zhivot-i-temperatura.md,вписан разделом в seo/articles/denisov/D03
+2,230,Живот и стул,сколько раз какает новорожденный,педиатр,7463,seo/tz/T2/230-skolko-raz-kakaet-novorozhdennyy.md,вписан разделом в seo/articles/t2/T2-04
+2,231,Живот и стул,зеленый стул у новорожденного,педиатр,7422,seo/tz/T2/231-zelenyy-stul-u-novorozhdennogo.md,вписан разделом в seo/articles/t2/T2-04
+2,234,Живот и стул,как понять что колики,педиатр,7173,seo/tz/T2/234-kak-ponyat-chto-koliki.md,вписан разделом в seo/articles/denisov/D05
+2,243,"Нос, горло, уши, глаза",не проходит насморк у ребенка,педиатр,6751,seo/tz/T2/243-ne-prohodit-nasmork-u-rebenka.md,вписан разделом в seo/articles/denisov/D09
+2,245,"Нос, горло, уши, глаза",красное горло и температура у ребенка,педиатр,6614,seo/tz/T2/245-krasnoe-gorlo-i-temperatura-u-rebenka.md,вписан разделом в seo/articles/P04
+2,247,"Нос, горло, уши, глаза",сопли у месячного ребенка,педиатр,6442,seo/tz/T2/247-sopli-u-mesyachnogo-rebenka.md,вписан разделом в seo/articles/denisov/D09
+2,248,Температура,судороги при температуре у ребенка,педиатр,6393,seo/tz/T2/248-sudorogi-pri-temperature-u-rebenka.md,черновик написан: seo/articles/t2/T2-16
+2,249,"Нос, горло, уши, глаза",заложен нос у новорожденного,педиатр,6359,seo/tz/T2/249-zalozhen-nos-u-novorozhdennogo.md,вписан разделом в seo/articles/denisov/D09
+2,254,Температура,температура в комнате для новорожденного,педиатр,5997,seo/tz/T2/254-temperatura-v-komnate-dlya-novorozhdennogo.md,черновик написан: seo/articles/t2/T2-17
+2,261,Температура,белая температура у ребенка,педиатр,5423,seo/tz/T2/261-belaya-temperatura-u-rebenka.md,вписан разделом в seo/articles/denisov/D01
+2,264,Температура,можно купать ребенка при температуре,педиатр,5151,seo/tz/T2/264-mozhno-kupat-rebenka-pri-temperature.md,вписан разделом в seo/articles/t1/T1-11
+2,267,Температура,ребенка тошнит и температура,педиатр,5106,seo/tz/T2/267-rebenka-toshnit-i-temperatura.md,вписан разделом в seo/articles/denisov/D03
+2,268,Температура,низкая температура у ребенка,педиатр,5087,seo/tz/T2/268-nizkaya-temperatura-u-rebenka.md,вписан разделом в seo/articles/t1/T1-01
+2,278,Температура,температура у годовалого ребенка,педиатр,4605,seo/tz/T2/278-temperatura-u-godovalogo-rebenka.md,вписан разделом в seo/articles/t1/T1-01
+2,280,Температура,температура смеси для новорожденного,педиатр,4573,seo/tz/T2/280-temperatura-smesi-dlya-novorozhdennogo.md,вписан разделом в seo/articles/t2/T2-01
 3,1,Грудное вскармливание,грудное вскармливание,педиатр,849417,seo/tz/T3/001-grudnoe-vskarmlivanie.md,ТЗ готово
 3,5,Прикорм,прикорм,педиатр,677816,seo/tz/T3/005-prikorm.md,ТЗ готово
 3,24,Прикорм,начало прикорма,педиатр,189647,seo/tz/T3/024-nachalo-prikorma.md,ТЗ готово

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Срыгивание у малыша: норма и когда к врачу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zhivot-i-stul/srygivanie",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Нормально ли, что новорождённый срыгивает после каждого кормления?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, если понемногу, малыш спокоен и прибавляет в весе."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок срыгивает фонтаном?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Показать врачу. Если рвота зелёная, с кровью или малыш вялый — скорая."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько держать ребёнка столбиком после кормления?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "10–15 минут достаточно."
+     }
+    }
+   ]
+  }
+ ]
+}

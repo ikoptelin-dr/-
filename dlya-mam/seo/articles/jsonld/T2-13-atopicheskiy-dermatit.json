@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Атопический дерматит у малыша: уход за кожей и когда к врачу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kozha/atopicheskiy-dermatit-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[ФИО], дерматолог, НГУ — по решению владельца; или проф. Денисов М. Ю. как педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[дерматолог]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как выглядит атопический дерматит у грудничка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сухие, красные, шершавые пятна на щеках, лбу, сгибах, которые чешутся."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Пройдёт ли атопический дерматит?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "У многих детей с возрастом становится легче. Ежедневный уход помогает."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли купать малыша с атопическим дерматитом?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, коротко, в тёплой воде, затем сразу смягчающее средство."
+     }
+    }
+   ]
+  }
+ ]
+}

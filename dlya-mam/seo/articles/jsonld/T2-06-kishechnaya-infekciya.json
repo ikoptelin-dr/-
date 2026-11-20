@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Кишечная инфекция и ротавирус у ребёнка: что делать дома",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zhivot-i-stul/kishechnaya-infekciya-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько длится кишечная инфекция у ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Рвота обычно 1–2 дня, понос — 5–7 дней."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Чем выпаивать при кишечной инфекции?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Маленькими порциями, по ложечке, часто. Аптечный раствор для выпаивания — по совету врача."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Заразен ли ротавирус?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Очень. Мойте руки и следите за гигиеной всей семьи."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Аллергия у новорождённого и на смесь: признаки и что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kozha/allergiya-u-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как проявляется аллергия у новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сыпь, крапивница, рвота, жидкий стул с кровью или слизью, беспокойство после еды."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как понять, что у ребёнка аллергия на смесь?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Симптомы появляются после перехода на смесь или нового продукта. Подтверждает врач."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать при отёке лица у ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Немедленно вызывать скорую — это острая аллергическая реакция."
+     }
+    }
+   ]
+  }
+ ]
+}

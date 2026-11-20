@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Пятна на коже новорождённого: какие безобидны и когда к врачу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kozha/pyatna-u-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[дерматолог] или проф. Денисов М. Ю. — по решению владельца",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[дерматолог]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что за красные пятна на затылке у новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего это безобидные сосудистые пятна, которые бледнеют со временем."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда пятно на коже малыша — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если растёт, оно возле глаза или губ, меняется или кровоточит."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Опасны ли белые точки на носу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, это частая особенность кожи новорождённых. Не выдавливайте их."
+     }
+    }
+   ]
+  }
+ ]
+}

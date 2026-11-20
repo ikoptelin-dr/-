@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Лактазная недостаточность у малыша: что это и что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zhivot-i-stul/laktaznaya-nedostatochnost",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что у малыша лактазная недостаточность?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Частый жидкий пенистый стул, много газов, беспокойство, плохая прибавка. Подтверждает диагноз врач."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли прекращать грудное вскармливание?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Самостоятельно — нет. Решение принимается вместе с врачом."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли перейти на безлактозную смесь самостоятельно?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, лечебные смеси назначает врач."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Кормление новорождённого: как понять, что малышу хватает",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/kormlenie-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько должен съедать новорождённый?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Малыша кормят по требованию. Объём за одно кормление сильно меняется — это нормально. Ориентир — мокрые подгузники, самочувствие и прибавка за месяц."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли взвешивать ребёнка до и после кормления?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет. Такие взвешивания не дают информации. Вес проверяют раз в месяц."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Какой температуры должна быть смесь?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Тёплой, близкой к температуре тела. Проверьте каплей на запястье."
+     }
+    }
+   ]
+  }
+ ]
+}

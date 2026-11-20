@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Новорождённый икает: почему и что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/novorozhdennyy-ikaet",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему новорождённый часто икает?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего после кормления, когда заглатывает воздух или ест жадно."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если новорождённый икает?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Подержать вертикально, сделать паузу в кормлении. Обычно икота проходит за несколько минут."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда икота — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если есть рвота, малыш плохо ест, беспокоится или икота очень долгая каждый день."
+     }
+    }
+   ]
+  }
+ ]
+}

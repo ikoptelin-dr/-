@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Стул новорождённого: какой нормальный и когда тревожиться",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zhivot-i-stul/stul-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько раз в день должен какать новорождённый?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По-разному: от нескольких раз в день до одного раза в несколько дней. Главное — мягкий стул и хорошее самочувствие."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему у новорождённого зелёный стул?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Часто это вариант нормы. Если малыш вялый, стул водянистый или с кровью — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Какой стул должен насторожить?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Белый или серый, с кровью, чёрный после первых дней, очень частый водянистый."
+     }
+    }
+   ]
+  }
+ ]
+}

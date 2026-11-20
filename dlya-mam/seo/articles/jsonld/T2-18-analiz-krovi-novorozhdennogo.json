@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Кровь из пятки и анализы у новорождённого: зачем берут и что дальше",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/krov-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Зачем берут кровь из пятки у новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Это обязательный скрининг на врождённые заболевания, которые важно найти как можно раньше."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если попросили пересдать скрининг?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Пересдать как можно скорее. Чаще всего повтор нужен для уточнения."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли сдавать анализы ребёнку самостоятельно?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет. Анализы назначает врач, и он же трактует результаты."
+     }
+    }
+   ]
+  }
+ ]
+}

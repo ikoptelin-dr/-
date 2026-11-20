@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Температура в комнате новорождённого: как не перегреть малыша",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/temperatura-v-komnate-dlya-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какая температура должна быть в комнате новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Около 18–22 °C, с регулярным проветриванием."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как понять, что малышу жарко?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Шея и спинка горячие и потные, малыш беспокоен, кожа красная."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужна ли малышу шапочка дома?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Для сна в тёплой комнате — нет."
+     }
+    }
+   ]
+  }
+ ]
+}

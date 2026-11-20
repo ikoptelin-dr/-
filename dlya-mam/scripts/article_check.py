@@ -7,7 +7,7 @@ A = os.path.join(ROOT, 'seo', 'articles'); os.makedirs(os.path.join(A, 'jsonld')
 NEED = ['## Коротко', '## Правило', 'Скорая сейчас', '## Что можно сделать', '## Миф', '## Частые вопросы', '## Конспект', '## Таблица утверждений', 'Следующий шаг']
 BAN = r'нурофен|парацетамол|ибупрофен|панадол|цефекон|амоксиклав|смект|регидрон|эспумизан|бобот|аквадетрим|називин|отипакс|виферон|анаферон|деринат|аквамарис|\bмг\b|\bдозировк|самк|инстинкт обязыв|гормон|дофамин|окситоцин|кортизол|может убить|смертельн|секрет[ыа]? врач|срочно купите'
 rep = []
-for f in sorted([x for x in glob.glob(os.path.join(A, '*.md')) + glob.glob(os.path.join(A, 'denisov', '*.md')) + glob.glob(os.path.join(A, 't1', '*.md')) if not os.path.basename(x).startswith('0')]):
+for f in sorted([x for x in glob.glob(os.path.join(A, '*.md')) + glob.glob(os.path.join(A, 'denisov', '*.md')) + glob.glob(os.path.join(A, 't1', '*.md')) + glob.glob(os.path.join(A, 't2', '*.md')) if not os.path.basename(x).startswith('0')]):
     t = open(f, encoding='utf-8').read(); name = os.path.basename(f)
     meta = dict(re.findall(r'^(\w+): (.*)$', t.split('---')[1], re.M))
     body = t.split('## Таблица утверждений')[0]

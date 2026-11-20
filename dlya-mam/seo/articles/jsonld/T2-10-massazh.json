@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Массаж новорождённому: нужен ли и что можно делать дома",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/massazh-novorozhdennomu",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "С какого возраста можно делать массаж грудничку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Лёгкие поглаживания и выкладывание на живот — с первых недель. Лечебный массаж — по назначению врача."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужен ли массаж всем детям?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Простые упражнения и поглаживания полезны всем. Нужен ли курс лечебного массажа, решает врач."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда нельзя делать массаж?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При температуре, сыпи, плохом самочувствии и сразу после еды."
+     }
+    }
+   ]
+  }
+ ]
+}

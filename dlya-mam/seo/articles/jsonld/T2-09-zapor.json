@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Запор у грудничка: что норма на груди и на смеси",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zhivot-i-stul/zapor-u-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько дней грудничок может не какать?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "День-два — бывает нормой, если стул потом мягкий. Если малыш на груди редко какает и плохо прибавляет — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать при запоре у грудничка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Животик, «велосипед», тепло. Твёрдый стул, боль, кровь — к гастроэнтерологу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли ставить клизму грудничку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Только однократно как экстренную помощь. Регулярно — нельзя."
+     }
+    }
+   ]
+  }
+ ]
+}
