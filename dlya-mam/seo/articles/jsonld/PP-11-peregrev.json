@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Перегрев и тепловой удар у малыша",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/peregrev-teplovoy-udar",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что малыш перегрелся?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Горячая красная кожа, вялость, беспокойство, частое дыхание, мало мокрых подгузников."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать при перегреве у малыша?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "В прохладу, раздеть, поить. Вялость, судороги, рвота — скорая."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли оставить малыша в машине на минуту?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, никогда."
+     }
+    }
+   ]
+  }
+ ]
+}

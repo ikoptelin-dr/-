@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Укус насекомого и клещ у ребёнка",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/ukus-kleshch",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если укусил клещ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Удалить целиком, сохранить для анализа, показать ребёнка врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда укус насекомого опасен?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если отекает лицо, трудно дышать, крапивница по всему телу — скорая."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Чем мазать укус комара?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно ничем: промыть и приложить прохладное."
+     }
+    }
+   ]
+  }
+ ]
+}

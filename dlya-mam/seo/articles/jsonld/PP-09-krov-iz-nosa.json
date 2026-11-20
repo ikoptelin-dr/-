@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Кровь из носа у ребёнка: как остановить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/krov-iz-nosa",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как остановить кровь из носа у ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Наклонить голову вперёд, зажать нос на 10 минут."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему у малыша идёт кровь из носа?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сухой воздух, травма, ковыряние. У малыша до года — покажите врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда вызывать скорую?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если не останавливается 20 минут или после удара головой."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок засунул что-то в нос или ухо",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/predmet-v-nosu-uhe",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок засунул предмет в нос?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Не доставать самостоятельно, к ЛОР-врачу или в приёмный покой."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если в ухо попало насекомое?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Показать врачу. Ничего не закапывать без осмотра."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему из одной ноздри неприятный запах?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Это может быть застрявший предмет — покажите ребёнка врачу."
+     }
+    }
+   ]
+  }
+ ]
+}

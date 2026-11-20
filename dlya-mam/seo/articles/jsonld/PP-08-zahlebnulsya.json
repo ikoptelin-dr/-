@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Малыш захлебнулся водой: что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/zahlebnulsya-vodoy",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок нахлебался воды при купании?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Дать откашляться, наблюдать несколько часов. Не дышит, синеет — скорая."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Опасно ли, если малыш наглотался воды?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если откашлялся и бодр — обычно нет, но наблюдайте за дыханием."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько воды достаточно, чтобы малыш захлебнулся?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Очень мало — даже в неглубокой ванне. Не отходите ни на секунду."
+     }
+    }
+   ]
+  }
+ ]
+}

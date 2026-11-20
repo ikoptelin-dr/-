@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Переохлаждение и обморожение у ребёнка",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/pereohlazhdenie-obmorozhenie",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что малыш замёрз?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Холодные грудь и спина (не только ручки), бледность, вялость."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать при обморожении щёк?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Занести в тепло, согреть ладонью или тёплой водой, без растирания."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли гулять с малышом в мороз?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Недолго и тепло одевшись; в сильный мороз и ветер с новорождённым — лучше нет."
+     }
+    }
+   ]
+  }
+ ]
+}

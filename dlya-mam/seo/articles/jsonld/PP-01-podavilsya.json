@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Малыш подавился: что делать прямо сейчас",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/malysh-podavilsya",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы первой помощи — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если грудничок подавился?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Кашляет — не мешать. Не может дышать — 5 хлопков по спине и 5 толчков в грудь, звонить 103 или 112."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как отличить удушье от рвотного рефлекса?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При рвотном рефлексе малыш кашляет и краснеет, справляется сам. При удушье молчит, не может дышать, синеет."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли к врачу, если всё прошло?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, после эпизода удушья малыша нужно осмотреть."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок съел или выпил что-то опасное: первая помощь при отравлении",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/otravlenie-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы первой помощи — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок съел таблетку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Немедленно звонить 103 или 112, сохранить упаковку."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли дать активированный уголь?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, без врача — нельзя."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как предотвратить отравление?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Лекарства, химия, батарейки — высоко и под замком."
+     }
+    }
+   ]
+  }
+ ]
+}

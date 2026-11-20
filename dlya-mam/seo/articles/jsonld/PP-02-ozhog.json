@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ожог у ребёнка: первая помощь",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/ozhog-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы первой помощи — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать при ожоге кипятком?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сразу под прохладную проточную воду на 20 минут, снять одежду, если не прилипла, накрыть плёнкой. Скорая — если ожог большой или на лице, руках, паху."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли прокалывать пузырь?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда ожог — повод для скорой?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если больше ладони ребёнка, на лице, руках, стопах, паху, от химии или тока."
+     }
+    }
+   ]
+  }
+ ]
+}

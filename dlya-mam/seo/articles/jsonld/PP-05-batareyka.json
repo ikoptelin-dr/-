@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок проглотил батарейку или магнит",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/proglotil-batareyku",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы первой помощи — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок проглотил батарейку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Немедленно 103 или 112 или в больницу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "А если не уверены, проглотил ли?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Тоже звонить: врач решит, нужен ли снимок."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как предотвратить?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Пульты, весы, игрушки с батарейками — закрытые отсеки; магниты — убрать."
+     }
+    }
+   ]
+  }
+ ]
+}

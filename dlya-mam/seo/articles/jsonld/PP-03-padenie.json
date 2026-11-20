@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Малыш упал и ударился головой: что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pervaya-pomosch/upal-udarilsya-golovoy",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]; алгоритмы первой помощи — сверить с инструктором/ERC"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок упал с кровати?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Успокоить, осмотреть, наблюдать сутки. Рвота, вялость, потеря сознания — скорая."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли ребёнку спать после удара головой?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, но проверяйте во сне, как дышит и просыпается ли как обычно."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда удар головой опасен?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Потеря сознания, рвота, сонливость, судороги, выбухающий родничок."
+     }
+    }
+   ]
+  }
+ ]
+}
