@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Прививка от гриппа ребёнку: нужна ли и как переносится",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/privivki/privivka-ot-grippa-detyam",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "С какого возраста можно делать прививку от гриппа?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "С 6 месяцев."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как защитить малыша до 6 месяцев?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Привить маму и всех, кто живёт рядом."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что может быть после прививки от гриппа?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Небольшая температура, покраснение в месте укола, недомогание."
+     }
+    }
+   ]
+  }
+ ]
+}

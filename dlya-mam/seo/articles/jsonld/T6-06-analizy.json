@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Анализы у ребёнка: зачем берут и что делать с результатом",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/analizy/analizy-detyam",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какие анализы сдают ребёнку до года?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Общий анализ крови, мочи и кала — в сроки, которые назначит педиатр."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если анализ плохой?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обсудить с врачом и пройти дополнительные обследования, которые он назначит."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли пересдавать плохой анализ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Решает врач."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Розеола у ребёнка: высокая температура, а потом сыпь",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kozha/roseola",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[дерматолог] или проф. Денисов М. Ю. — по решению владельца",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[дерматолог]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как проявляется розеола?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Несколько дней высокой температуры, затем розовая сыпь на теле."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Заразна ли розеола?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, больше всего — в период температуры."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли лечить сыпь при розеоле?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, она проходит сама за несколько дней."
+     }
+    }
+   ]
+  }
+ ]
+}

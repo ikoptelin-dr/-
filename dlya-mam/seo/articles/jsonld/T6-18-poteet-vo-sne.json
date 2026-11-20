@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок потеет во сне: норма или повод к врачу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/son-i-rezhim/poteet-rebenok-vo-vremya-sna",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок потеет во сне?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего ему жарко. У малышей активные потовые железы."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Потливость — признак рахита?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сама по себе — нет."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда потливость — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если малыш потеет и устаёт при кормлении, плохо прибавляет, часто дышит."
+     }
+    }
+   ]
+  }
+ ]
+}

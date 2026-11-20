@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Витамин D и другие витамины для малыша до года",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/analizy/vitamin-d-dlya-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Нужен ли витамин D грудничку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, всем детям с первых дней — по назначению врача."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли давать витамин D летом?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По нормативам — круглогодично. Если едете на юг загорать, врач может временно изменить дозу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужны ли малышу другие витамины?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При полноценном питании — нет. Только после обследования."
+     }
+    }
+   ]
+  }
+ ]
+}

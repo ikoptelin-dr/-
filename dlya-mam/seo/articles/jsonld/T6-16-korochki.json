@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Себорейные корочки на голове у малыша",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kozha/korochki-u-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[дерматолог] или проф. Денисов М. Ю. — по решению владельца",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[дерматолог]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что за жёлтые корочки на голове у малыша?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Себорейный дерматит — частая и безвредная особенность."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как убрать корочки?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Размягчить детским маслом и вычесать мягкой щёткой при купании."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда корочки проходят?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно в течение первых месяцев."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Низкий гемоглобин у ребёнка: что значит и что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/analizy/gemoglobin-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какой гемоглобин у ребёнка нормальный?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нормы зависят от возраста. Оценивает врач."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если низкий гемоглобин?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обсудить с педиатром, пройти дообследование."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли давать железо без врача?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет."
+     }
+    }
+   ]
+  }
+ ]
+}

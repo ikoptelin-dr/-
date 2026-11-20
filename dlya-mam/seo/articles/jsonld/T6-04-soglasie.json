@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Согласие и отказ от прививки: как оформляется",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/privivki/soglasie-na-privivku-rebenku",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Зачем подписывать согласие на прививку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Это подтверждение, что вам объяснили, что за прививка, чем её делают и какие возможны реакции."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли отказаться от прививки?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По закону — да, отказ оформляется письменно. Обсудите решение с педиатром."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Где взять образец согласия?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Бланк даёт поликлиника."
+     }
+    }
+   ]
+  }
+ ]
+}

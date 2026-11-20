@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Рахит у ребёнка: признаки и профилактика",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/analizy/rahit",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какие признаки рахита у грудничка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Изменения костей, задержка развития — их оценивает врач. Пот и лысый затылок сами по себе не признаки."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как предотвратить рахит?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Витамин D по назначению врача с первых дней жизни."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли отменить витамин D летом?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Решает врач. По словам профессора, по нормативам его назначают круглогодично."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Крапивница у ребёнка: что делать и когда скорая",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kozha/krapivnica-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[дерматолог] или проф. Денисов М. Ю. — по решению владельца",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[дерматолог]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как выглядит крапивница у ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Розовые зудящие волдыри, которые меняют место."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда крапивница опасна?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если отекают губы, лицо, язык или трудно дышать — скорая."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли дать противоаллергическое средство?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Только с разрешения врача."
+     }
+    }
+   ]
+  }
+ ]
+}

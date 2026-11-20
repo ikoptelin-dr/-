@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Календарь прививок для детей до года",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/privivki/kalendar-privivok-dlya-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какие прививки делают детям до года?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По национальному календарю — см. таблицу; точный план составит врач."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если график прививок сбился?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обратиться к врачу — он составит индивидуальный график."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли делать несколько прививок в один день?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, так предусмотрено календарём. Вопросы задайте врачу."
+     }
+    }
+   ]
+  }
+ ]
+}

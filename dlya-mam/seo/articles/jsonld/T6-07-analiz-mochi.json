@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Анализ мочи у малыша: как собрать и что значит результат",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/analizy/analiz-mochi-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как собрать мочу у новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Подмыть, приклеить стерильный мочеприёмник, собрать и отвезти в лабораторию."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Какого цвета моча у новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно светлая, почти прозрачная. Тёмная моча при желтушке — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему в моче лейкоциты?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Часто из-за неправильного сбора. Оценивает врач."
+     }
+    }
+   ]
+  }
+ ]
+}

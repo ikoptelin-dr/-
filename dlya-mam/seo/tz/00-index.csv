@@ -249,53 +249,53 @@ tier,rank,hub,article,reviewer,demand_rf_30d,tz_file,status
 5,256,Зубы и рот,порядок прорезывания зубов,педиатр,5723,seo/tz/T5/256-poryadok-prorezyvaniya-zubov.md,вписан разделом в seo/articles/t4/T4-07
 5,258,Сон и режим,сон ребенок на руках,педиатр,5553,seo/tz/T5/258-son-rebenok-na-rukah.md,вписан разделом в seo/articles/t5/T5-08
 5,265,Сон и режим,сон ребенка в 3 месяца,педиатр,5134,seo/tz/T5/265-son-rebenka-v-3-mesyaca.md,вписан разделом в seo/articles/t5/T5-06
-6,6,Прививки,прививки детям,педиатр,503509,seo/tz/T6/006-privivki-detyam.md,ТЗ готово
-6,9,Анализы и показатели,анализы детям,педиатр,364251,seo/tz/T6/009-analizy-detyam.md,ТЗ готово
+6,6,Прививки,прививки детям,педиатр,503509,seo/tz/T6/006-privivki-detyam.md,черновик написан: seo/articles/t6/T6-01
+6,9,Анализы и показатели,анализы детям,педиатр,364251,seo/tz/T6/009-analizy-detyam.md,черновик написан: seo/articles/t6/T6-06
 6,23,Кожа,сыпь у ребенка,дерматолог,199309,seo/tz/T6/023-syp-u-rebenka.md,черновик написан: seo/articles/pilot/A3
-6,26,Кожа,розеола,дерматолог,175163,seo/tz/T6/026-rozeola.md,ТЗ готово
-6,39,Кожа,потница,дерматолог,108411,seo/tz/T6/039-potnica.md,ТЗ готово
-6,41,Анализы и показатели,рахит,педиатр,103212,seo/tz/T6/041-rahit.md,ТЗ готово
-6,43,Анализы и показатели,гемоглобин у детей,педиатр,97798,seo/tz/T6/043-gemoglobin-u-detey.md,ТЗ готово
-6,45,Прививки,прививка от гриппа детям,педиатр,89735,seo/tz/T6/045-privivka-ot-grippa-detyam.md,ТЗ готово
-6,61,Анализы и показатели,витамин д для детей,педиатр,55843,seo/tz/T6/061-vitamin-d-dlya-detey.md,ТЗ готово
-6,63,Анализы и показатели,анализ крови у ребенка,педиатр,53631,seo/tz/T6/063-analiz-krovi-u-rebenka.md,ТЗ готово
-6,72,Кожа,крапивница у детей,дерматолог,49816,seo/tz/T6/072-krapivnica-u-detey.md,ТЗ готово
-6,87,Прививки,реакция на прививку,педиатр,40916,seo/tz/T6/087-reakciya-na-privivku.md,ТЗ готово
-6,101,Прививки,детям ставят прививки,педиатр,33497,seo/tz/T6/101-detyam-stavyat-privivki.md,ТЗ готово
-6,102,Кожа,акне новорожденных,дерматолог,33045,seo/tz/T6/102-akne-novorozhdennyh.md,ТЗ готово
-6,112,Прививки,календарь прививок для детей,педиатр,27689,seo/tz/T6/112-kalendar-privivok-dlya-detey.md,ТЗ готово
-6,122,Кожа,сыпь на теле у ребенка,дерматолог,24422,seo/tz/T6/122-syp-na-tele-u-rebenka.md,ТЗ готово
-6,126,Кожа,сыпь и температура у ребенка,дерматолог,23474,seo/tz/T6/126-syp-i-temperatura-u-rebenka.md,ТЗ готово
-6,131,Кожа,пеленочный дерматит,дерматолог,20231,seo/tz/T6/131-pelenochnyy-dermatit.md,ТЗ готово
-6,133,Кожа,кожа новорожденного,дерматолог,19148,seo/tz/T6/133-kozha-novorozhdennogo.md,ТЗ готово
-6,137,Прививки,сделать прививку ребенку,педиатр,18113,seo/tz/T6/137-sdelat-privivku-rebenku.md,ТЗ готово
-6,142,Анализы и показатели,анализ мочи у детей,педиатр,17222,seo/tz/T6/142-analiz-mochi-u-detey.md,ТЗ готово
-6,153,Кожа,мелкая сыпь у ребенка,дерматолог,14245,seo/tz/T6/153-melkaya-syp-u-rebenka.md,ТЗ готово
-6,160,Прививки,прививки после года ребенку,педиатр,13604,seo/tz/T6/160-privivki-posle-goda-rebenku.md,ТЗ готово
-6,162,Прививки,согласие на прививку ребенку,педиатр,13318,seo/tz/T6/162-soglasie-na-privivku-rebenku.md,ТЗ готово
-6,168,Прививки,после прививки от гриппа ребенку,педиатр,12678,seo/tz/T6/168-posle-privivki-ot-grippa-rebenku.md,ТЗ готово
-6,171,Анализы и показатели,моча у новорожденных,педиатр,12507,seo/tz/T6/171-mocha-u-novorozhdennyh.md,ТЗ готово
-6,172,Прививки,календарь прививок для детей с рождения,педиатр,12464,seo/tz/T6/172-kalendar-privivok-dlya-detey-s-rozhdeniya.md,ТЗ готово
-6,180,Прививки,профилактические прививки детям,педиатр,10717,seo/tz/T6/180-profilakticheskie-privivki-detyam.md,ТЗ готово
+6,26,Кожа,розеола,дерматолог,175163,seo/tz/T6/026-rozeola.md,черновик написан: seo/articles/t6/T6-11
+6,39,Кожа,потница,дерматолог,108411,seo/tz/T6/039-potnica.md,черновик написан: seo/articles/t6/T6-12
+6,41,Анализы и показатели,рахит,педиатр,103212,seo/tz/T6/041-rahit.md,черновик написан: seo/articles/t6/T6-09
+6,43,Анализы и показатели,гемоглобин у детей,педиатр,97798,seo/tz/T6/043-gemoglobin-u-detey.md,черновик написан: seo/articles/t6/T6-08
+6,45,Прививки,прививка от гриппа детям,педиатр,89735,seo/tz/T6/045-privivka-ot-grippa-detyam.md,черновик написан: seo/articles/t6/T6-03
+6,61,Анализы и показатели,витамин д для детей,педиатр,55843,seo/tz/T6/061-vitamin-d-dlya-detey.md,черновик написан: seo/articles/t6/T6-10
+6,63,Анализы и показатели,анализ крови у ребенка,педиатр,53631,seo/tz/T6/063-analiz-krovi-u-rebenka.md,вписан разделом в seo/articles/t6/T6-06
+6,72,Кожа,крапивница у детей,дерматолог,49816,seo/tz/T6/072-krapivnica-u-detey.md,черновик написан: seo/articles/t6/T6-13
+6,87,Прививки,реакция на прививку,педиатр,40916,seo/tz/T6/087-reakciya-na-privivku.md,вписан разделом в seo/articles/denisov/D06
+6,101,Прививки,детям ставят прививки,педиатр,33497,seo/tz/T6/101-detyam-stavyat-privivki.md,вписан разделом в seo/articles/t6/T6-01
+6,102,Кожа,акне новорожденных,дерматолог,33045,seo/tz/T6/102-akne-novorozhdennyh.md,черновик написан: seo/articles/t6/T6-14
+6,112,Прививки,календарь прививок для детей,педиатр,27689,seo/tz/T6/112-kalendar-privivok-dlya-detey.md,черновик написан: seo/articles/t6/T6-02
+6,122,Кожа,сыпь на теле у ребенка,дерматолог,24422,seo/tz/T6/122-syp-na-tele-u-rebenka.md,вписан разделом в seo/articles/../pilot/A3
+6,126,Кожа,сыпь и температура у ребенка,дерматолог,23474,seo/tz/T6/126-syp-i-temperatura-u-rebenka.md,вписан разделом в seo/articles/../pilot/A3
+6,131,Кожа,пеленочный дерматит,дерматолог,20231,seo/tz/T6/131-pelenochnyy-dermatit.md,черновик написан: seo/articles/t6/T6-15
+6,133,Кожа,кожа новорожденного,дерматолог,19148,seo/tz/T6/133-kozha-novorozhdennogo.md,черновик написан: seo/articles/t6/T6-17
+6,137,Прививки,сделать прививку ребенку,педиатр,18113,seo/tz/T6/137-sdelat-privivku-rebenku.md,вписан разделом в seo/articles/t6/T6-01
+6,142,Анализы и показатели,анализ мочи у детей,педиатр,17222,seo/tz/T6/142-analiz-mochi-u-detey.md,черновик написан: seo/articles/t6/T6-07
+6,153,Кожа,мелкая сыпь у ребенка,дерматолог,14245,seo/tz/T6/153-melkaya-syp-u-rebenka.md,вписан разделом в seo/articles/../pilot/A3
+6,160,Прививки,прививки после года ребенку,педиатр,13604,seo/tz/T6/160-privivki-posle-goda-rebenku.md,вписан разделом в seo/articles/t6/T6-01
+6,162,Прививки,согласие на прививку ребенку,педиатр,13318,seo/tz/T6/162-soglasie-na-privivku-rebenku.md,черновик написан: seo/articles/t6/T6-04
+6,168,Прививки,после прививки от гриппа ребенку,педиатр,12678,seo/tz/T6/168-posle-privivki-ot-grippa-rebenku.md,вписан разделом в seo/articles/t6/T6-03
+6,171,Анализы и показатели,моча у новорожденных,педиатр,12507,seo/tz/T6/171-mocha-u-novorozhdennyh.md,вписан разделом в seo/articles/t6/T6-07
+6,172,Прививки,календарь прививок для детей с рождения,педиатр,12464,seo/tz/T6/172-kalendar-privivok-dlya-detey-s-rozhdeniya.md,вписан разделом в seo/articles/t6/T6-02
+6,180,Прививки,профилактические прививки детям,педиатр,10717,seo/tz/T6/180-profilakticheskie-privivki-detyam.md,вписан разделом в seo/articles/t6/T6-01
 6,182,Прививки,температура после прививки у ребенка,педиатр,10585,seo/tz/T6/182-temperatura-posle-privivki-u-rebenka.md,черновик написан: seo/articles/denisov/D06
-6,186,Кожа,сыпь на лице у ребенка,дерматолог,10388,seo/tz/T6/186-syp-na-lice-u-rebenka.md,ТЗ готово
-6,189,Анализы и показатели,анализ кала у ребенка,педиатр,10310,seo/tz/T6/189-analiz-kala-u-rebenka.md,ТЗ готово
-6,192,Анализы и показатели,общий анализ крови у детей,педиатр,10162,seo/tz/T6/192-obschiy-analiz-krovi-u-detey.md,ТЗ готово
-6,195,Прививки,отказ от прививки ребенку,педиатр,10073,seo/tz/T6/195-otkaz-ot-privivki-rebenku.md,ТЗ готово
-6,196,Анализы и показатели,признаки рахита,педиатр,10057,seo/tz/T6/196-priznaki-rahita.md,ТЗ готово
-6,197,Прививки,ставить ли прививку от гриппа ребенку,педиатр,9986,seo/tz/T6/197-stavit-li-privivku-ot-grippa-rebenku.md,ТЗ готово
-6,201,Кожа,дерматит у новорожденных,дерматолог,9839,seo/tz/T6/201-dermatit-u-novorozhdennyh.md,ТЗ готово
-6,203,Анализы и показатели,низкий гемоглобин у ребенка,педиатр,9726,seo/tz/T6/203-nizkiy-gemoglobin-u-rebenka.md,ТЗ готово
-6,208,Кожа,корочки у новорожденных,дерматолог,9344,seo/tz/T6/208-korochki-u-novorozhdennyh.md,ТЗ готово
-6,209,Анализы и показатели,результаты анализов ребенка,педиатр,9316,seo/tz/T6/209-rezultaty-analizov-rebenka.md,ТЗ готово
-6,214,Кожа,сыпь на ногах у ребенка,дерматолог,9021,seo/tz/T6/214-syp-na-nogah-u-rebenka.md,ТЗ готово
-6,221,Прививки,прививка от ветрянки детям,педиатр,8399,seo/tz/T6/221-privivka-ot-vetryanki-detyam.md,ТЗ готово
-6,225,Кожа,прыщики у новорожденных,дерматолог,8107,seo/tz/T6/225-pryschiki-u-novorozhdennyh.md,ТЗ готово
-6,227,Кожа,как начинается ветрянка у детей,дерматолог,8063,seo/tz/T6/227-kak-nachinaetsya-vetryanka-u-detey.md,ТЗ готово
-6,246,Кожа,розеола симптомы,дерматолог,6608,seo/tz/T6/246-rozeola-simptomy.md,ТЗ готово
-6,251,Кожа,сыпь на руках у ребенка,дерматолог,6196,seo/tz/T6/251-syp-na-rukah-u-rebenka.md,ТЗ готово
-6,259,Кожа,начальная стадия ветрянки у детей,дерматолог,5486,seo/tz/T6/259-nachalnaya-stadiya-vetryanki-u-detey.md,ТЗ готово
-6,269,Сон и режим,ребенок 1 месяц не спит,педиатр,5015,seo/tz/T6/269-rebenok-1-mesyac-ne-spit.md,ТЗ готово
-6,275,Сон и режим,потеет ребенок во время сна,педиатр,4682,seo/tz/T6/275-poteet-rebenok-vo-vremya-sna.md,ТЗ готово
-6,283,Зубы и рот,прорезывание постоянных зубов,педиатр,4415,seo/tz/T6/283-prorezyvanie-postoyannyh-zubov.md,ТЗ готово
-6,285,Зубы и рот,десна у новорожденных,педиатр,4245,seo/tz/T6/285-desna-u-novorozhdennyh.md,ТЗ готово
+6,186,Кожа,сыпь на лице у ребенка,дерматолог,10388,seo/tz/T6/186-syp-na-lice-u-rebenka.md,вписан разделом в seo/articles/../pilot/A3
+6,189,Анализы и показатели,анализ кала у ребенка,педиатр,10310,seo/tz/T6/189-analiz-kala-u-rebenka.md,вписан разделом в seo/articles/t6/T6-06
+6,192,Анализы и показатели,общий анализ крови у детей,педиатр,10162,seo/tz/T6/192-obschiy-analiz-krovi-u-detey.md,вписан разделом в seo/articles/t6/T6-06
+6,195,Прививки,отказ от прививки ребенку,педиатр,10073,seo/tz/T6/195-otkaz-ot-privivki-rebenku.md,вписан разделом в seo/articles/t6/T6-04
+6,196,Анализы и показатели,признаки рахита,педиатр,10057,seo/tz/T6/196-priznaki-rahita.md,вписан разделом в seo/articles/t6/T6-09
+6,197,Прививки,ставить ли прививку от гриппа ребенку,педиатр,9986,seo/tz/T6/197-stavit-li-privivku-ot-grippa-rebenku.md,вписан разделом в seo/articles/t6/T6-03
+6,201,Кожа,дерматит у новорожденных,дерматолог,9839,seo/tz/T6/201-dermatit-u-novorozhdennyh.md,вписан разделом в seo/articles/t6/T6-15
+6,203,Анализы и показатели,низкий гемоглобин у ребенка,педиатр,9726,seo/tz/T6/203-nizkiy-gemoglobin-u-rebenka.md,вписан разделом в seo/articles/t6/T6-08
+6,208,Кожа,корочки у новорожденных,дерматолог,9344,seo/tz/T6/208-korochki-u-novorozhdennyh.md,черновик написан: seo/articles/t6/T6-16
+6,209,Анализы и показатели,результаты анализов ребенка,педиатр,9316,seo/tz/T6/209-rezultaty-analizov-rebenka.md,вписан разделом в seo/articles/t6/T6-06
+6,214,Кожа,сыпь на ногах у ребенка,дерматолог,9021,seo/tz/T6/214-syp-na-nogah-u-rebenka.md,вписан разделом в seo/articles/../pilot/A3
+6,221,Прививки,прививка от ветрянки детям,педиатр,8399,seo/tz/T6/221-privivka-ot-vetryanki-detyam.md,черновик написан: seo/articles/t6/T6-05
+6,225,Кожа,прыщики у новорожденных,дерматолог,8107,seo/tz/T6/225-pryschiki-u-novorozhdennyh.md,вписан разделом в seo/articles/t6/T6-14
+6,227,Кожа,как начинается ветрянка у детей,дерматолог,8063,seo/tz/T6/227-kak-nachinaetsya-vetryanka-u-detey.md,вписан разделом в seo/articles/t2/T2-03
+6,246,Кожа,розеола симптомы,дерматолог,6608,seo/tz/T6/246-rozeola-simptomy.md,вписан разделом в seo/articles/t6/T6-11
+6,251,Кожа,сыпь на руках у ребенка,дерматолог,6196,seo/tz/T6/251-syp-na-rukah-u-rebenka.md,вписан разделом в seo/articles/../pilot/A3
+6,259,Кожа,начальная стадия ветрянки у детей,дерматолог,5486,seo/tz/T6/259-nachalnaya-stadiya-vetryanki-u-detey.md,вписан разделом в seo/articles/t2/T2-03
+6,269,Сон и режим,ребенок 1 месяц не спит,педиатр,5015,seo/tz/T6/269-rebenok-1-mesyac-ne-spit.md,вписан разделом в seo/articles/t5/T5-08
+6,275,Сон и режим,потеет ребенок во время сна,педиатр,4682,seo/tz/T6/275-poteet-rebenok-vo-vremya-sna.md,черновик написан: seo/articles/t6/T6-18
+6,283,Зубы и рот,прорезывание постоянных зубов,педиатр,4415,seo/tz/T6/283-prorezyvanie-postoyannyh-zubov.md,вписан разделом в seo/articles/t4/T4-07
+6,285,Зубы и рот,десна у новорожденных,педиатр,4245,seo/tz/T6/285-desna-u-novorozhdennyh.md,вписан разделом в seo/articles/t4/T4-07

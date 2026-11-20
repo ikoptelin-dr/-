@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Пелёночный дерматит: покраснение под подгузником",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kozha/pelenochnyy-dermatit",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[дерматолог] или проф. Денисов М. Ю. — по решению владельца",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[дерматолог]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как лечить пелёночный дерматит?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще менять подгузник, подмывать, воздушные ванны, защитный крем."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда дерматит у новорождённого — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Пузырьки, гнойнички, мокнутие, температура, нет улучшения за 2–3 дня."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли пользоваться влажными салфетками?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "На воспалённой коже лучше подмывать водой."
+     }
+    }
+   ]
+  }
+ ]
+}

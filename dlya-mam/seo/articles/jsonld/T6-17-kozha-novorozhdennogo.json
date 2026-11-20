@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Кожа новорождённого: шелушение, сухость и уход",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kozha/kozha-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[дерматолог] или проф. Денисов М. Ю. — по решению владельца",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[дерматолог]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему у новорождённого шелушится кожа?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Кожа привыкает к воздуху после рождения. Это норма."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Чем мазать сухую кожу новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Детским увлажняющим средством без отдушек — при необходимости."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда сухая кожа — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если трескается, мокнет, краснеет и зудит."
+     }
+    }
+   ]
+  }
+ ]
+}

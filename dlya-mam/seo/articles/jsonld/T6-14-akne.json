@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Акне и прыщики у новорождённого",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kozha/akne-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "[дерматолог] или проф. Денисов М. Ю. — по решению владельца",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[дерматолог]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему у новорождённого прыщики на лице?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Это частая особенность кожи в первые недели."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда проходят прыщики у новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно сами, за несколько недель."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Чем мазать прыщики у новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно ничем: умывать тёплой водой."
+     }
+    }
+   ]
+  }
+ ]
+}

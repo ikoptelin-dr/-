@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Прививка от ветрянки ребёнку",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/privivki/privivka-ot-vetryanki-detyam",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "С какого возраста можно прививку от ветрянки?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно после года — уточните у педиатра."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Входит ли прививка от ветрянки в календарь?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Не для всех: по показаниям или по желанию родителей."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли заболеть ветрянкой после прививки?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Риск ниже, а болезнь обычно протекает легче."
+     }
+    }
+   ]
+  }
+ ]
+}
