@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Нужно ли давать новорождённому воду",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/voda-dlya-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Можно ли давать воду новорождённому?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "На грудном вскармливании обычно не нужно. На смеси — по совету врача."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли допаивать малыша в жару?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще прикладывайте к груди — этого достаточно."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "С какого возраста можно давать воду?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно с началом прикорма. Уточните у педиатра."
+     }
+    }
+   ]
+  }
+ ]
+}

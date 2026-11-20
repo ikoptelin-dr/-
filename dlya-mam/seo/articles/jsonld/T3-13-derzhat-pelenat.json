@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Как держать и пеленать новорождённого",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/kak-derzhat-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как правильно держать новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Поддерживая голову и шею — ладонью или сгибом локтя."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли пеленать малыша?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Не обязательно. Если пеленаете — свободно, чтобы ножки были согнуты и разведены."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли держать новорождённого вертикально?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, «столбиком», поддерживая голову."
+     }
+    }
+   ]
+  }
+ ]
+}

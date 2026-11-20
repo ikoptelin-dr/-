@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Первые продукты прикорма: овощное пюре, кабачок, каши",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/prikorm/prikorm-pyure",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "С какого овоща начинать прикорм?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Часто с кабачка, брокколи или цветной капусты — порядок обсудите с педиатром."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как приготовить пюре для прикорма?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сварить овощ на пару или в воде без соли, измельчить до однородности."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Какую кашу давать первой?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Каши без молока, сахара и соли. Какую именно — подскажет педиатр."
+     }
+    }
+   ]
+  }
+ ]
+}

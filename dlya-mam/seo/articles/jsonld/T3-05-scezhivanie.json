@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Сцеживание грудного молока: когда нужно и как хранить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/grudnoe-vskarmlivanie/scezhivanie",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Нужно ли сцеживаться после каждого кормления?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, если малыш кормится по требованию."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько хранится сцеженное молоко?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При комнатной температуре — несколько часов, в холодильнике — несколько дней, в морозилке — месяцы. Уточните сроки у врача."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как разморозить грудное молоко?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "В холодильнике или в тёплой воде. Не в микроволновке."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Лактостаз: уплотнение в груди — что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/grudnoe-vskarmlivanie/laktostaz",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что делать при лактостазе?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Кормить чаще, начиная с больной груди, менять позы, прохладный компресс после кормления."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Чем лактостаз отличается от мастита?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При мастите обычно есть температура, озноб, красный горячий участок. Тогда — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли греть грудь при уплотнении?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, греть не нужно."
+     }
+    }
+   ]
+  }
+ ]
+}

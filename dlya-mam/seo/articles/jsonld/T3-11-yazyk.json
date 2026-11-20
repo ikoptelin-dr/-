@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Язык новорождённого: белый налёт и короткая уздечка",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/yazyk-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему у новорождённого белый язык?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего — следы молока. Если налёт не стирается и есть на щеках — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как понять, что у малыша короткая уздечка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Малыш плохо захватывает грудь, кончик языка не выходит за дёсны, маме больно кормить. Оценивает врач."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли подрезать уздечку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Только если она мешает кормлению — решение за врачом."
+     }
+    }
+   ]
+  }
+ ]
+}

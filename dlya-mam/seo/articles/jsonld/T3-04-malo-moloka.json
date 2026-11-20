@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Мало молока: как понять на самом деле и что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/grudnoe-vskarmlivanie/malo-moloka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что молока мало?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По фактам: мало мокрых подгузников, плохая прибавка веса за месяц."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как увеличить количество молока?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще прикладывать к груди, в том числе ночью, проверить захват."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли докармливать смесью?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Только по совету врача."
+     }
+    }
+   ]
+  }
+ ]
+}

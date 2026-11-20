@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Искусственное вскармливание: как выбрать и готовить смесь",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/iskusstvennoe-vskarmlivanie/smes-dlya-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какую смесь выбрать для новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Адаптированную, по возрасту. Конкретную подскажет педиатр."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько смеси давать новорождённому?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ориентир — инструкция на упаковке и аппетит малыша. Объёмы под вашего ребёнка уточнит врач."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли давать воду при искусственном вскармливании?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обсудите с педиатром: малышам на смеси иногда допаивание разрешают."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Уход за новорождённым: подмывание, умывание, туалет",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/uhod-za-novorozhdennym",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как подмывать новорождённую девочку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Тёплой проточной водой, спереди назад."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Чем умывать новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Кипячёной водой, ватным диском для каждого глаза отдельно."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли чистить уши и нос палочками?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, только видимую часть."
+     }
+    }
+   ]
+  }
+ ]
+}

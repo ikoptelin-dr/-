@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Грудное вскармливание: как наладить и как понять, что всё в порядке",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/grudnoe-vskarmlivanie/grudnoe-vskarmlivanie",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что малышу хватает грудного молока?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По мокрым подгузникам, стулу, активному сосанию и прибавке веса за месяц."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как часто кормить новорождённого грудью?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По требованию — часто, в том числе ночью. В первые недели это может быть 8–12 раз в сутки и больше."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему больно кормить грудью?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего из-за неправильного захвата. Попросите врача или консультанта посмотреть, как малыш берёт грудь."
+     }
+    }
+   ]
+  }
+ ]
+}

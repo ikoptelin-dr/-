@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Прикорм: когда и как начинать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/prikorm/prikorm",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Когда начинать прикорм?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно около 6 месяцев, когда малыш готов. Точные сроки — с педиатром."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "С чего начинать прикорм?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще с овощного пюре или каши — по рекомендации педиатра. По одному продукту."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли продолжать грудное вскармливание после прикорма?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, грудь или смесь остаются основным питанием на первом году."
+     }
+    }
+   ]
+  }
+ ]
+}

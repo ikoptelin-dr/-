@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Новорождённый кряхтит и тужится: норма или нет",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/novorozhdennyy-kryahtit",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему новорождённый кряхтит во сне?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего он учится координировать мышцы живота и отходят газы. Это норма."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда кряхтение опасно?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если оно при каждом вдохе-выдохе, с частым дыханием и втягиванием кожи между рёбрами."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если малыш тужится и не может покакать?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Тепло, животик к животику, «велосипед». Слабительные — только врач."
+     }
+    }
+   ]
+  }
+ ]
+}

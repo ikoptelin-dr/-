@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Рефлексы, тонус и дрожание у новорождённого: что норма",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/nevrologiya-i-ortopediya/tonus-u-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Нормально ли, что новорождённый вздрагивает?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, это врождённый рефлекс."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему у малыша дрожит подбородок?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При плаче и возбуждении это бывает у многих малышей. Если дрожание в покое и часто — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда идти к неврологу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Планово — на первом году обязательно. Срочно — при замираниях, остановках дыхания, судорогах."
+     }
+    }
+   ]
+  }
+ ]
+}

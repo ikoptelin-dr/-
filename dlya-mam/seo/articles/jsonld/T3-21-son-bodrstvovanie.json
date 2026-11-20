@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Сон и бодрствование новорождённого: сколько спит малыш",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/son-i-rezhim/bodrstvovanie-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько спит новорождённый?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Большую часть суток, короткими отрезками."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как научить малыша отличать день от ночи?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Днём — свет и обычные звуки, ночью — темнота, тишина, спокойные кормления."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "В какой позе должен спать новорождённый?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Только на спине, на ровном матрасе, без подушек."
+     }
+    }
+   ]
+  }
+ ]
+}

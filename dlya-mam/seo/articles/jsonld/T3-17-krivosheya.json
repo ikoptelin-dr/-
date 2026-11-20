@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Кривошея у новорождённого: как заметить и что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/nevrologiya-i-ortopediya/krivosheya-u-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что у малыша кривошея?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Голова постоянно наклонена в одну сторону и повёрнута в другую, иногда есть уплотнение на шее."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать дома при кривошее?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Выкладывать на живот, класть игрушки со «сложной» стороны, выполнять упражнения от врача."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "К какому врачу идти?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сначала к педиатру, затем к ортопеду или неврологу."
+     }
+    }
+   ]
+  }
+ ]
+}

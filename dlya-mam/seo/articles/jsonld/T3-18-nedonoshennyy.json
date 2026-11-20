@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Недоношенный малыш дома: на что обращать внимание",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/nedonoshennyy-novorozhdennyy",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что такое скорректированный возраст?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Возраст, отсчитанный от даты, когда малыш должен был родиться."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Каких врачей нужно пройти недоношенному малышу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По графику, который дали при выписке, — обычно педиатр, невролог, офтальмолог и другие."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли гулять с недоношенным малышом?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По рекомендации врача, с учётом веса и погоды."
+     }
+    }
+   ]
+  }
+ ]
+}

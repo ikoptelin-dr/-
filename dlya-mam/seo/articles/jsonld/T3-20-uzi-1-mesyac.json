@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Обследования в 1 месяц: УЗИ и сердце новорождённого",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/uzi-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какие УЗИ делают новорождённому в 1 месяц?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно тазобедренных суставов, головного мозга, брюшной полости и почек, а также проверяют сердце. Точный список — у педиатра."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Больно ли малышу делать УЗИ?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, это безболезненно."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если в заключении что-то не так?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обсудить с врачом. Один показатель — ещё не диагноз."
+     }
+    }
+   ]
+  }
+ ]
+}
