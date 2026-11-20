@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Зубы в 2 года: сколько должно быть",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zuby-1-3/zuby-v-2-goda",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько зубов в 2 года?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно около 16, но бывает по-разному."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда вырастут все молочные зубы?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "К 2,5–3 годам."
+     }
+    }
+   ]
+  }
+ ]
+}

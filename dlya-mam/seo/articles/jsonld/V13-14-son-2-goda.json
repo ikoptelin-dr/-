@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Сон ребёнка в 2 года и дневной сон",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/son-1-3/son-rebenka-v-2-goda",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько спит ребёнок в 2 года?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Многие — около 11–14 часов в сутки с дневным сном."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда дети перестают спать днём?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно к 3–4 годам."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок не хочет спать днём?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Тихий отдых в кровати, без экранов."
+     }
+    }
+   ]
+  }
+ ]
+}

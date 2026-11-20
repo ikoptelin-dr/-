@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Адаптация в детском саду: как помочь ребёнку",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/detskiy-sad/adaptaciya-v-detskom-sadu",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[педиатр] + детский психолог"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько длится адаптация в детском саду?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно от нескольких недель до пары месяцев."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как помочь ребёнку привыкнуть к саду?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Короткие дни сначала, ритуал прощания, игрушка из дома."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нормально ли, что ребёнок начал часто болеть?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "В первый год сада частые простуды — частое явление."
+     }
+    }
+   ]
+  }
+ ]
+}

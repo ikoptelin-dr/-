@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок дерётся: что делать родителям",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/povedenie/rebenok-deretsya",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[педиатр] + детский психолог"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок дерётся?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Не умеет договариваться и управлять злостью — это навыки, которые растут."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок бьёт маму?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Спокойно остановить руку и сказать «бить нельзя, мне больно»."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда драки — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если очень часто, сильно и с агрессией к себе."
+     }
+    }
+   ]
+  }
+ ]
+}

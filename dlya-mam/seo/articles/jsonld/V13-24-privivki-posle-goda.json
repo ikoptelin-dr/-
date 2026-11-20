@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Прививки после года",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/privivki-1-3/privivki-posle-goda",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какие прививки делают в 1 год?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По национальному календарю — уточните у педиатра. ⚑"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если пропустили прививку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обсудить с врачом догоняющий график."
+     }
+    }
+   ]
+  }
+ ]
+}

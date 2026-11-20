@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Аллергия у ребёнка 1–3 лет",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/bolezni-1-3/allergiya-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что у ребёнка аллергия?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Реакция повторяется на один и тот же продукт или вещество. Диагноз — у врача."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда аллергия опасна?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Отёк лица, затруднённое дыхание — 103/112."
+     }
+    }
+   ]
+  }
+ ]
+}

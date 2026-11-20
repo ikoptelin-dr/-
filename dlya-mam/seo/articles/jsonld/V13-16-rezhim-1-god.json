@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Режим дня ребёнка в 1 год",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/son-1-3/rezhim-dnya-v-1-god",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько спит ребёнок в 1 год?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно около 12–14 часов в сутки вместе с дневным сном."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда переходить на один дневной сон?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще между 12 и 18 месяцами."
+     }
+    }
+   ]
+  }
+ ]
+}

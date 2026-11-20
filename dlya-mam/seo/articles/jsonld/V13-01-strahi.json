@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Детские страхи: ребёнок боится темноты, людей, нового",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/povedenie/rebenok-boitsya",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[педиатр] + детский психолог"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок всего боится?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "В 1–3 года это частый этап: малыш больше понимает и острее чувствует опасность."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как помочь ребёнку, который боится темноты?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ночник, ритуал, вы рядом. Не высмеивать страх."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда страхи — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если мешают спать, есть, общаться и не проходят месяцами."
+     }
+    }
+   ]
+  }
+ ]
+}

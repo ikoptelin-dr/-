@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок часто болеет в саду: что нормально",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/detskiy-sad/rebenok-chasto-boleet",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок часто болеет в саду?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "В саду много новых вирусов, иммунитет с ними знакомится."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужны ли витамины для иммунитета?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По словам профессора, это миф. Витамины — только по назначению."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда частые болезни — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Частые отиты, пневмонии, плохая прибавка, тяжёлое течение."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок боится какать: что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/gorshok/rebenok-boitsya-kakat",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок боится какать?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего раньше было больно из-за твёрдого стула."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок терпит?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сделать стул мягче питанием и питьём, не давить. Если не помогает — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли дать слабительное?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Только по назначению врача."
+     }
+    }
+   ]
+  }
+ ]
+}

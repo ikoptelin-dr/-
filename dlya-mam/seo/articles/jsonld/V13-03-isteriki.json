@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Истерики у ребёнка 1–3 лет: что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/povedenie/isterika-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[педиатр] + детский психолог"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему у ребёнка истерики?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сильные чувства, усталость, голод, запрет — а слов и навыков пока мало."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать во время истерики?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Безопасность, спокойствие, мало слов. Разговор — потом."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда истерики — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если ребёнок синеет или теряет сознание, если истерики очень частые и с самоповреждением."
+     }
+    }
+   ]
+  }
+ ]
+}

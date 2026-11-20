@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Отлучение от груди: когда и как",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pitanie-1-3/otluchenie-ot-grudi",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[педиатр] + консультант по ГВ"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Когда лучше отлучать от груди?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Когда решите вы с ребёнком; ВОЗ поддерживает ГВ до двух лет и дольше."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как отлучить от груди мягко?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Постепенно убирать по одному кормлению."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если грудь налилась?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Сцедить немного до облегчения, холод после. Температура и краснота — к врачу."
+     }
+    }
+   ]
+  }
+ ]
+}

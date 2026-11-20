@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок 1–3 лет плохо спит ночью",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/son-1-3/rebenok-ploho-spit-nochyu",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок просыпается ночью?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Зубы, болезнь, скачки развития, страхи, режим."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли дать успокоительное?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Только по назначению врача."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Кризис 3 лет: признаки и как пережить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/povedenie/krizis-3-let",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[педиатр] + детский психолог"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Когда начинается кризис 3 лет?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "У многих — между 2,5 и 3,5 годами."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько длится кризис 3 лет?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно несколько месяцев, у всех по-разному."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как вести себя родителям?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Спокойно, с понятными правилами и выбором для ребёнка."
+     }
+    }
+   ]
+  }
+ ]
+}

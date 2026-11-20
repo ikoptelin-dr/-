@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Питание ребёнка в 1 год: что можно давать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pitanie-1-3/pitanie-rebenka-v-1-god",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что можно давать ребёнку в 1 год?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Общий стол: каши, овощи, фрукты, мясо, рыба, молочные продукты — мягко и безопасно нарезано."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли коровье молоко после года?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обсудите с педиатром количество."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько раз в день кормить ребёнка в 1 год?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно 4–5 раз."
+     }
+    }
+   ]
+  }
+ ]
+}

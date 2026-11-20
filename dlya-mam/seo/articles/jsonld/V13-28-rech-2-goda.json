@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Речь ребёнка в 2 года: когда беспокоиться",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/razvitie-1-3/rech-v-2-goda",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[педиатр] + логопед"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько слов должен говорить ребёнок в 2 года?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Многие — около 50 и фразы из двух слов."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда к логопеду?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет фраз в 2 года, не понимает речь, утратил слова."
+     }
+    }
+   ]
+  }
+ ]
+}

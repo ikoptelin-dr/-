@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок боится врачей и уколов: как подготовить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/povedenie/rebenok-boitsya-vrachey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[педиатр] + детский психолог"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как подготовить ребёнка к прививке?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Коротко и честно рассказать, взять игрушку, держать на руках."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли говорить, что будет больно?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Честно: «будет немного больно, быстро, я рядом»."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему нельзя пугать врачом?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Страх станет сильнее, и визиты будут тяжелее."
+     }
+    }
+   ]
+  }
+ ]
+}

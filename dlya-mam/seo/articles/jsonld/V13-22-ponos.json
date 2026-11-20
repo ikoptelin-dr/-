@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Понос у ребёнка 1–3 лет",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/bolezni-1-3/ponos-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Чем поить ребёнка при поносе?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Аптечным раствором для регидратации, понемногу и часто."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Вялость, мало мочи, кровь, долгий понос."
+     }
+    }
+   ]
+  }
+ ]
+}

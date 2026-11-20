@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Температура у ребёнка 2 лет",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/bolezni-1-3/temperatura-u-rebenka-2-goda",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Когда сбивать температуру у ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если ему плохо — по дозе врача."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда вызывать скорую?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Судороги, вялость, затруднённое дыхание, сыпь, которая не бледнеет."
+     }
+    }
+   ]
+  }
+ ]
+}

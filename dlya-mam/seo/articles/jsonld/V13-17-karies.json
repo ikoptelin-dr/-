@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Кариес у маленьких детей: как предупредить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zuby-1-3/karies-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как выглядит кариес у ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Белые, жёлтые или тёмные пятна у десны."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли пасту с фтором?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, в количестве рисового зерна — уточните у стоматолога."
+     }
+    }
+   ]
+  }
+ ]
+}

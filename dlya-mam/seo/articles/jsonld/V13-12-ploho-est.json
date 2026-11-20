@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок плохо ест после года",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/pitanie-1-3/rebenok-ploho-est",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок плохо ест после года?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Рост замедляется, и еды нужно меньше."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок отказывается есть?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Маленькие порции, без принуждения и экранов."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда плохой аппетит — повод к врачу?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если ребёнок худеет, не растёт или вялый."
+     }
+    }
+   ]
+  }
+ ]
+}

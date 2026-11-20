@@ -1,0 +1,49 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Рост и вес ребёнка 1–3 лет",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/razvitie-1-3/rost-i-ves-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько должен весить ребёнок в 2 года?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Смотрите по кривым ВОЗ вместе с педиатром."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Ребёнок маленький — это плохо?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если растёт по своей линии — обычно нет."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Ребёнок кусается: почему и как отучить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/povedenie/rebenok-kusaetsya",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[педиатр] + детский психолог"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок кусается?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Зубы, злость без слов, желание внимания, исследование."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как отучить ребёнка кусаться?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Спокойно и сразу останавливать, давать слова для чувств."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если кусается в саду?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Договориться с воспитателем действовать одинаково."
+     }
+    }
+   ]
+  }
+ ]
+}
