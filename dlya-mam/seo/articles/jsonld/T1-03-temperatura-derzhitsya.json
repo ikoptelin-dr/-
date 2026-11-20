@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Температура держится несколько дней: когда снова к врачу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/temperatura/u-rebenka-derzhitsya-temperatura",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько дней может держаться температура у ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При вирусной инфекции — обычно несколько дней. Если 5 дней и дольше — снова к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если температура держится 3 дня?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Продолжать поить и наблюдать. Если ребёнку хуже, появились новые симптомы — к врачу. Антибиотик самостоятельно не начинать."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему температура снизилась и снова поднялась?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Это может быть признаком осложнения — покажите ребёнка врачу."
+     }
+    }
+   ]
+  }
+ ]
+}

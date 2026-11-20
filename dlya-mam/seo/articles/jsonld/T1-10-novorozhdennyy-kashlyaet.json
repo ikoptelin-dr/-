@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Новорождённый кашляет: когда это опасно",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kashel-i-dyhanie/novorozhdennyy-kashlyaet",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему новорождённый кашляет?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Иногда малыш просто поперхнулся молоком. Повторяющийся кашель может быть признаком инфекции — покажите малыша врачу в тот же день."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Опасен ли кашель у новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Опасен, если малыш синеет, делает паузы в дыхании, кряхтит или не может сосать. Тогда — скорая."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если малыш поперхнулся при кормлении?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Прекратить кормление, взять вертикально, дать откашляться. Если синеет и не дышит — скорая."
+     }
+    }
+   ]
+  }
+ ]
+}

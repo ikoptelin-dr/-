@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Температура у новорождённого и малыша до 3 месяцев: когда сразу к врачу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/temperatura/temperatura-u-mesyachnogo-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какая температура у новорождённого нормальная?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Под мышкой — примерно 36,5–37,5 °C."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если у месячного ребёнка 38?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Вызывать скорую: у малыша до 3 месяцев это правило без исключений."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Может ли новорождённый перегреться?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да. Если малыш тепло укутан, снимите лишнее и измерьте снова через 15–20 минут."
+     }
+    }
+   ]
+  }
+ ]
+}

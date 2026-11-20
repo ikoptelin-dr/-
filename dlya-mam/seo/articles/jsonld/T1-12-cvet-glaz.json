@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Цвет глаз у новорождённого: когда установится и что должно насторожить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/nos-gorlo-ushi-glaza/cvet-glaz-u-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Когда меняется цвет глаз у новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Постепенно, в течение первого года, иногда позже."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему у малыша глаза разного цвета?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Покажите ребёнка врачу в плановом порядке."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что значит белое пятно в зрачке на фото?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Это повод в ближайшие дни показать малыша офтальмологу."
+     }
+    }
+   ]
+  }
+ ]
+}

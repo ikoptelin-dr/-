@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Конъюнктивит у ребёнка: красный глаз — когда к врачу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/nos-gorlo-ushi-glaza/konyunktivit-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что у ребёнка конъюнктивит?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Глаз красный, слезится, есть выделения, по утрам корочки на ресницах."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли закапать капли без врача?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет. Какие капли нужны и нужны ли вообще, решает врач."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Заразен ли конъюнктивит?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Часто да. Мойте руки, дайте малышу отдельное полотенце."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Купание новорождённого: какая температура воды нужна",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/novorozhdennyy/temperatura-vody-dlya-kupaniya",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какая температура воды нужна для купания новорождённого?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Около 37 °C — близко к температуре тела. Проверьте термометром или локтем."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли купать новорождённого, пока не зажил пупок?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "По словам профессора, пупок при купании просто омывается проточной водой, а потом аккуратно промакивается."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько купать малыша?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Несколько минут достаточно. Главное — не оставлять одного."
+     }
+    }
+   ]
+  }
+ ]
+}

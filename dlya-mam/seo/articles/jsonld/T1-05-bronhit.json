@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Бронхит у ребёнка: как проходит и когда нужен врач",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kashel-i-dyhanie/bronhit-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько длится бронхит у ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Кашель может держаться до 2–3 недель. Дольше — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужен ли антибиотик при бронхите?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего нет: бронхит вызывают вирусы. Решение принимает врач."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Чем бронхит отличается от бронхиолита?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Бронхиолит — воспаление самых мелких бронхов, чаще у детей до года. При нём особенно важно следить за дыханием."
+     }
+    }
+   ]
+  }
+ ]
+}

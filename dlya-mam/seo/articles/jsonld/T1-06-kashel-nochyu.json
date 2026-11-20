@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Кашель ночью и приступы кашля у ребёнка: что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kashel-i-dyhanie/kashel-nochyu-u-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок кашляет ночью?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего из-за слизи, которая стекает из носоглотки, когда ребёнок лежит."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать при приступе кашля ночью?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Взять на руки вертикально, успокоить, предложить попить. Если задыхается, синеет или шумно дышит в покое — скорая."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "К какому врачу идти с ночным кашлем?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если держится больше недели — к ЛОР-врачу или педиатру."
+     }
+    }
+   ]
+  }
+ ]
+}

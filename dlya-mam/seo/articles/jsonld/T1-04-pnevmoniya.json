@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Пневмония у ребёнка: какие признаки должны насторожить",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/kashel-i-dyhanie/pnevmoniya-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что у ребёнка пневмония?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Дома точно — никак, диагноз ставит врач. Насторожить должны частое дыхание, втягивание кожи между рёбрами, кряхтение, температура больше 3 дней, вялость."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли лечить пневмонию дома?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Как лечить — решает только врач после осмотра."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как посчитать дыхание у малыша?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Когда ребёнок спит, считайте вдохи (подъёмы животика) за полную минуту."
+     }
+    }
+   ]
+  }
+ ]
+}

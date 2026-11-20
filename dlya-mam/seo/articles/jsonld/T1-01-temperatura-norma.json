@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Температура у ребёнка: какая нормальная и почему поднимается",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/temperatura/temperatura-tela-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Какая температура тела у грудничка нормальная?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Под мышкой — примерно до 37 °C. Небольшие колебания у здорового малыша бывают."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Почему у ребёнка поднимается температура?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего из-за вирусной инфекции. Бывает от перегрева и после прививки."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда мерить температуру, чтобы цифра была точной?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Через 15–20 минут после сна, кормления или плача, в обычной одежде."
+     }
+    }
+   ]
+  }
+ ]
+}

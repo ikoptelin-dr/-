@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Глаза новорождённого: слезятся, гноятся, слёзный канал — когда к врачу",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/nos-gorlo-ushi-glaza/glaza-u-novorozhdennyh",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему у новорождённого слезится глаз?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Чаще всего из-за непроходимости слёзного канала. Покажите малыша педиатру."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как делать массаж слёзного канала?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Только после того, как врач покажет технику."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда гноящийся глаз у новорождённого — срочно?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если глаз красный, веко отекло, малыш не открывает глаз — особенно в первые недели жизни."
+     }
+    }
+   ]
+  }
+ ]
+}

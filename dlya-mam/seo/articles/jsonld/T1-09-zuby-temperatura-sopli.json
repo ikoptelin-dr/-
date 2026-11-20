@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Режутся зубы: бывает ли температура и сопли",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/temperatura/temperatura-pri-prorezyvanii-zubov",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Может ли быть температура при прорезывании зубов?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Небольшая — иногда. Высокую температуру на зубы не списывают — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Бывают ли сопли от зубов?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Слюней и прозрачных выделений из носа может стать больше. Сильный насморк чаще связан с простудой."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как помочь малышу, когда режутся зубы?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Прохладное прорезывательное кольцо, массаж десны чистым пальцем, внимание и руки."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,55 +1,55 @@
 tier,rank,hub,article,reviewer,demand_rf_30d,tz_file,status
-1,3,Температура,температура 38 у ребенка,педиатр,684767,seo/tz/T1/003-temperatura-38-u-rebenka.md,ТЗ готово
-1,15,"Нос, горло, уши, глаза",сопли у ребенка,педиатр,291529,seo/tz/T1/015-sopli-u-rebenka.md,ТЗ готово
-1,32,"Нос, горло, уши, глаза",насморк у ребенка,педиатр,129495,seo/tz/T1/032-nasmork-u-rebenka.md,ТЗ готово
-1,37,Кашель и дыхание,сильный кашель у ребенка,педиатр,119598,seo/tz/T1/037-silnyy-kashel-u-rebenka.md,ТЗ готово
-1,40,Кашель и дыхание,ложный круп,педиатр,108002,seo/tz/T1/040-lozhnyy-krup.md,ТЗ готово
-1,44,Кашель и дыхание,пневмония у детей,педиатр,94453,seo/tz/T1/044-pnevmoniya-u-detey.md,ТЗ готово
-1,46,Кашель и дыхание,кашель у ребенка без температуры,педиатр,88769,seo/tz/T1/046-kashel-u-rebenka-bez-temperatury.md,ТЗ готово
-1,47,Кашель и дыхание,сухой кашель у ребенка,педиатр,88720,seo/tz/T1/047-suhoy-kashel-u-rebenka.md,ТЗ готово
-1,48,Плач и поведение,новорожденный плачет,педиатр,88433,seo/tz/T1/048-novorozhdennyy-plachet.md,ТЗ готово
-1,51,"Нос, горло, уши, глаза",зеленые сопли у ребенка,педиатр,73399,seo/tz/T1/051-zelenye-sopli-u-rebenka.md,ТЗ готово
-1,54,Температура,температура у ребенка без симптомов,педиатр,66276,seo/tz/T1/054-temperatura-u-rebenka-bez-simptomov.md,ТЗ готово
-1,56,"Нос, горло, уши, глаза",орви у детей,педиатр,64078,seo/tz/T1/056-orvi-u-detey.md,ТЗ готово
-1,59,Плач и поведение,плач ребенка,педиатр,58531,seo/tz/T1/059-plach-rebenka.md,ТЗ готово
-1,62,Температура,высокая температура у ребенка,педиатр,53967,seo/tz/T1/062-vysokaya-temperatura-u-rebenka.md,ТЗ готово
-1,64,Кашель и дыхание,бронхит у детей,педиатр,52901,seo/tz/T1/064-bronhit-u-detey.md,ТЗ готово
-1,66,Кашель и дыхание,обструктивный бронхит,педиатр,52315,seo/tz/T1/066-obstruktivnyy-bronhit.md,ТЗ готово
-1,67,"Нос, горло, уши, глаза",глаза у новорожденных,педиатр,52099,seo/tz/T1/067-glaza-u-novorozhdennyh.md,ТЗ готово
-1,76,"Нос, горло, уши, глаза",отит у ребенка,педиатр,47022,seo/tz/T1/076-otit-u-rebenka.md,ТЗ готово
-1,84,Температура,у ребенка держится температура,педиатр,41925,seo/tz/T1/084-u-rebenka-derzhitsya-temperatura.md,ТЗ готово
-1,89,Температура,у ребенка поднялась температура,педиатр,40089,seo/tz/T1/089-u-rebenka-podnyalas-temperatura.md,ТЗ готово
-1,92,Ночью и скорая,скорая для детей,педиатр,38208,seo/tz/T1/092-skoraya-dlya-detey.md,ТЗ готово
-1,94,Кашель и дыхание,кашель ночью у ребенка,педиатр,36782,seo/tz/T1/094-kashel-nochyu-u-rebenka.md,ТЗ готово
-1,96,"Нос, горло, уши, глаза",конъюнктивит у детей,педиатр,36013,seo/tz/T1/096-konyunktivit-u-detey.md,ТЗ готово
-1,97,Температура,температура при прорезывании зубов,педиатр,34747,seo/tz/T1/097-temperatura-pri-prorezyvanii-zubov.md,ТЗ готово
-1,99,"Нос, горло, уши, глаза",сопли без температуры у ребенка,педиатр,34616,seo/tz/T1/099-sopli-bez-temperatury-u-rebenka.md,ТЗ готово
-1,100,Кашель и дыхание,лающий кашель у ребенка,педиатр,34449,seo/tz/T1/100-layuschiy-kashel-u-rebenka.md,ТЗ готово
-1,103,Температура,температура воды для новорожденных,педиатр,31075,seo/tz/T1/103-temperatura-vody-dlya-novorozhdennyh.md,ТЗ готово
-1,107,Температура,температура тела у детей,педиатр,28962,seo/tz/T1/107-temperatura-tela-u-detey.md,ТЗ готово
-1,110,Кашель и дыхание,влажный кашель у ребенка,педиатр,28661,seo/tz/T1/110-vlazhnyy-kashel-u-rebenka.md,ТЗ готово
-1,113,Кашель и дыхание,у ребенка кашель и сопли,педиатр,27641,seo/tz/T1/113-u-rebenka-kashel-i-sopli.md,ТЗ готово
-1,115,Температура,температура у месячного ребенка,педиатр,27131,seo/tz/T1/115-temperatura-u-mesyachnogo-rebenka.md,ТЗ готово
-1,145,Кашель и дыхание,кашель сопли и температура у ребенка,педиатр,16397,seo/tz/T1/145-kashel-sopli-i-temperatura-u-rebenka.md,ТЗ готово
-1,146,"Нос, горло, уши, глаза",для носа новорожденным,педиатр,16369,seo/tz/T1/146-dlya-nosa-novorozhdennym.md,ТЗ готово
-1,151,"Нос, горло, уши, глаза",прозрачные сопли у ребенка,педиатр,15173,seo/tz/T1/151-prozrachnye-sopli-u-rebenka.md,ТЗ готово
-1,152,Кашель и дыхание,сухой кашель у ребенка без температуры,педиатр,14848,seo/tz/T1/152-suhoy-kashel-u-rebenka-bez-temperatury.md,ТЗ готово
-1,169,Кашель и дыхание,кашель с мокротой у ребенка,педиатр,12622,seo/tz/T1/169-kashel-s-mokrotoy-u-rebenka.md,ТЗ готово
-1,177,Кашель и дыхание,у ребенка не проходит кашель,педиатр,10915,seo/tz/T1/177-u-rebenka-ne-prohodit-kashel.md,ТЗ готово
-1,185,"Нос, горло, уши, глаза",насморк без температуры у ребенка,педиатр,10405,seo/tz/T1/185-nasmork-bez-temperatury-u-rebenka.md,ТЗ готово
-1,187,"Нос, горло, уши, глаза",у ребенка не проходят сопли,педиатр,10377,seo/tz/T1/187-u-rebenka-ne-prohodyat-sopli.md,ТЗ готово
-1,191,Кашель и дыхание,приступы кашля у ребенка,педиатр,10216,seo/tz/T1/191-pristupy-kashlya-u-rebenka.md,ТЗ готово
-1,215,"Нос, горло, уши, глаза",цвет глаз у новорожденных,педиатр,8936,seo/tz/T1/215-cvet-glaz-u-novorozhdennyh.md,ТЗ готово
-1,217,"Нос, горло, уши, глаза",температура при орви у детей,педиатр,8716,seo/tz/T1/217-temperatura-pri-orvi-u-detey.md,ТЗ готово
-1,224,Кашель и дыхание,новорожденный кашляет,педиатр,8208,seo/tz/T1/224-novorozhdennyy-kashlyaet.md,ТЗ готово
-1,226,Кашель и дыхание,кашель без насморка у ребенка,педиатр,8083,seo/tz/T1/226-kashel-bez-nasmorka-u-rebenka.md,ТЗ готово
-1,232,"Нос, горло, уши, глаза",сопли при прорезывании зубов,педиатр,7293,seo/tz/T1/232-sopli-pri-prorezyvanii-zubov.md,ТЗ готово
-1,237,"Нос, горло, уши, глаза",слезный канал у новорожденных,педиатр,7029,seo/tz/T1/237-sleznyy-kanal-u-novorozhdennyh.md,ТЗ готово
-1,238,Температура,холодные ноги при температуре у ребенка,педиатр,6991,seo/tz/T1/238-holodnye-nogi-pri-temperature-u-rebenka.md,ТЗ готово
-1,240,Температура,у ребенка температура и болит голова,педиатр,6887,seo/tz/T1/240-u-rebenka-temperatura-i-bolit-golova.md,ТЗ готово
-1,241,Температура,почему у ребенка поднимается температура,педиатр,6805,seo/tz/T1/241-pochemu-u-rebenka-podnimaetsya-temperatura.md,ТЗ готово
-1,298,Ночью и скорая,при какой температуре вызывать скорую ребенку,педиатр,1990,seo/tz/T1/298-pri-kakoy-temperature-vyzyvat-skoruyu-rebenku.md,ТЗ готово
-2,7,Живот и стул,колики,педиатр,502281,seo/tz/T2/007-koliki.md,ТЗ готово
+1,3,Температура,температура 38 у ребенка,педиатр,684767,seo/tz/T1/003-temperatura-38-u-rebenka.md,черновик написан: seo/articles/denisov/D01
+1,15,"Нос, горло, уши, глаза",сопли у ребенка,педиатр,291529,seo/tz/T1/015-sopli-u-rebenka.md,черновик написан: seo/articles/P01
+1,32,"Нос, горло, уши, глаза",насморк у ребенка,педиатр,129495,seo/tz/T1/032-nasmork-u-rebenka.md,черновик написан: seo/articles/denisov/D09
+1,37,Кашель и дыхание,сильный кашель у ребенка,педиатр,119598,seo/tz/T1/037-silnyy-kashel-u-rebenka.md,черновик написан: seo/articles/P05
+1,40,Кашель и дыхание,ложный круп,педиатр,108002,seo/tz/T1/040-lozhnyy-krup.md,черновик написан: seo/articles/P08
+1,44,Кашель и дыхание,пневмония у детей,педиатр,94453,seo/tz/T1/044-pnevmoniya-u-detey.md,черновик написан: seo/articles/t1/T1-04
+1,46,Кашель и дыхание,кашель у ребенка без температуры,педиатр,88769,seo/tz/T1/046-kashel-u-rebenka-bez-temperatury.md,черновик написан: seo/articles/P07
+1,47,Кашель и дыхание,сухой кашель у ребенка,педиатр,88720,seo/tz/T1/047-suhoy-kashel-u-rebenka.md,черновик написан: seo/articles/P06
+1,48,Плач и поведение,новорожденный плачет,педиатр,88433,seo/tz/T1/048-novorozhdennyy-plachet.md,черновик написан: seo/articles/P09
+1,51,"Нос, горло, уши, глаза",зеленые сопли у ребенка,педиатр,73399,seo/tz/T1/051-zelenye-sopli-u-rebenka.md,черновик написан: seo/articles/P03
+1,54,Температура,температура у ребенка без симптомов,педиатр,66276,seo/tz/T1/054-temperatura-u-rebenka-bez-simptomov.md,черновик написан: seo/articles/P10
+1,56,"Нос, горло, уши, глаза",орви у детей,педиатр,64078,seo/tz/T1/056-orvi-u-detey.md,черновик написан: seo/articles/P04
+1,59,Плач и поведение,плач ребенка,педиатр,58531,seo/tz/T1/059-plach-rebenka.md,вписан разделом в seo/articles/P09
+1,62,Температура,высокая температура у ребенка,педиатр,53967,seo/tz/T1/062-vysokaya-temperatura-u-rebenka.md,вписан разделом в seo/articles/denisov/D01
+1,64,Кашель и дыхание,бронхит у детей,педиатр,52901,seo/tz/T1/064-bronhit-u-detey.md,черновик написан: seo/articles/t1/T1-05
+1,66,Кашель и дыхание,обструктивный бронхит,педиатр,52315,seo/tz/T1/066-obstruktivnyy-bronhit.md,черновик написан: seo/articles/denisov/D02
+1,67,"Нос, горло, уши, глаза",глаза у новорожденных,педиатр,52099,seo/tz/T1/067-glaza-u-novorozhdennyh.md,черновик написан: seo/articles/t1/T1-07
+1,76,"Нос, горло, уши, глаза",отит у ребенка,педиатр,47022,seo/tz/T1/076-otit-u-rebenka.md,черновик написан: seo/articles/denisov/D04
+1,84,Температура,у ребенка держится температура,педиатр,41925,seo/tz/T1/084-u-rebenka-derzhitsya-temperatura.md,черновик написан: seo/articles/t1/T1-03
+1,89,Температура,у ребенка поднялась температура,педиатр,40089,seo/tz/T1/089-u-rebenka-podnyalas-temperatura.md,вписан разделом в seo/articles/t1/T1-01
+1,92,Ночью и скорая,скорая для детей,педиатр,38208,seo/tz/T1/092-skoraya-dlya-detey.md,черновик написан: seo/articles/E2
+1,94,Кашель и дыхание,кашель ночью у ребенка,педиатр,36782,seo/tz/T1/094-kashel-nochyu-u-rebenka.md,черновик написан: seo/articles/t1/T1-06
+1,96,"Нос, горло, уши, глаза",конъюнктивит у детей,педиатр,36013,seo/tz/T1/096-konyunktivit-u-detey.md,черновик написан: seo/articles/t1/T1-08
+1,97,Температура,температура при прорезывании зубов,педиатр,34747,seo/tz/T1/097-temperatura-pri-prorezyvanii-zubov.md,черновик написан: seo/articles/t1/T1-09
+1,99,"Нос, горло, уши, глаза",сопли без температуры у ребенка,педиатр,34616,seo/tz/T1/099-sopli-bez-temperatury-u-rebenka.md,вписан разделом в seo/articles/P01
+1,100,Кашель и дыхание,лающий кашель у ребенка,педиатр,34449,seo/tz/T1/100-layuschiy-kashel-u-rebenka.md,вписан разделом в seo/articles/P08
+1,103,Температура,температура воды для новорожденных,педиатр,31075,seo/tz/T1/103-temperatura-vody-dlya-novorozhdennyh.md,черновик написан: seo/articles/t1/T1-11
+1,107,Температура,температура тела у детей,педиатр,28962,seo/tz/T1/107-temperatura-tela-u-detey.md,черновик написан: seo/articles/t1/T1-01
+1,110,Кашель и дыхание,влажный кашель у ребенка,педиатр,28661,seo/tz/T1/110-vlazhnyy-kashel-u-rebenka.md,вписан разделом в seo/articles/P06
+1,113,Кашель и дыхание,у ребенка кашель и сопли,педиатр,27641,seo/tz/T1/113-u-rebenka-kashel-i-sopli.md,вписан разделом в seo/articles/P04
+1,115,Температура,температура у месячного ребенка,педиатр,27131,seo/tz/T1/115-temperatura-u-mesyachnogo-rebenka.md,черновик написан: seo/articles/t1/T1-02
+1,145,Кашель и дыхание,кашель сопли и температура у ребенка,педиатр,16397,seo/tz/T1/145-kashel-sopli-i-temperatura-u-rebenka.md,вписан разделом в seo/articles/P04
+1,146,"Нос, горло, уши, глаза",для носа новорожденным,педиатр,16369,seo/tz/T1/146-dlya-nosa-novorozhdennym.md,вписан разделом в seo/articles/denisov/D09
+1,151,"Нос, горло, уши, глаза",прозрачные сопли у ребенка,педиатр,15173,seo/tz/T1/151-prozrachnye-sopli-u-rebenka.md,вписан разделом в seo/articles/P01
+1,152,Кашель и дыхание,сухой кашель у ребенка без температуры,педиатр,14848,seo/tz/T1/152-suhoy-kashel-u-rebenka-bez-temperatury.md,вписан разделом в seo/articles/P07
+1,169,Кашель и дыхание,кашель с мокротой у ребенка,педиатр,12622,seo/tz/T1/169-kashel-s-mokrotoy-u-rebenka.md,вписан разделом в seo/articles/P06
+1,177,Кашель и дыхание,у ребенка не проходит кашель,педиатр,10915,seo/tz/T1/177-u-rebenka-ne-prohodit-kashel.md,черновик написан: seo/articles/denisov/D10
+1,185,"Нос, горло, уши, глаза",насморк без температуры у ребенка,педиатр,10405,seo/tz/T1/185-nasmork-bez-temperatury-u-rebenka.md,вписан разделом в seo/articles/P01
+1,187,"Нос, горло, уши, глаза",у ребенка не проходят сопли,педиатр,10377,seo/tz/T1/187-u-rebenka-ne-prohodyat-sopli.md,вписан разделом в seo/articles/P01
+1,191,Кашель и дыхание,приступы кашля у ребенка,педиатр,10216,seo/tz/T1/191-pristupy-kashlya-u-rebenka.md,вписан разделом в seo/articles/t1/T1-06
+1,215,"Нос, горло, уши, глаза",цвет глаз у новорожденных,педиатр,8936,seo/tz/T1/215-cvet-glaz-u-novorozhdennyh.md,черновик написан: seo/articles/t1/T1-12
+1,217,"Нос, горло, уши, глаза",температура при орви у детей,педиатр,8716,seo/tz/T1/217-temperatura-pri-orvi-u-detey.md,вписан разделом в seo/articles/P04
+1,224,Кашель и дыхание,новорожденный кашляет,педиатр,8208,seo/tz/T1/224-novorozhdennyy-kashlyaet.md,черновик написан: seo/articles/t1/T1-10
+1,226,Кашель и дыхание,кашель без насморка у ребенка,педиатр,8083,seo/tz/T1/226-kashel-bez-nasmorka-u-rebenka.md,вписан разделом в seo/articles/P07
+1,232,"Нос, горло, уши, глаза",сопли при прорезывании зубов,педиатр,7293,seo/tz/T1/232-sopli-pri-prorezyvanii-zubov.md,вписан разделом в seo/articles/t1/T1-09
+1,237,"Нос, горло, уши, глаза",слезный канал у новорожденных,педиатр,7029,seo/tz/T1/237-sleznyy-kanal-u-novorozhdennyh.md,вписан разделом в seo/articles/t1/T1-07
+1,238,Температура,холодные ноги при температуре у ребенка,педиатр,6991,seo/tz/T1/238-holodnye-nogi-pri-temperature-u-rebenka.md,вписан разделом в seo/articles/denisov/D01
+1,240,Температура,у ребенка температура и болит голова,педиатр,6887,seo/tz/T1/240-u-rebenka-temperatura-i-bolit-golova.md,вписан разделом в seo/articles/P04
+1,241,Температура,почему у ребенка поднимается температура,педиатр,6805,seo/tz/T1/241-pochemu-u-rebenka-podnimaetsya-temperatura.md,вписан разделом в seo/articles/t1/T1-01
+1,298,Ночью и скорая,при какой температуре вызывать скорую ребенку,педиатр,1990,seo/tz/T1/298-pri-kakoy-temperature-vyzyvat-skoruyu-rebenku.md,вписан разделом в seo/articles/E2
+2,7,Живот и стул,колики,педиатр,502281,seo/tz/T2/007-koliki.md,черновик написан: seo/articles/denisov/D05
 2,13,Новорождённый и уход,кормление новорожденного,педиатр,315465,seo/tz/T2/013-kormlenie-novorozhdennogo.md,ТЗ готово
 2,14,Новорождённый и уход,родничок,педиатр,297570,seo/tz/T2/014-rodnichok.md,ТЗ готово
 2,28,Кожа,ветрянка у детей,дерматолог,154550,seo/tz/T2/028-vetryanka-u-detey.md,ТЗ готово
@@ -57,16 +57,16 @@ tier,rank,hub,article,reviewer,demand_rf_30d,tz_file,status
 2,35,Живот и стул,понос у ребенка,педиатр,123057,seo/tz/T2/035-ponos-u-rebenka.md,ТЗ готово
 2,42,Живот и стул,срыгивание,педиатр,99125,seo/tz/T2/042-srygivanie.md,ТЗ готово
 2,49,Новорождённый и уход,голова новорожденного,педиатр,81183,seo/tz/T2/049-golova-novorozhdennogo.md,ТЗ готово
-2,52,Новорождённый и уход,желтушка у новорожденных,педиатр,70960,seo/tz/T2/052-zheltushka-u-novorozhdennyh.md,ТЗ готово
+2,52,Новорождённый и уход,желтушка у новорожденных,педиатр,70960,seo/tz/T2/052-zheltushka-u-novorozhdennyh.md,черновик написан: seo/articles/denisov/D07
 2,57,Новорождённый и уход,купание новорожденного,педиатр,61011,seo/tz/T2/057-kupanie-novorozhdennogo.md,ТЗ готово
-2,58,Новорождённый и уход,пупок новорожденного,педиатр,59382,seo/tz/T2/058-pupok-novorozhdennogo.md,ТЗ готово
+2,58,Новорождённый и уход,пупок новорожденного,педиатр,59382,seo/tz/T2/058-pupok-novorozhdennogo.md,черновик написан: seo/articles/denisov/D08
 2,68,Живот и стул,лактазная недостаточность,педиатр,51824,seo/tz/T2/068-laktaznaya-nedostatochnost.md,ТЗ готово
 2,70,Живот и стул,запор у новорожденного,педиатр,50256,seo/tz/T2/070-zapor-u-novorozhdennogo.md,ТЗ готово
 2,73,Новорождённый и уход,массаж новорожденному,педиатр,49342,seo/tz/T2/073-massazh-novorozhdennomu.md,ТЗ готово
 2,74,Неврология и ортопедия,дисплазия тазобедренных суставов,педиатр,48533,seo/tz/T2/074-displaziya-tazobedrennyh-sustavov.md,ТЗ готово
 2,78,Живот и стул,рвота и понос у ребенка,педиатр,45239,seo/tz/T2/078-rvota-i-ponos-u-rebenka.md,ТЗ готово
 2,79,Живот и стул,рвота и температура у ребенка,педиатр,45075,seo/tz/T2/079-rvota-i-temperatura-u-rebenka.md,ТЗ готово
-2,81,Живот и стул,рвота у ребенка что делать,педиатр,44764,seo/tz/T2/081-rvota-u-rebenka-chto-delat.md,ТЗ готово
+2,81,Живот и стул,рвота у ребенка что делать,педиатр,44764,seo/tz/T2/081-rvota-u-rebenka-chto-delat.md,черновик написан: seo/articles/denisov/D03
 2,82,Живот и стул,понос и температура у ребенка,педиатр,42581,seo/tz/T2/082-ponos-i-temperatura-u-rebenka.md,ТЗ готово
 2,83,Новорождённый и уход,кровь новорожденного,педиатр,42087,seo/tz/T2/083-krov-novorozhdennogo.md,ТЗ готово
 2,86,Новорождённый и уход,новорожденный икает,педиатр,41467,seo/tz/T2/086-novorozhdennyy-ikaet.md,ТЗ готово
@@ -251,7 +251,7 @@ tier,rank,hub,article,reviewer,demand_rf_30d,tz_file,status
 5,265,Сон и режим,сон ребенка в 3 месяца,педиатр,5134,seo/tz/T5/265-son-rebenka-v-3-mesyaca.md,ТЗ готово
 6,6,Прививки,прививки детям,педиатр,503509,seo/tz/T6/006-privivki-detyam.md,ТЗ готово
 6,9,Анализы и показатели,анализы детям,педиатр,364251,seo/tz/T6/009-analizy-detyam.md,ТЗ готово
-6,23,Кожа,сыпь у ребенка,дерматолог,199309,seo/tz/T6/023-syp-u-rebenka.md,ТЗ готово
+6,23,Кожа,сыпь у ребенка,дерматолог,199309,seo/tz/T6/023-syp-u-rebenka.md,черновик написан: seo/articles/pilot/A3
 6,26,Кожа,розеола,дерматолог,175163,seo/tz/T6/026-rozeola.md,ТЗ готово
 6,39,Кожа,потница,дерматолог,108411,seo/tz/T6/039-potnica.md,ТЗ готово
 6,41,Анализы и показатели,рахит,педиатр,103212,seo/tz/T6/041-rahit.md,ТЗ готово
@@ -277,7 +277,7 @@ tier,rank,hub,article,reviewer,demand_rf_30d,tz_file,status
 6,171,Анализы и показатели,моча у новорожденных,педиатр,12507,seo/tz/T6/171-mocha-u-novorozhdennyh.md,ТЗ готово
 6,172,Прививки,календарь прививок для детей с рождения,педиатр,12464,seo/tz/T6/172-kalendar-privivok-dlya-detey-s-rozhdeniya.md,ТЗ готово
 6,180,Прививки,профилактические прививки детям,педиатр,10717,seo/tz/T6/180-profilakticheskie-privivki-detyam.md,ТЗ готово
-6,182,Прививки,температура после прививки у ребенка,педиатр,10585,seo/tz/T6/182-temperatura-posle-privivki-u-rebenka.md,ТЗ готово
+6,182,Прививки,температура после прививки у ребенка,педиатр,10585,seo/tz/T6/182-temperatura-posle-privivki-u-rebenka.md,черновик написан: seo/articles/denisov/D06
 6,186,Кожа,сыпь на лице у ребенка,дерматолог,10388,seo/tz/T6/186-syp-na-lice-u-rebenka.md,ТЗ готово
 6,189,Анализы и показатели,анализ кала у ребенка,педиатр,10310,seo/tz/T6/189-analiz-kala-u-rebenka.md,ТЗ готово
 6,192,Анализы и показатели,общий анализ крови у детей,педиатр,10162,seo/tz/T6/192-obschiy-analiz-krovi-u-detey.md,ТЗ готово
