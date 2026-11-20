@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Регресс сна у малыша: почему сон вдруг испортился",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/son-i-rezhim/regress-sna",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что такое регресс сна?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Временное ухудшение сна при освоении новых навыков, зубах, после болезни."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько длится регресс сна?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно несколько недель."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если малыш переворачивается во сне на живот?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Класть на спину; если малыш сам уверенно переворачивается в обе стороны, перекладывать его не нужно."
+     }
+    }
+   ]
+  }
+ ]
+}

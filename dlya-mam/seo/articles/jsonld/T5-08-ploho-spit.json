@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Малыш плохо спит ночью и просыпается с плачем",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/son-i-rezhim/novorozhdennyy-ne-spit",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Почему ребёнок просыпается ночью с плачем?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Голод, колики, зубы, скачки развития. Если с температурой или рвотой — к врачу."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если малыш спит только на руках?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Это нормально. Перекладывайте заснувшего в кроватку на спину."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Можно ли дать малышу что-то для спокойного сна?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Без врача — нет."
+     }
+    }
+   ]
+  }
+ ]
+}

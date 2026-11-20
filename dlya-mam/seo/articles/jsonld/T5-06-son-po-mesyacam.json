@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Сон ребёнка до года по месяцам: сколько спит малыш",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/son-i-rezhim/son-novorozhdennogo",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Сколько спит ребёнок в 3 месяца?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ночной сон длиннее, днём 3–4 сна. Точные часы у всех разные."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько спит ребёнок в 5 месяцев?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно 2–3 дневных сна и более длинный ночной сон."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужна ли таблица сна и бодрствования?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Как ориентир — да, как жёсткое правило — нет."
+     }
+    }
+   ]
+  }
+ ]
+}

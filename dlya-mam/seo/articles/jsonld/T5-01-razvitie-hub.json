@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Развитие ребёнка по месяцам: что умеет малыш до года",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/razvitie/chto-umeyut-deti",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Что умеет ребёнок в каждом месяце?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Смотрите карту выше и статьи по месяцам. Сроки у всех разные."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда тревожиться о развитии?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "При утрате навыков, отсутствии реакции на звуки и взгляд, асимметрии движений."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужны ли развивающие препараты?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет. Самостоятельно их назначать нельзя."
+     }
+    }
+   ]
+  }
+ ]
+}

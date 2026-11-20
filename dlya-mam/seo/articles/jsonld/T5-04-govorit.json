@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Когда ребёнок начинает говорить и как помочь",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/razvitie/vo-skolko-deti-nachinayut-govorit",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Во сколько дети начинают говорить?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Первые слова многие говорят около года."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Как научить ребёнка говорить?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Разговаривать, читать, петь, отвечать на лепет."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда тревожиться, если ребёнок не говорит?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если к 12–15 месяцам нет ни одного слова, жестов, не откликается на имя."
+     }
+    }
+   ]
+  }
+ ]
+}

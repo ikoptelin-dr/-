@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Когда ребёнок начинает ползать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/razvitie/kogda-rebenok-polzaet",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Во сколько дети начинают ползать?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "У многих — между 7 и 10 месяцами."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нормально ли, что ребёнок ползает назад?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Да, часто это этап."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Что делать, если ребёнок не ползает?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если он развивается в остальном и пытается двигаться — чаще всего всё в порядке. Сомневаетесь — к педиатру."
+     }
+    }
+   ]
+  }
+ ]
+}

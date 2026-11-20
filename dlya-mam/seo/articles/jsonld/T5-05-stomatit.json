@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Стоматит у ребёнка: язвочки во рту — что делать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/zuby-i-rot/stomatit-u-detey",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как понять, что у ребёнка стоматит?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Язвочки или пузырьки во рту, малыш отказывается от еды, слюнявится, капризничает."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Чем кормить ребёнка при стоматите?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Мягкой, прохладной, не кислой и не солёной едой. Главное — чтобы пил."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Заразен ли стоматит?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Некоторые виды заразны. Отдельная посуда, мойте руки."
+     }
+    }
+   ]
+  }
+ ]
+}

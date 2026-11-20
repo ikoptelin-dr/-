@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Режим дня ребёнка до года: как выстроить без стресса",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/son-i-rezhim/rezhim-dnya-rebenka",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Как приучить ребёнка к режиму?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Повторять последовательность: проснулся — поел — поиграл — уснул."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Сколько дневных снов нужно ребёнку?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Зависит от возраста: от нескольких у малышей до 1–2 к году."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли будить малыша днём?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Обычно нет, если он хорошо ест и прибавляет. Иногда врач советует будить новорождённого на кормление."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalWebPage",
+   "name": "Когда ребёнок начинает сидеть и нужно ли его сажать",
+   "inLanguage": "ru",
+   "url": "https://for-mom.ru/razvitie/rebenok-sidit",
+   "audience": {
+    "@type": "PeopleAudience",
+    "audienceType": "Родители детей до года"
+   },
+   "author": {
+    "@type": "Person",
+    "name": "Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр",
+    "affiliation": {
+     "@type": "CollegeOrUniversity",
+     "name": "Новосибирский государственный университет"
+    }
+   },
+   "reviewedBy": {
+    "@type": "Person",
+    "name": "[ФИО, должность]"
+   },
+   "lastReviewed": "[ДД.ММ.ГГГГ]"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Во сколько ребёнок начинает сидеть?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "У многих — между 6 и 9 месяцами."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Нужно ли сажать ребёнка?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Нет, он сядет сам, когда будет готов."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Когда тревожиться?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Если к 9 месяцам не сидит даже с поддержкой."
+     }
+    }
+   ]
+  }
+ ]
+}
