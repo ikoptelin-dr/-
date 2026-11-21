@@ -34,17 +34,38 @@ MAP = {'D01': ['REC','NG143','KRORVI','ERC'], 'D02': ['REC','NG9','NG143','KRBRO
        'D05': ['REC','CKS','AAPSLEEP'], 'D06': ['REC','WHOVAX','MU','NKP','FZ157','FZ323'],
        'D07': ['REC','CG98','AAPBIL','KRJAUN'], 'D08': ['REC','WHOPNC','NG194'],
        'D09': ['REC','KRORVI','AAPSLEEP'], 'D10': ['REC','NG120','NG143','KRASTMA','KRORVI']}
+
+R.update({
+'ISPAD': 'ISPAD Clinical Practice Consensus Guidelines 2022 (сахарный диабет и диабетический кетоацидоз у детей). Pediatric Diabetes. 2022;23(7). https://www.ispad.org',
+'WHOGROWTH': 'ВОЗ. Child Growth Standards (кривые роста). 2006. https://www.who.int/tools/child-growth-standards',
+'NG75': 'NICE NG75. Faltering growth: recognition and management of faltering growth in children. 2017. https://www.nice.org.uk/guidance/ng75',
+'NG1': 'NICE NG1. Gastro-oesophageal reflux disease in children and young people: diagnosis and management. 2015. https://www.nice.org.uk/guidance/ng1',
+'CG99': 'NICE CG99. Constipation in children and young people: diagnosis and management. 2010. https://www.nice.org.uk/guidance/cg99',
+'VITD': 'Национальная программа «Недостаточность витамина D у детей и подростков Российской Федерации: современные подходы к коррекции». Союз педиатров России, 2018 (сверить актуальную редакцию).',
+'PROF': 'Приказ Минздрава России от 10.08.2017 № 514н «О Порядке проведения профилактических медицинских осмотров несовершеннолетних» (сверить действующую редакцию).',
+'CDCMIL': 'Zubler J. M. et al. Evidence-Informed Milestones for Developmental Surveillance Tools. Pediatrics. 2022;149(3):e2021052138; CDC «Learn the Signs. Act Early». https://www.cdc.gov/ncbddd/actearly',
+'NG224': 'NICE NG224. Urinary tract infection in under 16s: diagnosis and management. 2022. https://www.nice.org.uk/guidance/ng224',
+'GINA': 'Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention. 2024. https://ginasthma.org',
+'KRGERD': 'Клинические рекомендации Минздрава России «Гастроэзофагеальная рефлюксная болезнь» (дети). https://cr.minzdrav.gov.ru — поиск по названию.',
+'KRZAP': 'Клинические рекомендации Минздрава России «Запор» (дети). https://cr.minzdrav.gov.ru — поиск по названию.',
+'KRANEM': 'Клинические рекомендации Минздрава России «Железодефицитная анемия». https://cr.minzdrav.gov.ru — поиск по названию.',
+})
+MAP.update({'D11': ['REC','ERC','AAPSLEEP'][:2], 'D12': ['REC','ISPAD','CG84'], 'D13': ['REC','WHOGROWTH','NG75'],
+ 'D14': ['REC','NG1','KRGERD','AAPSLEEP'], 'D15': ['REC','CG99','KRZAP'], 'D16': ['REC','VITD'],
+ 'D17': ['REC','PROF','CDCMIL','NG143'], 'D18': ['REC','PROF','KRANEM','NG224'], 'D19': ['REC','GINA','KRASTMA','NG9','ERC'],
+ 'D20': ['REC','NKP','MU','FZ157','FZ323','WHOVAX']})
+
 OUT = 'seo/articles/denisov/docx'; os.makedirs(OUT, exist_ok=True)
 for f in sorted(glob.glob('seo/articles/denisov/D*.md')):
     t = open(f, encoding='utf-8').read(); aid = os.path.basename(f)[:3]
     m = re.match(r'---\n(.*?)\n---\n', t, re.S); fm = m.group(1); body = t[m.end():].lstrip()
     g = lambda k: (re.search(rf'^{k}:\s*"?(.*?)"?\s*$', fm, re.M) or [None, ''])[1]
     note = (f"*Статус: {g('status')}. Автор: {g('author')}. Рецензент: {g('reviewer')}. "
-            "Текст написан от первого лица автора: прямые высказывания взяты из его записей, остальное подготовлено редакцией в его манере и публикуется только после его утверждения. Пометка ⚑ — утверждение не сверено с источником; без сверки не публикуется.*\n\n")
+            "Текст написан от первого лица автора: прямые высказывания взяты из его записей, остальное подготовлено редакцией в его манере и публикуется только после его утверждения. Серый текст — дописано редакцией, чёрный — по записи автора. Пометка ⚑ — утверждение не сверено с источником; без сверки не публикуется.*\n\n")
     body = re.sub(r'^(# [^\n]*\n)', lambda mm: mm.group(1) + '\n' + note, body, count=1)
     refs = '\n\n## Источники\n\n' + '\n'.join(f'{i}. {R[k]}' for i, k in enumerate(MAP[aid], 1))
     refs += ('\n\n*Перечень составлен редакцией по пометкам ⚑ в таблице утверждений. Рецензент сверяет каждое '
              'утверждение с действующей редакцией документа и указывает номер версии российских клинических рекомендаций.*\n')
     tmp = os.path.join(TMP, aid + '.md'); open(tmp, 'w', encoding='utf-8').write(body + refs)
-    subprocess.run(['pandoc', tmp, '-o', f'{OUT}/{os.path.basename(f)[:-3]}.docx'], check=True)
+    subprocess.run(['pandoc', tmp, '--lua-filter=scripts/redakciya.lua', '--reference-doc=scripts/reference-redakciya.docx', '-o', f'{OUT}/{os.path.basename(f)[:-3]}.docx'], check=True)
     print(aid)
