@@ -55,6 +55,30 @@ MAP.update({'D11': ['REC','ERC','AAPSLEEP'][:2], 'D12': ['REC','ISPAD','CG84'], 
  'D17': ['REC','PROF','CDCMIL','NG143'], 'D18': ['REC','PROF','KRANEM','NG224'], 'D19': ['REC','GINA','KRASTMA','NG9','ERC'],
  'D20': ['REC','NKP','MU','FZ157','FZ323','WHOVAX']})
 
+R.update({
+'KRLTI': 'Клинические рекомендации Минздрава России «Латентная туберкулёзная инфекция у детей» и «Туберкулёз у детей». https://cr.minzdrav.gov.ru — поиск по названию.',
+'TBORD': 'Приказ Минздрава России от 21.03.2017 № 124н «Об утверждении порядка и сроков проведения профилактических медицинских осмотров граждан в целях выявления туберкулёза» (сверить действующую редакцию).',
+'WHOTB': 'ВОЗ. Roadmap towards ending TB in children and adolescents, 3rd ed. 2023. https://www.who.int/publications',
+'KRCROUP': 'Клинические рекомендации Минздрава России «Острый обструктивный ларингит [круп] и эпиглоттит у детей». https://cr.minzdrav.gov.ru — поиск по названию.',
+'CKSCROUP': 'NICE Clinical Knowledge Summaries. Croup. https://cks.nice.org.uk/topics/croup/',
+'NG240': 'NICE NG240. Meningitis (bacterial) and meningococcal disease: recognition, diagnosis and management. 2024. https://www.nice.org.uk/guidance/ng240',
+'CG134': 'NICE CG134. Anaphylaxis: assessment and referral after emergency treatment. 2011. https://www.nice.org.uk/guidance/cg134',
+'KRBURN': 'Клинические рекомендации Минздрава России «Ожоги термические и химические. Ожоги солнечные. Ожоги дыхательных путей». https://cr.minzdrav.gov.ru — поиск по названию.',
+'CKSBURN': 'NICE Clinical Knowledge Summaries. Burns and scalds. https://cks.nice.org.uk/topics/burns-scalds/',
+'AAPD': 'American Academy of Pediatric Dentistry. Policy on Early Childhood Caries; Guideline on Fluoride Therapy. https://www.aapd.org/research/oral-health-policies--recommendations/',
+'FDATEETH': 'U.S. FDA. Safety communication: teething jewelry and benzocaine teething products (2018). https://www.fda.gov',
+'PROGVSK': 'Программа оптимизации вскармливания детей первого года жизни в Российской Федерации. Союз педиатров России, 2019 (сверить актуальную редакцию).',
+'WHOIYCF': 'ВОЗ. Infant and young child feeding (информационный бюллетень). https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding',
+'ESPGHAN': 'Fewtrell M. et al. Complementary Feeding: A Position Paper by the ESPGHAN Committee on Nutrition. J Pediatr Gastroenterol Nutr. 2017;64(1):119–132.',
+'ABM36': 'Academy of Breastfeeding Medicine. Clinical Protocol #36: The Mastitis Spectrum. Breastfeed Med. 2022;17(5):360–376.',
+'LACTMED': 'NIH. Drugs and Lactation Database (LactMed). https://www.ncbi.nlm.nih.gov/books/NBK501922/',
+'WHOPIF': 'ВОЗ/ФАО. Safe preparation, storage and handling of powdered infant formula: guidelines. 2007. https://www.who.int/publications/i/item/9789241595414',
+'TRTS033': 'Технический регламент Таможенного союза ТР ТС 033/2013 «О безопасности молока и молочной продукции» (в части детского питания) (сверить).',
+})
+MAP.update({'D21': ['REC','TBORD','KRLTI','WHOTB'], 'D22': ['REC','KRCROUP','CKSCROUP','NKP'], 'D23': ['REC','NG240','NG143','CG134'],
+ 'D24': ['ERC','KRBURN','CKSBURN'], 'D25': ['AAPSLEEP'], 'D26': ['REC','CG84','WHOORS','KRGE','NKP'], 'D27': ['REC','AAPD','FDATEETH'],
+ 'D28': ['REC','PROGVSK','WHOIYCF','ESPGHAN','ERC'], 'D29': ['REC','WHOIYCF','PROGVSK','ABM36','LACTMED','AAPSLEEP'], 'D30': ['REC','PROGVSK','WHOPIF','TRTS033']})
+
 OUT = 'seo/articles/denisov/docx'; os.makedirs(OUT, exist_ok=True)
 for f in sorted(glob.glob('seo/articles/denisov/D*.md')):
     t = open(f, encoding='utf-8').read(); aid = os.path.basename(f)[:3]
