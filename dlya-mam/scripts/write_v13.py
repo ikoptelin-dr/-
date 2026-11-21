@@ -1,7 +1,7 @@
 """Статьи 1–3 лет: общий каркас + своё содержание. Запуск: python3 -I dlya-mam/scripts/write_v13.py <файл_данных.py>"""
 import os, sys, runpy
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
-AUTH = 'Денисов Михаил Юрьевич, доктор медицинских наук, профессор кафедры [название] Института медицины и медицинских технологий НГУ, педиатр'
+AUTH = 'Денисов Михаил Юрьевич, доктор медицинских наук профессор кафедры акушерства и гинекологии ИММТ НГУ'
 def li(xs): return '\n'.join(f'- {x};' for x in xs[:-1]) + f'\n- {xs[-1]}.'
 for a in runpy.run_path(sys.argv[1])['ART']:
     faq = '\n\n'.join(f'**{q}**\n{ans}' for q, ans in a['faq'])
