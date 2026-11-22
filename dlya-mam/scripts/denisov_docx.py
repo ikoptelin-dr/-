@@ -11,8 +11,8 @@ R = {
 'NG194': 'NICE NG194. Postnatal care. 2021. https://www.nice.org.uk/guidance/ng194',
 'NG120': 'NICE NG120. Cough (acute): antimicrobial prescribing. 2019. https://www.nice.org.uk/guidance/ng120',
 'CKS': 'NICE Clinical Knowledge Summaries. Colic — infantile. https://cks.nice.org.uk/topics/colic-infantile/',
-'AAPBIL': 'Kemper A. R. et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859.',
-'AAPSLEEP': 'Moon R. Y. et al. Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment. Pediatrics. 2022;150(1):e2022057990.',
+'AAPBIL': 'Kemper A. R. et al. Clinical Practice Guideline Revision: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation. Pediatrics. 2022;150(3):e2022058859. doi:10.1542/peds.2022-058859',
+'AAPSLEEP': 'Moon R. Y. et al. Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment. Pediatrics. 2022;150(1):e2022057990. doi:10.1542/peds.2022-057990',
 'AAPOM': 'Lieberthal A. S. et al. The Diagnosis and Management of Acute Otitis Media. Pediatrics. 2013;131(3):e964–e999.',
 'WHOORS': 'ВОЗ. The treatment of diarrhoea: a manual for physicians and other senior health workers. 2005. https://www.who.int/publications/i/item/9241593180',
 'WHOPNC': 'ВОЗ. WHO recommendations on maternal and newborn care for a positive postnatal experience. 2022. https://www.who.int/publications/i/item/9789240045989',
@@ -24,7 +24,7 @@ R = {
 'KRBRON': 'Клинические рекомендации Минздрава России «Бронхит» и «Острый бронхиолит» (дети). https://cr.minzdrav.gov.ru — поиск по названию.',
 'KRGE': 'Клинические рекомендации Минздрава России по острым кишечным инфекциям у детей (ротавирусная, норовирусная инфекция). https://cr.minzdrav.gov.ru — поиск по названию.',
 'KRJAUN': 'Клинические рекомендации Минздрава России «Неонатальная желтуха». https://cr.minzdrav.gov.ru — поиск по названию.',
-'NKP': 'Приказ Минздрава России от 06.12.2021 № 1122н «Об утверждении национального календаря профилактических прививок…» (сверить действующую редакцию).',
+'NKP': 'Приказ Минздрава России от 06.12.2021 № 1122н «Об утверждении национального календаря профилактических прививок, календаря профилактических прививок по эпидемическим показаниям…» (действующая редакция от 12.12.2023, применяется с 01.09.2024).',
 'FZ157': 'Федеральный закон от 17.09.1998 № 157-ФЗ «Об иммунопрофилактике инфекционных болезней».',
 'FZ323': 'Федеральный закон от 21.11.2011 № 323-ФЗ «Об основах охраны здоровья граждан в Российской Федерации», ст. 20 (информированное добровольное согласие).',
 'MU': 'МУ 3.3.1879-04 «Расследование поствакцинальных осложнений» (сверить действующую редакцию).',
@@ -42,8 +42,8 @@ R.update({
 'NG1': 'NICE NG1. Gastro-oesophageal reflux disease in children and young people: diagnosis and management. 2015. https://www.nice.org.uk/guidance/ng1',
 'CG99': 'NICE CG99. Constipation in children and young people: diagnosis and management. 2010. https://www.nice.org.uk/guidance/cg99',
 'VITD': 'Национальная программа «Недостаточность витамина D у детей и подростков Российской Федерации: современные подходы к коррекции». Союз педиатров России, 2018 (сверить актуальную редакцию).',
-'PROF': 'Приказ Минздрава России от 10.08.2017 № 514н «О Порядке проведения профилактических медицинских осмотров несовершеннолетних» (сверить действующую редакцию).',
-'CDCMIL': 'Zubler J. M. et al. Evidence-Informed Milestones for Developmental Surveillance Tools. Pediatrics. 2022;149(3):e2021052138; CDC «Learn the Signs. Act Early». https://www.cdc.gov/ncbddd/actearly',
+'PROF': 'Приказ Минздрава России от 14.04.2025 № 211н о порядке проведения профилактических медицинских осмотров несовершеннолетних (вступил в силу 01.09.2025; заменил приказ от 10.08.2017 № 514н).',
+'CDCMIL': 'Zubler J. M. et al. Evidence-Informed Milestones for Developmental Surveillance Tools. Pediatrics. 2022;149(3):e2021052138. doi:10.1542/peds.2021-052138; CDC «Learn the Signs. Act Early». https://www.cdc.gov/ncbddd/actearly',
 'NG224': 'NICE NG224. Urinary tract infection in under 16s: diagnosis and management. 2022. https://www.nice.org.uk/guidance/ng224',
 'GINA': 'Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention. 2024. https://ginasthma.org',
 'KRGERD': 'Клинические рекомендации Минздрава России «Гастроэзофагеальная рефлюксная болезнь» (дети). https://cr.minzdrav.gov.ru — поиск по названию.',
@@ -57,7 +57,7 @@ MAP.update({'D11': ['REC','ERC','AAPSLEEP'][:2], 'D12': ['REC','ISPAD','CG84'], 
 
 R.update({
 'KRLTI': 'Клинические рекомендации Минздрава России «Латентная туберкулёзная инфекция у детей» и «Туберкулёз у детей». https://cr.minzdrav.gov.ru — поиск по названию.',
-'TBORD': 'Приказ Минздрава России от 21.03.2017 № 124н «Об утверждении порядка и сроков проведения профилактических медицинских осмотров граждан в целях выявления туберкулёза» (сверить действующую редакцию).',
+'TBORD': 'Приказ Минздрава России от 11.04.2025 № 190н о порядке и сроках профилактических медицинских осмотров в целях выявления туберкулёза (вступил в силу 01.09.2025; заменил приказ от 21.03.2017 № 124н).',
 'WHOTB': 'ВОЗ. Roadmap towards ending TB in children and adolescents, 3rd ed. 2023. https://www.who.int/publications',
 'KRCROUP': 'Клинические рекомендации Минздрава России «Острый обструктивный ларингит [круп] и эпиглоттит у детей». https://cr.minzdrav.gov.ru — поиск по названию.',
 'CKSCROUP': 'NICE Clinical Knowledge Summaries. Croup. https://cks.nice.org.uk/topics/croup/',
@@ -70,7 +70,7 @@ R.update({
 'PROGVSK': 'Программа оптимизации вскармливания детей первого года жизни в Российской Федерации. Союз педиатров России, 2019 (сверить актуальную редакцию).',
 'WHOIYCF': 'ВОЗ. Infant and young child feeding (информационный бюллетень). https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding',
 'ESPGHAN': 'Fewtrell M. et al. Complementary Feeding: A Position Paper by the ESPGHAN Committee on Nutrition. J Pediatr Gastroenterol Nutr. 2017;64(1):119–132.',
-'ABM36': 'Academy of Breastfeeding Medicine. Clinical Protocol #36: The Mastitis Spectrum. Breastfeed Med. 2022;17(5):360–376.',
+'ABM36': 'Academy of Breastfeeding Medicine. Clinical Protocol #36: The Mastitis Spectrum. Breastfeed Med. 2022;17(5):360–376. doi:10.1089/bfm.2022.29207.kbm',
 'LACTMED': 'NIH. Drugs and Lactation Database (LactMed). https://www.ncbi.nlm.nih.gov/books/NBK501922/',
 'WHOPIF': 'ВОЗ/ФАО. Safe preparation, storage and handling of powdered infant formula: guidelines. 2007. https://www.who.int/publications/i/item/9789241595414',
 'TRTS033': 'Технический регламент Таможенного союза ТР ТС 033/2013 «О безопасности молока и молочной продукции» (в части детского питания) (сверить).',
@@ -85,11 +85,11 @@ for f in sorted(glob.glob('seo/articles/denisov/D*.md')):
     m = re.match(r'---\n(.*?)\n---\n', t, re.S); fm = m.group(1); body = t[m.end():].lstrip()
     g = lambda k: (re.search(rf'^{k}:\s*"?(.*?)"?\s*$', fm, re.M) or [None, ''])[1]
     note = (f"*Статус: {g('status')}. Автор: {g('author')}. Рецензент: {g('reviewer')}. "
-            "Текст написан от первого лица автора: прямые высказывания взяты из его записей, остальное подготовлено редакцией в его манере и публикуется только после его утверждения. Серый текст — дописано редакцией, чёрный — по записи автора. Пометка ⚑ — утверждение не сверено с источником; без сверки не публикуется.*\n\n")
+            "Текст написан от первого лица автора: прямые высказывания взяты из его записей, остальное подготовлено редакцией в его манере и публикуется только после его утверждения. Серый текст — дописано редакцией, чёрный — по записи автора. Пометка [*] — утверждение не сверено с источником; без сверки не публикуется.*\n\n")
     body = re.sub(r'^(# [^\n]*\n)', lambda mm: mm.group(1) + '\n' + note, body, count=1)
     refs = '\n\n## Источники\n\n' + '\n'.join(f'{i}. {R[k]}' for i, k in enumerate(MAP[aid], 1))
-    refs += ('\n\n*Перечень составлен редакцией по пометкам ⚑ в таблице утверждений. Рецензент сверяет каждое '
+    refs += ('\n\n*Перечень составлен редакцией по пометкам [*] в таблице утверждений. Рецензент сверяет каждое '
              'утверждение с действующей редакцией документа и указывает номер версии российских клинических рекомендаций.*\n')
-    tmp = os.path.join(TMP, aid + '.md'); open(tmp, 'w', encoding='utf-8').write(body + refs)
+    tmp = os.path.join(TMP, aid + '.md'); open(tmp, 'w', encoding='utf-8').write((body + refs).replace('⚑', '[*]'))
     subprocess.run(['pandoc', tmp, '--lua-filter=scripts/redakciya.lua', '--reference-doc=scripts/reference-redakciya.docx', '-o', f'{OUT}/{os.path.basename(f)[:-3]}.docx'], check=True)
     print(aid)
